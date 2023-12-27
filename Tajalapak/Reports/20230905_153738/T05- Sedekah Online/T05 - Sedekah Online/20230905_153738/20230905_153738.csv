@@ -1,0 +1,150 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+T05 - Sedekah Online,Edge Chromium 116,digunakan untuk melihat apakah fungsionalis dari test case yang test sudah sesuai,,2023-09-05 15:37:50,2023-09-05 15:48:54,11m - 3.644s,FAILED
+,,,,,,,
+Test Cases/T05 - Sedekah Online/TC-SO-Succes-001,Edge Chromium 116,user melakukan sedekah online dengan menginputkan detail yang valid,,2023-09-05 15:37:50,2023-09-05 15:38:27,36.999s,PASSED
+openBrowser(urlWeb),Edge Chromium 116,,,2023-09-05 15:37:51,2023-09-05 15:38:04,12.390s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-05 15:38:04,2023-09-05 15:38:04,0.361s,PASSED
+"click(findTestObject(""sedekah online/a_Donasi (di halaman utama)""))",Edge Chromium 116,,,2023-09-05 15:38:04,2023-09-05 15:38:05,1.024s,PASSED
+"verifyElementClickable(findTestObject(""sedekah online/a_Sedekah Online""), STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-05 15:38:05,2023-09-05 15:38:06,0.865s,PASSED
+"click(findTestObject(""sedekah online/a_Sedekah Online""))",Edge Chromium 116,,,2023-09-05 15:38:06,2023-09-05 15:38:08,1.501s,PASSED
+"verifyElementPresent(findTestObject(""sedekah online/verifikasi halaman sedekah Online""), 0)",Edge Chromium 116,,,2023-09-05 15:38:08,2023-09-05 15:38:08,0.727s,PASSED
+"setText(findTestObject(""sedekah online/input_Sedekah""), nominalSedekah)",Edge Chromium 116,,,2023-09-05 15:38:08,2023-09-05 15:38:10,1.497s,PASSED
+"setText(findTestObject(""sedekah online/input_Nama lengkap (di sedekah online)""), namaLengkap)",Edge Chromium 116,,,2023-09-05 15:38:10,2023-09-05 15:38:11,1.389s,PASSED
+"setText(findTestObject(""sedekah online/input_No Handphone (di sedekah online)""), noHp)",Edge Chromium 116,,,2023-09-05 15:38:11,2023-09-05 15:38:12,1.304s,PASSED
+"setText(findTestObject(""sedekah online/input_Alamat Email (di sedekah online)""), email)",Edge Chromium 116,,,2023-09-05 15:38:12,2023-09-05 15:38:14,1.338s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/dropdown metode pembayaraan""), metodePembayaran, false)",Edge Chromium 116,,,2023-09-05 15:38:14,2023-09-05 15:38:16,1.958s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/sedekah ditunjukan untuk keluarga""), tujuanSedekah, false)",Edge Chromium 116,,,2023-09-05 15:38:16,2023-09-05 15:38:20,3.970s,PASSED
+"setText(findTestObject(""sedekah online/input isi doa terbaik anda""), doa)",Edge Chromium 116,,,2023-09-05 15:38:20,2023-09-05 15:38:24,4.193s,PASSED
+"setText(findTestObject(""sedekah online/input 2 digit terakhir nomor hp""), duaDigitAkhir)",Edge Chromium 116,,,2023-09-05 15:38:24,2023-09-05 15:38:25,1.305s,PASSED
+"click(findTestObject(""sedekah online/button_Sedekah Sekarang""))",Edge Chromium 116,,,2023-09-05 15:38:25,2023-09-05 15:38:27,1.391s,PASSED
+"verifyElementText(findTestObject(""sedekah online/verifikasi sukses berdonasi""), ""Sukses Proses Bersedekah, kami akan segera menghubungi anda! Terima kasih"")",Edge Chromium 116,,,2023-09-05 15:38:27,2023-09-05 15:38:27,0.821s,PASSED
+,,,,,,,
+Test Cases/T05 - Sedekah Online/TC-SO-Failed-001,Edge Chromium 116,user melakukan sedekah online namun dengan nominal kurang dari 25.000,,2023-09-05 15:40:06,2023-09-05 15:40:40,34.015s,FAILED
+openBrowser(urlWeb),Edge Chromium 116,,,2023-09-05 15:40:07,2023-09-05 15:40:16,8.733s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-05 15:40:16,2023-09-05 15:40:16,0.322s,PASSED
+"click(findTestObject(""sedekah online/a_Donasi (di halaman utama)""))",Edge Chromium 116,,,2023-09-05 15:40:16,2023-09-05 15:40:17,0.960s,PASSED
+"click(findTestObject(""sedekah online/a_Sedekah Online""))",Edge Chromium 116,,,2023-09-05 15:40:17,2023-09-05 15:40:19,1.522s,PASSED
+"verifyElementPresent(findTestObject(""sedekah online/verifikasi halaman sedekah Online""), 0)",Edge Chromium 116,,,2023-09-05 15:40:19,2023-09-05 15:40:19,0.658s,PASSED
+"setText(findTestObject(""sedekah online/input_Sedekah""), ""5000"")",Edge Chromium 116,,,2023-09-05 15:40:19,2023-09-05 15:40:20,1.149s,PASSED
+"setText(findTestObject(""sedekah online/input_Nama lengkap (di sedekah online)""), namaLengkap)",Edge Chromium 116,,,2023-09-05 15:40:20,2023-09-05 15:40:22,1.806s,PASSED
+"setText(findTestObject(""sedekah online/input_No Handphone (di sedekah online)""), noHp)",Edge Chromium 116,,,2023-09-05 15:40:22,2023-09-05 15:40:23,1.269s,PASSED
+"setText(findTestObject(""sedekah online/input_Alamat Email (di sedekah online)""), email)",Edge Chromium 116,,,2023-09-05 15:40:23,2023-09-05 15:40:25,1.426s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/dropdown metode pembayaraan""), metodePembayaran, false)",Edge Chromium 116,,,2023-09-05 15:40:25,2023-09-05 15:40:28,2.916s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/sedekah ditunjukan untuk keluarga""), tujuanSedekah, false)",Edge Chromium 116,,,2023-09-05 15:40:28,2023-09-05 15:40:32,4.069s,PASSED
+"setText(findTestObject(""sedekah online/input isi doa terbaik anda""), doa)",Edge Chromium 116,,,2023-09-05 15:40:32,2023-09-05 15:40:36,4.075s,PASSED
+"setText(findTestObject(""sedekah online/input 2 digit terakhir nomor hp""), duaDigitAkhir)",Edge Chromium 116,,,2023-09-05 15:40:36,2023-09-05 15:40:37,1.063s,PASSED
+"click(findTestObject(""sedekah online/button_Sedekah Sekarang""))",Edge Chromium 116,,,2023-09-05 15:40:37,2023-09-05 15:40:39,1.571s,PASSED
+"verifyElementText(findTestObject(""sedekah online/verifikasi sukses berdonasi""), ""Minimal nominal sedekah Online Rp 25.000"")",Edge Chromium 116,,,2023-09-05 15:40:39,2023-09-05 15:40:40,1.381s,FAILED
+,,,,,,,
+Test Cases/T05 - Sedekah Online/TC-SO-Failed-002,Edge Chromium 116,user melakukan sedekah online namun no handphone dan dua digit terakhir no handphone tidak sama,,2023-09-05 15:40:40,2023-09-05 15:41:14,33.588s,PASSED
+openBrowser(urlWeb),Edge Chromium 116,,,2023-09-05 15:40:41,2023-09-05 15:40:50,8.977s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-05 15:40:50,2023-09-05 15:40:50,0.209s,PASSED
+"click(findTestObject(""sedekah online/a_Donasi (di halaman utama)""))",Edge Chromium 116,,,2023-09-05 15:40:50,2023-09-05 15:40:51,0.971s,PASSED
+"click(findTestObject(""sedekah online/a_Sedekah Online""))",Edge Chromium 116,,,2023-09-05 15:40:51,2023-09-05 15:40:53,1.740s,PASSED
+"verifyElementPresent(findTestObject(""sedekah online/verifikasi halaman sedekah Online""), 0)",Edge Chromium 116,,,2023-09-05 15:40:53,2023-09-05 15:40:53,0.579s,PASSED
+"setText(findTestObject(""sedekah online/input_Sedekah""), nominalSedekah)",Edge Chromium 116,,,2023-09-05 15:40:53,2023-09-05 15:40:55,1.284s,PASSED
+"setText(findTestObject(""sedekah online/input_Nama lengkap (di sedekah online)""), namaLengkap)",Edge Chromium 116,,,2023-09-05 15:40:55,2023-09-05 15:40:56,1.461s,PASSED
+"setText(findTestObject(""sedekah online/input_No Handphone (di sedekah online)""), noHp)",Edge Chromium 116,,,2023-09-05 15:40:56,2023-09-05 15:40:58,1.403s,PASSED
+"setText(findTestObject(""sedekah online/input_Alamat Email (di sedekah online)""), email)",Edge Chromium 116,,,2023-09-05 15:40:58,2023-09-05 15:40:59,1.300s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/dropdown metode pembayaraan""), metodePembayaran, false)",Edge Chromium 116,,,2023-09-05 15:40:59,2023-09-05 15:41:02,2.837s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/sedekah ditunjukan untuk keluarga""), tujuanSedekah, false)",Edge Chromium 116,,,2023-09-05 15:41:02,2023-09-05 15:41:06,3.926s,PASSED
+"setText(findTestObject(""sedekah online/input isi doa terbaik anda""), doa)",Edge Chromium 116,,,2023-09-05 15:41:06,2023-09-05 15:41:10,4.208s,PASSED
+"setText(findTestObject(""sedekah online/input 2 digit terakhir nomor hp""), ""43"")",Edge Chromium 116,,,2023-09-05 15:41:10,2023-09-05 15:41:11,1.289s,PASSED
+"click(findTestObject(""sedekah online/button_Sedekah Sekarang""))",Edge Chromium 116,,,2023-09-05 15:41:11,2023-09-05 15:41:13,1.556s,PASSED
+"verifyElementText(findTestObject(""sedekah online/verifikasi gagal bernoasi beda dua digit nomor hp""), ""GAGAL Diproses, 2 Digit Terakhir No Handphone yang anda input salah!"")",Edge Chromium 116,,,2023-09-05 15:41:13,2023-09-05 15:41:14,0.783s,PASSED
+,,,,,,,
+Test Cases/T05 - Sedekah Online/TC-SO-Failed-003,Edge Chromium 116,user melakukan sedekah online namun menginputkan email tanpa menggunakan domain,,2023-09-05 15:42:36,2023-09-05 15:43:09,32.987s,FAILED
+openBrowser(urlWeb),Edge Chromium 116,,,2023-09-05 15:42:37,2023-09-05 15:42:45,8.237s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-05 15:42:45,2023-09-05 15:42:45,0.184s,PASSED
+"click(findTestObject(""sedekah online/a_Donasi (di halaman utama)""))",Edge Chromium 116,,,2023-09-05 15:42:45,2023-09-05 15:42:46,0.943s,PASSED
+"click(findTestObject(""sedekah online/a_Sedekah Online""))",Edge Chromium 116,,,2023-09-05 15:42:46,2023-09-05 15:42:48,1.429s,PASSED
+"verifyElementPresent(findTestObject(""sedekah online/verifikasi halaman sedekah Online""), 0)",Edge Chromium 116,,,2023-09-05 15:42:48,2023-09-05 15:42:48,0.587s,PASSED
+"setText(findTestObject(""sedekah online/input_Sedekah""), nominalSedekah)",Edge Chromium 116,,,2023-09-05 15:42:48,2023-09-05 15:42:50,1.445s,PASSED
+"setText(findTestObject(""sedekah online/input_Nama lengkap (di sedekah online)""), namaLengkap)",Edge Chromium 116,,,2023-09-05 15:42:50,2023-09-05 15:42:51,1.555s,PASSED
+"setText(findTestObject(""sedekah online/input_No Handphone (di sedekah online)""), noHp)",Edge Chromium 116,,,2023-09-05 15:42:51,2023-09-05 15:42:53,1.966s,PASSED
+"setText(findTestObject(""sedekah online/input_Alamat Email (di sedekah online)""), ""anata71"")",Edge Chromium 116,,,2023-09-05 15:42:53,2023-09-05 15:42:55,1.365s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/dropdown metode pembayaraan""), metodePembayaran, false)",Edge Chromium 116,,,2023-09-05 15:42:55,2023-09-05 15:42:59,4.041s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/sedekah ditunjukan untuk keluarga""), tujuanSedekah, false)",Edge Chromium 116,,,2023-09-05 15:42:59,2023-09-05 15:43:03,4.028s,PASSED
+"setText(findTestObject(""sedekah online/input isi doa terbaik anda""), doa)",Edge Chromium 116,,,2023-09-05 15:43:03,2023-09-05 15:43:07,4.296s,PASSED
+"setText(findTestObject(""sedekah online/input 2 digit terakhir nomor hp""), duaDigitAkhir)",Edge Chromium 116,,,2023-09-05 15:43:07,2023-09-05 15:43:08,1.299s,PASSED
+"click(findTestObject(""sedekah online/button_Sedekah Sekarang""))",Edge Chromium 116,,,2023-09-05 15:43:08,2023-09-05 15:43:09,0.782s,PASSED
+webDriver = getWebDriver(),Edge Chromium 116,,,2023-09-05 15:43:09,2023-09-05 15:43:09,0.001s,PASSED
+"field_email = webDriver.findElement(By.xpath(""//input[@name=""alamat_email""]""))",Edge Chromium 116,,,2023-09-05 15:43:09,2023-09-05 15:43:09,0.310s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_email)",Edge Chromium 116,,,2023-09-05 15:43:09,2023-09-05 15:43:09,0.025s,PASSED
+println(error_message),Edge Chromium 116,,,2023-09-05 15:43:09,2023-09-05 15:43:09,0.002s,PASSED
+"assert error_message == ""Please enter an email address.""",Edge Chromium 116,,,2023-09-05 15:43:09,2023-09-05 15:43:09,0.007s,FAILED
+,,,,,,,
+Test Cases/T05 - Sedekah Online/TC-SO-Failed-004,Edge Chromium 116,user melakukan sedekah online namun saat input no handphone user menginputkan nomor handphone kurang dari 11 digit,,2023-09-05 15:44:52,2023-09-05 15:45:27,34.805s,FAILED
+openBrowser(urlWeb),Edge Chromium 116,,,2023-09-05 15:44:52,2023-09-05 15:45:01,9.210s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-05 15:45:01,2023-09-05 15:45:02,0.295s,PASSED
+"click(findTestObject(""sedekah online/a_Donasi (di halaman utama)""))",Edge Chromium 116,,,2023-09-05 15:45:02,2023-09-05 15:45:03,1.166s,PASSED
+"click(findTestObject(""sedekah online/a_Sedekah Online""))",Edge Chromium 116,,,2023-09-05 15:45:03,2023-09-05 15:45:04,1.435s,PASSED
+"verifyElementPresent(findTestObject(""sedekah online/verifikasi halaman sedekah Online""), 0)",Edge Chromium 116,,,2023-09-05 15:45:04,2023-09-05 15:45:05,0.602s,PASSED
+"setText(findTestObject(""sedekah online/input_Sedekah""), nominalSedekah)",Edge Chromium 116,,,2023-09-05 15:45:05,2023-09-05 15:45:06,1.390s,PASSED
+"setText(findTestObject(""sedekah online/input_Nama lengkap (di sedekah online)""), namaLengkap)",Edge Chromium 116,,,2023-09-05 15:45:06,2023-09-05 15:45:08,1.683s,PASSED
+"setText(findTestObject(""sedekah online/input_No Handphone (di sedekah online)""), ""086754"")",Edge Chromium 116,,,2023-09-05 15:45:08,2023-09-05 15:45:10,1.877s,PASSED
+"setText(findTestObject(""sedekah online/input_Alamat Email (di sedekah online)""), email)",Edge Chromium 116,,,2023-09-05 15:45:10,2023-09-05 15:45:11,1.227s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/dropdown metode pembayaraan""), metodePembayaran, false)",Edge Chromium 116,,,2023-09-05 15:45:11,2023-09-05 15:45:15,3.588s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/sedekah ditunjukan untuk keluarga""), tujuanSedekah, false)",Edge Chromium 116,,,2023-09-05 15:45:15,2023-09-05 15:45:19,4.075s,PASSED
+"setText(findTestObject(""sedekah online/input isi doa terbaik anda""), doa)",Edge Chromium 116,,,2023-09-05 15:45:19,2023-09-05 15:45:23,4.181s,PASSED
+"setText(findTestObject(""sedekah online/input 2 digit terakhir nomor hp""), ""54"")",Edge Chromium 116,,,2023-09-05 15:45:23,2023-09-05 15:45:24,1.386s,PASSED
+"click(findTestObject(""sedekah online/button_Sedekah Sekarang""))",Edge Chromium 116,,,2023-09-05 15:45:24,2023-09-05 15:45:26,1.455s,PASSED
+"verifyTextPresent(""please enter an valid phone number"", false)",Edge Chromium 116,,,2023-09-05 15:45:26,2023-09-05 15:45:27,0.942s,FAILED
+,,,,,,,
+Test Cases/T05 - Sedekah Online/TC-SO-Failed-005,Edge Chromium 116,user melakukan sedekah online namun saat input no handphone user menginputkan nomor handphone lebih dari 13 digit,,2023-09-05 15:47:07,2023-09-05 15:47:41,33.806s,FAILED
+openBrowser(urlWeb),Edge Chromium 116,,,2023-09-05 15:47:07,2023-09-05 15:47:16,8.682s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-05 15:47:16,2023-09-05 15:47:17,0.788s,PASSED
+"click(findTestObject(""sedekah online/a_Donasi (di halaman utama)""))",Edge Chromium 116,,,2023-09-05 15:47:17,2023-09-05 15:47:18,1.210s,PASSED
+"click(findTestObject(""sedekah online/a_Sedekah Online""))",Edge Chromium 116,,,2023-09-05 15:47:18,2023-09-05 15:47:20,1.734s,PASSED
+"verifyElementPresent(findTestObject(""sedekah online/verifikasi halaman sedekah Online""), 0)",Edge Chromium 116,,,2023-09-05 15:47:20,2023-09-05 15:47:20,0.655s,PASSED
+"setText(findTestObject(""sedekah online/input_Sedekah""), nominalSedekah)",Edge Chromium 116,,,2023-09-05 15:47:20,2023-09-05 15:47:21,1.107s,PASSED
+"setText(findTestObject(""sedekah online/input_Nama lengkap (di sedekah online)""), namaLengkap)",Edge Chromium 116,,,2023-09-05 15:47:21,2023-09-05 15:47:23,1.695s,PASSED
+"setText(findTestObject(""sedekah online/input_No Handphone (di sedekah online)""), ""0867543212343214"")",Edge Chromium 116,,,2023-09-05 15:47:23,2023-09-05 15:47:24,1.396s,PASSED
+"setText(findTestObject(""sedekah online/input_Alamat Email (di sedekah online)""), email)",Edge Chromium 116,,,2023-09-05 15:47:24,2023-09-05 15:47:26,1.365s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/dropdown metode pembayaraan""), metodePembayaran, false)",Edge Chromium 116,,,2023-09-05 15:47:26,2023-09-05 15:47:29,2.980s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/sedekah ditunjukan untuk keluarga""), tujuanSedekah, false)",Edge Chromium 116,,,2023-09-05 15:47:29,2023-09-05 15:47:33,3.948s,PASSED
+"setText(findTestObject(""sedekah online/input isi doa terbaik anda""), doa)",Edge Chromium 116,,,2023-09-05 15:47:33,2023-09-05 15:47:37,4.205s,PASSED
+"setText(findTestObject(""sedekah online/input 2 digit terakhir nomor hp""), ""14"")",Edge Chromium 116,,,2023-09-05 15:47:37,2023-09-05 15:47:38,1.325s,PASSED
+"click(findTestObject(""sedekah online/button_Sedekah Sekarang""))",Edge Chromium 116,,,2023-09-05 15:47:38,2023-09-05 15:47:39,1.200s,PASSED
+"verifyTextPresent(""please enter an valid phone number"", false)",Edge Chromium 116,,,2023-09-05 15:47:39,2023-09-05 15:47:41,1.283s,FAILED
+,,,,,,,
+Test Cases/T05 - Sedekah Online/TC-SO-Failed-006,Edge Chromium 116,User melakukan sedekah online namun saat input nomor handphone atau dua digit terakhir nomor handphone mengandung karakter spesial,,2023-09-05 15:47:54,2023-09-05 15:48:25,30.508s,PASSED
+openBrowser(urlWeb),Edge Chromium 116,,,2023-09-05 15:47:54,2023-09-05 15:48:03,8.354s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-05 15:48:03,2023-09-05 15:48:03,0.169s,PASSED
+"click(findTestObject(""sedekah online/a_Donasi (di halaman utama)""))",Edge Chromium 116,,,2023-09-05 15:48:03,2023-09-05 15:48:04,0.939s,PASSED
+"click(findTestObject(""sedekah online/a_Sedekah Online""))",Edge Chromium 116,,,2023-09-05 15:48:04,2023-09-05 15:48:05,1.073s,PASSED
+"verifyElementPresent(findTestObject(""sedekah online/verifikasi halaman sedekah Online""), 0)",Edge Chromium 116,,,2023-09-05 15:48:05,2023-09-05 15:48:05,0.637s,PASSED
+"setText(findTestObject(""sedekah online/input_Sedekah""), nominalSedekah)",Edge Chromium 116,,,2023-09-05 15:48:05,2023-09-05 15:48:06,1.050s,PASSED
+"setText(findTestObject(""sedekah online/input_Nama lengkap (di sedekah online)""), namaLengkap)",Edge Chromium 116,,,2023-09-05 15:48:06,2023-09-05 15:48:08,1.626s,PASSED
+"setText(findTestObject(""sedekah online/input_No Handphone (di sedekah online)""), noHp)",Edge Chromium 116,,,2023-09-05 15:48:08,2023-09-05 15:48:10,1.422s,PASSED
+"setText(findTestObject(""sedekah online/input_Alamat Email (di sedekah online)""), email)",Edge Chromium 116,,,2023-09-05 15:48:10,2023-09-05 15:48:11,1.366s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/dropdown metode pembayaraan""), metodePembayaran, false)",Edge Chromium 116,,,2023-09-05 15:48:11,2023-09-05 15:48:14,2.829s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/sedekah ditunjukan untuk keluarga""), tujuanSedekah, false)",Edge Chromium 116,,,2023-09-05 15:48:14,2023-09-05 15:48:18,3.995s,PASSED
+"setText(findTestObject(""sedekah online/input isi doa terbaik anda""), doa)",Edge Chromium 116,,,2023-09-05 15:48:18,2023-09-05 15:48:22,4.222s,PASSED
+"setText(findTestObject(""sedekah online/input 2 digit terakhir nomor hp""), "",4"")",Edge Chromium 116,,,2023-09-05 15:48:22,2023-09-05 15:48:23,1.360s,PASSED
+"click(findTestObject(""sedekah online/button_Sedekah Sekarang""))",Edge Chromium 116,,,2023-09-05 15:48:23,2023-09-05 15:48:24,0.871s,PASSED
+webDriver = getWebDriver(),Edge Chromium 116,,,2023-09-05 15:48:24,2023-09-05 15:48:24,0.002s,PASSED
+"field_nomor = webDriver.findElement(By.xpath(""//input[@name=""validasi""]""))",Edge Chromium 116,,,2023-09-05 15:48:24,2023-09-05 15:48:25,0.371s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_nomor)",Edge Chromium 116,,,2023-09-05 15:48:25,2023-09-05 15:48:25,0.032s,PASSED
+println(error_message),Edge Chromium 116,,,2023-09-05 15:48:25,2023-09-05 15:48:25,0.006s,PASSED
+"assert error_message == ""Please enter a valid value. The two nearest valid values are 0 and 1.""",Edge Chromium 116,,,2023-09-05 15:48:25,2023-09-05 15:48:25,0.001s,PASSED
+,,,,,,,
+Test Cases/T05 - Sedekah Online/TC-SO-Failed-007,Edge Chromium 116,User mengosongkan satu atau lebih inputan saat akan melakukan sedekah online,,2023-09-05 15:48:25,2023-09-05 15:48:54,28.849s,PASSED
+openBrowser(urlWeb),Edge Chromium 116,,,2023-09-05 15:48:27,2023-09-05 15:48:35,7.506s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-05 15:48:35,2023-09-05 15:48:35,0.441s,PASSED
+"click(findTestObject(""sedekah online/a_Donasi (di halaman utama)""))",Edge Chromium 116,,,2023-09-05 15:48:35,2023-09-05 15:48:36,0.939s,PASSED
+"click(findTestObject(""sedekah online/a_Sedekah Online""))",Edge Chromium 116,,,2023-09-05 15:48:36,2023-09-05 15:48:37,1.305s,PASSED
+"verifyElementPresent(findTestObject(""sedekah online/verifikasi halaman sedekah Online""), 0)",Edge Chromium 116,,,2023-09-05 15:48:37,2023-09-05 15:48:38,0.713s,PASSED
+"setText(findTestObject(""sedekah online/input_Sedekah""), nominalSedekah)",Edge Chromium 116,,,2023-09-05 15:48:38,2023-09-05 15:48:39,1.224s,PASSED
+"setText(findTestObject(""sedekah online/input_No Handphone (di sedekah online)""), noHp)",Edge Chromium 116,,,2023-09-05 15:48:39,2023-09-05 15:48:41,1.815s,PASSED
+"setText(findTestObject(""sedekah online/input_Alamat Email (di sedekah online)""), email)",Edge Chromium 116,,,2023-09-05 15:48:41,2023-09-05 15:48:43,1.675s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/dropdown metode pembayaraan""), metodePembayaran, false)",Edge Chromium 116,,,2023-09-05 15:48:43,2023-09-05 15:48:44,0.892s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/sedekah ditunjukan untuk keluarga""), tujuanSedekah, false)",Edge Chromium 116,,,2023-09-05 15:48:44,2023-09-05 15:48:47,3.044s,PASSED
+"setText(findTestObject(""sedekah online/input isi doa terbaik anda""), doa)",Edge Chromium 116,,,2023-09-05 15:48:47,2023-09-05 15:48:51,4.249s,PASSED
+"setText(findTestObject(""sedekah online/input 2 digit terakhir nomor hp""), duaDigitAkhir)",Edge Chromium 116,,,2023-09-05 15:48:51,2023-09-05 15:48:52,1.472s,PASSED
+"click(findTestObject(""sedekah online/button_Sedekah Sekarang""))",Edge Chromium 116,,,2023-09-05 15:48:52,2023-09-05 15:48:53,0.809s,PASSED
+webDriber = getWebDriver(),Edge Chromium 116,,,2023-09-05 15:48:53,2023-09-05 15:48:53,0.001s,PASSED
+"field_nmLengkap = webDriber.findElement(By.xpath(""//input[@name=""nama_lengkap""]""))",Edge Chromium 116,,,2023-09-05 15:48:53,2023-09-05 15:48:54,0.321s,PASSED
+"error_message = webDriber.executeScript(""return arguments[0].validationMessage"", field_nmLengkap)",Edge Chromium 116,,,2023-09-05 15:48:54,2023-09-05 15:48:54,0.038s,PASSED
+println(error_message),Edge Chromium 116,,,2023-09-05 15:48:54,2023-09-05 15:48:54,0.001s,PASSED
+"assert error_message == ""Please fill out this field.""",Edge Chromium 116,,,2023-09-05 15:48:54,2023-09-05 15:48:54,0.001s,PASSED

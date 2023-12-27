@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Admin menampilkan data berita sebanyak 100 berita perhalaman</description>
+   <name>TC-Show-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f96e447e-9c4a-4e9d-aec2-ddec9743b813</testCaseGuid>
+</TestCaseEntity>

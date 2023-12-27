@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan konfirmasi data transfer tanpa mengisi upload bukti transfer melalui menu profil</description>
+   <name>TC-KF-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a875b8bc-306a-4437-9796-743bf32bc9e5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8b67c1c5-0665-4380-a441-14f1750b7223</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5d62c0d3-aa65-489e-9079-9094c40d218f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ab000dff-e038-47af-8bb5-8cc02007eac9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>8b67c1c5-0665-4380-a441-14f1750b7223</id>
+      <masked>false</masked>
+      <name>transfer</name>
+   </variable>
+   <variable>
+      <defaultValue>'runarun'</defaultValue>
+      <description></description>
+      <id>5d62c0d3-aa65-489e-9079-9094c40d218f</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'2023-09-11'</defaultValue>
+      <description></description>
+      <id>ab000dff-e038-47af-8bb5-8cc02007eac9</id>
+      <masked>false</masked>
+      <name>tanggal</name>
+   </variable>
+</TestCaseEntity>

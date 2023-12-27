@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user melakukan konfirmasi ulang nomor pesanan untuk memastikan sudah dibayar</description>
+   <name>TC-KD-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3fd1609-7e77-4329-8e97-774239aa7217</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>51852059-04bb-4799-8c5a-c5159db6a2f8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'runarun@gmail.com'</defaultValue>
+      <description></description>
+      <id>51852059-04bb-4799-8c5a-c5159db6a2f8</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

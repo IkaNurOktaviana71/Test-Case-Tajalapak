@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Lanjut ke Pembayaran</name>
+   <tag></tag>
+   <elementGuidId>f3b126f9-9b4b-49ef-b9a0-fec740b7515b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@name='update']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button[name=&quot;update&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4162b8a7-d27f-4e06-a615-f36621da1ff8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>8563d237-e3d2-48b3-b558-46caecef4991</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>update</value>
+      <webElementGuid>771c0ac6-2a2b-408c-8db0-cec5affe2495</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ps-btn</value>
+      <webElementGuid>f0d2c25f-ad0a-4f27-aa26-d76d7a0b7669</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Lanjut ke Pembayaran </value>
+      <webElementGuid>58d7f330-d140-46aa-93f2-8e96e179a1a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;loaded&quot;]/div[@class=&quot;ps-section--shopping ps-shopping-cart&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;ps-section__content&quot;]/div[@class=&quot;table-responsive&quot;]/div[@class=&quot;keranjang-all&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12&quot;]/form[1]/div[@class=&quot;ps-section__cart-actions&quot;]/button[@class=&quot;ps-btn&quot;]</value>
+      <webElementGuid>a2d453fb-41e6-454c-ae49-2ef1505f7a72</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@name='update']</value>
+      <webElementGuid>65a15c77-99be-40b1-a281-ad9f4881645a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kembali Belanja'])[1]/following::button[1]</value>
+      <webElementGuid>53f65341-c8d2-4a66-9929-13518176b7ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 2,246'])[3]/following::button[1]</value>
+      <webElementGuid>304333ed-d214-4fe7-af3c-8d376543cced</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pending'])[1]/preceding::button[1]</value>
+      <webElementGuid>d2131505-cbb7-449b-af08-0566310e39fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Lanjut ke Pembayaran']/parent::*</value>
+      <webElementGuid>2dba0643-686f-4181-8aa2-6283a495d2e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>9b2d8429-cb4b-4d46-a942-a692cb491ade</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and @name = 'update' and (text() = 'Lanjut ke Pembayaran ' or . = 'Lanjut ke Pembayaran ')]</value>
+      <webElementGuid>d2bb5090-b0c6-4d4c-90f0-f39b5350d725</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

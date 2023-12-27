@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dikirim kepada sama dengan pengirim di tf di konfirmaasi bayar</name>
+   <tag></tag>
+   <elementGuidId>364a3a42-782e-46cf-b6c1-14cbd08d22ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Dikirim kepada'])[1]/following::td[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>c1da2f7a-f7ad-4db4-8821-d6f7538d8e16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>runarun</value>
+      <webElementGuid>8f544567-60ed-424f-ab93-9e831fecd74c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;loaded&quot;]/div[@class=&quot;ps-section--shopping ps-shopping-cart&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;ps-section__content&quot;]/div[@class=&quot;table-responsive&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12&quot;]/table[@class=&quot;table table-sm&quot;]/tbody[1]/tr[2]/td[2]</value>
+      <webElementGuid>87fe9028-d52e-4cf3-a8e0-7b74a5a47879</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dikirim kepada'])[1]/following::td[1]</value>
+      <webElementGuid>60331f68-3fc2-49df-a266-200f06278aff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TRX91.20230908163559'])[2]/following::td[2]</value>
+      <webElementGuid>4e1958b1-6c3f-4ce0-a626-8501a7f8ded3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No Hp/Telpon'])[1]/preceding::td[1]</value>
+      <webElementGuid>993166a8-004a-444f-96b5-87ab757b9300</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alamat Pengiriman'])[1]/preceding::td[3]</value>
+      <webElementGuid>c9610711-f9e8-44d5-9d6d-c39518e8e91a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='runarun']/parent::*</value>
+      <webElementGuid>fef74eba-b67f-41b9-9b9e-a1ac834244ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//table[2]/tbody/tr[2]/td[2]</value>
+      <webElementGuid>bea2b84f-e5c1-44a9-a562-9c7bff20c0cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'runarun' or . = 'runarun')]</value>
+      <webElementGuid>fb84a70d-3db3-4e53-ae5a-02318abd9f06</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

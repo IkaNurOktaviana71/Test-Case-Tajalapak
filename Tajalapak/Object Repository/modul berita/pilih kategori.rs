@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>pilih kategori</name>
+   <tag></tag>
+   <elementGuidId>29ed256a-4aa9-404a-8847-a6901b8f7317</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name='a']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;a&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>d4280a5a-f48d-4142-8e7c-01062af964c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>4e69b921-d129-40b4-93c5-5dcdd9ece2ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>befbf187-2d29-4386-aaa9-cee76c527767</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                                            - Pilih Kategori -WisataDunia IslamMetropolitanKulinerInternasionalKesehatan HiburanPolitikEkonomiTeknologiOlahraga</value>
+      <webElementGuid>a770c2ba-03f8-488f-9147-5e1006a7991d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;skin-black-light sidebar-mini  pace-done&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;content-wrapper&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;box box-info&quot;]/div[@class=&quot;box-body&quot;]/form[@class=&quot;form-horizontal&quot;]/div[@class=&quot;col-md-12&quot;]/table[@class=&quot;table table-condensed table-bordered&quot;]/tbody[1]/tr[4]/td[1]/select[@class=&quot;form-control&quot;]</value>
+      <webElementGuid>e6f82acb-f4c9-4653-893c-c9b6b48efdc4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@name='a']</value>
+      <webElementGuid>1dfc652e-ce6c-4980-93d5-cc242b72057d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori'])[1]/following::select[1]</value>
+      <webElementGuid>991b5b81-ca35-4661-a6c1-70afac2a50ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Video Youtube'])[1]/following::select[1]</value>
+      <webElementGuid>123a8315-d74f-42f8-a328-21b6a26dda21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Headline'])[1]/preceding::select[1]</value>
+      <webElementGuid>f04e2313-075f-406c-bad0-277ee454e68e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>9c9de288-4c5d-464b-9352-6dbad92a5fb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'a' and (text() = '
+                                                                            - Pilih Kategori -WisataDunia IslamMetropolitanKulinerInternasionalKesehatan HiburanPolitikEkonomiTeknologiOlahraga' or . = '
+                                                                            - Pilih Kategori -WisataDunia IslamMetropolitanKulinerInternasionalKesehatan HiburanPolitikEkonomiTeknologiOlahraga')]</value>
+      <webElementGuid>38a1f4cc-8941-47f7-8dee-277556080767</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

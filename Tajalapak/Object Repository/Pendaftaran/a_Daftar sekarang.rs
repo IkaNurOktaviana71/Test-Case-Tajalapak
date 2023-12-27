@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Daftar sekarang</name>
+   <tag></tag>
+   <elementGuidId>c5d9e825-d485-43cb-82a8-b4667b19feab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn-register</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Daftar sekarang!')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>eee1e226-67b4-43b3-82d9-5c2b5450fb4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/auth/login</value>
+      <webElementGuid>5fa98224-6bf4-40d1-b02b-2ded0c9aa1bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-register</value>
+      <webElementGuid>e546bb04-3496-4798-b9b8-53e4f52b9824</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_parent</value>
+      <webElementGuid>6faad17c-b8b3-40dd-a14a-5379d45c67dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Daftar sekarang!</value>
+      <webElementGuid>cca78699-3cf0-4152-9562-1c844bd26ce5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;loaded modal-open&quot;]/div[@class=&quot;modal fade bd-example-modal-lg show&quot;]/div[@class=&quot;modal-dialog modal-lg modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 d-none d-sm-block&quot;]/div[@class=&quot;info--register-bottom&quot;]/center[1]/a[@class=&quot;btn-register&quot;]</value>
+      <webElementGuid>08ae76eb-615e-44a5-9e9e-f3a8b2d91195</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Daftar sekarang!')]</value>
+      <webElementGuid>0e5794ec-637f-4292-a16d-6c1e914ae923</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Belum punya akun?'])[1]/following::a[1]</value>
+      <webElementGuid>f3a1393a-6de9-466f-bd22-4cdb1e55b21c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Layanan Hadiah'])[1]/following::a[1]</value>
+      <webElementGuid>8d2aec83-b8fd-48ae-b6d8-3245bbeb6e07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MASUK'])[1]/preceding::a[1]</value>
+      <webElementGuid>efc81738-6aa7-441b-9b4d-94f239050d15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username, Email atau No. Handphone'])[1]/preceding::a[1]</value>
+      <webElementGuid>f23dc352-9345-43d3-8382-6f710e579afc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Daftar sekarang!']/parent::*</value>
+      <webElementGuid>c3c9cc64-026c-418a-9296-b9c5dbcd7c7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://10.9.2.63/ecommerce/auth/login')]</value>
+      <webElementGuid>18cc2c04-57f6-4068-82da-c0b7def4d95b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>4cb20ae0-7ed2-4373-9826-05a6cab0b27f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://10.9.2.63/ecommerce/auth/login' and (text() = 'Daftar sekarang!' or . = 'Daftar sekarang!')]</value>
+      <webElementGuid>7517c2bc-993d-48f1-a301-7a429a983de4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

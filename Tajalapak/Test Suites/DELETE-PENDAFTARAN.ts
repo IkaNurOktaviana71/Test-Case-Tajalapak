@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DELETE-PENDAFTARAN</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>479eaec9-61a5-47d8-b356-e4d7609260dc</testSuiteGuid>
+   <testCaseLink>
+      <guid>b0d1cd81-b8a9-4cc2-b4b0-859622154968</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>'085643955432'</defaultValue>
+         <description></description>
+         <id>3cbb2a90-f11f-4751-be11-163e2351e951</id>
+         <masked>false</masked>
+         <name>noHp</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/delete data/TC-Delete-Suceses-001</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c7c7405e-7945-4d02-96a7-96fbab87094d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/data DELETE-PENDAFTARAN</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>c7c7405e-7945-4d02-96a7-96fbab87094d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>noHp</value>
+         <variableId>3cbb2a90-f11f-4751-be11-163e2351e951</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c7c7405e-7945-4d02-96a7-96fbab87094d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>03c96aa6-ba5f-43dd-a535-c64969ff118a</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

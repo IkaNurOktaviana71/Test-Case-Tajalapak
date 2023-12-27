@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan edit media sosial linkedin dengan inputan url yang dipersonalisasi menggunakan spasi</description>
+   <name>TC-ESMF-011</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>44ccf89e-54cc-4829-a3fe-3537062f7fa9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6965e399-bf76-49a8-9ec5-962e7a86092e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'www.linkedin.com/in/runa run'</defaultValue>
+      <description></description>
+      <id>6965e399-bf76-49a8-9ec5-962e7a86092e</id>
+      <masked>false</masked>
+      <name>linkedin</name>
+   </variable>
+</TestCaseEntity>

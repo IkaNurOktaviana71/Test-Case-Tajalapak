@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Shop</name>
+   <tag></tag>
+   <elementGuidId>9589cbba-dfd7-44e9-8263-9a8b33cd9a27</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Blog'])[1]/following::a[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.menu > li.menu-item-has-children > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d6cf431a-74ac-48e2-855c-ce0f3645183c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/#</value>
+      <webElementGuid>b88132dd-b2db-4661-b3b7-37e1a6bd217a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Shop</value>
+      <webElementGuid>a67c60c7-762b-4442-9844-cb52b621ff7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;loaded&quot;]/header[@class=&quot;header header--1&quot;]/nav[@class=&quot;navigation&quot;]/div[@class=&quot;ps-container&quot;]/div[@class=&quot;navigation__right&quot;]/ul[@class=&quot;menu&quot;]/li[@class=&quot;menu-item-has-children&quot;]/a[1]</value>
+      <webElementGuid>5d8397a8-ca50-4009-b3b3-5289709f70ad</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blog'])[1]/following::a[1]</value>
+      <webElementGuid>6898c876-9f5a-4375-affb-fe400e92e86f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Beranda'])[1]/following::a[2]</value>
+      <webElementGuid>e05254fa-eed4-448b-a72a-6954e67561cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Semua Produk'])[1]/preceding::a[1]</value>
+      <webElementGuid>bafb2704-462b-4812-9e9f-6dfee3ed108a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://10.9.2.63/ecommerce/#')]</value>
+      <webElementGuid>cb1d78e0-6c4b-4411-8683-de0d8a3b607d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nav/div/div[2]/ul/li[3]/a</value>
+      <webElementGuid>3b10e5a3-d8ad-4adb-82a4-55320ff7704a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://10.9.2.63/ecommerce/#' and (text() = 'Shop' or . = 'Shop')]</value>
+      <webElementGuid>f83c7e26-3da4-4e2d-a82e-3e8b8ab690c0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

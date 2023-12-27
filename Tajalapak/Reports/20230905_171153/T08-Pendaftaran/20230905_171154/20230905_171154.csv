@@ -1,0 +1,233 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+T08-Pendaftaran,Edge Chromium 116,,,2023-09-05 17:12:07,2023-09-05 17:18:16,6m - 8.636s,FAILED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-Pendaftaran-Success-001,Edge Chromium 116,User melakukan pendaftaran melalui menu Register dan  berhasil melakukan pendaftaran akun,,2023-09-05 17:12:08,2023-09-05 17:12:39,31.181s,PASSED
+openBrowser(urlWeb),Edge Chromium 116,,,2023-09-05 17:12:09,2023-09-05 17:12:21,12.439s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-05 17:12:21,2023-09-05 17:12:22,0.566s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:12:22,2023-09-05 17:12:23,0.980s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Edge Chromium 116,,,2023-09-05 17:12:23,2023-09-05 17:12:25,1.479s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:12:25,2023-09-05 17:12:25,0.643s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), username)",Edge Chromium 116,,,2023-09-05 17:12:25,2023-09-05 17:12:27,1.378s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Edge Chromium 116,,,2023-09-05 17:12:27,2023-09-05 17:12:28,1.166s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHP)",Edge Chromium 116,,,2023-09-05 17:12:28,2023-09-05 17:12:29,1.339s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Edge Chromium 116,,,2023-09-05 17:12:29,2023-09-05 17:12:30,1.209s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""8MbLm3cRDkc/jsWL6sX6LA=="")",Edge Chromium 116,,,2023-09-05 17:12:30,2023-09-05 17:12:31,0.885s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""8MbLm3cRDkc/jsWL6sX6LA=="")",Edge Chromium 116,,,2023-09-05 17:12:31,2023-09-05 17:12:32,0.816s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Edge Chromium 116,,,2023-09-05 17:12:32,2023-09-05 17:12:36,4.048s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi berhasil daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:12:36,2023-09-05 17:12:37,0.606s,PASSED
+"usn = getAttribute(findTestObject(""Object Repository/Pendaftaran/hasil username NEW""), ""value"")",Edge Chromium 116,,,2023-09-05 17:12:37,2023-09-05 17:12:37,0.725s,PASSED
+"Email = getAttribute(findTestObject(""Object Repository/Pendaftaran/hasil email""), ""value"")",Edge Chromium 116,,,2023-09-05 17:12:37,2023-09-05 17:12:38,0.632s,PASSED
+"nomorHp = getAttribute(findTestObject(""Object Repository/Pendaftaran/hasil nomor hp""), ""value"")",Edge Chromium 116,,,2023-09-05 17:12:38,2023-09-05 17:12:39,0.617s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Edge Chromium 116,,,2023-09-05 17:12:39,2023-09-05 17:12:39,0.587s,PASSED
+assert trim().equalsIgnoreCase(usn.trim()),Edge Chromium 116,,,2023-09-05 17:12:39,2023-09-05 17:12:39,0.007s,PASSED
+assert trim().equalsIgnoreCase(Email.trim()),Edge Chromium 116,,,2023-09-05 17:12:39,2023-09-05 17:12:39,0.002s,PASSED
+assert trim().equalsIgnoreCase(nomorHp.trim()),Edge Chromium 116,,,2023-09-05 17:12:39,2023-09-05 17:12:39,0.000s,PASSED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-Pendaftaran-Success-002,Edge Chromium 116,User melakukan pendaftaran melalui menu Login dan memilih bagian Daftar sekarang! dan berhasil melakukan pendaftaran,,2023-09-05 17:12:39,2023-09-05 17:13:07,27.600s,PASSED
+openBrowser(urlWeb),Edge Chromium 116,,,2023-09-05 17:12:40,2023-09-05 17:12:49,8.238s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-05 17:12:49,2023-09-05 17:12:49,0.226s,PASSED
+"click(findTestObject(""Pendaftaran/a_Login""))",Edge Chromium 116,,,2023-09-05 17:12:49,2023-09-05 17:12:50,0.885s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi MASUK di halaman Login""), 0)",Edge Chromium 116,,,2023-09-05 17:12:50,2023-09-05 17:12:50,0.587s,PASSED
+"click(findTestObject(""Pendaftaran/a_Daftar sekarang""))",Edge Chromium 116,,,2023-09-05 17:12:50,2023-09-05 17:12:52,1.383s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:12:52,2023-09-05 17:12:52,0.604s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), username)",Edge Chromium 116,,,2023-09-05 17:12:52,2023-09-05 17:12:53,1.072s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Edge Chromium 116,,,2023-09-05 17:12:53,2023-09-05 17:12:55,1.474s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHP)",Edge Chromium 116,,,2023-09-05 17:12:55,2023-09-05 17:12:56,1.534s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Edge Chromium 116,,,2023-09-05 17:12:56,2023-09-05 17:12:57,0.836s,PASSED
+"check(findTestObject(""Pendaftaran/pilihan Wanita_jenis_kelamin""))",Edge Chromium 116,,,2023-09-05 17:12:57,2023-09-05 17:12:58,0.514s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""qbkrdMwyWE4="")",Edge Chromium 116,,,2023-09-05 17:12:58,2023-09-05 17:12:58,0.751s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""qbkrdMwyWE4="")",Edge Chromium 116,,,2023-09-05 17:12:58,2023-09-05 17:12:59,0.825s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Edge Chromium 116,,,2023-09-05 17:12:59,2023-09-05 17:13:04,4.467s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi berhasil daftar NEW""), 0)",Edge Chromium 116,,,2023-09-05 17:13:04,2023-09-05 17:13:04,0.652s,PASSED
+"usn = getAttribute(findTestObject(""Object Repository/Pendaftaran/hasil username NEW""), ""value"")",Edge Chromium 116,,,2023-09-05 17:13:04,2023-09-05 17:13:05,0.619s,PASSED
+"Email = getAttribute(findTestObject(""Object Repository/Pendaftaran/hasil email""), ""value"")",Edge Chromium 116,,,2023-09-05 17:13:05,2023-09-05 17:13:06,0.600s,PASSED
+"nomorHP = getAttribute(findTestObject(""Object Repository/Pendaftaran/hasil nomor hp""), ""value"")",Edge Chromium 116,,,2023-09-05 17:13:06,2023-09-05 17:13:06,0.595s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Edge Chromium 116,,,2023-09-05 17:13:06,2023-09-05 17:13:07,0.653s,PASSED
+assert trim().equalsIgnoreCase(username.trim()),Edge Chromium 116,,,2023-09-05 17:13:07,2023-09-05 17:13:07,0.000s,PASSED
+assert trim().equalsIgnoreCase(email.trim()),Edge Chromium 116,,,2023-09-05 17:13:07,2023-09-05 17:13:07,0.000s,PASSED
+assert trim().equalsIgnoreCase(noHP.trim()),Edge Chromium 116,,,2023-09-05 17:13:07,2023-09-05 17:13:07,0.000s,PASSED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-Pendaftaran-error-001,Edge Chromium 116,User melakukan pendaftaran dan username menggunakan spasi,,2023-09-05 17:13:07,2023-09-05 17:13:20,13.041s,PASSED
+openBrowser(urlWeb),Edge Chromium 116,,,2023-09-05 17:13:08,2023-09-05 17:13:16,8.244s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-05 17:13:16,2023-09-05 17:13:16,0.243s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:13:16,2023-09-05 17:13:17,0.808s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Edge Chromium 116,,,2023-09-05 17:13:17,2023-09-05 17:13:18,1.350s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:13:18,2023-09-05 17:13:19,0.564s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), ""anata 71"")",Edge Chromium 116,,,2023-09-05 17:13:19,2023-09-05 17:13:20,0.910s,PASSED
+alertText = getAlertText(),Edge Chromium 116,,,2023-09-05 17:13:20,2023-09-05 17:13:20,0.045s,PASSED
+"verifyMatch(alertText, ""Maaf, Tidak Boleh Menggunakan Spasi,.."", false)",Edge Chromium 116,,,2023-09-05 17:13:20,2023-09-05 17:13:20,0.084s,PASSED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-Pendaftaran-error-002,Edge Chromium 116,"User melakukan pendaftaran namun melalaui menu Login dan pada halaman Masuk, ketika user masih belum memiliki username dan password yang valid",,2023-09-05 17:13:20,2023-09-05 17:13:38,18.308s,PASSED
+openBrowser(urlWeb),Edge Chromium 116,,,2023-09-05 17:13:21,2023-09-05 17:13:30,8.896s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-05 17:13:30,2023-09-05 17:13:30,0.344s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:13:30,2023-09-05 17:13:31,0.804s,PASSED
+"click(findTestObject(""Pendaftaran/a_Login""))",Edge Chromium 116,,,2023-09-05 17:13:31,2023-09-05 17:13:32,0.742s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi MASUK di halaman Login""), 0)",Edge Chromium 116,,,2023-09-05 17:13:32,2023-09-05 17:13:33,0.721s,PASSED
+"setText(findTestObject(""Login/input_Username, Email atau No. Handphone_a""), ""anata61"")",Edge Chromium 116,,,2023-09-05 17:13:33,2023-09-05 17:13:34,1.569s,PASSED
+"setEncryptedText(findTestObject(""Login/input_Password di Login(Masuk)""), ""qbkrdMwyWE4="")",Edge Chromium 116,,,2023-09-05 17:13:34,2023-09-05 17:13:36,1.333s,PASSED
+"click(findTestObject(""Login/button_Masuk di halaman login""))",Edge Chromium 116,,,2023-09-05 17:13:36,2023-09-05 17:13:38,2.137s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:13:38,2023-09-05 17:13:38,0.716s,PASSED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-Pendaftaran-Error-003,Edge Chromium 116,User melakukan pendaftaran namun tidak mengisi data dan langung klik button daftar,,2023-09-05 17:13:38,2023-09-05 17:13:52,13.828s,PASSED
+openBrowser(urlWeb),Edge Chromium 116,,,2023-09-05 17:13:39,2023-09-05 17:13:47,7.850s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-05 17:13:47,2023-09-05 17:13:47,0.243s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:13:47,2023-09-05 17:13:48,0.820s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Edge Chromium 116,,,2023-09-05 17:13:48,2023-09-05 17:13:49,1.213s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:13:49,2023-09-05 17:13:51,1.321s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Edge Chromium 116,,,2023-09-05 17:13:51,2023-09-05 17:13:51,0.795s,PASSED
+webDriver = getWebDriver(),Edge Chromium 116,,,2023-09-05 17:13:51,2023-09-05 17:13:51,0.077s,PASSED
+"field_username = webDriver.findElement(By.xpath(""//input[@name=""username""]""))",Edge Chromium 116,,,2023-09-05 17:13:51,2023-09-05 17:13:52,0.725s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_username)",Edge Chromium 116,,,2023-09-05 17:13:52,2023-09-05 17:13:52,0.040s,PASSED
+println(error_message),Edge Chromium 116,,,2023-09-05 17:13:52,2023-09-05 17:13:52,0.021s,PASSED
+"assert error_message == ""Please fill out this field.""",Edge Chromium 116,,,2023-09-05 17:13:52,2023-09-05 17:13:52,0.000s,PASSED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-Pendaftaran-Failed-001,Edge Chromium 116,User melakukan pendaftaran dan email lupa menggunakan domain,,2023-09-05 17:13:52,2023-09-05 17:14:10,17.835s,FAILED
+openBrowser(urlWeb),Edge Chromium 116,,,2023-09-05 17:13:54,2023-09-05 17:14:01,7.202s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-05 17:14:01,2023-09-05 17:14:01,0.302s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:14:01,2023-09-05 17:14:02,0.852s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Edge Chromium 116,,,2023-09-05 17:14:02,2023-09-05 17:14:03,1.099s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:14:03,2023-09-05 17:14:04,0.554s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), usn)",Edge Chromium 116,,,2023-09-05 17:14:04,2023-09-05 17:14:05,1.190s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Edge Chromium 116,,,2023-09-05 17:14:05,2023-09-05 17:14:06,1.267s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHp)",Edge Chromium 116,,,2023-09-05 17:14:06,2023-09-05 17:14:07,1.194s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Edge Chromium 116,,,2023-09-05 17:14:07,2023-09-05 17:14:07,0.002s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""qbkrdMwyWE4="")",Edge Chromium 116,,,2023-09-05 17:14:07,2023-09-05 17:14:08,0.931s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""qbkrdMwyWE4="")",Edge Chromium 116,,,2023-09-05 17:14:08,2023-09-05 17:14:09,0.738s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Edge Chromium 116,,,2023-09-05 17:14:09,2023-09-05 17:14:10,0.821s,PASSED
+webDriver = getWebDriver(),Edge Chromium 116,,,2023-09-05 17:14:10,2023-09-05 17:14:10,0.003s,PASSED
+"field_email = webDriver.findElement(By.xpath(""(//input[@name=""a""])[4]""))",Edge Chromium 116,,,2023-09-05 17:14:10,2023-09-05 17:14:10,0.341s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessasge"", field_email)",Edge Chromium 116,,,2023-09-05 17:14:10,2023-09-05 17:14:10,0.030s,PASSED
+println(error_message),Edge Chromium 116,,,2023-09-05 17:14:10,2023-09-05 17:14:10,0.023s,PASSED
+"assert error_message == ""please enter a valid email addres.""",Edge Chromium 116,,,2023-09-05 17:14:10,2023-09-05 17:14:10,0.075s,FAILED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-Pendaftaran-Failed-002,Edge Chromium 116,User melakukan pendaftaran dan saat input password dan konfirmasi password menggunakan password yang berbeda,,2023-09-05 17:14:10,2023-09-05 17:14:31,20.996s,PASSED
+openBrowser(urlWeb),Edge Chromium 116,,,2023-09-05 17:14:11,2023-09-05 17:14:19,7.921s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-05 17:14:19,2023-09-05 17:14:19,0.214s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:14:19,2023-09-05 17:14:20,0.934s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Edge Chromium 116,,,2023-09-05 17:14:20,2023-09-05 17:14:22,1.129s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:14:22,2023-09-05 17:14:22,0.617s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), usn)",Edge Chromium 116,,,2023-09-05 17:14:22,2023-09-05 17:14:23,0.919s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Edge Chromium 116,,,2023-09-05 17:14:23,2023-09-05 17:14:25,2.046s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHp)",Edge Chromium 116,,,2023-09-05 17:14:25,2023-09-05 17:14:26,1.290s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Edge Chromium 116,,,2023-09-05 17:14:26,2023-09-05 17:14:27,0.796s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""qbkrdMwyWE4="")",Edge Chromium 116,,,2023-09-05 17:14:27,2023-09-05 17:14:28,0.987s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""cEZ5BwTAfeQ="")",Edge Chromium 116,,,2023-09-05 17:14:28,2023-09-05 17:14:29,0.885s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Edge Chromium 116,,,2023-09-05 17:14:29,2023-09-05 17:14:30,1.372s,PASSED
+"verifyElementText(findTestObject(""Pendaftaran/verifikasi error untuk password dan konfirmasi password berbeda""), ""Password anda tidak Valid!"")",Edge Chromium 116,,,2023-09-05 17:14:30,2023-09-05 17:14:31,0.843s,PASSED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-Pendaftaran-Failed-003,Edge Chromium 116,User malakukan pendaftaran dan saat input password lupa menginputkan ulang password di konfirmasi password,,2023-09-05 17:14:31,2023-09-05 17:14:50,18.507s,PASSED
+openBrowser(urlWeb),Edge Chromium 116,,,2023-09-05 17:14:32,2023-09-05 17:14:40,7.809s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-05 17:14:40,2023-09-05 17:14:40,0.247s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:14:40,2023-09-05 17:14:41,0.823s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Edge Chromium 116,,,2023-09-05 17:14:41,2023-09-05 17:14:43,1.337s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:14:43,2023-09-05 17:14:43,0.652s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), usn)",Edge Chromium 116,,,2023-09-05 17:14:43,2023-09-05 17:14:45,1.222s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Edge Chromium 116,,,2023-09-05 17:14:45,2023-09-05 17:14:46,1.643s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHp)",Edge Chromium 116,,,2023-09-05 17:14:46,2023-09-05 17:14:47,1.096s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Edge Chromium 116,,,2023-09-05 17:14:47,2023-09-05 17:14:48,0.833s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""qbkrdMwyWE4="")",Edge Chromium 116,,,2023-09-05 17:14:48,2023-09-05 17:14:49,0.774s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Edge Chromium 116,,,2023-09-05 17:14:49,2023-09-05 17:14:50,0.685s,PASSED
+webDriver = getWebDriver(),Edge Chromium 116,,,2023-09-05 17:14:50,2023-09-05 17:14:50,0.000s,PASSED
+"field_konfrim_password = webDriver.findElement(By.xpath(""//input[@name=""repassword""]""))",Edge Chromium 116,,,2023-09-05 17:14:50,2023-09-05 17:14:50,0.316s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_konfrim_password)",Edge Chromium 116,,,2023-09-05 17:14:50,2023-09-05 17:14:50,0.030s,PASSED
+println(error_message),Edge Chromium 116,,,2023-09-05 17:14:50,2023-09-05 17:14:50,0.001s,PASSED
+"assert error_message == ""Please fill out this field.""",Edge Chromium 116,,,2023-09-05 17:14:50,2023-09-05 17:14:50,0.001s,PASSED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-Pendaftaran-Failed-004,Edge Chromium 116,User malakukan pendaftaran dan menginputkan nomor telepon kurang dari 11 digit,,2023-09-05 17:14:50,2023-09-05 17:15:11,21.072s,PASSED
+openBrowser(urlWeb),Edge Chromium 116,,,2023-09-05 17:14:51,2023-09-05 17:15:00,9.174s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-05 17:15:00,2023-09-05 17:15:00,0.318s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:15:00,2023-09-05 17:15:01,0.835s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Edge Chromium 116,,,2023-09-05 17:15:01,2023-09-05 17:15:02,1.147s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:15:02,2023-09-05 17:15:03,0.525s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), usn)",Edge Chromium 116,,,2023-09-05 17:15:03,2023-09-05 17:15:04,1.260s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Edge Chromium 116,,,2023-09-05 17:15:04,2023-09-05 17:15:05,1.342s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHp)",Edge Chromium 116,,,2023-09-05 17:15:05,2023-09-05 17:15:07,1.236s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Edge Chromium 116,,,2023-09-05 17:15:07,2023-09-05 17:15:07,0.755s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""qbkrdMwyWE4="")",Edge Chromium 116,,,2023-09-05 17:15:07,2023-09-05 17:15:08,0.915s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""qbkrdMwyWE4="")",Edge Chromium 116,,,2023-09-05 17:15:08,2023-09-05 17:15:09,0.850s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Edge Chromium 116,,,2023-09-05 17:15:09,2023-09-05 17:15:10,1.317s,PASSED
+"verifyElementText(findTestObject(""Pendaftaran/GAGAL - No telpon anda tidak valid(kurang dari 11)""), ""GAGAL - No telpon anda tidak valid.."")",Edge Chromium 116,,,2023-09-05 17:15:10,2023-09-05 17:15:11,0.639s,PASSED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-Pendaftaran-Failed-005,Edge Chromium 116,User melakukan pendaftaran dan menginputkan nomor telepon lebih dari 13 digit,,2023-09-05 17:15:11,2023-09-05 17:15:42,30.826s,FAILED
+openBrowser(urlWeb),Edge Chromium 116,,,2023-09-05 17:15:13,2023-09-05 17:15:21,7.775s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-05 17:15:21,2023-09-05 17:15:21,0.428s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:15:21,2023-09-05 17:15:22,0.825s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Edge Chromium 116,,,2023-09-05 17:15:22,2023-09-05 17:15:23,1.375s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:15:23,2023-09-05 17:15:24,0.652s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), usn)",Edge Chromium 116,,,2023-09-05 17:15:24,2023-09-05 17:15:25,1.013s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Edge Chromium 116,,,2023-09-05 17:15:25,2023-09-05 17:15:26,1.171s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHp)",Edge Chromium 116,,,2023-09-05 17:15:26,2023-09-05 17:15:28,1.325s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Edge Chromium 116,,,2023-09-05 17:15:28,2023-09-05 17:15:28,0.595s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""qbkrdMwyWE4="")",Edge Chromium 116,,,2023-09-05 17:15:28,2023-09-05 17:15:29,0.715s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""qbkrdMwyWE4="")",Edge Chromium 116,,,2023-09-05 17:15:29,2023-09-05 17:15:30,0.835s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Edge Chromium 116,,,2023-09-05 17:15:30,2023-09-05 17:15:40,10.628s,PASSED
+"verifyTextPresent(""please enter valid phone number"", false)",Edge Chromium 116,,,2023-09-05 17:15:40,2023-09-05 17:15:42,1.565s,FAILED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-Pendaftaran-Failed-006,Edge Chromium 116,"User melakukan pendaftaran dan menginputkan nomor telepon menggunakan tanda ""+""",,2023-09-05 17:15:42,2023-09-05 17:16:13,30.733s,FAILED
+openBrowser(urlWeb),Edge Chromium 116,,,2023-09-05 17:15:43,2023-09-05 17:15:51,7.879s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-05 17:15:51,2023-09-05 17:15:51,0.286s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:15:51,2023-09-05 17:15:52,0.824s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Edge Chromium 116,,,2023-09-05 17:15:52,2023-09-05 17:15:53,1.212s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:15:53,2023-09-05 17:15:54,0.654s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), usn)",Edge Chromium 116,,,2023-09-05 17:15:54,2023-09-05 17:15:55,1.178s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Edge Chromium 116,,,2023-09-05 17:15:55,2023-09-05 17:15:57,1.649s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHp)",Edge Chromium 116,,,2023-09-05 17:15:57,2023-09-05 17:15:58,1.208s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Edge Chromium 116,,,2023-09-05 17:15:58,2023-09-05 17:15:59,0.824s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""qbkrdMwyWE4="")",Edge Chromium 116,,,2023-09-05 17:15:59,2023-09-05 17:16:00,0.856s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""qbkrdMwyWE4="")",Edge Chromium 116,,,2023-09-05 17:16:00,2023-09-05 17:16:00,0.842s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Edge Chromium 116,,,2023-09-05 17:16:00,2023-09-05 17:16:12,11.170s,PASSED
+"verifyTextPresent(""please enter valid phone number"", false)",Edge Chromium 116,,,2023-09-05 17:16:12,2023-09-05 17:16:13,1.188s,FAILED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-Pendaftaran-Failed-007,Edge Chromium 116,User melakukan pendaftaran dan menginputkan password dan konfirmasi password hanya menggunakan huruf saja,,2023-09-05 17:16:13,2023-09-05 17:16:53,40.228s,FAILED
+openBrowser(urlWeb),Edge Chromium 116,,,2023-09-05 17:16:14,2023-09-05 17:16:23,9.082s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-05 17:16:23,2023-09-05 17:16:23,0.356s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:16:23,2023-09-05 17:16:24,0.893s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Edge Chromium 116,,,2023-09-05 17:16:24,2023-09-05 17:16:25,1.235s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:16:25,2023-09-05 17:16:26,0.525s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), usn)",Edge Chromium 116,,,2023-09-05 17:16:26,2023-09-05 17:16:27,1.240s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Edge Chromium 116,,,2023-09-05 17:16:27,2023-09-05 17:16:28,1.315s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHp)",Edge Chromium 116,,,2023-09-05 17:16:28,2023-09-05 17:16:30,1.484s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Edge Chromium 116,,,2023-09-05 17:16:30,2023-09-05 17:16:31,0.969s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""cEZ5BwTAfeQ="")",Edge Chromium 116,,,2023-09-05 17:16:31,2023-09-05 17:16:32,0.926s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""cEZ5BwTAfeQ="")",Edge Chromium 116,,,2023-09-05 17:16:32,2023-09-05 17:16:33,0.901s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Edge Chromium 116,,,2023-09-05 17:16:33,2023-09-05 17:16:52,19.292s,PASSED
+"verifyTextPresent(""password must include alpanumeric"", false)",Edge Chromium 116,,,2023-09-05 17:16:52,2023-09-05 17:16:53,1.135s,FAILED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-Pendaftaran-Failed-008,Edge Chromium 116,Ketika user melakukan pendaftaran dengan menggunakan email/username/nomor telepon yang sama dengan yang sudah didaftarkan sebelumnya,,2023-09-05 17:16:53,2023-09-05 17:17:14,21.227s,PASSED
+openBrowser(urlWeb),Edge Chromium 116,,,2023-09-05 17:16:54,2023-09-05 17:17:01,7.055s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-05 17:17:01,2023-09-05 17:17:02,0.201s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:17:02,2023-09-05 17:17:03,1.042s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Edge Chromium 116,,,2023-09-05 17:17:03,2023-09-05 17:17:04,1.261s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Edge Chromium 116,,,2023-09-05 17:17:04,2023-09-05 17:17:05,0.670s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), usn)",Edge Chromium 116,,,2023-09-05 17:17:05,2023-09-05 17:17:06,1.467s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Edge Chromium 116,,,2023-09-05 17:17:06,2023-09-05 17:17:08,1.729s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHp)",Edge Chromium 116,,,2023-09-05 17:17:08,2023-09-05 17:17:09,1.640s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Edge Chromium 116,,,2023-09-05 17:17:09,2023-09-05 17:17:10,0.811s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""qbkrdMwyWE4="")",Edge Chromium 116,,,2023-09-05 17:17:10,2023-09-05 17:17:11,0.860s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""qbkrdMwyWE4="")",Edge Chromium 116,,,2023-09-05 17:17:11,2023-09-05 17:17:12,0.889s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Edge Chromium 116,,,2023-09-05 17:17:12,2023-09-05 17:17:13,1.461s,PASSED
+"verifyElementText(findTestObject(""Pendaftaran/daftar ulang dengan email username dan no hp yang sama""), ""Username/Email/No Telpon Telah Digunakan!"")",Edge Chromium 116,,,2023-09-05 17:17:13,2023-09-05 17:17:14,0.907s,PASSED
+,,,,,,,
+Test Cases/delete data/TC-Delete-Suceses-001,Edge Chromium 116,ketika user melakukan hapus akun yang sudah terdaftar,,2023-09-05 17:17:14,2023-09-05 17:17:45,30.849s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/administrator/"")",Edge Chromium 116,,,2023-09-05 17:17:16,2023-09-05 17:17:24,8.155s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-05 17:17:24,2023-09-05 17:17:24,0.207s,PASSED
+"setText(findTestObject(""delete akun/input usn admin""), ""admin"")",Edge Chromium 116,,,2023-09-05 17:17:24,2023-09-05 17:17:26,1.390s,PASSED
+"setEncryptedText(findTestObject(""delete akun/input password admin""), ""374mkdZ/lqyNS21oH+MJZQ=="")",Edge Chromium 116,,,2023-09-05 17:17:26,2023-09-05 17:17:27,0.861s,PASSED
+delay(10),Edge Chromium 116,,,2023-09-05 17:17:27,2023-09-05 17:17:37,10.055s,PASSED
+"click(findTestObject(""delete akun/button signin di web admin""))",Edge Chromium 116,,,2023-09-05 17:17:37,2023-09-05 17:17:41,4.426s,PASSED
+"click(findTestObject(""delete akun/a_Konsumen""))",Edge Chromium 116,,,2023-09-05 17:17:41,2023-09-05 17:17:43,1.738s,PASSED
+"setText(findTestObject(""delete akun/input search nama konsumen""), noHp)",Edge Chromium 116,,,2023-09-05 17:17:43,2023-09-05 17:17:44,1.345s,PASSED
+"click(findTestObject(""delete akun/untuk delete akun""))",Edge Chromium 116,,,2023-09-05 17:17:44,2023-09-05 17:17:45,1.019s,PASSED
+acceptAlert(),Edge Chromium 116,,,2023-09-05 17:17:45,2023-09-05 17:17:45,0.234s,PASSED
+,,,,,,,
+Test Cases/delete data/TC-Delete-Suceses-002,Edge Chromium 116,ketika user melakukan hapus akun yang sudah terdaftar,,2023-09-05 17:17:45,2023-09-05 17:18:16,30.502s,PASSED
+"openBrowser(""https://10.9.2.63/ecommerce/administrator/"")",Edge Chromium 116,,,2023-09-05 17:17:47,2023-09-05 17:17:53,6.201s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-09-05 17:17:53,2023-09-05 17:17:54,0.161s,PASSED
+"setText(findTestObject(""delete akun/input usn admin""), ""admin"")",Edge Chromium 116,,,2023-09-05 17:17:54,2023-09-05 17:17:55,1.635s,PASSED
+"setEncryptedText(findTestObject(""delete akun/input password admin""), ""374mkdZ/lqyNS21oH+MJZQ=="")",Edge Chromium 116,,,2023-09-05 17:17:55,2023-09-05 17:17:56,0.850s,PASSED
+delay(10),Edge Chromium 116,,,2023-09-05 17:17:56,2023-09-05 17:18:06,10.014s,PASSED
+"click(findTestObject(""delete akun/button signin di web admin""))",Edge Chromium 116,,,2023-09-05 17:18:06,2023-09-05 17:18:09,3.098s,PASSED
+"click(findTestObject(""delete akun/a_Konsumen""))",Edge Chromium 116,,,2023-09-05 17:18:09,2023-09-05 17:18:13,4.168s,PASSED
+"setText(findTestObject(""delete akun/input search nama konsumen""), noHp)",Edge Chromium 116,,,2023-09-05 17:18:13,2023-09-05 17:18:15,1.701s,PASSED
+"click(findTestObject(""delete akun/untuk delete akun""))",Edge Chromium 116,,,2023-09-05 17:18:15,2023-09-05 17:18:16,0.851s,PASSED
+acceptAlert(),Edge Chromium 116,,,2023-09-05 17:18:16,2023-09-05 17:18:16,0.086s,PASSED

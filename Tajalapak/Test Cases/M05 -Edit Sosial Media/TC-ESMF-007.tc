@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan edit sosial media namun saat menginputkan nomor watshapp tidak diawali dengan kode negara (+62)</description>
+   <name>TC-ESMF-007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>97cc2815-ac19-4c73-ab71-7d3bc5f64c39</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>86554917-b591-4ae1-9651-b890bb41f8c3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'085944999968'</defaultValue>
+      <description></description>
+      <id>86554917-b591-4ae1-9651-b890bb41f8c3</id>
+      <masked>false</masked>
+      <name>Whatsapp</name>
+   </variable>
+</TestCaseEntity>

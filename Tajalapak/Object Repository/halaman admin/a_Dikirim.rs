@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Dikirim</name>
+   <tag></tag>
+   <elementGuidId>9009b11f-a120-4d77-8bb7-beb4711875bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ul.dropdown-menu > li:nth-of-type(4) > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick=&quot;return confirm('Yakin Ubah status pesanan jadi Dikirim?')&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>96ec46d3-e1ad-46ac-8738-8f766a2228b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>return confirm('Yakin Ubah status pesanan jadi Dikirim?')</value>
+      <webElementGuid>f7514800-6c14-48e9-894b-0bc9517dfe49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/administrator/penjualan_konsumen?id=123&amp;status=3</value>
+      <webElementGuid>4186764e-8395-4853-8598-a553534307e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dikirim</value>
+      <webElementGuid>f1b6f90f-bbc1-4ea1-8077-fbc7a63ccfdd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;example1&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[8]/center[1]/div[@class=&quot;btn-group open&quot;]/ul[@class=&quot;dropdown-menu&quot;]/li[4]/a[1]</value>
+      <webElementGuid>c8386f7b-e6a7-4115-a0f3-8287acec66a4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;return confirm('Yakin Ubah status pesanan jadi Dikirim?')&quot;]</value>
+      <webElementGuid>e8543e31-0391-4ce3-a231-241b12787ea0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='example1']/tbody/tr/td[8]/center/div/ul/li[4]/a</value>
+      <webElementGuid>ed55752d-a78a-4c09-9c8a-e8a2ef170290</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Dikirim')]</value>
+      <webElementGuid>3cac0e80-13fd-46d1-9a2a-c7b8cd452da4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Konfirmasi'])[1]/following::a[1]</value>
+      <webElementGuid>6143395e-4c50-4a24-adf6-2be7ed2d6882</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proses'])[1]/following::a[2]</value>
+      <webElementGuid>692612d8-9255-495a-8993-93e84cc4bb62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Selesai'])[1]/preceding::a[1]</value>
+      <webElementGuid>385fe90f-8cdb-41ae-b1f9-f9f523168bb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Batal/Hapus'])[1]/preceding::a[2]</value>
+      <webElementGuid>f29037af-78e4-4a83-95b8-6e0abb8957ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Dikirim']/parent::*</value>
+      <webElementGuid>38839415-c6e2-4029-bc21-c6aa52ddb9be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://10.9.2.63/ecommerce/administrator/penjualan_konsumen?id=123&amp;status=3')]</value>
+      <webElementGuid>51d5eef8-baed-43f6-b16d-05e593004c98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/ul/li[4]/a</value>
+      <webElementGuid>fd9a1c3d-6a2c-4cce-9cb2-3898845a4424</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://10.9.2.63/ecommerce/administrator/penjualan_konsumen?id=123&amp;status=3' and (text() = 'Dikirim' or . = 'Dikirim')]</value>
+      <webElementGuid>0d4dc8ff-e756-4a2f-8394-9e34410a90c4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

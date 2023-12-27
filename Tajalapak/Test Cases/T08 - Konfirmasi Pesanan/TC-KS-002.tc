@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan konfirmasi Pesanan melalui menu profil kemudian memilih konfirmasi pembayaran lanjut melakukan konfirmasi pesanan</description>
+   <name>TC-KS-002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a04354b-963b-4196-800f-87fef802eeeb</testCaseGuid>
+   <variable>
+      <defaultValue>'runarun@gmail.com'</defaultValue>
+      <description></description>
+      <id>d4a66d97-fbe7-4b02-b0a5-b07deaf3417b</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

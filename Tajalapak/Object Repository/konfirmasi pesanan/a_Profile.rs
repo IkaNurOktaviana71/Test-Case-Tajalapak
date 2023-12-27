@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Profile</name>
+   <tag></tag>
+   <elementGuidId>e163557d-7da3-47dd-a9ed-6082013db3aa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Profile')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.ps-dropdown-menu > li > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>7d63e429-aa6a-40d3-8edf-4b75ec0aea4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/members/profile</value>
+      <webElementGuid>05019694-8006-4c86-a065-59a329652029</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Profile</value>
+      <webElementGuid>babc27cf-fa2c-4f16-972e-59eef3283860</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;loaded&quot;]/header[@class=&quot;header header--1&quot;]/div[@class=&quot;header__topone&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;header__right&quot;]/ul[@class=&quot;header__top-links&quot;]/li[3]/div[@class=&quot;ps-block--user-header&quot;]/div[@class=&quot;ps-block__right&quot;]/div[@class=&quot;ps-dropdown&quot;]/ul[@class=&quot;ps-dropdown-menu&quot;]/li[1]/a[1]</value>
+      <webElementGuid>d075f72a-a08c-4ee4-ae1e-915e8c89128a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Profile')]</value>
+      <webElementGuid>f2b0308d-b6a2-4e48-8e33-62e0008d6a4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buat Toko'])[1]/following::a[2]</value>
+      <webElementGuid>9ca8da7a-d055-4853-9589-636e7a6966d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sosmed'])[1]/preceding::a[1]</value>
+      <webElementGuid>6698abb7-9107-480b-8846-acbff7fa5ec1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Bank'])[1]/preceding::a[2]</value>
+      <webElementGuid>29cbd74a-f208-4c78-a6c9-c0e3fa99ae31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Profile']/parent::*</value>
+      <webElementGuid>a267e450-209f-4fc2-bbca-258c1b38782c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://10.9.2.63/ecommerce/members/profile')]</value>
+      <webElementGuid>80210a05-a10d-41a4-92c3-97ce27e2e60f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/ul/li/a</value>
+      <webElementGuid>bbcc6de1-b031-4dee-a9c6-b7d6aa28c862</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://10.9.2.63/ecommerce/members/profile' and (text() = ' Profile' or . = ' Profile')]</value>
+      <webElementGuid>59929a79-ea46-4db8-aca8-9382e44d59ef</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

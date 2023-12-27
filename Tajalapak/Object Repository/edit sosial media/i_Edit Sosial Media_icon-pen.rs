@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Edit Sosial Media_icon-pen</name>
+   <tag></tag>
+   <elementGuidId>6e803521-023c-4c20-8b7c-e3b421f10b92</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//center/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon-pen</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>60131602-106a-4329-a649-61e1cbe81979</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-pen</value>
+      <webElementGuid>fcb84d40-5e44-4a2d-b1de-8ed336b62cb9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;loaded&quot;]/div[@class=&quot;ps-vendor-dashboard pro&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;ps-section__content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12&quot;]/a[@class=&quot;ps-btn btn-block&quot;]/center[1]/i[@class=&quot;icon-pen&quot;]</value>
+      <webElementGuid>3b1a2779-7e62-42de-8777-666c437cbaf2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//center/i</value>
+      <webElementGuid>42223ecc-eeb4-4a47-a886-57565d5099e9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

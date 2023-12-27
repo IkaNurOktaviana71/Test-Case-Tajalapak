@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan edit sosial media dengan mengnputkan pada google+ tidak menggunakan + diawal username</description>
+   <name>TC-ESMF-006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>81780bc4-8b70-4511-aa00-d41020c9fe10</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1ba09669-80ef-4b47-90d8-e6183b7f19ea</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Runaya'</defaultValue>
+      <description></description>
+      <id>1ba09669-80ef-4b47-90d8-e6183b7f19ea</id>
+      <masked>false</masked>
+      <name>Google</name>
+   </variable>
+</TestCaseEntity>

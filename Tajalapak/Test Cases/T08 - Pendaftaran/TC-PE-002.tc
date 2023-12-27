@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan pendaftaran namun melalui menu Login dan pada halaman Masuk, ketika user masih belum memiliki username dan password yang terdaftar</description>
+   <name>TC-PE-002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0c81a555-e45b-450f-bdc9-00964af44171</testCaseGuid>
+</TestCaseEntity>

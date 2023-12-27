@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Admin Pelapak melakukan chek di menu Konfirmasi order konsumen untuk no pesanan yang sudah di pesan dan yang sudah dilakukan konfirmasi pembayaran atau pesanan</description>
+   <name>TC-AK-004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7e82735a-b840-47cc-9e70-88be16a1ca60</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>648e9741-bbd8-4055-bc4c-d2ccf60dec18</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'F:\\bootcamp\\Miniproject\\transfer.jpg'</defaultValue>
+      <description></description>
+      <id>648e9741-bbd8-4055-bc4c-d2ccf60dec18</id>
+      <masked>false</masked>
+      <name>berkas</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BUKTI TF DI halaman order konsumen</name>
+   <tag></tag>
+   <elementGuidId>8876ba8f-9eb2-450c-979f-5ae7131b4b40</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-xs.btn-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='example1']/tbody/tr[1]/td[9]/a[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ca2f8ad4-f250-43f1-9c85-0cdb4e1513d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-xs btn-primary</value>
+      <webElementGuid>da648cc2-2fdd-41fd-8817-4e1e2e36b3dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/reseller/download/Transfer.rar</value>
+      <webElementGuid>388ddccc-03bf-41db-8bea-0947f2fae41a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;example1&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[9]/a[@class=&quot;btn btn-xs btn-primary&quot;]</value>
+      <webElementGuid>03cd6506-a125-44f5-b0e7-56a99d328e85</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='example1']/tbody/tr/td[9]/a</value>
+      <webElementGuid>f97cbb93-56df-433f-9cfb-d56ab5368858</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lunas'])[1]/following::a[1]</value>
+      <webElementGuid>6d791e04-b973-4557-aa0d-82f62b585ea7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bank BNI Syariah'])[1]/following::a[1]</value>
+      <webElementGuid>967d0825-f85a-4c87-9f42-e06b2e4e53f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TRX60.20230914090258'])[1]/preceding::a[2]</value>
+      <webElementGuid>3a4e392f-6abd-41d3-8745-0951f882845e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='irfan.afandi'])[1]/preceding::a[3]</value>
+      <webElementGuid>f3b733e6-2844-47ed-ace6-4cfa6fab3e24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://10.9.2.63/ecommerce/reseller/download/Transfer.rar')]</value>
+      <webElementGuid>3502a945-4d0a-4ef6-8a95-490c36418844</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[9]/a</value>
+      <webElementGuid>82c64d37-c946-4152-9baa-a28bdea09e57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://10.9.2.63/ecommerce/reseller/download/Transfer.rar']</value>
+      <webElementGuid>9f5a47cb-2bbe-48ef-8c8a-e179b920cebc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

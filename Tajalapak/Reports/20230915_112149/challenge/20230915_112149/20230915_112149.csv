@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+challenge,Edge Chromium 116,,,2023-09-15 11:22:00,2023-09-15 11:24:12,2m - 11.205s,FAILED
+,,,,,,,
+Test Cases/challange/TC-Failled-002,Edge Chromium 116,admin menambahkan berita namun isi berita kurang dari 100 karakter,,2023-09-15 11:22:38,2023-09-15 11:23:10,31.653s,FAILED
+"callTestCase(findTestCase(""challange/login""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-15 11:22:38,2023-09-15 11:23:01,23.576s,PASSED
+"click(findTestObject(""modul berita/halaman modul berita""))",Edge Chromium 116,,,2023-09-15 11:23:01,2023-09-15 11:23:02,0.593s,PASSED
+"click(findTestObject(""modul berita/masuk menu berita admin""))",Edge Chromium 116,,,2023-09-15 11:23:02,2023-09-15 11:23:03,1.150s,PASSED
+"click(findTestObject(""modul berita/a_Tambahkan Data""))",Edge Chromium 116,,,2023-09-15 11:23:03,2023-09-15 11:23:04,1.062s,PASSED
+"setText(findTestObject(""modul berita/input_Judul_b""), ""wah! sepak bola indonesi semangkin meningkat"")",Edge Chromium 116,,,2023-09-15 11:23:04,2023-09-15 11:23:05,0.936s,PASSED
+"selectOptionByValue(findTestObject(""modul berita/pilih kategori""), kategori, false)",Edge Chromium 116,,,2023-09-15 11:23:05,2023-09-15 11:23:06,0.884s,PASSED
+"click(findTestObject(""modul berita/input_YaTidak_e headline""))",Edge Chromium 116,,,2023-09-15 11:23:06,2023-09-15 11:23:07,0.521s,PASSED
+"click(findTestObject(""modul berita/input_YaTidak_f pilihan""))",Edge Chromium 116,,,2023-09-15 11:23:07,2023-09-15 11:23:07,0.568s,PASSED
+"click(findTestObject(""modul berita/input_YaTidak_g berita utama""))",Edge Chromium 116,,,2023-09-15 11:23:07,2023-09-15 11:23:08,0.459s,PASSED
+"setText(findTestObject(""modul berita/input isi berita""), ""wah sepak bola di  indonesi semangkin meningkat"")",Edge Chromium 116,,,2023-09-15 11:23:08,2023-09-15 11:23:09,1.270s,PASSED
+webDriver = getWebDriver(),Edge Chromium 116,,,2023-09-15 11:23:09,2023-09-15 11:23:09,0.001s,PASSED
+"field_isi = webDriver.findElement(By.xpath(""(.//*[normalize-space(text()) and normalize-space(.)=""Select""])[2]/following::p[1]""))",Edge Chromium 116,,,2023-09-15 11:23:09,2023-09-15 11:23:09,0.514s,PASSED
+"validationMessage = executeJavaScript(""return arguments[0].validationMessage"", Arrays.asList(field_isi))",Edge Chromium 116,,,2023-09-15 11:23:09,2023-09-15 11:23:09,0.038s,PASSED
+"assert validationMessage == ""character length must more than 100 character""",Edge Chromium 116,,,2023-09-15 11:23:09,2023-09-15 11:23:10,0.006s,FAILED
+,,,,,,,
+Test Cases/challange/TC-Failled-005,Edge Chromium 116,admin menabahkan berita namun saat pilih kategori admin tidak memilih,,2023-09-15 11:23:10,2023-09-15 11:23:44,34.439s,PASSED
+"callTestCase(findTestCase(""challange/login""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-15 11:23:11,2023-09-15 11:23:35,23.986s,PASSED
+"click(findTestObject(""modul berita/halaman modul berita""))",Edge Chromium 116,,,2023-09-15 11:23:35,2023-09-15 11:23:35,0.644s,PASSED
+"click(findTestObject(""modul berita/masuk menu berita admin""))",Edge Chromium 116,,,2023-09-15 11:23:35,2023-09-15 11:23:37,1.800s,PASSED
+"click(findTestObject(""modul berita/a_Tambahkan Data""))",Edge Chromium 116,,,2023-09-15 11:23:37,2023-09-15 11:23:38,1.228s,PASSED
+"setText(findTestObject(""modul berita/input_Judul_b""), ""wah! sepak bola indonesi semangkin meningkat"")",Edge Chromium 116,,,2023-09-15 11:23:38,2023-09-15 11:23:39,0.827s,PASSED
+"click(findTestObject(""modul berita/input_YaTidak_e headline""))",Edge Chromium 116,,,2023-09-15 11:23:39,2023-09-15 11:23:40,0.459s,PASSED
+"click(findTestObject(""modul berita/input_YaTidak_f pilihan""))",Edge Chromium 116,,,2023-09-15 11:23:40,2023-09-15 11:23:40,0.576s,PASSED
+"click(findTestObject(""modul berita/input_YaTidak_g berita utama""))",Edge Chromium 116,,,2023-09-15 11:23:40,2023-09-15 11:23:41,0.474s,PASSED
+"setText(findTestObject(""modul berita/input isi berita""), ""wah sepak bola di  indonesi semangkin meningkat 5 	wah! sepak bola indonesi semangkin meningkat 5 	wah! sepak bola indonesi semangkin meningkat 5 	wah! sepak bola indonesi semangkin meningkat5 	wah! sepak bola indonesi semangkin meningkat"")",Edge Chromium 116,,,2023-09-15 11:23:41,2023-09-15 11:23:43,2.060s,PASSED
+"click(findTestObject(""modul berita/button_Tambahkan""))",Edge Chromium 116,,,2023-09-15 11:23:43,2023-09-15 11:23:44,0.833s,PASSED
+webDriver = getWebDriver(),Edge Chromium 116,,,2023-09-15 11:23:44,2023-09-15 11:23:44,0.001s,PASSED
+"field_kategori = webDriver.findElement(By.xpath(""//select[@name=""a""]""))",Edge Chromium 116,,,2023-09-15 11:23:44,2023-09-15 11:23:44,0.300s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_kategori)",Edge Chromium 116,,,2023-09-15 11:23:44,2023-09-15 11:23:44,0.036s,PASSED
+println(error_message),Edge Chromium 116,,,2023-09-15 11:23:44,2023-09-15 11:23:44,0.014s,PASSED
+"assert error_message == ""Please select an item in the list.""",Edge Chromium 116,,,2023-09-15 11:23:44,2023-09-15 11:23:44,0.002s,PASSED
+,,,,,,,
+Test Cases/challange/TC-Show-001,Edge Chromium 116,Admin menampilkan data berita sebanyak 100 berita perhalaman,,2023-09-15 11:23:44,2023-09-15 11:24:12,27.394s,PASSED
+"callTestCase(findTestCase(""challange/login""), [:], STOP_ON_FAILURE)",Edge Chromium 116,,,2023-09-15 11:23:46,2023-09-15 11:24:07,21.435s,PASSED
+"click(findTestObject(""modul berita/halaman modul berita""))",Edge Chromium 116,,,2023-09-15 11:24:07,2023-09-15 11:24:09,2.020s,PASSED
+"click(findTestObject(""modul berita/masuk menu berita admin""))",Edge Chromium 116,,,2023-09-15 11:24:09,2023-09-15 11:24:11,1.260s,PASSED
+"selectOptionByValue(findTestObject(""modul berita/select_102550100""), ""100"", false)",Edge Chromium 116,,,2023-09-15 11:24:11,2023-09-15 11:24:12,0.994s,PASSED

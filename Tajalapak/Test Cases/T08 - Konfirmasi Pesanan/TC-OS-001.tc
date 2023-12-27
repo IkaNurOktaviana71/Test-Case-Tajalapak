@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user berhasil melakukan order produk di website tajalapak</description>
+   <name>TC-OS-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>87b10c95-c133-4724-94ed-cb0ff44d4916</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1ebdbd4f-d211-4275-990f-ca3749feb3a9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fb625aa5-6e13-4063-8b02-de65f51f5e52</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>1ebdbd4f-d211-4275-990f-ca3749feb3a9</id>
+      <masked>false</masked>
+      <name>Roda</name>
+   </variable>
+   <variable>
+      <defaultValue>'transfer'</defaultValue>
+      <description></description>
+      <id>fb625aa5-6e13-4063-8b02-de65f51f5e52</id>
+      <masked>false</masked>
+      <name>MetodePembayaran</name>
+   </variable>
+</TestCaseEntity>

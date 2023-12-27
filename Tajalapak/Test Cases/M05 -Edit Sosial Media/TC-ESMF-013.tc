@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User Melakukan edit media sosial dengan url yang dipersonalisasi lebih dari 100 karakter</description>
+   <name>TC-ESMF-013</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6cb8ef4-bf2d-4dad-bb92-d1abdd5fd637</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4fe71bbb-a751-4dcc-8244-30dc4bbcce23</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'www.linkedin.com/in/Rhoshandiatellyneshiaunneveshenkescianneshaimondrischlyndasaccarnaerenquellenendrasamecashaunettethalemeicoles'</defaultValue>
+      <description></description>
+      <id>4fe71bbb-a751-4dcc-8244-30dc4bbcce23</id>
+      <masked>false</masked>
+      <name>linkedin</name>
+   </variable>
+</TestCaseEntity>

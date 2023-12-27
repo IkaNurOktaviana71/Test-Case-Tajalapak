@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button Register</name>
+   <tag></tag>
+   <elementGuidId>3ee039bf-164e-4eaf-8226-4bd5eb54e407</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ps-block__right > a:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/header[1]/div[1]/div/div[2]/ul/li[2]/div/div[2]/a[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>45e79165-9833-4710-925a-d50f2b7a1b5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/auth/login</value>
+      <webElementGuid>96844e54-f0ac-4356-be0b-2cfb1493d490</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Register</value>
+      <webElementGuid>138a41ca-5797-460d-a3b5-86331b34a25f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;loaded&quot;]/header[@class=&quot;header header--1&quot;]/div[@class=&quot;header__topone&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;header__right&quot;]/ul[@class=&quot;header__top-links&quot;]/li[2]/div[@class=&quot;ps-block--user-header&quot;]/div[@class=&quot;ps-block__right&quot;]/a[2]</value>
+      <webElementGuid>613dbea4-56cd-4a96-966c-f1ac95cd8385</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Register')]</value>
+      <webElementGuid>c70ba2bb-ee0f-49e1-8ef5-a21d68632314</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Telusuri Pesanan'])[1]/following::a[2]</value>
+      <webElementGuid>97236b81-66df-4f1d-9242-883e566970d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori Produk'])[1]/preceding::a[1]</value>
+      <webElementGuid>dce15ac9-5d8c-4ae4-8d2a-fbacbbc2f6f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Register']/parent::*</value>
+      <webElementGuid>24c9edb8-10f3-44fc-8aed-18637ad63d06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://10.9.2.63/ecommerce/auth/login')])[3]</value>
+      <webElementGuid>68502fb1-8bed-4113-b2ea-3c241a3f0e17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a[2]</value>
+      <webElementGuid>a3092a7b-cb8d-47dd-92eb-54b0eda625b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://10.9.2.63/ecommerce/auth/login' and (text() = 'Register' or . = 'Register')]</value>
+      <webElementGuid>51d82419-db54-4006-b1b1-6979638cd018</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

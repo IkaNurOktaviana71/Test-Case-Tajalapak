@@ -1,0 +1,2253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="T05 Sedekah Online" time="401.146" tests="15" failures="8" errors="0">
+   <testsuite name="T05 Sedekah Online" tests="15" failures="8" errors="0" time="401.146" skipped="0" timestamp="2023-09-29 11:05:04" hostname="USER - DESKTOP-22KTP91" id="Test Suites/T05 Sedekah Online">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\bootcamp\\Miniproject\\Tajalapak\\Reports\\20230929_110452\\T05 Sedekah Online\\20230929_110452"/>
+         <property name="logFiles" value="F:\\bootcamp\\Miniproject\\Tajalapak\\Reports\\20230929_110452\\T05 Sedekah Online\\20230929_110452\\execution0.log"/>
+         <property name="attachments" value="F:\\bootcamp\\Miniproject\\Tajalapak\\Reports\\20230929_110452\\T05 Sedekah Online\\20230929_110452\\1695960373684.png, F:\\bootcamp\\Miniproject\\Tajalapak\\Reports\\20230929_110452\\T05 Sedekah Online\\20230929_110452\\1695960373911.png, F:\\bootcamp\\Miniproject\\Tajalapak\\Reports\\20230929_110452\\T05 Sedekah Online\\20230929_110452\\1695960466507.png, F:\\bootcamp\\Miniproject\\Tajalapak\\Reports\\20230929_110452\\T05 Sedekah Online\\20230929_110452\\1695960467146.png, F:\\bootcamp\\Miniproject\\Tajalapak\\Reports\\20230929_110452\\T05 Sedekah Online\\20230929_110452\\1695960496328.png"/>
+         <property name="hostName" value="USER - DESKTOP-22KTP91"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Firefox 117.0"/>
+         <property name="hostAddress" value="10.9.2.65"/>
+         <property name="sessionId" value="49a9b5e2-7646-4787-b3d7-c9169f6f589a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/T05 - Sedekah Online/TC-LS-001" time="21.6" classname="Test Cases/T05 - Sedekah Online/TC-LS-001" status="PASSED">
+         <system-out><![CDATA[2023-09-29 11:05:05 - [TEST_CASE][PASSED] - Test Cases/T05 - Sedekah Online/TC-LS-001: Test Cases/T05 - Sedekah Online/TC-LS-001
+
+2023-09-29 11:05:06 - [TEST_STEP][PASSED] - openBrowser(urlWeb): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:05:07 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-09-29 11:05:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-29 11:05:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:05:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-29 11:05:21 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-29 11:05:21 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Login")): Object: 'Object Repository/Login/a_Login' is clicked on
+
+2023-09-29 11:05:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Login' is clicked on
+
+2023-09-29 11:05:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pendaftaran/verifikasi MASUK di halaman Login"), 0): Object 'Object Repository/Pendaftaran/verifikasi MASUK di halaman Login' is present
+
+2023-09-29 11:05:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-29 11:05:23 - [MESSAGE][PASSED] - Object 'Object Repository/Pendaftaran/verifikasi MASUK di halaman Login' is present
+
+2023-09-29 11:05:23 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Username, Email atau No. Handphone_a"), "anata"): Text 'anata' is set on object 'Object Repository/Login/input_Username, Email atau No. Handphone_a'
+
+2023-09-29 11:05:24 - [MESSAGE][PASSED] - Text 'anata' is set on object 'Object Repository/Login/input_Username, Email atau No. Handphone_a'
+
+2023-09-29 11:05:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_Password di Login(Masuk)"), "qbkrdMwyWE4="): Text ****** has been set on object 'Object Repository/Login/input_Password di Login(Masuk)'
+
+2023-09-29 11:05:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password di Login(Masuk)'
+
+2023-09-29 11:05:25 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk di halaman login")): Object: 'Object Repository/Login/button_Masuk di halaman login' is clicked on
+
+2023-09-29 11:05:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk di halaman login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 - Sedekah Online/TC-SO-001" time="24.046" classname="Test Cases/T05 - Sedekah Online/TC-SO-001" status="PASSED">
+         <system-out><![CDATA[2023-09-29 11:05:27 - [TEST_CASE][PASSED] - Test Cases/T05 - Sedekah Online/TC-SO-001: Test Cases/T05 - Sedekah Online/TC-SO-001
+
+2023-09-29 11:05:28 - [TEST_STEP][PASSED] - openBrowser(urlWeb): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:05:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-29 11:05:29 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-09-29 11:05:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-29 11:05:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:05:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-29 11:05:37 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-29 11:05:37 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Donasi (di halaman utama)")): Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:05:37 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:05:37 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("sedekah online/a_Sedekah Online"), STOP_ON_FAILURE): Object 'Object Repository/sedekah online/a_Sedekah Online' is clickable
+
+2023-09-29 11:05:38 - [MESSAGE][PASSED] - Object 'Object Repository/sedekah online/a_Sedekah Online' is clickable
+
+2023-09-29 11:05:38 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Sedekah Online")): Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:05:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("sedekah online/verifikasi halaman sedekah Online"), 0): Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:05:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-29 11:05:40 - [MESSAGE][PASSED] - Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:05:40 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Sedekah"), NominalSedekah): Text '25000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:05:41 - [MESSAGE][PASSED] - Text '25000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:05:41 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Nama lengkap (di sedekah online)"), namaLengkap): Text 'ikana' is set on object 'Object Repository/sedekah online/input_Nama lengkap (di sedekah online)'
+
+2023-09-29 11:05:42 - [MESSAGE][PASSED] - Text 'ikana' is set on object 'Object Repository/sedekah online/input_Nama lengkap (di sedekah online)'
+
+2023-09-29 11:05:42 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_No Handphone (di sedekah online)"), noHp): Text '086754321234' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:05:43 - [MESSAGE][PASSED] - Text '086754321234' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:05:43 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Alamat Email (di sedekah online)"), email): Text 'anata71@gmail.com' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:05:44 - [MESSAGE][PASSED] - Text 'anata71@gmail.com' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:05:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/dropdown metode pembayaraan"), pembayaran, false): All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:05:45 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:05:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/sedekah ditunjukan untuk keluarga"), sedekahUntuk, false): All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:05:46 - [MESSAGE][PASSED] - All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:05:46 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input isi doa terbaik anda"), doa): Text 'Semoga Bermanfaat' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:05:47 - [MESSAGE][PASSED] - Text 'Semoga Bermanfaat' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:05:47 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input 2 digit terakhir nomor hp"), digitAkhir): Text '34' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:05:48 - [MESSAGE][PASSED] - Text '34' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:05:48 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/button_Sedekah Sekarang")): Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:05:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("sedekah online/verifikasi sukses berdonasi"), "Sukses Proses Bersedekah, kami akan segera menghubungi anda! Terima kasih"): Actual text and expected text of test object 'Object Repository/sedekah online/verifikasi sukses berdonasi' are matched.
+
+2023-09-29 11:05:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/sedekah online/verifikasi sukses berdonasi' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 - Sedekah Online/TC-SO-002" time="22.836" classname="Test Cases/T05 - Sedekah Online/TC-SO-002" status="FAILED">
+         <failure type="FAILED" message="Test Cases/T05 - Sedekah Online/TC-SO-002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/sedekah online/verifikasi sukses berdonasi' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at TC-SO-002.run(TC-SO-002:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Bersedekah, kami akan segera menghubungi anda! Terima kasih' and expected text 'Minimal nominal sedekah Online Rp 25.000' of test object 'Object Repository/sedekah online/verifikasi sukses berdonasi' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-09-29 11:05:51 - [TEST_CASE][FAILED] - Test Cases/T05 - Sedekah Online/TC-SO-002: Test Cases/T05 - Sedekah Online/TC-SO-002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/sedekah online/verifikasi sukses berdonasi' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at TC-SO-002.run(TC-SO-002:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Bersedekah, kami akan segera menghubungi anda! Terima kasih' and expected text 'Minimal nominal sedekah Online Rp 25.000' of test object 'Object Repository/sedekah online/verifikasi sukses berdonasi' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-09-29 11:05:51 - [TEST_STEP][PASSED] - openBrowser(urlWeb): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:05:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-29 11:05:53 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-09-29 11:05:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-29 11:06:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:06:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-29 11:06:00 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-29 11:06:00 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Donasi (di halaman utama)")): Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:06:01 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:06:01 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Sedekah Online")): Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:06:02 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:06:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("sedekah online/verifikasi halaman sedekah Online"), 0): Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:06:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-29 11:06:03 - [MESSAGE][PASSED] - Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:06:03 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Sedekah"), NominalSedekah): Text '5000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:06:04 - [MESSAGE][PASSED] - Text '5000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:06:04 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Nama lengkap (di sedekah online)"), namaLengkap): Text 'ikana' is set on object 'Object Repository/sedekah online/input_Nama lengkap (di sedekah online)'
+
+2023-09-29 11:06:05 - [MESSAGE][PASSED] - Text 'ikana' is set on object 'Object Repository/sedekah online/input_Nama lengkap (di sedekah online)'
+
+2023-09-29 11:06:05 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_No Handphone (di sedekah online)"), noHp): Text '086754321234' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:06:06 - [MESSAGE][PASSED] - Text '086754321234' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:06:06 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Alamat Email (di sedekah online)"), email): Text 'anata71@gmail.com' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:06:07 - [MESSAGE][PASSED] - Text 'anata71@gmail.com' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:06:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/dropdown metode pembayaraan"), pembayaran, false): All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:06:08 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:06:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/sedekah ditunjukan untuk keluarga"), sedekahUntuk, false): All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:06:09 - [MESSAGE][PASSED] - All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:06:09 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input isi doa terbaik anda"), doa): Text 'Semoga Bermanfaat' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:06:10 - [MESSAGE][PASSED] - Text 'Semoga Bermanfaat' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:06:10 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input 2 digit terakhir nomor hp"), digitAkhir): Text '34' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:06:11 - [MESSAGE][PASSED] - Text '34' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:06:11 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/button_Sedekah Sekarang")): Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:06:12 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:06:12 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("sedekah online/verifikasi sukses berdonasi"), "Minimal nominal sedekah Online Rp 25.000"): Verify element text of test object 'Object Repository/sedekah online/verifikasi sukses berdonasi' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/sedekah online/verifikasi sukses berdonasi' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at TC-SO-002.run(TC-SO-002:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Bersedekah, kami akan segera menghubungi anda! Terima kasih' and expected text 'Minimal nominal sedekah Online Rp 25.000' of test object 'Object Repository/sedekah online/verifikasi sukses berdonasi' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-09-29 11:06:13 - [MESSAGE][FAILED] - Actual text 'Sukses Proses Bersedekah, kami akan segera menghubungi anda! Terima kasih' and expected text 'Minimal nominal sedekah Online Rp 25.000' of test object 'Object Repository/sedekah online/verifikasi sukses berdonasi' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Bersedekah, kami akan segera menghubungi anda! Terima kasih' and expected text 'Minimal nominal sedekah Online Rp 25.000' of test object 'Object Repository/sedekah online/verifikasi sukses berdonasi' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at TC-SO-002.run(TC-SO-002:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+)
+[[ATTACHMENT|F:\\bootcamp\\Miniproject\\Tajalapak\\Reports\\20230929_110452\\T05 Sedekah Online\\20230929_110452\\1695960373684.png]]
+
+2023-09-29 11:06:14 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/sedekah online/verifikasi sukses berdonasi' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/sedekah online/verifikasi sukses berdonasi' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at TC-SO-002.run(TC-SO-002:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Bersedekah, kami akan segera menghubungi anda! Terima kasih' and expected text 'Minimal nominal sedekah Online Rp 25.000' of test object 'Object Repository/sedekah online/verifikasi sukses berdonasi' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|F:\\bootcamp\\Miniproject\\Tajalapak\\Reports\\20230929_110452\\T05 Sedekah Online\\20230929_110452\\1695960373911.png]]]]></system-out>
+         <system-err><![CDATA[2023-09-29 11:05:51 - [TEST_CASE][FAILED] - Test Cases/T05 - Sedekah Online/TC-SO-002: Test Cases/T05 - Sedekah Online/TC-SO-002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/sedekah online/verifikasi sukses berdonasi' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at TC-SO-002.run(TC-SO-002:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Bersedekah, kami akan segera menghubungi anda! Terima kasih' and expected text 'Minimal nominal sedekah Online Rp 25.000' of test object 'Object Repository/sedekah online/verifikasi sukses berdonasi' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 - Sedekah Online/TC-SO-003" time="23.524" classname="Test Cases/T05 - Sedekah Online/TC-SO-003" status="PASSED">
+         <system-out><![CDATA[2023-09-29 11:06:14 - [TEST_CASE][PASSED] - Test Cases/T05 - Sedekah Online/TC-SO-003: Test Cases/T05 - Sedekah Online/TC-SO-003
+
+2023-09-29 11:06:14 - [TEST_STEP][PASSED] - openBrowser(urlWeb): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:06:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-29 11:06:16 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-09-29 11:06:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-29 11:06:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:06:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-29 11:06:24 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-29 11:06:24 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Donasi (di halaman utama)")): Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:06:25 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:06:25 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Sedekah Online")): Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:06:26 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:06:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("sedekah online/verifikasi halaman sedekah Online"), 0): Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:06:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-29 11:06:27 - [MESSAGE][PASSED] - Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:06:27 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Sedekah"), NominalSedekah): Text '25000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:06:27 - [MESSAGE][PASSED] - Text '25000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:06:27 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Nama lengkap (di sedekah online)"), namaLengkap): Text 'ikana' is set on object 'Object Repository/sedekah online/input_Nama lengkap (di sedekah online)'
+
+2023-09-29 11:06:29 - [MESSAGE][PASSED] - Text 'ikana' is set on object 'Object Repository/sedekah online/input_Nama lengkap (di sedekah online)'
+
+2023-09-29 11:06:29 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_No Handphone (di sedekah online)"), noHp): Text '086754321234' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:06:30 - [MESSAGE][PASSED] - Text '086754321234' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:06:30 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Alamat Email (di sedekah online)"), email): Text 'anata71@gmail.com' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:06:31 - [MESSAGE][PASSED] - Text 'anata71@gmail.com' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:06:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/dropdown metode pembayaraan"), pembayaran, false): All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:06:32 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:06:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/sedekah ditunjukan untuk keluarga"), sedekahUntuk, false): All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:06:33 - [MESSAGE][PASSED] - All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:06:33 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input isi doa terbaik anda"), doa): Text 'Semoga Bermanfaat' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:06:34 - [MESSAGE][PASSED] - Text 'Semoga Bermanfaat' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:06:34 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input 2 digit terakhir nomor hp"), digitAkhir): Text '43' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:06:35 - [MESSAGE][PASSED] - Text '43' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:06:35 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/button_Sedekah Sekarang")): Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:06:36 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:06:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("sedekah online/verifikasi gagal bernoasi beda dua digit nomor hp"), "GAGAL Diproses, 2 Digit Terakhir No Handphone yang anda input salah!"): Actual text and expected text of test object 'Object Repository/sedekah online/verifikasi gagal bernoasi beda dua digit nomor hp' are matched.
+
+2023-09-29 11:06:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/sedekah online/verifikasi gagal bernoasi beda dua digit nomor hp' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 - Sedekah Online/TC-SO-004" time="24.037" classname="Test Cases/T05 - Sedekah Online/TC-SO-004" status="PASSED">
+         <system-out><![CDATA[2023-09-29 11:06:37 - [TEST_CASE][PASSED] - Test Cases/T05 - Sedekah Online/TC-SO-004: Test Cases/T05 - Sedekah Online/TC-SO-004
+
+2023-09-29 11:06:39 - [TEST_STEP][PASSED] - openBrowser(urlWeb): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:06:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-29 11:06:41 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-09-29 11:06:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-29 11:06:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:06:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-29 11:06:49 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-29 11:06:49 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Donasi (di halaman utama)")): Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:06:49 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:06:49 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Sedekah Online")): Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:06:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("sedekah online/verifikasi halaman sedekah Online"), 0): Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:06:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-29 11:06:51 - [MESSAGE][PASSED] - Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:06:51 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Sedekah"), NominalSedekah): Text '25000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:06:52 - [MESSAGE][PASSED] - Text '25000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:06:52 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Nama lengkap (di sedekah online)"), namaLengkap): Text 'ikana' is set on object 'Object Repository/sedekah online/input_Nama lengkap (di sedekah online)'
+
+2023-09-29 11:06:53 - [MESSAGE][PASSED] - Text 'ikana' is set on object 'Object Repository/sedekah online/input_Nama lengkap (di sedekah online)'
+
+2023-09-29 11:06:53 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_No Handphone (di sedekah online)"), noHp): Text '086754321234' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:06:55 - [MESSAGE][PASSED] - Text '086754321234' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:06:55 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Alamat Email (di sedekah online)"), email): Text 'anata71' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:06:56 - [MESSAGE][PASSED] - Text 'anata71' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:06:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/dropdown metode pembayaraan"), pembayaran, false): All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:06:57 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:06:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/sedekah ditunjukan untuk keluarga"), sedekahUntuk, false): All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:06:58 - [MESSAGE][PASSED] - All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:06:58 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input isi doa terbaik anda"), doa): Text 'Semoga Bermanfaat' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:06:59 - [MESSAGE][PASSED] - Text 'Semoga Bermanfaat' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:06:59 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input 2 digit terakhir nomor hp"), digitAkhir): Text '34' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:07:00 - [MESSAGE][PASSED] - Text '34' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:07:00 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/button_Sedekah Sekarang")): Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:07:01 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:07:01 - [TEST_STEP][PASSED] - webDriver = getWebDriver(): null
+
+2023-09-29 11:07:01 - [TEST_STEP][PASSED] - field_email = webDriver.findElement(By.xpath("//input[@name="alamat_email"]")): null
+
+2023-09-29 11:07:01 - [TEST_STEP][PASSED] - error_message = webDriver.executeScript("return arguments[0].validationMessage", field_email): null
+
+2023-09-29 11:07:01 - [TEST_STEP][PASSED] - println(error_message): null
+
+2023-09-29 11:07:01 - [TEST_STEP][PASSED] - assert error_message == "Please enter an email address.": null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 - Sedekah Online/TC-SO-005" time="46.412" classname="Test Cases/T05 - Sedekah Online/TC-SO-005" status="FAILED">
+         <failure type="FAILED" message="Test Cases/T05 - Sedekah Online/TC-SO-005 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at TC-SO-005.run(TC-SO-005:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/sedekah online/verifikasi halaman sedekah Online' located by '(.//*[normalize-space(text()) and normalize-space(.)='Sedekah Online'])[4]/following::h3[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-09-29 11:07:01 - [TEST_CASE][FAILED] - Test Cases/T05 - Sedekah Online/TC-SO-005: Test Cases/T05 - Sedekah Online/TC-SO-005 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at TC-SO-005.run(TC-SO-005:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/sedekah online/verifikasi halaman sedekah Online' located by '(.//*[normalize-space(text()) and normalize-space(.)='Sedekah Online'])[4]/following::h3[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-09-29 11:07:03 - [TEST_STEP][PASSED] - openBrowser(urlWeb): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:07:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-29 11:07:04 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-09-29 11:07:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-29 11:07:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:07:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-29 11:07:13 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-29 11:07:13 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Donasi (di halaman utama)")): Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:07:13 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Sedekah Online")): Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:07:15 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:07:15 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("sedekah online/verifikasi halaman sedekah Online"), 0): Unable to verify object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at TC-SO-005.run(TC-SO-005:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/sedekah online/verifikasi halaman sedekah Online' located by '(.//*[normalize-space(text()) and normalize-space(.)='Sedekah Online'])[4]/following::h3[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-09-29 11:07:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-29 11:07:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Sedekah Online'])[4]/following::h3[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-09-29 11:07:47 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/sedekah online/verifikasi halaman sedekah Online' located by '(.//*[normalize-space(text()) and normalize-space(.)='Sedekah Online'])[4]/following::h3[1]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/sedekah online/verifikasi halaman sedekah Online' located by '(.//*[normalize-space(text()) and normalize-space(.)='Sedekah Online'])[4]/following::h3[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at TC-SO-005.run(TC-SO-005:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+)
+[[ATTACHMENT|F:\\bootcamp\\Miniproject\\Tajalapak\\Reports\\20230929_110452\\T05 Sedekah Online\\20230929_110452\\1695960466507.png]]
+
+2023-09-29 11:07:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at TC-SO-005.run(TC-SO-005:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/sedekah online/verifikasi halaman sedekah Online' located by '(.//*[normalize-space(text()) and normalize-space(.)='Sedekah Online'])[4]/following::h3[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|F:\\bootcamp\\Miniproject\\Tajalapak\\Reports\\20230929_110452\\T05 Sedekah Online\\20230929_110452\\1695960467146.png]]]]></system-out>
+         <system-err><![CDATA[2023-09-29 11:07:01 - [TEST_CASE][FAILED] - Test Cases/T05 - Sedekah Online/TC-SO-005: Test Cases/T05 - Sedekah Online/TC-SO-005 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at TC-SO-005.run(TC-SO-005:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/sedekah online/verifikasi halaman sedekah Online' located by '(.//*[normalize-space(text()) and normalize-space(.)='Sedekah Online'])[4]/following::h3[1]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 - Sedekah Online/TC-SO-006" time="28.481" classname="Test Cases/T05 - Sedekah Online/TC-SO-006" status="FAILED">
+         <failure type="FAILED" message="Test Cases/T05 - Sedekah Online/TC-SO-006 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'please enter an valid phone number' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at TC-SO-006.run(TC-SO-006:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'please enter an valid phone number' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-09-29 11:07:48 - [TEST_CASE][FAILED] - Test Cases/T05 - Sedekah Online/TC-SO-006: Test Cases/T05 - Sedekah Online/TC-SO-006 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'please enter an valid phone number' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at TC-SO-006.run(TC-SO-006:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'please enter an valid phone number' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-09-29 11:07:49 - [TEST_STEP][PASSED] - openBrowser(urlWeb): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:07:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-29 11:07:51 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-09-29 11:07:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-29 11:08:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:08:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-29 11:08:03 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-29 11:08:03 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Donasi (di halaman utama)")): Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:08:03 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:08:03 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Sedekah Online")): Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:08:04 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:08:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("sedekah online/verifikasi halaman sedekah Online"), 0): Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:08:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-29 11:08:05 - [MESSAGE][PASSED] - Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:08:05 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Sedekah"), NominalSedekah): Text '25000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:08:06 - [MESSAGE][PASSED] - Text '25000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:08:06 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Nama lengkap (di sedekah online)"), namaLengkap): Text 'ikana' is set on object 'Object Repository/sedekah online/input_Nama lengkap (di sedekah online)'
+
+2023-09-29 11:08:07 - [MESSAGE][PASSED] - Text 'ikana' is set on object 'Object Repository/sedekah online/input_Nama lengkap (di sedekah online)'
+
+2023-09-29 11:08:07 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_No Handphone (di sedekah online)"), noHp): Text '0867543212343214' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:08:08 - [MESSAGE][PASSED] - Text '0867543212343214' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:08:08 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Alamat Email (di sedekah online)"), email): Text 'anata71@gmail.com' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:08:09 - [MESSAGE][PASSED] - Text 'anata71@gmail.com' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:08:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/dropdown metode pembayaraan"), pembayaran, false): All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:08:10 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:08:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/sedekah ditunjukan untuk keluarga"), sedekahUntuk, false): All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:08:11 - [MESSAGE][PASSED] - All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:08:11 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input isi doa terbaik anda"), doa): Text 'Semoga Bermanfaat' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:08:12 - [MESSAGE][PASSED] - Text 'Semoga Bermanfaat' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:08:12 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input 2 digit terakhir nomor hp"), digitAkhir): Text '14' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:08:13 - [MESSAGE][PASSED] - Text '14' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:08:13 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/button_Sedekah Sekarang")): Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:08:15 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:08:15 - [TEST_STEP][FAILED] - verifyTextPresent("please enter an valid phone number", false): Unable to verify text 'please enter an valid phone number' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'please enter an valid phone number' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at TC-SO-006.run(TC-SO-006:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'please enter an valid phone number' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-09-29 11:08:16 - [MESSAGE][FAILED] - Text 'please enter an valid phone number' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'please enter an valid phone number' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at TC-SO-006.run(TC-SO-006:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+)
+
+2023-09-29 11:08:16 - [MESSAGE][FAILED] - Unable to verify text 'please enter an valid phone number' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'please enter an valid phone number' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at TC-SO-006.run(TC-SO-006:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'please enter an valid phone number' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|F:\\bootcamp\\Miniproject\\Tajalapak\\Reports\\20230929_110452\\T05 Sedekah Online\\20230929_110452\\1695960496328.png]]]]></system-out>
+         <system-err><![CDATA[2023-09-29 11:07:48 - [TEST_CASE][FAILED] - Test Cases/T05 - Sedekah Online/TC-SO-006: Test Cases/T05 - Sedekah Online/TC-SO-006 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'please enter an valid phone number' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at TC-SO-006.run(TC-SO-006:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'please enter an valid phone number' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 - Sedekah Online/TC-SO-007" time="24.151" classname="Test Cases/T05 - Sedekah Online/TC-SO-007" status="FAILED">
+         <failure type="FAILED" message="Test Cases/T05 - Sedekah Online/TC-SO-007 FAILED.
+Reason:
+Assertion failed: 
+
+assert error_message == 'Please enter a valid value. The two nearest valid values are 0 and 1.'
+       |             |
+       |             false
+       Please select a valid value. The two nearest valid values are 0 and 1.
+
+	at TC-SO-007.run(TC-SO-007:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+"/>
+         <system-out><![CDATA[2023-09-29 11:08:16 - [TEST_CASE][FAILED] - Test Cases/T05 - Sedekah Online/TC-SO-007: Test Cases/T05 - Sedekah Online/TC-SO-007 FAILED.
+Reason:
+Assertion failed: 
+
+assert error_message == 'Please enter a valid value. The two nearest valid values are 0 and 1.'
+       |             |
+       |             false
+       Please select a valid value. The two nearest valid values are 0 and 1.
+
+	at TC-SO-007.run(TC-SO-007:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+
+
+2023-09-29 11:08:18 - [TEST_STEP][PASSED] - openBrowser(urlWeb): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:08:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-29 11:08:19 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-09-29 11:08:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-29 11:08:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:08:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-29 11:08:28 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-29 11:08:28 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Donasi (di halaman utama)")): Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:08:29 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:08:29 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Sedekah Online")): Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:08:30 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:08:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("sedekah online/verifikasi halaman sedekah Online"), 0): Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:08:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-29 11:08:31 - [MESSAGE][PASSED] - Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:08:31 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Sedekah"), NominalSedekah): Text '25000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:08:32 - [MESSAGE][PASSED] - Text '25000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:08:32 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Nama lengkap (di sedekah online)"), namaLengkap): Text 'ikana' is set on object 'Object Repository/sedekah online/input_Nama lengkap (di sedekah online)'
+
+2023-09-29 11:08:33 - [MESSAGE][PASSED] - Text 'ikana' is set on object 'Object Repository/sedekah online/input_Nama lengkap (di sedekah online)'
+
+2023-09-29 11:08:33 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_No Handphone (di sedekah online)"), noHp): Text '086754321234' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:08:35 - [MESSAGE][PASSED] - Text '086754321234' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:08:35 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Alamat Email (di sedekah online)"), email): Text 'anata71@gmail.com' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:08:35 - [MESSAGE][PASSED] - Text 'anata71@gmail.com' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:08:35 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/dropdown metode pembayaraan"), pembayaran, false): All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:08:36 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:08:36 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/sedekah ditunjukan untuk keluarga"), sedekahUntuk, false): All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:08:37 - [MESSAGE][PASSED] - All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:08:37 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input isi doa terbaik anda"), doa): Text 'Semoga Bermanfaat' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:08:38 - [MESSAGE][PASSED] - Text 'Semoga Bermanfaat' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:08:38 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input 2 digit terakhir nomor hp"), digitAkhir): Text ',4' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:08:39 - [MESSAGE][PASSED] - Text ',4' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:08:39 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/button_Sedekah Sekarang")): Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:08:40 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:08:40 - [TEST_STEP][PASSED] - webDriver = getWebDriver(): null
+
+2023-09-29 11:08:40 - [TEST_STEP][PASSED] - field_nomor = webDriver.findElement(By.xpath("//input[@name="validasi"]")): null
+
+2023-09-29 11:08:40 - [TEST_STEP][PASSED] - error_message = webDriver.executeScript("return arguments[0].validationMessage", field_nomor): null
+
+2023-09-29 11:08:40 - [TEST_STEP][PASSED] - println(error_message): null
+
+2023-09-29 11:08:40 - [TEST_STEP][FAILED] - assert error_message == "Please enter a valid value. The two nearest valid values are 0 and 1.": Test Cases/T05 - Sedekah Online/TC-SO-007 FAILED.
+Reason:
+Assertion failed: 
+
+assert error_message == 'Please enter a valid value. The two nearest valid values are 0 and 1.'
+       |             |
+       |             false
+       Please select a valid value. The two nearest valid values are 0 and 1.
+
+	at TC-SO-007.run(TC-SO-007:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+
+
+2023-09-29 11:08:40 - [MESSAGE][FAILED] - Test Cases/T05 - Sedekah Online/TC-SO-007 FAILED.
+Reason:
+Assertion failed: 
+
+assert error_message == 'Please enter a valid value. The two nearest valid values are 0 and 1.'
+       |             |
+       |             false
+       Please select a valid value. The two nearest valid values are 0 and 1.
+
+	at TC-SO-007.run(TC-SO-007:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-09-29 11:08:16 - [TEST_CASE][FAILED] - Test Cases/T05 - Sedekah Online/TC-SO-007: Test Cases/T05 - Sedekah Online/TC-SO-007 FAILED.
+Reason:
+Assertion failed: 
+
+assert error_message == 'Please enter a valid value. The two nearest valid values are 0 and 1.'
+       |             |
+       |             false
+       Please select a valid value. The two nearest valid values are 0 and 1.
+
+	at TC-SO-007.run(TC-SO-007:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 - Sedekah Online/TC-SO-008" time="23.352" classname="Test Cases/T05 - Sedekah Online/TC-SO-008" status="PASSED">
+         <system-out><![CDATA[2023-09-29 11:08:40 - [TEST_CASE][PASSED] - Test Cases/T05 - Sedekah Online/TC-SO-008: Test Cases/T05 - Sedekah Online/TC-SO-008
+
+2023-09-29 11:08:42 - [TEST_STEP][PASSED] - openBrowser(urlWeb): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:08:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-29 11:08:43 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-09-29 11:08:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-29 11:08:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:08:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-29 11:08:53 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-29 11:08:53 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Donasi (di halaman utama)")): Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:08:53 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Sedekah Online")): Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:08:55 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:08:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("sedekah online/verifikasi halaman sedekah Online"), 0): Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:08:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-29 11:08:55 - [MESSAGE][PASSED] - Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:08:55 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Sedekah"), NominalSedekah): Text '25000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:08:56 - [MESSAGE][PASSED] - Text '25000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:08:56 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_No Handphone (di sedekah online)"), noHp): Text '086754321234' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:08:57 - [MESSAGE][PASSED] - Text '086754321234' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:08:57 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Alamat Email (di sedekah online)"), email): Text 'anata71@gmail.com' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:08:58 - [MESSAGE][PASSED] - Text 'anata71@gmail.com' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:08:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/dropdown metode pembayaraan"), pembayaran, false): All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:08:59 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:08:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/sedekah ditunjukan untuk keluarga"), sedekahUntuk, false): All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:09:00 - [MESSAGE][PASSED] - All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:09:01 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input isi doa terbaik anda"), doa): Text 'Semoga Bermanfaat' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:09:02 - [MESSAGE][PASSED] - Text 'Semoga Bermanfaat' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:09:02 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input 2 digit terakhir nomor hp"), digitAkhir): Text '34' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:09:03 - [MESSAGE][PASSED] - Text '34' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:09:03 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/button_Sedekah Sekarang")): Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:09:03 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:09:03 - [TEST_STEP][PASSED] - webDriber = getWebDriver(): null
+
+2023-09-29 11:09:03 - [TEST_STEP][PASSED] - field_nmLengkap = webDriber.findElement(By.xpath("//input[@name="nama_lengkap"]")): null
+
+2023-09-29 11:09:04 - [TEST_STEP][PASSED] - error_message = webDriber.executeScript("return arguments[0].validationMessage", field_nmLengkap): null
+
+2023-09-29 11:09:04 - [TEST_STEP][PASSED] - println(error_message): null
+
+2023-09-29 11:09:04 - [TEST_STEP][PASSED] - assert error_message == "Please fill out this field.": null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 - Sedekah Online/TC-SO-009" time="27.743" classname="Test Cases/T05 - Sedekah Online/TC-SO-009" status="FAILED">
+         <failure type="FAILED" message="Test Cases/T05 - Sedekah Online/TC-SO-009 FAILED.
+Reason:
+Assertion failed: 
+
+assert validationMessage == &quot;Maximum length of this field must be equal or greater than 150 symbols&quot;
+       |                 |
+       &quot;&quot;                false
+
+	at TC-SO-009.run(TC-SO-009:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+"/>
+         <system-out><![CDATA[2023-09-29 11:09:04 - [TEST_CASE][FAILED] - Test Cases/T05 - Sedekah Online/TC-SO-009: Test Cases/T05 - Sedekah Online/TC-SO-009 FAILED.
+Reason:
+Assertion failed: 
+
+assert validationMessage == "Maximum length of this field must be equal or greater than 150 symbols"
+       |                 |
+       ""                false
+
+	at TC-SO-009.run(TC-SO-009:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+
+
+2023-09-29 11:09:05 - [TEST_STEP][PASSED] - openBrowser(urlWeb): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:09:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-29 11:09:07 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-09-29 11:09:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-29 11:09:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:09:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-29 11:09:17 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-29 11:09:17 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Donasi (di halaman utama)")): Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:09:17 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:09:17 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("sedekah online/a_Sedekah Online"), STOP_ON_FAILURE): Object 'Object Repository/sedekah online/a_Sedekah Online' is clickable
+
+2023-09-29 11:09:18 - [MESSAGE][PASSED] - Object 'Object Repository/sedekah online/a_Sedekah Online' is clickable
+
+2023-09-29 11:09:18 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Sedekah Online")): Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:09:19 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:09:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("sedekah online/verifikasi halaman sedekah Online"), 0): Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:09:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-29 11:09:20 - [MESSAGE][PASSED] - Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:09:20 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Sedekah"), NominalSedekah): Text '25000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:09:21 - [MESSAGE][PASSED] - Text '25000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:09:21 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Nama lengkap (di sedekah online)"), namaLengkap): Text 'ikana' is set on object 'Object Repository/sedekah online/input_Nama lengkap (di sedekah online)'
+
+2023-09-29 11:09:22 - [MESSAGE][PASSED] - Text 'ikana' is set on object 'Object Repository/sedekah online/input_Nama lengkap (di sedekah online)'
+
+2023-09-29 11:09:23 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_No Handphone (di sedekah online)"), noHp): Text '086754321234' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:09:24 - [MESSAGE][PASSED] - Text '086754321234' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:09:24 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Alamat Email (di sedekah online)"), email): Text 'anata71@gmail.com' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:09:25 - [MESSAGE][PASSED] - Text 'anata71@gmail.com' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:09:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/dropdown metode pembayaraan"), pembayaran, false): All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:09:26 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:09:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/sedekah ditunjukan untuk keluarga"), sedekahUntuk, false): All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:09:27 - [MESSAGE][PASSED] - All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:09:27 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input isi doa terbaik anda"), doa): Text ' Allah, tidak ada Tuhan (yang berhak disembah) melainkan Dia Yang Hidup kekal lagi terus menerus mengurus (makhluk-Nya); tidak mengantuk dan tidak tidur. Kepunyaan-Nya apa yang di langit dan di bumi.' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:09:28 - [MESSAGE][PASSED] - Text ' Allah, tidak ada Tuhan (yang berhak disembah) melainkan Dia Yang Hidup kekal lagi terus menerus mengurus (makhluk-Nya); tidak mengantuk dan tidak tidur. Kepunyaan-Nya apa yang di langit dan di bumi.' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:09:28 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input 2 digit terakhir nomor hp"), digitAkhir): Text '34' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:09:29 - [MESSAGE][PASSED] - Text '34' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:09:29 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/button_Sedekah Sekarang")): Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:09:31 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:09:31 - [TEST_STEP][PASSED] - webDriver = getWebDriver(): null
+
+2023-09-29 11:09:31 - [TEST_STEP][PASSED] - field_doa = webDriver.findElement(By.xpath("//textarea[@name="doa_terbaik"]")): null
+
+2023-09-29 11:09:31 - [TEST_STEP][PASSED] - validationMessage = executeJavaScript("return arguments[0].validationMessage", Arrays.asList(field_doa)): Execute JavaScript 'return arguments[0].validationMessage' successfully
+
+2023-09-29 11:09:32 - [MESSAGE][PASSED] - Execute JavaScript 'return arguments[0].validationMessage' successfully
+
+2023-09-29 11:09:32 - [TEST_STEP][FAILED] - assert validationMessage == "Maximum length of this field must be equal or greater than 150 symbols": Test Cases/T05 - Sedekah Online/TC-SO-009 FAILED.
+Reason:
+Assertion failed: 
+
+assert validationMessage == "Maximum length of this field must be equal or greater than 150 symbols"
+       |                 |
+       ""                false
+
+	at TC-SO-009.run(TC-SO-009:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+
+
+2023-09-29 11:09:32 - [MESSAGE][FAILED] - Test Cases/T05 - Sedekah Online/TC-SO-009 FAILED.
+Reason:
+Assertion failed: 
+
+assert validationMessage == "Maximum length of this field must be equal or greater than 150 symbols"
+       |                 |
+       ""                false
+
+	at TC-SO-009.run(TC-SO-009:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-09-29 11:09:04 - [TEST_CASE][FAILED] - Test Cases/T05 - Sedekah Online/TC-SO-009: Test Cases/T05 - Sedekah Online/TC-SO-009 FAILED.
+Reason:
+Assertion failed: 
+
+assert validationMessage == "Maximum length of this field must be equal or greater than 150 symbols"
+       |                 |
+       ""                false
+
+	at TC-SO-009.run(TC-SO-009:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 - Sedekah Online/TC-SO-010" time="27.138" classname="Test Cases/T05 - Sedekah Online/TC-SO-010" status="PASSED">
+         <system-out><![CDATA[2023-09-29 11:09:32 - [TEST_CASE][PASSED] - Test Cases/T05 - Sedekah Online/TC-SO-010: Test Cases/T05 - Sedekah Online/TC-SO-010
+
+2023-09-29 11:09:33 - [TEST_STEP][PASSED] - openBrowser(urlWeb): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:09:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-29 11:09:35 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-09-29 11:09:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-29 11:09:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:09:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-29 11:09:46 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-29 11:09:46 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Donasi (di halaman utama)")): Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:09:46 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:09:46 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("sedekah online/a_Sedekah Online"), STOP_ON_FAILURE): Object 'Object Repository/sedekah online/a_Sedekah Online' is clickable
+
+2023-09-29 11:09:47 - [MESSAGE][PASSED] - Object 'Object Repository/sedekah online/a_Sedekah Online' is clickable
+
+2023-09-29 11:09:47 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Sedekah Online")): Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:09:48 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:09:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("sedekah online/verifikasi halaman sedekah Online"), 0): Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:09:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-29 11:09:49 - [MESSAGE][PASSED] - Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:09:49 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Sedekah"), NominalSedekah): Text '25000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:09:50 - [MESSAGE][PASSED] - Text '25000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:09:50 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Nama lengkap (di sedekah online)"), namaLengkap): Text 'ikana' is set on object 'Object Repository/sedekah online/input_Nama lengkap (di sedekah online)'
+
+2023-09-29 11:09:51 - [MESSAGE][PASSED] - Text 'ikana' is set on object 'Object Repository/sedekah online/input_Nama lengkap (di sedekah online)'
+
+2023-09-29 11:09:51 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_No Handphone (di sedekah online)"), noHp): Text 'opqwerstuwxy' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:09:52 - [MESSAGE][PASSED] - Text 'opqwerstuwxy' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:09:52 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Alamat Email (di sedekah online)"), email): Text 'anata71@gmail.com' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:09:53 - [MESSAGE][PASSED] - Text 'anata71@gmail.com' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:09:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/dropdown metode pembayaraan"), pembayaran, false): All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:09:54 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:09:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/sedekah ditunjukan untuk keluarga"), sedekahUntuk, false): All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:09:55 - [MESSAGE][PASSED] - All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:09:55 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input isi doa terbaik anda"), doa): Text 'semoga bermanfaat' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:09:57 - [MESSAGE][PASSED] - Text 'semoga bermanfaat' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:09:57 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input 2 digit terakhir nomor hp"), digitAkhir): Text 'xy' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:09:57 - [MESSAGE][PASSED] - Text 'xy' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:09:57 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/button_Sedekah Sekarang")): Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:09:58 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:09:58 - [TEST_STEP][PASSED] - webDriver = getWebDriver(): null
+
+2023-09-29 11:09:58 - [TEST_STEP][PASSED] - field_no = webDriver.findElement(By.xpath("//input[@name="no_handphone"]")): null
+
+2023-09-29 11:09:59 - [TEST_STEP][PASSED] - error_message = webDriver.executeScript("return arguments[0].validationMessage", field_no): null
+
+2023-09-29 11:09:59 - [TEST_STEP][PASSED] - println(error_message): null
+
+2023-09-29 11:09:59 - [TEST_STEP][PASSED] - assert error_message == "Please enter a number.": null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 - Sedekah Online/TC-SO-011" time="30.828" classname="Test Cases/T05 - Sedekah Online/TC-SO-011" status="FAILED">
+         <failure type="FAILED" message="Test Cases/T05 - Sedekah Online/TC-SO-011 FAILED.
+Reason:
+Assertion failed: 
+
+assert error_message == &quot;please input an valid number&quot;
+       |             |
+       &quot;&quot;            false
+
+	at TC-SO-011.run(TC-SO-011:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+"/>
+         <system-out><![CDATA[2023-09-29 11:09:59 - [TEST_CASE][FAILED] - Test Cases/T05 - Sedekah Online/TC-SO-011: Test Cases/T05 - Sedekah Online/TC-SO-011 FAILED.
+Reason:
+Assertion failed: 
+
+assert error_message == "please input an valid number"
+       |             |
+       ""            false
+
+	at TC-SO-011.run(TC-SO-011:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+
+
+2023-09-29 11:10:00 - [TEST_STEP][PASSED] - openBrowser(urlWeb): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:10:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-29 11:10:03 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-09-29 11:10:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-29 11:10:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:10:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-29 11:10:15 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-29 11:10:15 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Donasi (di halaman utama)")): Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:10:15 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:10:15 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("sedekah online/a_Sedekah Online"), STOP_ON_FAILURE): Object 'Object Repository/sedekah online/a_Sedekah Online' is clickable
+
+2023-09-29 11:10:16 - [MESSAGE][PASSED] - Object 'Object Repository/sedekah online/a_Sedekah Online' is clickable
+
+2023-09-29 11:10:16 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Sedekah Online")): Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:10:18 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:10:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("sedekah online/verifikasi halaman sedekah Online"), 0): Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:10:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-29 11:10:19 - [MESSAGE][PASSED] - Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:10:19 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Sedekah"), NominalSedekah): Text '-25000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:10:20 - [MESSAGE][PASSED] - Text '-25000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:10:20 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Nama lengkap (di sedekah online)"), namaLengkap): Text 'ikana' is set on object 'Object Repository/sedekah online/input_Nama lengkap (di sedekah online)'
+
+2023-09-29 11:10:21 - [MESSAGE][PASSED] - Text 'ikana' is set on object 'Object Repository/sedekah online/input_Nama lengkap (di sedekah online)'
+
+2023-09-29 11:10:21 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_No Handphone (di sedekah online)"), noHp): Text '086754321234' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:10:22 - [MESSAGE][PASSED] - Text '086754321234' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:10:22 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Alamat Email (di sedekah online)"), email): Text 'anata71@gmail.com' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:10:23 - [MESSAGE][PASSED] - Text 'anata71@gmail.com' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:10:23 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/dropdown metode pembayaraan"), pembayaran, false): All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:10:24 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:10:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/sedekah ditunjukan untuk keluarga"), sedekahUntuk, false): All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:10:25 - [MESSAGE][PASSED] - All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:10:25 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input isi doa terbaik anda"), doa): Text 'Semoga Bermanfaat' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:10:26 - [MESSAGE][PASSED] - Text 'Semoga Bermanfaat' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:10:26 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input 2 digit terakhir nomor hp"), digitAkhir): Text '34' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:10:27 - [MESSAGE][PASSED] - Text '34' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:10:27 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/button_Sedekah Sekarang")): Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:10:29 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:10:29 - [TEST_STEP][PASSED] - webDriver = getWebDriver(): null
+
+2023-09-29 11:10:29 - [TEST_STEP][PASSED] - field_sedekah = webDriver.findElement(By.xpath("//input[@name="nominal"]")): null
+
+2023-09-29 11:10:30 - [TEST_STEP][PASSED] - error_message = webDriver.executeScript("return arguments[0].validationMessage", field_sedekah): null
+
+2023-09-29 11:10:30 - [TEST_STEP][PASSED] - println(error_message): null
+
+2023-09-29 11:10:30 - [TEST_STEP][FAILED] - assert error_message == "please input an valid number": Test Cases/T05 - Sedekah Online/TC-SO-011 FAILED.
+Reason:
+Assertion failed: 
+
+assert error_message == "please input an valid number"
+       |             |
+       ""            false
+
+	at TC-SO-011.run(TC-SO-011:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+
+
+2023-09-29 11:10:30 - [MESSAGE][FAILED] - Test Cases/T05 - Sedekah Online/TC-SO-011 FAILED.
+Reason:
+Assertion failed: 
+
+assert error_message == "please input an valid number"
+       |             |
+       ""            false
+
+	at TC-SO-011.run(TC-SO-011:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-09-29 11:09:59 - [TEST_CASE][FAILED] - Test Cases/T05 - Sedekah Online/TC-SO-011: Test Cases/T05 - Sedekah Online/TC-SO-011 FAILED.
+Reason:
+Assertion failed: 
+
+assert error_message == "please input an valid number"
+       |             |
+       ""            false
+
+	at TC-SO-011.run(TC-SO-011:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 - Sedekah Online/TC-SO-012" time="25.049" classname="Test Cases/T05 - Sedekah Online/TC-SO-012" status="FAILED">
+         <failure type="FAILED" message="Test Cases/T05 - Sedekah Online/TC-SO-012 FAILED.
+Reason:
+Assertion failed: 
+
+assert error_message == &quot;please enter an alphabet&quot;
+       |             |
+       |             false
+       Please fill out this field.
+
+	at TC-SO-012.run(TC-SO-012:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+"/>
+         <system-out><![CDATA[2023-09-29 11:10:30 - [TEST_CASE][FAILED] - Test Cases/T05 - Sedekah Online/TC-SO-012: Test Cases/T05 - Sedekah Online/TC-SO-012 FAILED.
+Reason:
+Assertion failed: 
+
+assert error_message == "please enter an alphabet"
+       |             |
+       |             false
+       Please fill out this field.
+
+	at TC-SO-012.run(TC-SO-012:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+
+
+2023-09-29 11:10:31 - [TEST_STEP][PASSED] - openBrowser(urlWeb): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:10:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-29 11:10:32 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-09-29 11:10:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-29 11:10:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:10:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-29 11:10:40 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-29 11:10:40 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Donasi (di halaman utama)")): Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:10:41 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:10:41 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("sedekah online/a_Sedekah Online"), STOP_ON_FAILURE): Object 'Object Repository/sedekah online/a_Sedekah Online' is clickable
+
+2023-09-29 11:10:42 - [MESSAGE][PASSED] - Object 'Object Repository/sedekah online/a_Sedekah Online' is clickable
+
+2023-09-29 11:10:42 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Sedekah Online")): Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:10:43 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:10:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("sedekah online/verifikasi halaman sedekah Online"), 0): Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:10:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-29 11:10:44 - [MESSAGE][PASSED] - Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:10:44 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Sedekah"), NominalSedekah): Text '25000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:10:45 - [MESSAGE][PASSED] - Text '25000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:10:45 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Nama lengkap (di sedekah online)"), namaLengkap): Text '!$#@()+_' is set on object 'Object Repository/sedekah online/input_Nama lengkap (di sedekah online)'
+
+2023-09-29 11:10:46 - [MESSAGE][PASSED] - Text '!$#@()+_' is set on object 'Object Repository/sedekah online/input_Nama lengkap (di sedekah online)'
+
+2023-09-29 11:10:46 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_No Handphone (di sedekah online)"), noHp): Text '086754321234' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:10:48 - [MESSAGE][PASSED] - Text '086754321234' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:10:48 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Alamat Email (di sedekah online)"), email): Text 'anata71@gmail.com' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:10:49 - [MESSAGE][PASSED] - Text 'anata71@gmail.com' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:10:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/dropdown metode pembayaraan"), pembayaran, false): All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:10:50 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:10:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/sedekah ditunjukan untuk keluarga"), sedekahUntuk, false): All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:10:50 - [MESSAGE][PASSED] - All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:10:50 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input isi doa terbaik anda"), doa): Text 'Semoga Bermanfaat' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:10:51 - [MESSAGE][PASSED] - Text 'Semoga Bermanfaat' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:10:51 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input 2 digit terakhir nomor hp"), digitAkhir): Text '34' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:10:52 - [MESSAGE][PASSED] - Text '34' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:10:52 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/button_Sedekah Sekarang")): Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:10:54 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:10:54 - [TEST_STEP][PASSED] - webDriver = getWebDriver(): null
+
+2023-09-29 11:10:54 - [TEST_STEP][PASSED] - field_username = webDriver.findElement(By.xpath("//input[@name="nama_lengkap"]")): null
+
+2023-09-29 11:10:55 - [TEST_STEP][PASSED] - error_message = webDriver.executeScript("return arguments[0].validationMessage", field_username): null
+
+2023-09-29 11:10:55 - [TEST_STEP][PASSED] - println(error_message): null
+
+2023-09-29 11:10:55 - [TEST_STEP][FAILED] - assert error_message == "please enter an alphabet": Test Cases/T05 - Sedekah Online/TC-SO-012 FAILED.
+Reason:
+Assertion failed: 
+
+assert error_message == "please enter an alphabet"
+       |             |
+       |             false
+       Please fill out this field.
+
+	at TC-SO-012.run(TC-SO-012:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+
+
+2023-09-29 11:10:55 - [MESSAGE][FAILED] - Test Cases/T05 - Sedekah Online/TC-SO-012 FAILED.
+Reason:
+Assertion failed: 
+
+assert error_message == "please enter an alphabet"
+       |             |
+       |             false
+       Please fill out this field.
+
+	at TC-SO-012.run(TC-SO-012:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-09-29 11:10:30 - [TEST_CASE][FAILED] - Test Cases/T05 - Sedekah Online/TC-SO-012: Test Cases/T05 - Sedekah Online/TC-SO-012 FAILED.
+Reason:
+Assertion failed: 
+
+assert error_message == "please enter an alphabet"
+       |             |
+       |             false
+       Please fill out this field.
+
+	at TC-SO-012.run(TC-SO-012:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 - Sedekah Online/TC-SO-013" time="24.7" classname="Test Cases/T05 - Sedekah Online/TC-SO-013" status="PASSED">
+         <system-out><![CDATA[2023-09-29 11:10:55 - [TEST_CASE][PASSED] - Test Cases/T05 - Sedekah Online/TC-SO-013: Test Cases/T05 - Sedekah Online/TC-SO-013
+
+2023-09-29 11:10:57 - [TEST_STEP][PASSED] - openBrowser(urlWeb): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:10:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-29 11:10:58 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-09-29 11:10:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-29 11:11:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:11:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-29 11:11:07 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-29 11:11:07 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Donasi (di halaman utama)")): Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:11:07 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:11:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("sedekah online/a_Sedekah Online"), STOP_ON_FAILURE): Object 'Object Repository/sedekah online/a_Sedekah Online' is clickable
+
+2023-09-29 11:11:08 - [MESSAGE][PASSED] - Object 'Object Repository/sedekah online/a_Sedekah Online' is clickable
+
+2023-09-29 11:11:08 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Sedekah Online")): Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:11:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("sedekah online/verifikasi halaman sedekah Online"), 0): Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:11:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-29 11:11:10 - [MESSAGE][PASSED] - Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:11:10 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Sedekah"), NominalSedekah): Text '25000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:11:11 - [MESSAGE][PASSED] - Text '25000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:11:11 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Nama lengkap (di sedekah online)"), namaLengkap): Text 'ikana' is set on object 'Object Repository/sedekah online/input_Nama lengkap (di sedekah online)'
+
+2023-09-29 11:11:12 - [MESSAGE][PASSED] - Text 'ikana' is set on object 'Object Repository/sedekah online/input_Nama lengkap (di sedekah online)'
+
+2023-09-29 11:11:12 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_No Handphone (di sedekah online)"), noHp): Text '08<75?=2!234' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:11:13 - [MESSAGE][PASSED] - Text '08<75?=2!234' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:11:13 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Alamat Email (di sedekah online)"), email): Text 'anata71@gmail.com' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:11:14 - [MESSAGE][PASSED] - Text 'anata71@gmail.com' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:11:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/dropdown metode pembayaraan"), pembayaran, false): All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:11:15 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:11:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/sedekah ditunjukan untuk keluarga"), sedekahUntuk, false): All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:11:16 - [MESSAGE][PASSED] - All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:11:16 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input isi doa terbaik anda"), doa): Text 'semoga bermanfaat' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:11:17 - [MESSAGE][PASSED] - Text 'semoga bermanfaat' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:11:17 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input 2 digit terakhir nomor hp"), digitAkhir): Text '34' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:11:18 - [MESSAGE][PASSED] - Text '34' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:11:18 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/button_Sedekah Sekarang")): Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:11:19 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:11:19 - [TEST_STEP][PASSED] - webDriver = getWebDriver(): null
+
+2023-09-29 11:11:19 - [TEST_STEP][PASSED] - field_no = webDriver.findElement(By.xpath("//input[@name="no_handphone"]")): null
+
+2023-09-29 11:11:19 - [TEST_STEP][PASSED] - error_message = webDriver.executeScript("return arguments[0].validationMessage", field_no): null
+
+2023-09-29 11:11:19 - [TEST_STEP][PASSED] - println(error_message): null
+
+2023-09-29 11:11:19 - [TEST_STEP][PASSED] - assert error_message == "Please enter a number.": null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/T05 - Sedekah Online/TC-SO-014" time="26.048" classname="Test Cases/T05 - Sedekah Online/TC-SO-014" status="FAILED">
+         <failure type="FAILED" message="Test Cases/T05 - Sedekah Online/TC-SO-014 FAILED.
+Reason:
+Assertion failed: 
+
+assert error_message == &quot;Please fill out this field.&quot;
+       |             |
+       &quot;&quot;            false
+
+	at TC-SO-014.run(TC-SO-014:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+"/>
+         <system-out><![CDATA[2023-09-29 11:11:19 - [TEST_CASE][FAILED] - Test Cases/T05 - Sedekah Online/TC-SO-014: Test Cases/T05 - Sedekah Online/TC-SO-014 FAILED.
+Reason:
+Assertion failed: 
+
+assert error_message == "Please fill out this field."
+       |             |
+       ""            false
+
+	at TC-SO-014.run(TC-SO-014:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+
+
+2023-09-29 11:11:21 - [TEST_STEP][PASSED] - openBrowser(urlWeb): Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:11:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-29 11:11:22 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-09-29 11:11:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-29 11:11:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/'
+
+2023-09-29 11:11:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-29 11:11:31 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-29 11:11:31 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Donasi (di halaman utama)")): Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:11:32 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Donasi (di halaman utama)' is clicked on
+
+2023-09-29 11:11:32 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("sedekah online/a_Sedekah Online"), STOP_ON_FAILURE): Object 'Object Repository/sedekah online/a_Sedekah Online' is clickable
+
+2023-09-29 11:11:33 - [MESSAGE][PASSED] - Object 'Object Repository/sedekah online/a_Sedekah Online' is clickable
+
+2023-09-29 11:11:33 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/a_Sedekah Online")): Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:11:34 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/a_Sedekah Online' is clicked on
+
+2023-09-29 11:11:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("sedekah online/verifikasi halaman sedekah Online"), 0): Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:11:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-29 11:11:35 - [MESSAGE][PASSED] - Object 'Object Repository/sedekah online/verifikasi halaman sedekah Online' is present
+
+2023-09-29 11:11:35 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Sedekah"), NominalSedekah): Text '25000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:11:36 - [MESSAGE][PASSED] - Text '25000' is set on object 'Object Repository/sedekah online/input_Sedekah'
+
+2023-09-29 11:11:36 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Nama lengkap (di sedekah online)"), namaLengkap): Text 'ikana' is set on object 'Object Repository/sedekah online/input_Nama lengkap (di sedekah online)'
+
+2023-09-29 11:11:37 - [MESSAGE][PASSED] - Text 'ikana' is set on object 'Object Repository/sedekah online/input_Nama lengkap (di sedekah online)'
+
+2023-09-29 11:11:37 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_No Handphone (di sedekah online)"), noHp): Text '086754321234' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:11:38 - [MESSAGE][PASSED] - Text '086754321234' is set on object 'Object Repository/sedekah online/input_No Handphone (di sedekah online)'
+
+2023-09-29 11:11:38 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input_Alamat Email (di sedekah online)"), email): Text 'anata71@gmail.com' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:11:39 - [MESSAGE][PASSED] - Text 'anata71@gmail.com' is set on object 'Object Repository/sedekah online/input_Alamat Email (di sedekah online)'
+
+2023-09-29 11:11:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/dropdown metode pembayaraan"), pembayaran, false): All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:11:40 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/sedekah online/dropdown metode pembayaraan' 
+
+2023-09-29 11:11:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/sedekah online/sedekah ditunjukan untuk keluarga"), sedekahUntuk, false): All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:11:41 - [MESSAGE][PASSED] - All options with value 'Orang Tua' are selected in object 'Object Repository/sedekah online/sedekah ditunjukan untuk keluarga' 
+
+2023-09-29 11:11:41 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input isi doa terbaik anda"), doa): Text '' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:11:42 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/sedekah online/input isi doa terbaik anda'
+
+2023-09-29 11:11:42 - [TEST_STEP][PASSED] - setText(findTestObject("sedekah online/input 2 digit terakhir nomor hp"), digitAkhir): Text '34' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:11:43 - [MESSAGE][PASSED] - Text '34' is set on object 'Object Repository/sedekah online/input 2 digit terakhir nomor hp'
+
+2023-09-29 11:11:43 - [TEST_STEP][PASSED] - click(findTestObject("sedekah online/button_Sedekah Sekarang")): Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/sedekah online/button_Sedekah Sekarang' is clicked on
+
+2023-09-29 11:11:45 - [TEST_STEP][PASSED] - webDriver = getWebDriver(): null
+
+2023-09-29 11:11:45 - [TEST_STEP][PASSED] - field_doa = webDriver.findElement(By.xpath("//textarea[@name="doa_terbaik"]")): null
+
+2023-09-29 11:11:45 - [TEST_STEP][PASSED] - error_message = webDriver.executeScript("return arguments[0].validationMessage", field_doa): null
+
+2023-09-29 11:11:45 - [TEST_STEP][PASSED] - println(error_message): null
+
+2023-09-29 11:11:45 - [TEST_STEP][FAILED] - assert error_message == "Please fill out this field.": Test Cases/T05 - Sedekah Online/TC-SO-014 FAILED.
+Reason:
+Assertion failed: 
+
+assert error_message == "Please fill out this field."
+       |             |
+       ""            false
+
+	at TC-SO-014.run(TC-SO-014:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+
+
+2023-09-29 11:11:45 - [MESSAGE][FAILED] - Test Cases/T05 - Sedekah Online/TC-SO-014 FAILED.
+Reason:
+Assertion failed: 
+
+assert error_message == "Please fill out this field."
+       |             |
+       ""            false
+
+	at TC-SO-014.run(TC-SO-014:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-09-29 11:11:19 - [TEST_CASE][FAILED] - Test Cases/T05 - Sedekah Online/TC-SO-014: Test Cases/T05 - Sedekah Online/TC-SO-014 FAILED.
+Reason:
+Assertion failed: 
+
+assert error_message == "Please fill out this field."
+       |             |
+       ""            false
+
+	at TC-SO-014.run(TC-SO-014:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-09-29 11:05:04 - [TEST_SUITE][FAILED] - T05 Sedekah Online: Test Cases/T05 - Sedekah Online/TC-SO-002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/sedekah online/verifikasi sukses berdonasi' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at TC-SO-002.run(TC-SO-002:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Bersedekah, kami akan segera menghubungi anda! Terima kasih' and expected text 'Minimal nominal sedekah Online Rp 25.000' of test object 'Object Repository/sedekah online/verifikasi sukses berdonasi' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-09-29 11:05:04 - [TEST_SUITE][FAILED] - T05 Sedekah Online: Test Cases/T05 - Sedekah Online/TC-SO-002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/sedekah online/verifikasi sukses berdonasi' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$7.call(Unknown Source)
+	at TC-SO-002.run(TC-SO-002:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695960292334.run(TempTestSuite1695960292334.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Sukses Proses Bersedekah, kami akan segera menghubungi anda! Terima kasih' and expected text 'Minimal nominal sedekah Online Rp 25.000' of test object 'Object Repository/sedekah online/verifikasi sukses berdonasi' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

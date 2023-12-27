@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Admin pelapak melakukan chek di menu penjualan ke konsumen untuk no pesanan yang sudah di pesan yang sudah melakukan konfirmasi pembayaran atau pesanan</description>
+   <name>TC-AK-002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>39a467bd-0e8d-4cf6-924b-8154c7aec563</testCaseGuid>
+</TestCaseEntity>

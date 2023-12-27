@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User login dengan Memasukan username dan password yang valid</description>
+   <name>TC-LS-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca90cf67-dbfa-44b1-91e3-f8d56ac43dc4</testCaseGuid>
+</TestCaseEntity>

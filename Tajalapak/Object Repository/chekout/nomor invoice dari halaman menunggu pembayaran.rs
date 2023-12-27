@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>nomor invoice dari halaman menunggu pembayaran</name>
+   <tag></tag>
+   <elementGuidId>9c5f3557-e2b4-4eaa-aed5-f4735a378e9f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='No. Invoice'])[1]/following::td[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.text-success</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>5d7ce415-7ac8-4d10-a5eb-ccc9d96cd30a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-success</value>
+      <webElementGuid>78670770-efe0-46ac-bfef-65ebc272c15a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>TRX91.20230908163559</value>
+      <webElementGuid>344956c4-72e2-49e4-950e-c6592ce30985</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;loaded&quot;]/div[@class=&quot;ps-section--shopping ps-shopping-cart&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;ps-section__content&quot;]/div[@class=&quot;table-responsive&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12&quot;]/table[@class=&quot;table table-sm&quot;]/tbody[1]/tr[1]/td[@class=&quot;text-success&quot;]</value>
+      <webElementGuid>7edda119-d354-480a-a06f-9e5aa9d764b0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No. Invoice'])[1]/following::td[1]</value>
+      <webElementGuid>47687375-b422-488a-8575-9d40388295dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Metode Pembayaran Lainnya...'])[1]/following::td[2]</value>
+      <webElementGuid>6c4b746b-b472-41bc-acaa-5a5442526135</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dikirim kepada'])[1]/preceding::td[1]</value>
+      <webElementGuid>5413c636-344e-4103-aa45-3942f04f3bf9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//table[2]/tbody/tr/td[2]</value>
+      <webElementGuid>a0c02ed0-c1bc-41ce-84be-033e9eb1fca8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'TRX91.20230908163559' or . = 'TRX91.20230908163559')]</value>
+      <webElementGuid>2ed2e743-c73d-40c3-84d1-c809c346e6b5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

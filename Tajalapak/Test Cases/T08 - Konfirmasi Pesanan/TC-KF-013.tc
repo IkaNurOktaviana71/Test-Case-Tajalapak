@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan konfirmasi melalui menu akun dan saat upload bukti transfer menggunakan format selain pdf dan jpg</description>
+   <name>TC-KF-013</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5bbabe97-756f-4bde-b5d7-28926ac2e06f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>410c5796-e30e-4e7a-a5d2-d5dbb5baec8f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ef34bd13-ffcf-4e55-b2e6-266408e2dca5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>73c0a19e-e0d5-4be4-9508-ff2d74d866d7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>410c5796-e30e-4e7a-a5d2-d5dbb5baec8f</id>
+      <masked>false</masked>
+      <name>transfer</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ef34bd13-ffcf-4e55-b2e6-266408e2dca5</id>
+      <masked>false</masked>
+      <name>bayar</name>
+   </variable>
+   <variable>
+      <defaultValue>'runarun'</defaultValue>
+      <description></description>
+      <id>73c0a19e-e0d5-4be4-9508-ff2d74d866d7</id>
+      <masked>false</masked>
+      <name>nama</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Beli Sekarang di detail produk</name>
+   <tag></tag>
+   <elementGuidId>a9ba9e40-8672-426d-a7b1-826ad55ce99a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@name='beli'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ps-product__shopping.d-none.d-sm-block > button[name=&quot;beli&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>124995e5-2ce1-4145-8001-f36e8a3a58d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>79921079-b2d5-470d-980c-372f642ffcc5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>beli</value>
+      <webElementGuid>b503736b-ea71-413d-b23a-f5395c69d9dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ps-btn</value>
+      <webElementGuid>81acdc51-11f3-44fd-8084-d0f003af3089</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>62d01f22-333c-4160-9da2-a59b889ffae3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Beli Sekarang</value>
+      <webElementGuid>983ce329-6ed2-4ab9-93cc-b7689bd488a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;loaded&quot;]/div[@class=&quot;ps-page--product&quot;]/div[@class=&quot;ps-container&quot;]/div[@class=&quot;ps-page__container&quot;]/div[@class=&quot;ps-page__left&quot;]/div[@class=&quot;ps-product--detail ps-product--fullwidth&quot;]/form[1]/div[@class=&quot;ps-product__header&quot;]/div[@class=&quot;ps-product__info&quot;]/div[@class=&quot;ps-product__shopping d-none d-sm-block&quot;]/button[@class=&quot;ps-btn&quot;]</value>
+      <webElementGuid>beddcacf-3272-4b7e-8c12-73f103727423</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@name='beli'])[2]</value>
+      <webElementGuid>e5b73c85-fb3a-46d8-b7cc-2aecbcdbc7f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tambah Keranjang'])[2]/following::button[1]</value>
+      <webElementGuid>3f089253-ab02-4046-9127-d1808ff6cb25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quantity'])[1]/following::button[1]</value>
+      <webElementGuid>e7d41768-a7de-4809-9b21-4961a1f22c30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Laporkan Penyalahgunaan'])[1]/preceding::button[1]</value>
+      <webElementGuid>9eab5293-c6b6-4b56-8184-75e21ed566bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Categories :'])[1]/preceding::button[1]</value>
+      <webElementGuid>24f19a3c-c562-43fe-848c-d1a1dd3e0c4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button</value>
+      <webElementGuid>f0d01a1c-8d0e-422c-8b58-84d8678c84b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and @name = 'beli' and @href = '#' and (text() = 'Beli Sekarang' or . = 'Beli Sekarang')]</value>
+      <webElementGuid>3e065953-3126-46c3-8174-8d2b5a9ba3ff</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

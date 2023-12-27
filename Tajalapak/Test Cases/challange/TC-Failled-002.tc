@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>admin menambahkan berita namun isi berita kurang dari 100 karakter</description>
+   <name>TC-Failled-002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2bf05102-cfe7-4672-91c3-ea8df2b6db79</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>03053415-3f40-44fa-9d73-a005087a993c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>03053415-3f40-44fa-9d73-a005087a993c</id>
+      <masked>false</masked>
+      <name>kategori</name>
+   </variable>
+</TestCaseEntity>

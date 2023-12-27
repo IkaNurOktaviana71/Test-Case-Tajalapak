@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ketika user melakukan hapus akun yang sudah terdaftar</description>
+   <name>TC-Delete-Suceses-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba0cfe93-00cc-486f-80f2-0cfae9b14992</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3cbb2a90-f11f-4751-be11-163e2351e951</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>03c96aa6-ba5f-43dd-a535-c64969ff118a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'085643955432'</defaultValue>
+      <description></description>
+      <id>3cbb2a90-f11f-4751-be11-163e2351e951</id>
+      <masked>false</masked>
+      <name>noHp</name>
+   </variable>
+   <variable>
+      <defaultValue>'ikana'</defaultValue>
+      <description></description>
+      <id>03c96aa6-ba5f-43dd-a535-c64969ff118a</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan konfirmasi Bayar melalui menu akun namun saat menginputkan total tagihan minus</description>
+   <name>TC-KF-009</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3ab8e8a6-f516-4b2b-9c9c-86277e8dff3c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>01f57d7d-d118-4e6a-9f7f-255f718728b1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a308b26f-04f9-4fab-b797-83a9aff56cec</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'-2000'</defaultValue>
+      <description></description>
+      <id>01f57d7d-d118-4e6a-9f7f-255f718728b1</id>
+      <masked>false</masked>
+      <name>tagihan</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>a308b26f-04f9-4fab-b797-83a9aff56cec</id>
+      <masked>false</masked>
+      <name>transfer</name>
+   </variable>
+</TestCaseEntity>

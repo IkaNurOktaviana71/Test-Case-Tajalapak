@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TUJUAN KECAMATAN</name>
+   <tag></tag>
+   <elementGuidId>44a31267-f0a4-486a-b9ee-3b6ef416e4e2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#list_kecamatant</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='list_kecamatant']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>8bc2fd24-500a-46f5-b0d9-eed283241814</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control form-mini</value>
+      <webElementGuid>5f2e59ba-17d7-4181-afda-4428bc0ba751</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>kecamatan_idt</value>
+      <webElementGuid>96fe43cf-5f34-410b-98bd-012d049bc72f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>list_kecamatant</value>
+      <webElementGuid>42ee4ead-f45b-418f-bc6f-721c6e917c2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                        - Pilih Kecamatan -
+                      </value>
+      <webElementGuid>668dcfef-b011-404c-ad57-eddde6ee2a1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_kecamatant&quot;)</value>
+      <webElementGuid>8e7052dd-64bc-44b4-93a2-cc737bfd2246</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='list_kecamatant']</value>
+      <webElementGuid>2f2f2511-630b-400e-8c5d-2e5f68d375a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tujuan'])[1]/following::select[3]</value>
+      <webElementGuid>f1ef132f-e002-48c9-a634-7c3ceaaa43fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Posisi'])[1]/following::select[6]</value>
+      <webElementGuid>634ce60d-ce29-442f-8a38-aed81e2071fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ongkir (Rp)'])[1]/preceding::select[1]</value>
+      <webElementGuid>2e38bcca-53d6-4291-8961-f2a8b703cb7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keterangan'])[1]/preceding::select[1]</value>
+      <webElementGuid>b57cf1ea-90e2-47af-a144-1545a4e6671b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[3]/td/select[3]</value>
+      <webElementGuid>979699d7-d96a-4af9-aa20-ddd26935b179</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'kecamatan_idt' and @id = 'list_kecamatant' and (text() = '
+                        - Pilih Kecamatan -
+                      ' or . = '
+                        - Pilih Kecamatan -
+                      ')]</value>
+      <webElementGuid>8645d9c5-ee57-48cc-9802-68c81ce9ff1f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

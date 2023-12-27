@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="challenge" time="131.205" tests="3" failures="1" errors="0">
+   <testsuite name="challenge" tests="3" failures="1" errors="0" time="131.205" skipped="0" timestamp="2023-09-15 11:22:00" hostname="USER - DESKTOP-22KTP91" id="Test Suites/challenge">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\bootcamp\\Miniproject\\Tajalapak\\Reports\\20230915_112149\\challenge\\20230915_112149"/>
+         <property name="logFiles" value="F:\\bootcamp\\Miniproject\\Tajalapak\\Reports\\20230915_112149\\challenge\\20230915_112149\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - DESKTOP-22KTP91"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Edge Chromium 116"/>
+         <property name="hostAddress" value="10.9.2.41"/>
+         <property name="sessionId" value="d8a4a26fdbeaa2a355132a44e4398e2c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/challange/TC-Failled-002" time="31.653" classname="Test Cases/challange/TC-Failled-002" status="FAILED">
+         <failure type="FAILED" message="Test Cases/challange/TC-Failled-002 FAILED.
+Reason:
+Assertion failed: 
+
+assert validationMessage == &quot;character length must more than 100 character&quot;
+       |                 |
+       null              false
+
+	at TC-Failled-002.run(TC-Failled-002:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1694751709414.run(TempTestSuite1694751709414.groovy:36)
+"/>
+         <system-out><![CDATA[2023-09-15 11:22:38 - [TEST_CASE][FAILED] - Test Cases/challange/TC-Failled-002: Test Cases/challange/TC-Failled-002 FAILED.
+Reason:
+Assertion failed: 
+
+assert validationMessage == "character length must more than 100 character"
+       |                 |
+       null              false
+
+	at TC-Failled-002.run(TC-Failled-002:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1694751709414.run(TempTestSuite1694751709414.groovy:36)
+
+
+2023-09-15 11:22:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("challange/login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/challange/login' successfully
+
+2023-09-15 11:22:38 - [TEST_CASE][PASSED] - Test Cases/challange/login: Test Cases/challange/login
+
+2023-09-15 11:22:38 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/administrator/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/administrator/'
+
+2023-09-15 11:22:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-15 11:22:40 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-15 11:22:40 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-15 11:22:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-15 11:22:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/administrator/'
+
+2023-09-15 11:22:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-15 11:22:47 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-15 11:22:47 - [TEST_STEP][PASSED] - setText(findTestObject("delete akun/input usn admin"), "admin"): Text 'admin' is set on object 'Object Repository/delete akun/input usn admin'
+
+2023-09-15 11:22:48 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/delete akun/input usn admin'
+
+2023-09-15 11:22:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("delete akun/input password admin"), "374mkdZ/lqyNS21oH+MJZQ=="): Text ****** has been set on object 'Object Repository/delete akun/input password admin'
+
+2023-09-15 11:22:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/delete akun/input password admin'
+
+2023-09-15 11:22:49 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-09-15 11:22:59 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-09-15 11:22:59 - [TEST_STEP][PASSED] - click(findTestObject("delete akun/button signin di web admin")): Object: 'Object Repository/delete akun/button signin di web admin' is clicked on
+
+2023-09-15 11:23:01 - [MESSAGE][PASSED] - Object: 'Object Repository/delete akun/button signin di web admin' is clicked on
+
+2023-09-15 11:23:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/challange/login' successfully
+
+2023-09-15 11:23:01 - [TEST_STEP][PASSED] - click(findTestObject("modul berita/halaman modul berita")): Object: 'Object Repository/modul berita/halaman modul berita' is clicked on
+
+2023-09-15 11:23:02 - [MESSAGE][PASSED] - Object: 'Object Repository/modul berita/halaman modul berita' is clicked on
+
+2023-09-15 11:23:02 - [TEST_STEP][PASSED] - click(findTestObject("modul berita/masuk menu berita admin")): Object: 'Object Repository/modul berita/masuk menu berita admin' is clicked on
+
+2023-09-15 11:23:03 - [MESSAGE][PASSED] - Object: 'Object Repository/modul berita/masuk menu berita admin' is clicked on
+
+2023-09-15 11:23:03 - [TEST_STEP][PASSED] - click(findTestObject("modul berita/a_Tambahkan Data")): Object: 'Object Repository/modul berita/a_Tambahkan Data' is clicked on
+
+2023-09-15 11:23:04 - [MESSAGE][PASSED] - Object: 'Object Repository/modul berita/a_Tambahkan Data' is clicked on
+
+2023-09-15 11:23:04 - [TEST_STEP][PASSED] - setText(findTestObject("modul berita/input_Judul_b"), "wah! sepak bola indonesi semangkin meningkat"): Text 'wah! sepak bola indonesi semangkin meningkat' is set on object 'Object Repository/modul berita/input_Judul_b'
+
+2023-09-15 11:23:05 - [MESSAGE][PASSED] - Text 'wah! sepak bola indonesi semangkin meningkat' is set on object 'Object Repository/modul berita/input_Judul_b'
+
+2023-09-15 11:23:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("modul berita/pilih kategori"), kategori, false): All options with value '2' are selected in object 'Object Repository/modul berita/pilih kategori' 
+
+2023-09-15 11:23:06 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/modul berita/pilih kategori' 
+
+2023-09-15 11:23:06 - [TEST_STEP][PASSED] - click(findTestObject("modul berita/input_YaTidak_e headline")): Object: 'Object Repository/modul berita/input_YaTidak_e headline' is clicked on
+
+2023-09-15 11:23:07 - [MESSAGE][PASSED] - Object: 'Object Repository/modul berita/input_YaTidak_e headline' is clicked on
+
+2023-09-15 11:23:07 - [TEST_STEP][PASSED] - click(findTestObject("modul berita/input_YaTidak_f pilihan")): Object: 'Object Repository/modul berita/input_YaTidak_f pilihan' is clicked on
+
+2023-09-15 11:23:07 - [MESSAGE][PASSED] - Object: 'Object Repository/modul berita/input_YaTidak_f pilihan' is clicked on
+
+2023-09-15 11:23:07 - [TEST_STEP][PASSED] - click(findTestObject("modul berita/input_YaTidak_g berita utama")): Object: 'Object Repository/modul berita/input_YaTidak_g berita utama' is clicked on
+
+2023-09-15 11:23:08 - [MESSAGE][PASSED] - Object: 'Object Repository/modul berita/input_YaTidak_g berita utama' is clicked on
+
+2023-09-15 11:23:08 - [TEST_STEP][PASSED] - setText(findTestObject("modul berita/input isi berita"), "wah sepak bola di  indonesi semangkin meningkat"): Text 'wah sepak bola di  indonesi semangkin meningkat' is set on object 'Object Repository/modul berita/input isi berita'
+
+2023-09-15 11:23:09 - [MESSAGE][PASSED] - Text 'wah sepak bola di  indonesi semangkin meningkat' is set on object 'Object Repository/modul berita/input isi berita'
+
+2023-09-15 11:23:09 - [TEST_STEP][PASSED] - webDriver = getWebDriver(): null
+
+2023-09-15 11:23:09 - [TEST_STEP][PASSED] - field_isi = webDriver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)="Select"])[2]/following::p[1]")): null
+
+2023-09-15 11:23:09 - [TEST_STEP][PASSED] - validationMessage = executeJavaScript("return arguments[0].validationMessage", Arrays.asList(field_isi)): Execute JavaScript 'return arguments[0].validationMessage' successfully
+
+2023-09-15 11:23:09 - [MESSAGE][PASSED] - Execute JavaScript 'return arguments[0].validationMessage' successfully
+
+2023-09-15 11:23:09 - [TEST_STEP][FAILED] - assert validationMessage == "character length must more than 100 character": Test Cases/challange/TC-Failled-002 FAILED.
+Reason:
+Assertion failed: 
+
+assert validationMessage == "character length must more than 100 character"
+       |                 |
+       null              false
+
+	at TC-Failled-002.run(TC-Failled-002:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1694751709414.run(TempTestSuite1694751709414.groovy:36)
+
+
+2023-09-15 11:23:09 - [MESSAGE][FAILED] - Test Cases/challange/TC-Failled-002 FAILED.
+Reason:
+Assertion failed: 
+
+assert validationMessage == "character length must more than 100 character"
+       |                 |
+       null              false
+
+	at TC-Failled-002.run(TC-Failled-002:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1694751709414.run(TempTestSuite1694751709414.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-09-15 11:22:38 - [TEST_CASE][FAILED] - Test Cases/challange/TC-Failled-002: Test Cases/challange/TC-Failled-002 FAILED.
+Reason:
+Assertion failed: 
+
+assert validationMessage == "character length must more than 100 character"
+       |                 |
+       null              false
+
+	at TC-Failled-002.run(TC-Failled-002:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1694751709414.run(TempTestSuite1694751709414.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/challange/TC-Failled-005" time="34.439" classname="Test Cases/challange/TC-Failled-005" status="PASSED">
+         <system-out><![CDATA[2023-09-15 11:23:10 - [TEST_CASE][PASSED] - Test Cases/challange/TC-Failled-005: Test Cases/challange/TC-Failled-005
+
+2023-09-15 11:23:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("challange/login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/challange/login' successfully
+
+2023-09-15 11:23:11 - [TEST_CASE][PASSED] - Test Cases/challange/login: Test Cases/challange/login
+
+2023-09-15 11:23:11 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/administrator/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/administrator/'
+
+2023-09-15 11:23:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-15 11:23:12 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-15 11:23:12 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-15 11:23:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-15 11:23:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/administrator/'
+
+2023-09-15 11:23:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-15 11:23:20 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-15 11:23:20 - [TEST_STEP][PASSED] - setText(findTestObject("delete akun/input usn admin"), "admin"): Text 'admin' is set on object 'Object Repository/delete akun/input usn admin'
+
+2023-09-15 11:23:21 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/delete akun/input usn admin'
+
+2023-09-15 11:23:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("delete akun/input password admin"), "374mkdZ/lqyNS21oH+MJZQ=="): Text ****** has been set on object 'Object Repository/delete akun/input password admin'
+
+2023-09-15 11:23:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/delete akun/input password admin'
+
+2023-09-15 11:23:22 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-09-15 11:23:32 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-09-15 11:23:32 - [TEST_STEP][PASSED] - click(findTestObject("delete akun/button signin di web admin")): Object: 'Object Repository/delete akun/button signin di web admin' is clicked on
+
+2023-09-15 11:23:35 - [MESSAGE][PASSED] - Object: 'Object Repository/delete akun/button signin di web admin' is clicked on
+
+2023-09-15 11:23:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/challange/login' successfully
+
+2023-09-15 11:23:35 - [TEST_STEP][PASSED] - click(findTestObject("modul berita/halaman modul berita")): Object: 'Object Repository/modul berita/halaman modul berita' is clicked on
+
+2023-09-15 11:23:35 - [MESSAGE][PASSED] - Object: 'Object Repository/modul berita/halaman modul berita' is clicked on
+
+2023-09-15 11:23:35 - [TEST_STEP][PASSED] - click(findTestObject("modul berita/masuk menu berita admin")): Object: 'Object Repository/modul berita/masuk menu berita admin' is clicked on
+
+2023-09-15 11:23:37 - [MESSAGE][PASSED] - Object: 'Object Repository/modul berita/masuk menu berita admin' is clicked on
+
+2023-09-15 11:23:37 - [TEST_STEP][PASSED] - click(findTestObject("modul berita/a_Tambahkan Data")): Object: 'Object Repository/modul berita/a_Tambahkan Data' is clicked on
+
+2023-09-15 11:23:38 - [MESSAGE][PASSED] - Object: 'Object Repository/modul berita/a_Tambahkan Data' is clicked on
+
+2023-09-15 11:23:38 - [TEST_STEP][PASSED] - setText(findTestObject("modul berita/input_Judul_b"), "wah! sepak bola indonesi semangkin meningkat"): Text 'wah! sepak bola indonesi semangkin meningkat' is set on object 'Object Repository/modul berita/input_Judul_b'
+
+2023-09-15 11:23:39 - [MESSAGE][PASSED] - Text 'wah! sepak bola indonesi semangkin meningkat' is set on object 'Object Repository/modul berita/input_Judul_b'
+
+2023-09-15 11:23:39 - [TEST_STEP][PASSED] - click(findTestObject("modul berita/input_YaTidak_e headline")): Object: 'Object Repository/modul berita/input_YaTidak_e headline' is clicked on
+
+2023-09-15 11:23:40 - [MESSAGE][PASSED] - Object: 'Object Repository/modul berita/input_YaTidak_e headline' is clicked on
+
+2023-09-15 11:23:40 - [TEST_STEP][PASSED] - click(findTestObject("modul berita/input_YaTidak_f pilihan")): Object: 'Object Repository/modul berita/input_YaTidak_f pilihan' is clicked on
+
+2023-09-15 11:23:40 - [MESSAGE][PASSED] - Object: 'Object Repository/modul berita/input_YaTidak_f pilihan' is clicked on
+
+2023-09-15 11:23:40 - [TEST_STEP][PASSED] - click(findTestObject("modul berita/input_YaTidak_g berita utama")): Object: 'Object Repository/modul berita/input_YaTidak_g berita utama' is clicked on
+
+2023-09-15 11:23:41 - [MESSAGE][PASSED] - Object: 'Object Repository/modul berita/input_YaTidak_g berita utama' is clicked on
+
+2023-09-15 11:23:41 - [TEST_STEP][PASSED] - setText(findTestObject("modul berita/input isi berita"), "wah sepak bola di  indonesi semangkin meningkat 5 	wah! sepak bola indonesi semangkin meningkat 5 	wah! sepak bola indonesi semangkin meningkat 5 	wah! sepak bola indonesi semangkin meningkat5 	wah! sepak bola indonesi semangkin meningkat"): Text 'wah sepak bola di  indonesi semangkin meningkat 5 	wah! sepak bola indonesi semangkin meningkat 5 	wah! sepak bola indonesi semangkin meningkat 5 	wah! sepak bola indonesi semangkin meningkat5 	wah! sepak bola indonesi semangkin meningkat' is set on object 'Object Repository/modul berita/input isi berita'
+
+2023-09-15 11:23:43 - [MESSAGE][PASSED] - Text 'wah sepak bola di  indonesi semangkin meningkat 5 	wah! sepak bola indonesi semangkin meningkat 5 	wah! sepak bola indonesi semangkin meningkat 5 	wah! sepak bola indonesi semangkin meningkat5 	wah! sepak bola indonesi semangkin meningkat' is set on object 'Object Repository/modul berita/input isi berita'
+
+2023-09-15 11:23:43 - [TEST_STEP][PASSED] - click(findTestObject("modul berita/button_Tambahkan")): Object: 'Object Repository/modul berita/button_Tambahkan' is clicked on
+
+2023-09-15 11:23:44 - [MESSAGE][PASSED] - Object: 'Object Repository/modul berita/button_Tambahkan' is clicked on
+
+2023-09-15 11:23:44 - [TEST_STEP][PASSED] - webDriver = getWebDriver(): null
+
+2023-09-15 11:23:44 - [TEST_STEP][PASSED] - field_kategori = webDriver.findElement(By.xpath("//select[@name="a"]")): null
+
+2023-09-15 11:23:44 - [TEST_STEP][PASSED] - error_message = webDriver.executeScript("return arguments[0].validationMessage", field_kategori): null
+
+2023-09-15 11:23:44 - [TEST_STEP][PASSED] - println(error_message): null
+
+2023-09-15 11:23:44 - [TEST_STEP][PASSED] - assert error_message == "Please select an item in the list.": null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/challange/TC-Show-001" time="27.394" classname="Test Cases/challange/TC-Show-001" status="PASSED">
+         <system-out><![CDATA[2023-09-15 11:23:44 - [TEST_CASE][PASSED] - Test Cases/challange/TC-Show-001: Test Cases/challange/TC-Show-001
+
+2023-09-15 11:23:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("challange/login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/challange/login' successfully
+
+2023-09-15 11:23:46 - [TEST_CASE][PASSED] - Test Cases/challange/login: Test Cases/challange/login
+
+2023-09-15 11:23:46 - [TEST_STEP][PASSED] - openBrowser("https://10.9.2.63/ecommerce/administrator/"): Browser is opened with url: 'https://10.9.2.63/ecommerce/administrator/'
+
+2023-09-15 11:23:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-15 11:23:47 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-09-15 11:23:47 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-09-15 11:23:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-15 11:23:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://10.9.2.63/ecommerce/administrator/'
+
+2023-09-15 11:23:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-15 11:23:55 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-15 11:23:55 - [TEST_STEP][PASSED] - setText(findTestObject("delete akun/input usn admin"), "admin"): Text 'admin' is set on object 'Object Repository/delete akun/input usn admin'
+
+2023-09-15 11:23:56 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/delete akun/input usn admin'
+
+2023-09-15 11:23:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("delete akun/input password admin"), "374mkdZ/lqyNS21oH+MJZQ=="): Text ****** has been set on object 'Object Repository/delete akun/input password admin'
+
+2023-09-15 11:23:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/delete akun/input password admin'
+
+2023-09-15 11:23:56 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-09-15 11:24:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-09-15 11:24:06 - [TEST_STEP][PASSED] - click(findTestObject("delete akun/button signin di web admin")): Object: 'Object Repository/delete akun/button signin di web admin' is clicked on
+
+2023-09-15 11:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/delete akun/button signin di web admin' is clicked on
+
+2023-09-15 11:24:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/challange/login' successfully
+
+2023-09-15 11:24:07 - [TEST_STEP][PASSED] - click(findTestObject("modul berita/halaman modul berita")): Object: 'Object Repository/modul berita/halaman modul berita' is clicked on
+
+2023-09-15 11:24:09 - [MESSAGE][PASSED] - Object: 'Object Repository/modul berita/halaman modul berita' is clicked on
+
+2023-09-15 11:24:09 - [TEST_STEP][PASSED] - click(findTestObject("modul berita/masuk menu berita admin")): Object: 'Object Repository/modul berita/masuk menu berita admin' is clicked on
+
+2023-09-15 11:24:11 - [MESSAGE][PASSED] - Object: 'Object Repository/modul berita/masuk menu berita admin' is clicked on
+
+2023-09-15 11:24:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("modul berita/select_102550100"), "100", false): All options with value '100' are selected in object 'Object Repository/modul berita/select_102550100' 
+
+2023-09-15 11:24:12 - [MESSAGE][PASSED] - All options with value '100' are selected in object 'Object Repository/modul berita/select_102550100']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-09-15 11:22:00 - [TEST_SUITE][FAILED] - challenge: Test Cases/challange/TC-Failled-002 FAILED.
+Reason:
+Assertion failed: 
+
+assert validationMessage == "character length must more than 100 character"
+       |                 |
+       null              false
+
+	at TC-Failled-002.run(TC-Failled-002:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1694751709414.run(TempTestSuite1694751709414.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-09-15 11:22:00 - [TEST_SUITE][FAILED] - challenge: Test Cases/challange/TC-Failled-002 FAILED.
+Reason:
+Assertion failed: 
+
+assert validationMessage == "character length must more than 100 character"
+       |                 |
+       null              false
+
+	at TC-Failled-002.run(TC-Failled-002:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1694751709414.run(TempTestSuite1694751709414.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>produk NEW Segitiga Instan Aira- AA94.8 Minty Green</name>
+   <tag></tag>
+   <elementGuidId>aa609336-72a1-472e-8a58-e6859560841c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ul.ps-product__actions.produk-2 > li > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tab-1']/div[1]/div[1]/div[9][1]/div[1]/div[1]/ul/li[1]/a[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>204471d9-983f-4b3b-b944-3c84859c1bc9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/produk/detail/segitiga-instan-aira-aa948-minty-green</value>
+      <webElementGuid>74f9c1c4-20ef-4dde-92b0-3281b3765b07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>tooltip</value>
+      <webElementGuid>b2699223-d1cc-4721-8952-ae81f7cbfa84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-placement</name>
+      <type>Main</type>
+      <value>top</value>
+      <webElementGuid>62afa718-a6f2-441b-a274-cea6fa4143bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-original-title</name>
+      <type>Main</type>
+      <value>Read More</value>
+      <webElementGuid>e72a7477-849d-4564-9e75-0d936c43f9e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>tooltip940627</value>
+      <webElementGuid>5a419078-484e-41c0-ae98-95e642c61ff4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-1&quot;)/div[@class=&quot;ps-shopping-product&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6&quot;]/div[@class=&quot;ps-product&quot;]/div[@class=&quot;ps-product__thumbnail&quot;]/ul[@class=&quot;ps-product__actions produk-2&quot;]/li[1]/a[1]</value>
+      <webElementGuid>48e094b8-c85c-40b5-8220-41bb758eab03</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab-1']/div/div/div[9]/div/div/ul/li/a</value>
+      <webElementGuid>1fd9f0cd-a958-4a4b-9655-c2bf8d57a315</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tambah Keranjang'])[8]/following::a[2]</value>
+      <webElementGuid>ecb86e01-f46d-4819-9664-5d0502e29a5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Segitiga Instan KEINA - KN54.38 Delfin,..'])[2]/following::a[3]</value>
+      <webElementGuid>f8f75796-893d-410a-8709-7afd381ba9a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Syarii Sentral Java'])[8]/preceding::a[3]</value>
+      <webElementGuid>43422cd8-1e87-44a8-8ff9-21f784f5445d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Segitiga Instan Aira- AA94.8 Minty Gre,..'])[1]/preceding::a[4]</value>
+      <webElementGuid>ca9c76c1-d3c6-4ef5-9439-542a1929579e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://10.9.2.63/ecommerce/produk/detail/segitiga-instan-aira-aa948-minty-green')])[7]</value>
+      <webElementGuid>954a3b81-0eb9-4df4-ab94-96a74ae7f0e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/div/ul/li/a</value>
+      <webElementGuid>cbc32a48-eaea-4c8c-a310-1a2911ebd0aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://10.9.2.63/ecommerce/produk/detail/segitiga-instan-aira-aa948-minty-green']</value>
+      <webElementGuid>59ee5731-dc75-4a43-8ca3-d4648c035686</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

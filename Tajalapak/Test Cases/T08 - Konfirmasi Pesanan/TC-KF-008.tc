@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User konfirmasi pesanan melalui menu akun namun saat isi nama pengirim user mengosongkan inputan</description>
+   <name>TC-KF-008</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f56fef32-ba0d-470d-8079-93658197ec53</testCaseGuid>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>3b6be35b-5baf-424c-9676-4da61db07928</id>
+      <masked>false</masked>
+      <name>transfer</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0ddf795e-2b4f-4d31-acd5-c270dc952ecb</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'2023-09-11'</defaultValue>
+      <description></description>
+      <id>f3f95b0c-3f17-48be-87fa-a66892953590</id>
+      <masked>false</masked>
+      <name>date</name>
+   </variable>
+</TestCaseEntity>

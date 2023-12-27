@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>hasil google h</name>
+   <tag></tag>
+   <elementGuidId>c17c7aa5-bd74-45ac-951b-9340fd19af04</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Google+'])[1]/following::div[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5a8736b2-e68d-4124-bcdd-9c3737e085a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-sm-10</value>
+      <webElementGuid>07492423-f435-4d91-9f9a-f3729790b30f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                              +Runaya
+                              </value>
+      <webElementGuid>52ab825b-b22c-4b89-a0fe-55d3a426ccaf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;loaded&quot;]/div[@class=&quot;ps-vendor-dashboard pro&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;ps-section__content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12&quot;]/figure[@class=&quot;ps-block--vendor-status biodata&quot;]/div[@class=&quot;form-group row&quot;]/div[@class=&quot;col-sm-10&quot;]</value>
+      <webElementGuid>dd242ec6-801d-487a-9c6b-00239302763e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Google+'])[1]/following::div[1]</value>
+      <webElementGuid>35006db2-b2b6-4103-896e-4855544e160a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RunaOkta'])[1]/following::div[2]</value>
+      <webElementGuid>1715a574-9a94-4d4c-acd3-369b20921d96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//figure/div[8]/div</value>
+      <webElementGuid>7d1f87e2-81ab-4655-98bb-02afeb139e4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '
+                              +Runaya
+                              ' or . = '
+                              +Runaya
+                              ')]</value>
+      <webElementGuid>f719417a-4a26-4d90-a132-52c0187ae078</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user melakukan sedekah online dengan menginputkan detail yang valid</description>
+   <name>TC-SO-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>55a186d4-ec8f-412f-ad03-f9c79adc1839</testCaseGuid>
+   <variable>
+      <defaultValue>'25000'</defaultValue>
+      <description></description>
+      <id>cd491b18-9f2f-474c-8239-a5cd95fea5be</id>
+      <masked>false</masked>
+      <name>NominalSedekah</name>
+   </variable>
+   <variable>
+      <defaultValue>'ikana'</defaultValue>
+      <description></description>
+      <id>34b6cb0c-24d1-495d-b48f-ffbcf6c14610</id>
+      <masked>false</masked>
+      <name>namaLengkap</name>
+   </variable>
+   <variable>
+      <defaultValue>'086754321234'</defaultValue>
+      <description></description>
+      <id>d4d9d959-9e86-4f48-bbd7-0edf68cc0539</id>
+      <masked>false</masked>
+      <name>noHp</name>
+   </variable>
+   <variable>
+      <defaultValue>'anata71@gmail.com'</defaultValue>
+      <description></description>
+      <id>83cb77e9-bbca-4c09-abeb-29332621dd87</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>1718976a-c6d4-4c0f-8cfd-03b7c9618e86</id>
+      <masked>false</masked>
+      <name>pembayaran</name>
+   </variable>
+   <variable>
+      <defaultValue>'Orang Tua'</defaultValue>
+      <description></description>
+      <id>c19e3a0d-cd87-46f7-a9aa-e661d5dc79ec</id>
+      <masked>false</masked>
+      <name>sedekahUntuk</name>
+   </variable>
+   <variable>
+      <defaultValue>'Semoga Bermanfaat'</defaultValue>
+      <description></description>
+      <id>ac3fd32f-bad7-4543-aba0-4dc94a6eaea5</id>
+      <masked>false</masked>
+      <name>doa</name>
+   </variable>
+   <variable>
+      <defaultValue>'34'</defaultValue>
+      <description></description>
+      <id>d2854122-1bb1-4354-9925-2e2fdf76e3da</id>
+      <masked>false</masked>
+      <name>digitAkhir</name>
+   </variable>
+</TestCaseEntity>

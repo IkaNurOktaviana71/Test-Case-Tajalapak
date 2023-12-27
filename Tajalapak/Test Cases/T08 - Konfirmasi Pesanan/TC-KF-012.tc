@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user melakukan konfirmasi menu shop, namun saat melakukan konfirmasi bayar user tidak menginputkan tanggal</description>
+   <name>TC-KF-012</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b2b0514-f7be-41c8-b274-ee2951c3aef5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0cb690c1-a737-46a2-8a0e-9c7d3b676ee2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6288916f-3dca-4b21-8040-4ec89a8aa67e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'12'</defaultValue>
+      <description></description>
+      <id>0cb690c1-a737-46a2-8a0e-9c7d3b676ee2</id>
+      <masked>false</masked>
+      <name>tagihan</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>6288916f-3dca-4b21-8040-4ec89a8aa67e</id>
+      <masked>false</masked>
+      <name>transfer</name>
+   </variable>
+</TestCaseEntity>

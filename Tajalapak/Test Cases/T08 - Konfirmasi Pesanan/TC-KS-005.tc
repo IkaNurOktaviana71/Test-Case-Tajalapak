@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan konfirmasi melalui menu akun dan saat upload bukti transfer menggunakan format pdf</description>
+   <name>TC-KS-005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e9a3c085-727b-4cec-8824-069b4cce20b4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1f1c7cab-e468-4967-b268-1605b81fc455</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>1f1c7cab-e468-4967-b268-1605b81fc455</id>
+      <masked>false</masked>
+      <name>transfer</name>
+   </variable>
+</TestCaseEntity>

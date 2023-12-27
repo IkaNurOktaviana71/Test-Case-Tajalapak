@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user melakukan edit sosial media pada facebook namun saat menginputkan username menggunakan spasi</description>
+   <name>TC-ESMF-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>63d91db7-9621-4f19-b8f1-987bc92308ef</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fc55baf9-388e-4fcf-aeee-db6b1470189b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Runa run'</defaultValue>
+      <description></description>
+      <id>fc55baf9-388e-4fcf-aeee-db6b1470189b</id>
+      <masked>false</masked>
+      <name>facebook</name>
+   </variable>
+</TestCaseEntity>

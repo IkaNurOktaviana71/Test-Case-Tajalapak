@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user melakukan edit sosial media dengan menginputkan nomor Whatsapp mengandung karakter huruf</description>
+   <name>TC-ESMF-002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7addfbb5-6606-4e54-95e9-8b1d1b860d15</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>12da92ae-64d5-4a27-9360-f1b1b046ae36</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'+6285g4e9s996o'</defaultValue>
+      <description></description>
+      <id>12da92ae-64d5-4a27-9360-f1b1b046ae36</id>
+      <masked>false</masked>
+      <name>Whatsapp</name>
+   </variable>
+</TestCaseEntity>

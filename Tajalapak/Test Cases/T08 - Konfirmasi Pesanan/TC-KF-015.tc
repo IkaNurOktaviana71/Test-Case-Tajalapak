@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan konfirmasi melalui menu profil dengan input total tagihan hanya karakter spesial (kecuali titik(.) dan koma(,))</description>
+   <name>TC-KF-015</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>96c0adfb-e225-493b-af36-ba66a3bb31c5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>60433f2f-b086-4252-a0c1-6ffdee2042b2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5a6fa0f7-708c-493d-b32b-20fce9515b49</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>346758db-e22a-4880-b561-62d732d48bbe</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>60433f2f-b086-4252-a0c1-6ffdee2042b2</id>
+      <masked>false</masked>
+      <name>transfer</name>
+   </variable>
+   <variable>
+      <defaultValue>'@+-!&amp;'</defaultValue>
+      <description></description>
+      <id>5a6fa0f7-708c-493d-b32b-20fce9515b49</id>
+      <masked>false</masked>
+      <name>bayar</name>
+   </variable>
+   <variable>
+      <defaultValue>'runarun'</defaultValue>
+      <description></description>
+      <id>346758db-e22a-4880-b561-62d732d48bbe</id>
+      <masked>false</masked>
+      <name>nama</name>
+   </variable>
+</TestCaseEntity>

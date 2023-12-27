@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user melakukan edit sosial media Twitter dengan menghapus nama akun twiter</description>
+   <name>TC-ESMS-003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>334cee4d-7818-4cea-9a8b-32c6e3ea4ec4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2e138584-1de9-470c-9b05-adefcf7169c0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2e138584-1de9-470c-9b05-adefcf7169c0</id>
+      <masked>false</masked>
+      <name>twitter</name>
+   </variable>
+</TestCaseEntity>

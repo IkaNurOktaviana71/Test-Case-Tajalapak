@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan konfirmasi data transfer tanpa melakukan Login terlebih dahulu</description>
+   <name>TC-KS-004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a8d21e0e-0a54-4e30-b3e6-71b1a3ed9860</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>af0d35a6-e79e-4ce7-bbcb-1ae952b77db7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>29cc2171-cc99-4529-9ae8-6333bf2dfc77</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>baf09919-935e-4f81-9d07-ab32500c3f22</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>af0d35a6-e79e-4ce7-bbcb-1ae952b77db7</id>
+      <masked>false</masked>
+      <name>transfer</name>
+   </variable>
+   <variable>
+      <defaultValue>'runarun'</defaultValue>
+      <description></description>
+      <id>29cc2171-cc99-4529-9ae8-6333bf2dfc77</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'2023-09-12'</defaultValue>
+      <description></description>
+      <id>baf09919-935e-4f81-9d07-ab32500c3f22</id>
+      <masked>false</masked>
+      <name>date</name>
+   </variable>
+</TestCaseEntity>

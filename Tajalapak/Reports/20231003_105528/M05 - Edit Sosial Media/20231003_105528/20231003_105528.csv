@@ -1,0 +1,241 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+M05 - Edit Sosial Media,Firefox 117.0,,,2023-10-03 10:55:42,2023-10-03 11:04:27,8m - 44.838s,ERROR
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-LS-001,Firefox 117.0,User login dengan Memasukan username dan password yang valid,,2023-10-03 10:55:42,2023-10-03 10:56:04,21.846s,PASSED
+openBrowser(urlWeb),Firefox 117.0,,,2023-10-03 10:55:43,2023-10-03 10:55:59,16.016s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-03 10:55:59,2023-10-03 10:55:59,0.135s,PASSED
+"click(findTestObject(""Login/a_Login""))",Firefox 117.0,,,2023-10-03 10:55:59,2023-10-03 10:56:00,0.972s,PASSED
+"setText(findTestObject(""Login/input_Username, Email atau No. Handphone_a""), ""runa36"")",Firefox 117.0,,,2023-10-03 10:56:00,2023-10-03 10:56:01,1.158s,PASSED
+"setEncryptedText(findTestObject(""Login/input_Password di Login(Masuk)""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-10-03 10:56:01,2023-10-03 10:56:02,0.607s,PASSED
+"click(findTestObject(""Login/button_Masuk di halaman login""))",Firefox 117.0,,,2023-10-03 10:56:02,2023-10-03 10:56:03,1.424s,PASSED
+"verifyElementPresent(findTestObject(""edit sosial media/verifikasi masuk halaman biodata diri""), 0)",Firefox 117.0,,,2023-10-03 10:56:03,2023-10-03 10:56:04,0.787s,PASSED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMS-001,Firefox 117.0,User melakukan edit semua sosial media dengan inputan yang valid,,2023-10-03 10:56:04,2023-10-03 10:56:46,41.543s,PASSED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 10:56:06,2023-10-03 10:56:23,16.467s,PASSED
+"verifyElementPresent(findTestObject(""edit sosial media/verifikasi masuk halaman biodata diri""), 0)",Firefox 117.0,,,2023-10-03 10:56:23,2023-10-03 10:56:23,0.662s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Firefox 117.0,,,2023-10-03 10:56:23,2023-10-03 10:56:25,1.213s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Firefox 117.0,,,2023-10-03 10:56:25,2023-10-03 10:56:26,1.734s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Facebook_a""))",Firefox 117.0,,,2023-10-03 10:56:26,2023-10-03 10:56:27,0.817s,PASSED
+"setText(findTestObject(""edit sosial media/input_Facebook_a""), Facebook)",Firefox 117.0,,,2023-10-03 10:56:27,2023-10-03 10:56:28,0.932s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Twitter_b""))",Firefox 117.0,,,2023-10-03 10:56:28,2023-10-03 10:56:29,0.591s,PASSED
+"setText(findTestObject(""edit sosial media/input_Twitter_b""), Twitter)",Firefox 117.0,,,2023-10-03 10:56:29,2023-10-03 10:56:30,0.938s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Instagram_c""))",Firefox 117.0,,,2023-10-03 10:56:30,2023-10-03 10:56:30,0.731s,PASSED
+"setText(findTestObject(""edit sosial media/input_Instagram_c""), Instagram)",Firefox 117.0,,,2023-10-03 10:56:30,2023-10-03 10:56:32,1.448s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Whatsapp_d""))",Firefox 117.0,,,2023-10-03 10:56:32,2023-10-03 10:56:32,0.647s,PASSED
+"setText(findTestObject(""edit sosial media/input_Whatsapp_d""), Whatsapp)",Firefox 117.0,,,2023-10-03 10:56:32,2023-10-03 10:56:33,1.009s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Telegram_e""))",Firefox 117.0,,,2023-10-03 10:56:33,2023-10-03 10:56:34,0.753s,PASSED
+"setText(findTestObject(""edit sosial media/input_Telegram_e""), Telegram)",Firefox 117.0,,,2023-10-03 10:56:34,2023-10-03 10:56:35,0.737s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Youtube_f""))",Firefox 117.0,,,2023-10-03 10:56:35,2023-10-03 10:56:36,0.708s,PASSED
+"setText(findTestObject(""edit sosial media/input_Youtube_f""), Youtube)",Firefox 117.0,,,2023-10-03 10:56:36,2023-10-03 10:56:36,0.752s,PASSED
+"clearText(findTestObject(""edit sosial media/input_LinkedIn_g""))",Firefox 117.0,,,2023-10-03 10:56:36,2023-10-03 10:56:37,0.679s,PASSED
+"setText(findTestObject(""edit sosial media/input_LinkedIn_g""), LinkedIn)",Firefox 117.0,,,2023-10-03 10:56:37,2023-10-03 10:56:38,0.807s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Google_h""))",Firefox 117.0,,,2023-10-03 10:56:38,2023-10-03 10:56:38,0.567s,PASSED
+"setText(findTestObject(""edit sosial media/input_Google_h""), Google)",Firefox 117.0,,,2023-10-03 10:56:38,2023-10-03 10:56:39,0.863s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Firefox 117.0,,,2023-10-03 10:56:39,2023-10-03 10:56:42,2.336s,PASSED
+"face = getText(findTestObject(""hasil sosmed/hasil facebook_a""))",Firefox 117.0,,,2023-10-03 10:56:42,2023-10-03 10:56:42,0.803s,PASSED
+"Twit = getText(findTestObject(""hasil sosmed/hasil twitter_b""))",Firefox 117.0,,,2023-10-03 10:56:43,2023-10-03 10:56:43,0.506s,PASSED
+"insta = getText(findTestObject(""hasil sosmed/hasil Instagram_c""))",Firefox 117.0,,,2023-10-03 10:56:43,2023-10-03 10:56:44,0.522s,PASSED
+"wa = getText(findTestObject(""hasil sosmed/hasil whatsapp d""))",Firefox 117.0,,,2023-10-03 10:56:44,2023-10-03 10:56:44,0.447s,PASSED
+"tele = getText(findTestObject(""hasil sosmed/hasil Telegram e""))",Firefox 117.0,,,2023-10-03 10:56:44,2023-10-03 10:56:44,0.419s,PASSED
+"yout = getText(findTestObject(""hasil sosmed/hasil youtube f""))",Firefox 117.0,,,2023-10-03 10:56:44,2023-10-03 10:56:45,0.370s,PASSED
+"lin = getText(findTestObject(""hasil sosmed/hasil linkedin g""))",Firefox 117.0,,,2023-10-03 10:56:45,2023-10-03 10:56:45,0.484s,PASSED
+"goo = getText(findTestObject(""hasil sosmed/hasil google h""))",Firefox 117.0,,,2023-10-03 10:56:45,2023-10-03 10:56:46,0.578s,PASSED
+assert trim().equalsIgnoreCase(Facebook.trim()),Firefox 117.0,,,2023-10-03 10:56:46,2023-10-03 10:56:46,0.008s,PASSED
+assert trim().equalsIgnoreCase(Twitter.trim()),Firefox 117.0,,,2023-10-03 10:56:46,2023-10-03 10:56:46,0.001s,PASSED
+assert trim().equalsIgnoreCase(Instagram.trim()),Firefox 117.0,,,2023-10-03 10:56:46,2023-10-03 10:56:46,0.002s,PASSED
+assert trim().equalsIgnoreCase(Whatsapp.trim()),Firefox 117.0,,,2023-10-03 10:56:46,2023-10-03 10:56:46,0.000s,PASSED
+assert trim().equalsIgnoreCase(Telegram.trim()),Firefox 117.0,,,2023-10-03 10:56:46,2023-10-03 10:56:46,0.001s,PASSED
+assert trim().equalsIgnoreCase(Youtube.trim()),Firefox 117.0,,,2023-10-03 10:56:46,2023-10-03 10:56:46,0.001s,PASSED
+assert trim().equalsIgnoreCase(LinkedIn.trim()),Firefox 117.0,,,2023-10-03 10:56:46,2023-10-03 10:56:46,0.001s,PASSED
+assert trim().equalsIgnoreCase(Google.trim()),Firefox 117.0,,,2023-10-03 10:56:46,2023-10-03 10:56:46,0.001s,PASSED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMS-002,Firefox 117.0,User melakukan edit salah satu atau lebih Sosial media dengan menggunakan inputan yang valid,,2023-10-03 10:56:46,2023-10-03 10:57:17,30.951s,PASSED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 10:56:47,2023-10-03 10:57:07,19.446s,PASSED
+"verifyElementPresent(findTestObject(""edit sosial media/verifikasi masuk halaman biodata diri""), 0)",Firefox 117.0,,,2023-10-03 10:57:07,2023-10-03 10:57:07,0.601s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Firefox 117.0,,,2023-10-03 10:57:07,2023-10-03 10:57:09,1.617s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Firefox 117.0,,,2023-10-03 10:57:09,2023-10-03 10:57:10,1.418s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Facebook_a""))",Firefox 117.0,,,2023-10-03 10:57:10,2023-10-03 10:57:11,0.836s,PASSED
+"setText(findTestObject(""edit sosial media/input_Facebook_a""), facebook)",Firefox 117.0,,,2023-10-03 10:57:11,2023-10-03 10:57:12,0.981s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Instagram_c""))",Firefox 117.0,,,2023-10-03 10:57:12,2023-10-03 10:57:13,0.660s,PASSED
+"setText(findTestObject(""edit sosial media/input_Instagram_c""), instagram)",Firefox 117.0,,,2023-10-03 10:57:13,2023-10-03 10:57:14,0.971s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Firefox 117.0,,,2023-10-03 10:57:14,2023-10-03 10:57:16,1.945s,PASSED
+"face = getText(findTestObject(""Object Repository/hasil sosmed/hasil facebook_a""))",Firefox 117.0,,,2023-10-03 10:57:16,2023-10-03 10:57:16,0.880s,PASSED
+"insta = getText(findTestObject(""Object Repository/hasil sosmed/hasil Instagram_c""))",Firefox 117.0,,,2023-10-03 10:57:16,2023-10-03 10:57:17,0.503s,PASSED
+assert trim().equalsIgnoreCase(facebook.trim()),Firefox 117.0,,,2023-10-03 10:57:17,2023-10-03 10:57:17,0.006s,PASSED
+assert trim().equalsIgnoreCase(instagram.trim()),Firefox 117.0,,,2023-10-03 10:57:17,2023-10-03 10:57:17,0.002s,PASSED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMS-003,Firefox 117.0,user melakukan edit sosial media Twitter dengan menghapus nama akun twiter,,2023-10-03 10:57:17,2023-10-03 10:57:43,26.120s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 10:57:18,2023-10-03 10:57:35,17.171s,PASSED
+"verifyElementPresent(findTestObject(""edit sosial media/verifikasi masuk halaman biodata diri""), 0)",Firefox 117.0,,,2023-10-03 10:57:35,2023-10-03 10:57:36,0.602s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Firefox 117.0,,,2023-10-03 10:57:36,2023-10-03 10:57:37,1.329s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Firefox 117.0,,,2023-10-03 10:57:37,2023-10-03 10:57:39,1.451s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Twitter_b""))",Firefox 117.0,,,2023-10-03 10:57:39,2023-10-03 10:57:40,0.878s,PASSED
+"setText(findTestObject(""edit sosial media/input_Twitter_b""), twitter)",Firefox 117.0,,,2023-10-03 10:57:40,2023-10-03 10:57:41,0.943s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Firefox 117.0,,,2023-10-03 10:57:41,2023-10-03 10:57:42,1.705s,PASSED
+"twit = getText(findTestObject(""Object Repository/hasil sosmed/hasil twitter_b""))",Firefox 117.0,,,2023-10-03 10:57:42,2023-10-03 10:57:43,0.896s,PASSED
+assert trim().equalsIgnoreCase(twitter.trim()),Firefox 117.0,,,2023-10-03 10:57:43,2023-10-03 10:57:43,0.063s,FAILED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMS-004,Firefox 117.0,User edit sosial media youtube dan linkedin dengan inputan alamat url,,2023-10-03 10:57:43,2023-10-03 10:58:13,29.765s,PASSED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 10:57:46,2023-10-03 10:58:03,17.323s,PASSED
+"verifyElementPresent(findTestObject(""edit sosial media/verifikasi masuk halaman biodata diri""), 0)",Firefox 117.0,,,2023-10-03 10:58:03,2023-10-03 10:58:04,0.596s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Firefox 117.0,,,2023-10-03 10:58:04,2023-10-03 10:58:05,1.713s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Firefox 117.0,,,2023-10-03 10:58:05,2023-10-03 10:58:07,1.673s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Youtube_f""))",Firefox 117.0,,,2023-10-03 10:58:07,2023-10-03 10:58:08,0.728s,PASSED
+"setText(findTestObject(""edit sosial media/input_Youtube_f""), youtube)",Firefox 117.0,,,2023-10-03 10:58:08,2023-10-03 10:58:09,0.852s,PASSED
+"clearText(findTestObject(""edit sosial media/input_LinkedIn_g""))",Firefox 117.0,,,2023-10-03 10:58:09,2023-10-03 10:58:09,0.650s,PASSED
+"setText(findTestObject(""edit sosial media/input_LinkedIn_g""), linkedin)",Firefox 117.0,,,2023-10-03 10:58:09,2023-10-03 10:58:10,0.979s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Firefox 117.0,,,2023-10-03 10:58:10,2023-10-03 10:58:12,1.501s,PASSED
+"yt = getText(findTestObject(""hasil sosmed/hasil youtube f""))",Firefox 117.0,,,2023-10-03 10:58:12,2023-10-03 10:58:13,0.939s,PASSED
+"lind = getText(findTestObject(""hasil sosmed/hasil linkedin g""))",Firefox 117.0,,,2023-10-03 10:58:13,2023-10-03 10:58:13,0.553s,PASSED
+assert trim().equalsIgnoreCase(youtube.trim()),Firefox 117.0,,,2023-10-03 10:58:13,2023-10-03 10:58:13,0.004s,PASSED
+assert trim().equalsIgnoreCase(linkedin.trim()),Firefox 117.0,,,2023-10-03 10:58:13,2023-10-03 10:58:13,0.001s,PASSED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMS-005,Firefox 117.0,User melakukan edit sosial media instagram dan tidak melakukan simpan perubahan,,2023-10-03 10:58:13,2023-10-03 10:58:43,29.188s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 10:58:15,2023-10-03 10:58:33,17.815s,PASSED
+"verifyElementPresent(findTestObject(""edit sosial media/verifikasi masuk halaman biodata diri""), 0)",Firefox 117.0,,,2023-10-03 10:58:33,2023-10-03 10:58:33,0.603s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Firefox 117.0,,,2023-10-03 10:58:33,2023-10-03 10:58:35,1.760s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Firefox 117.0,,,2023-10-03 10:58:35,2023-10-03 10:58:36,1.326s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Instagram_c""))",Firefox 117.0,,,2023-10-03 10:58:36,2023-10-03 10:58:37,0.897s,PASSED
+"setText(findTestObject(""edit sosial media/input_Instagram_c""), insta)",Firefox 117.0,,,2023-10-03 10:58:37,2023-10-03 10:58:38,0.978s,PASSED
+"click(findTestObject(""edit sosial media/li_Profile""))",Firefox 117.0,,,2023-10-03 10:58:38,2023-10-03 10:58:40,1.583s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Firefox 117.0,,,2023-10-03 10:58:40,2023-10-03 10:58:42,1.719s,PASSED
+"instag = getText(findTestObject(""Object Repository/hasil sosmed/hasil Instagram_c""))",Firefox 117.0,,,2023-10-03 10:58:42,2023-10-03 10:58:42,0.845s,PASSED
+assert insta == instag,Firefox 117.0,,,2023-10-03 10:58:42,2023-10-03 10:58:43,0.016s,FAILED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMD-001,Firefox 117.0,User melakukan delete hasil edit sosial media,,2023-10-03 10:58:43,2023-10-03 10:59:36,53.854s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-ESMS-001""), [""Facebook"":""Runarun"", ""Twitter"":""Runaya71"", ""Instagram"":""Runarun"", ""Whatsapp"":""+6281122223333"", ""Telegram"":""@Runaya71"", ""Youtube"":""Runarun"", ... ], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 10:58:45,2023-10-03 10:59:23,38.614s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Firefox 117.0,,,2023-10-03 10:59:23,2023-10-03 10:59:25,1.356s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Facebook_a""))",Firefox 117.0,,,2023-10-03 10:59:25,2023-10-03 10:59:26,0.785s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Twitter_b""))",Firefox 117.0,,,2023-10-03 10:59:26,2023-10-03 10:59:26,0.556s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Instagram_c""))",Firefox 117.0,,,2023-10-03 10:59:26,2023-10-03 10:59:27,0.649s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Whatsapp_d""))",Firefox 117.0,,,2023-10-03 10:59:27,2023-10-03 10:59:27,0.573s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Telegram_e""))",Firefox 117.0,,,2023-10-03 10:59:27,2023-10-03 10:59:28,0.452s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Youtube_f""))",Firefox 117.0,,,2023-10-03 10:59:28,2023-10-03 10:59:28,0.474s,PASSED
+"clearText(findTestObject(""edit sosial media/input_LinkedIn_g""))",Firefox 117.0,,,2023-10-03 10:59:28,2023-10-03 10:59:29,0.491s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Google_h""))",Firefox 117.0,,,2023-10-03 10:59:29,2023-10-03 10:59:29,0.566s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Firefox 117.0,,,2023-10-03 10:59:29,2023-10-03 10:59:31,1.666s,PASSED
+"face = getText(findTestObject(""Object Repository/hasil sosmed/hasil facebook_a""))",Firefox 117.0,,,2023-10-03 10:59:31,2023-10-03 10:59:32,0.927s,PASSED
+"twit = getText(findTestObject(""hasil sosmed/hasil twitter_b""))",Firefox 117.0,,,2023-10-03 10:59:32,2023-10-03 10:59:33,0.630s,PASSED
+"insta = getText(findTestObject(""hasil sosmed/hasil Instagram_c""))",Firefox 117.0,,,2023-10-03 10:59:33,2023-10-03 10:59:33,0.580s,PASSED
+"wa = getText(findTestObject(""hasil sosmed/hasil whatsapp d""))",Firefox 117.0,,,2023-10-03 10:59:33,2023-10-03 10:59:34,0.667s,PASSED
+"tele = getText(findTestObject(""hasil sosmed/hasil Telegram e""))",Firefox 117.0,,,2023-10-03 10:59:34,2023-10-03 10:59:34,0.732s,PASSED
+"yout = getText(findTestObject(""hasil sosmed/hasil youtube f""))",Firefox 117.0,,,2023-10-03 10:59:34,2023-10-03 10:59:35,0.486s,PASSED
+"lin = getText(findTestObject(""hasil sosmed/hasil linkedin g""))",Firefox 117.0,,,2023-10-03 10:59:35,2023-10-03 10:59:36,0.577s,PASSED
+"goo = getText(findTestObject(""hasil sosmed/hasil google h""))",Firefox 117.0,,,2023-10-03 10:59:36,2023-10-03 10:59:36,0.811s,PASSED
+assert trim().equalsIgnoreCase(facebook.trim()),Firefox 117.0,,,2023-10-03 10:59:36,2023-10-03 10:59:36,0.020s,FAILED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMF-001,Firefox 117.0,user melakukan edit sosial media pada facebook namun saat menginputkan usernamenya menggunakan spasi,,2023-10-03 10:59:37,2023-10-03 11:00:03,26.646s,ERROR
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 10:59:38,2023-10-03 10:59:57,19.049s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Firefox 117.0,,,2023-10-03 10:59:57,2023-10-03 10:59:59,1.452s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Firefox 117.0,,,2023-10-03 10:59:59,2023-10-03 11:00:00,1.706s,PASSED
+"click(findTestObject(""edit sosial media/input_Facebook_a""))",Firefox 117.0,,,2023-10-03 11:00:00,2023-10-03 11:00:01,0.926s,PASSED
+"setText(findTestObject(""edit sosial media/input_Facebook_a""), facebook, OPTIONAL)",Firefox 117.0,,,2023-10-03 11:00:01,2023-10-03 11:00:03,1.335s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-10-03 11:00:03,2023-10-03 11:00:03,0.123s,PASSED
+AlertText = alert().getText(),Firefox 117.0,,,2023-10-03 11:00:03,2023-10-03 11:00:03,0.431s,ERROR
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMF-002,Firefox 117.0,user melakukan edit sosial media dengan menginputkan nomor Whatsapp mengandung karakter huruf,,2023-10-03 11:00:03,2023-10-03 11:00:29,25.460s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 11:00:05,2023-10-03 11:00:20,15.865s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Firefox 117.0,,,2023-10-03 11:00:20,2023-10-03 11:00:22,1.288s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Firefox 117.0,,,2023-10-03 11:00:22,2023-10-03 11:00:24,1.839s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Whatsapp_d""))",Firefox 117.0,,,2023-10-03 11:00:24,2023-10-03 11:00:24,0.733s,PASSED
+"setText(findTestObject(""edit sosial media/input_Whatsapp_d""), Whatsapp)",Firefox 117.0,,,2023-10-03 11:00:24,2023-10-03 11:00:25,1.112s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Firefox 117.0,,,2023-10-03 11:00:25,2023-10-03 11:00:27,1.432s,PASSED
+"verifyTextPresent(""Please input an valid phone number"", false)",Firefox 117.0,,,2023-10-03 11:00:27,2023-10-03 11:00:29,1.851s,FAILED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMF-003,Firefox 117.0,user melakukan edit sosial media linkedin namun saat input hanya menggunakan 1 karakter spesial/huruf saja,,2023-10-03 11:00:29,2023-10-03 11:00:55,26.167s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 11:00:31,2023-10-03 11:00:47,16.078s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Firefox 117.0,,,2023-10-03 11:00:47,2023-10-03 11:00:48,1.497s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Firefox 117.0,,,2023-10-03 11:00:48,2023-10-03 11:00:50,1.753s,PASSED
+"clearText(findTestObject(""edit sosial media/input_LinkedIn_g""))",Firefox 117.0,,,2023-10-03 11:00:50,2023-10-03 11:00:51,0.802s,PASSED
+"setText(findTestObject(""edit sosial media/input_LinkedIn_g""), LinkedIn)",Firefox 117.0,,,2023-10-03 11:00:51,2023-10-03 11:00:51,0.787s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Firefox 117.0,,,2023-10-03 11:00:51,2023-10-03 11:00:53,1.712s,PASSED
+"verifyTextPresent(""plese input an valid username"", false)",Firefox 117.0,,,2023-10-03 11:00:53,2023-10-03 11:00:55,1.775s,FAILED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMF-004,Firefox 117.0,User melakukan edit media sosial pada bagian telegram namun tidak menyertakan @ di awal username,,2023-10-03 11:00:55,2023-10-03 11:01:20,25.428s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 11:00:57,2023-10-03 11:01:13,16.121s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Firefox 117.0,,,2023-10-03 11:01:13,2023-10-03 11:01:14,1.416s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Firefox 117.0,,,2023-10-03 11:01:14,2023-10-03 11:01:16,1.914s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Telegram_e""))",Firefox 117.0,,,2023-10-03 11:01:16,2023-10-03 11:01:17,0.796s,PASSED
+"setText(findTestObject(""edit sosial media/input_Telegram_e""), Telegram)",Firefox 117.0,,,2023-10-03 11:01:17,2023-10-03 11:01:18,0.826s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Firefox 117.0,,,2023-10-03 11:01:18,2023-10-03 11:01:19,1.749s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-10-03 11:01:19,2023-10-03 11:01:19,0.001s,PASSED
+"field_telegram = webDriver.findElement(By.xpath(""(.//*[normalize-space(text()) and normalize-space(.)=""Telegram""])[1]/following::div[1]""))",Firefox 117.0,,,2023-10-03 11:01:19,2023-10-03 11:01:20,0.850s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_telegram)",Firefox 117.0,,,2023-10-03 11:01:20,2023-10-03 11:01:20,0.037s,PASSED
+println(error_message),Firefox 117.0,,,2023-10-03 11:01:20,2023-10-03 11:01:20,0.079s,PASSED
+"assert error_message == ""please include an '@' in the first place username""",Firefox 117.0,,,2023-10-03 11:01:20,2023-10-03 11:01:20,0.009s,FAILED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMF-005,Firefox 117.0,User melakukan edit sosial media dengan menginputkan username instagram lebih dari 50 karakter/huruf,,2023-10-03 11:01:20,2023-10-03 11:01:47,26.537s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 11:01:22,2023-10-03 11:01:39,17.006s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Firefox 117.0,,,2023-10-03 11:01:39,2023-10-03 11:01:41,1.584s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Firefox 117.0,,,2023-10-03 11:01:41,2023-10-03 11:01:42,1.540s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Instagram_c""))",Firefox 117.0,,,2023-10-03 11:01:42,2023-10-03 11:01:43,0.765s,PASSED
+"setText(findTestObject(""edit sosial media/input_Instagram_c""), Instagram)",Firefox 117.0,,,2023-10-03 11:01:43,2023-10-03 11:01:44,1.280s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Firefox 117.0,,,2023-10-03 11:01:44,2023-10-03 11:01:46,1.878s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-10-03 11:01:46,2023-10-03 11:01:46,0.002s,PASSED
+"field_insta = webDriver.findElement(By.xpath(""(.//*[normalize-space(text()) and normalize-space(.)=""Instagram""])[1]/following::div[1]""))",Firefox 117.0,,,2023-10-03 11:01:46,2023-10-03 11:01:47,0.706s,PASSED
+"validationMessage = executeJavaScript(""return arguments[0].validationMessage;"", Arrays.asList(field_insta))",Firefox 117.0,,,2023-10-03 11:01:47,2023-10-03 11:01:47,0.239s,PASSED
+"assert validationMessage == ""please input username not exceed 50 character""",Firefox 117.0,,,2023-10-03 11:01:47,2023-10-03 11:01:47,0.015s,FAILED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMF-006,Firefox 117.0,User melakukan edit sosial media dengan mengnputkan pada google+ tidak menggunakan + diawal username,,2023-10-03 11:01:47,2023-10-03 11:02:14,26.763s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 11:01:49,2023-10-03 11:02:06,17.501s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Firefox 117.0,,,2023-10-03 11:02:06,2023-10-03 11:02:08,1.463s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Firefox 117.0,,,2023-10-03 11:02:08,2023-10-03 11:02:10,1.699s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Google_h""))",Firefox 117.0,,,2023-10-03 11:02:10,2023-10-03 11:02:10,0.913s,PASSED
+"setText(findTestObject(""edit sosial media/input_Google_h""), Google)",Firefox 117.0,,,2023-10-03 11:02:10,2023-10-03 11:02:11,0.859s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Firefox 117.0,,,2023-10-03 11:02:11,2023-10-03 11:02:13,1.635s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-10-03 11:02:13,2023-10-03 11:02:13,0.004s,PASSED
+"field_google = webDriver.findElement(By.xpath(""(.//*[normalize-space(text()) and normalize-space(.)=""Google+""])[1]/following::div[1]""))",Firefox 117.0,,,2023-10-03 11:02:13,2023-10-03 11:02:14,0.726s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_google)",Firefox 117.0,,,2023-10-03 11:02:14,2023-10-03 11:02:14,0.028s,PASSED
+println(error_message),Firefox 117.0,,,2023-10-03 11:02:14,2023-10-03 11:02:14,0.003s,PASSED
+"assert error_message == ""Please include an '+' at the first place username""",Firefox 117.0,,,2023-10-03 11:02:14,2023-10-03 11:02:14,0.011s,FAILED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMF-007,Firefox 117.0,User melakukan edit sosial media namun saat menginputkan nomor watshapp tidak diawali dengan kode negara (+62),,2023-10-03 11:02:14,2023-10-03 11:02:38,23.709s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 11:02:15,2023-10-03 11:02:31,15.790s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Firefox 117.0,,,2023-10-03 11:02:31,2023-10-03 11:02:32,1.356s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Firefox 117.0,,,2023-10-03 11:02:32,2023-10-03 11:02:34,1.601s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Whatsapp_d""))",Firefox 117.0,,,2023-10-03 11:02:34,2023-10-03 11:02:35,0.801s,PASSED
+"setText(findTestObject(""edit sosial media/input_Whatsapp_d""), Whatsapp)",Firefox 117.0,,,2023-10-03 11:02:35,2023-10-03 11:02:35,0.755s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Firefox 117.0,,,2023-10-03 11:02:35,2023-10-03 11:02:37,1.229s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-10-03 11:02:37,2023-10-03 11:02:37,0.001s,PASSED
+"field_wa = webDriver.findElement(By.xpath(""(.//*[normalize-space(text()) and normalize-space(.)=""Whatsapp""])[1]/following::div[1]""))",Firefox 117.0,,,2023-10-03 11:02:37,2023-10-03 11:02:38,0.798s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_wa)",Firefox 117.0,,,2023-10-03 11:02:38,2023-10-03 11:02:38,0.022s,PASSED
+println(error_message),Firefox 117.0,,,2023-10-03 11:02:38,2023-10-03 11:02:38,0.005s,PASSED
+"assert error_message == ""Please input an valid phone number""",Firefox 117.0,,,2023-10-03 11:02:38,2023-10-03 11:02:38,0.018s,FAILED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMF-008,Firefox 117.0,User melakukan edit sosial media saat input no whatsaap lebih dari 14 karakter,,2023-10-03 11:02:38,2023-10-03 11:03:07,28.912s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 11:02:39,2023-10-03 11:02:58,18.678s,PASSED
+"verifyElementPresent(findTestObject(""edit sosial media/verifikasi masuk halaman biodata diri""), 0)",Firefox 117.0,,,2023-10-03 11:02:58,2023-10-03 11:02:59,0.878s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Firefox 117.0,,,2023-10-03 11:02:59,2023-10-03 11:03:00,1.410s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Firefox 117.0,,,2023-10-03 11:03:00,2023-10-03 11:03:02,1.509s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Whatsapp_d""))",Firefox 117.0,,,2023-10-03 11:03:02,2023-10-03 11:03:03,0.900s,PASSED
+"setText(findTestObject(""edit sosial media/input_Whatsapp_d""), whatsapp)",Firefox 117.0,,,2023-10-03 11:03:03,2023-10-03 11:03:03,0.811s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Firefox 117.0,,,2023-10-03 11:03:03,2023-10-03 11:03:05,1.308s,PASSED
+"verifyTextPresent(""please input an valid number"", false)",Firefox 117.0,,,2023-10-03 11:03:05,2023-10-03 11:03:07,1.946s,FAILED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMF-009,Firefox 117.0,User melakukan edit sosial media dengan input nomor whatsapp kurang dari 11 karakter,,2023-10-03 11:03:07,2023-10-03 11:03:33,26.709s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 11:03:09,2023-10-03 11:03:25,16.329s,PASSED
+"verifyElementPresent(findTestObject(""edit sosial media/verifikasi masuk halaman biodata diri""), 0)",Firefox 117.0,,,2023-10-03 11:03:25,2023-10-03 11:03:25,0.490s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Firefox 117.0,,,2023-10-03 11:03:25,2023-10-03 11:03:27,1.328s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Firefox 117.0,,,2023-10-03 11:03:27,2023-10-03 11:03:28,1.717s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Whatsapp_d""))",Firefox 117.0,,,2023-10-03 11:03:28,2023-10-03 11:03:29,0.808s,PASSED
+"setText(findTestObject(""edit sosial media/input_Whatsapp_d""), ""+6281122"")",Firefox 117.0,,,2023-10-03 11:03:29,2023-10-03 11:03:30,1.000s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Firefox 117.0,,,2023-10-03 11:03:30,2023-10-03 11:03:32,1.409s,PASSED
+"verifyTextPresent(""please input an valid number"", false)",Firefox 117.0,,,2023-10-03 11:03:32,2023-10-03 11:03:33,1.734s,FAILED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMF-010,Firefox 117.0,User melakukan edit media sosial Linkedin dengan hanya inputan numeric,,2023-10-03 11:03:33,2023-10-03 11:04:01,27.288s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 11:03:35,2023-10-03 11:03:52,17.798s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Firefox 117.0,,,2023-10-03 11:03:52,2023-10-03 11:03:54,1.348s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Firefox 117.0,,,2023-10-03 11:03:54,2023-10-03 11:03:55,1.590s,PASSED
+"clearText(findTestObject(""edit sosial media/input_LinkedIn_g""))",Firefox 117.0,,,2023-10-03 11:03:55,2023-10-03 11:03:56,1.065s,PASSED
+"setText(findTestObject(""edit sosial media/input_LinkedIn_g""), linkedin)",Firefox 117.0,,,2023-10-03 11:03:56,2023-10-03 11:03:57,1.002s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Firefox 117.0,,,2023-10-03 11:03:57,2023-10-03 11:03:59,1.801s,PASSED
+"verifyTextPresent(""plese input an valid username"", false)",Firefox 117.0,,,2023-10-03 11:03:59,2023-10-03 11:04:01,1.457s,FAILED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMF-011,Firefox 117.0,User melakukan edit media sosial dengan hanya inputan spesial character,,2023-10-03 11:04:01,2023-10-03 11:04:27,25.746s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-03 11:04:02,2023-10-03 11:04:18,16.433s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Firefox 117.0,,,2023-10-03 11:04:18,2023-10-03 11:04:20,1.477s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Firefox 117.0,,,2023-10-03 11:04:20,2023-10-03 11:04:21,1.485s,PASSED
+"clearText(findTestObject(""edit sosial media/input_LinkedIn_g""))",Firefox 117.0,,,2023-10-03 11:04:21,2023-10-03 11:04:22,0.855s,PASSED
+"setText(findTestObject(""edit sosial media/input_LinkedIn_g""), linkedin)",Firefox 117.0,,,2023-10-03 11:04:22,2023-10-03 11:04:23,0.920s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Firefox 117.0,,,2023-10-03 11:04:23,2023-10-03 11:04:25,1.897s,PASSED
+"verifyTextPresent(""plese input an valid username"", false)",Firefox 117.0,,,2023-10-03 11:04:25,2023-10-03 11:04:27,1.770s,FAILED

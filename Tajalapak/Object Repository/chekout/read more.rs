@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>read more</name>
+   <tag></tag>
+   <elementGuidId>cc36bdc4-3970-418e-8844-88a5c185ed07</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tab-1']/div/div/div/div/div/ul/li/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.ps-product__actions.produk-24 > li > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e3a5a0d4-6323-4cf2-8074-f4f998a9224d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/produk/detail/acer-swift-7-sf71351-core-i77y75--gold-122101</value>
+      <webElementGuid>e1cee170-43f6-44e3-8e95-68b2ea8e7ba8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>tooltip</value>
+      <webElementGuid>13d807ff-4f56-4047-860d-14e66bab7ade</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-placement</name>
+      <type>Main</type>
+      <value>top</value>
+      <webElementGuid>ad539201-3964-405e-a96e-630205079cd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-original-title</name>
+      <type>Main</type>
+      <value>Read More</value>
+      <webElementGuid>3a17cb1e-68b3-4b10-a179-6b62235d14e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>tooltip826779</value>
+      <webElementGuid>4e8a838d-44b8-4db0-bd2a-afc260b5d25b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-1&quot;)/div[@class=&quot;ps-shopping-product&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6&quot;]/div[@class=&quot;ps-product&quot;]/div[@class=&quot;ps-product__thumbnail&quot;]/ul[@class=&quot;ps-product__actions produk-24&quot;]/li[1]/a[1]</value>
+      <webElementGuid>50484e56-7304-410c-a4b9-d6be8cf067c9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab-1']/div/div/div/div/div/ul/li/a</value>
+      <webElementGuid>08d06064-43b4-4f59-9cdb-cdd1411c4eab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tampilkan'])[2]/following::a[2]</value>
+      <webElementGuid>411f654f-a2ec-4297-99aa-58eb5c0d1405</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter Produk'])[2]/following::a[2]</value>
+      <webElementGuid>5ed21cae-e3a0-4405-a6d7-3fbfa7d091f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kalifah Umayyah'])[1]/preceding::a[3]</value>
+      <webElementGuid>b17e4981-db5b-44f4-b50d-17f8feadad48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ACER Swift 7 (SF713-51) (Core i7-7Y75),..'])[1]/preceding::a[4]</value>
+      <webElementGuid>1f093cba-deba-4241-8178-0d2e9a3f3ef0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://10.9.2.63/ecommerce/produk/detail/acer-swift-7-sf71351-core-i77y75--gold-122101')])[7]</value>
+      <webElementGuid>cc03baec-2e22-49b1-9704-75ca03952e78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[2]/div/div/div/div/div/div/ul/li/a</value>
+      <webElementGuid>34971191-7829-4b9f-87e5-a9850dfa30ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://10.9.2.63/ecommerce/produk/detail/acer-swift-7-sf71351-core-i77y75--gold-122101']</value>
+      <webElementGuid>68355283-5fa6-4819-96f4-d9f087d90fdd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

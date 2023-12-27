@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User berhasil melakukan konfirmasi bayar melalui menu akun</description>
+   <name>TC-KS-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec8bb44c-6cbe-40f0-9236-ee38cc73a479</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>70148cbb-b72d-4045-b118-931ee2113cc7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>70148cbb-b72d-4045-b118-931ee2113cc7</id>
+      <masked>false</masked>
+      <name>transfe</name>
+   </variable>
+</TestCaseEntity>

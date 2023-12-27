@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Konsumen</name>
+   <tag></tag>
+   <elementGuidId>12a54fb8-1026-4efc-aed3-2397d9a15762</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'Konsumen')])[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d45d546f-7136-4bfd-baab-a152175f68ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/administrator/konsumen</value>
+      <webElementGuid>47cd90c9-3503-46ca-bb38-02bd0d7a1b2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-app</value>
+      <webElementGuid>90e031de-d57f-463e-95f8-e080df1d8b19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Konsumen</value>
+      <webElementGuid>88299f8f-d457-45e7-b7d0-cb93d608d0bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;skin-black-light sidebar-mini  pace-done&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;content-wrapper&quot;]/section[@class=&quot;content&quot;]/section[@class=&quot;col-lg-7 connectedSortable&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;box-body&quot;]/a[@class=&quot;btn btn-app&quot;]</value>
+      <webElementGuid>f5aae389-b665-4596-b288-ef159afe95da</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Konsumen')])[5]</value>
+      <webElementGuid>11ed8e4c-0b0d-4a3c-b7b3-cd20f8b0e084</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Halaman'])[1]/following::a[1]</value>
+      <webElementGuid>df0595b7-6070-441a-9681-e071ac368831</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menu'])[1]/following::a[2]</value>
+      <webElementGuid>fbbf1daf-77c6-4e04-9a12-fdd41b6aee36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reseller'])[2]/preceding::a[1]</value>
+      <webElementGuid>e9962d2e-cb42-44aa-bc2b-395f86c51ff3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Paket'])[1]/preceding::a[2]</value>
+      <webElementGuid>96d33623-4de9-48dd-b1ec-a5f1ea3045d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://10.9.2.63/ecommerce/administrator/konsumen')])[3]</value>
+      <webElementGuid>b11924ae-bea0-49ba-a720-97e62c9b0db0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a[4]</value>
+      <webElementGuid>77e3d23f-20f3-4658-87f0-1c45f7a8f00d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://10.9.2.63/ecommerce/administrator/konsumen' and (text() = ' Konsumen' or . = ' Konsumen')]</value>
+      <webElementGuid>fe35006c-9fc0-4ba1-b78c-a870a04aa137</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

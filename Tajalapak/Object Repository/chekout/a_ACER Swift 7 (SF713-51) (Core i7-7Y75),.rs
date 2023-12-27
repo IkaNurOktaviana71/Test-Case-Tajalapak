@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_ACER Swift 7 (SF713-51) (Core i7-7Y75),</name>
+   <tag></tag>
+   <elementGuidId>6c60e9a4-cb1c-4567-8cf5-5fae0263da10</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[10]/div/div/div[2]/div[2]/div[2]/div[1]/div/div/div[1]/div/div[2]/div[1]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ps-product__content.hover > a.ps-product__title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>7d7b52c0-c106-4bcb-9052-5e156f1498e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ps-product__title</value>
+      <webElementGuid>016dceb3-2a14-4a04-ba54-4c3c9801064c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/produk/detail/acer-swift-7-sf71351-core-i77y75--gold-122101</value>
+      <webElementGuid>c030ac69-5b37-4bc5-b6e4-a33be2c7617c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ACER Swift 7 (SF713-51) (Core i7-7Y75),..</value>
+      <webElementGuid>c71504bf-46aa-4e5b-923a-1fc78a3c55b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-1&quot;)/div[@class=&quot;ps-shopping-product&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6&quot;]/div[@class=&quot;ps-product&quot;]/div[@class=&quot;ps-product__container&quot;]/div[@class=&quot;ps-product__content hover&quot;]/a[@class=&quot;ps-product__title&quot;]</value>
+      <webElementGuid>33a36c8a-179a-40ad-9328-7acf824c203b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab-1']/div/div/div/div/div[2]/div[2]/a</value>
+      <webElementGuid>1fa5f279-1b81-4ab4-a453-250ee382948a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'ACER Swift 7 (SF713-51) (Core i7-7Y75),..')])[2]</value>
+      <webElementGuid>aa79df3b-7314-4d87-a5ad-56882f905a8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ACER Swift 7 (SF713-51) (Core i7-7Y75),..'])[1]/following::a[1]</value>
+      <webElementGuid>7b86abdd-2788-413c-8d85-d2bea7a1411f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kalifah Umayyah'])[1]/following::a[2]</value>
+      <webElementGuid>3aa3d808-80ca-491d-a2ba-4e3b24626c57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tambah Keranjang'])[1]/preceding::a[1]</value>
+      <webElementGuid>8061dfc2-873d-42c0-92b5-4c12b4e39b8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kalifah Umayyah'])[2]/preceding::a[6]</value>
+      <webElementGuid>a1a0268d-873c-4700-a458-d5fdf713278f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://10.9.2.63/ecommerce/produk/detail/acer-swift-7-sf71351-core-i77y75--gold-122101')])[3]</value>
+      <webElementGuid>aeddbf05-9499-4073-ad63-17e7147a4c86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/a</value>
+      <webElementGuid>252a5f0e-3579-4282-b25d-7644f6d143cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://10.9.2.63/ecommerce/produk/detail/acer-swift-7-sf71351-core-i77y75--gold-122101' and (text() = 'ACER Swift 7 (SF713-51) (Core i7-7Y75),..' or . = 'ACER Swift 7 (SF713-51) (Core i7-7Y75),..')]</value>
+      <webElementGuid>86191818-0ffd-4539-89aa-5ae94f1139e6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

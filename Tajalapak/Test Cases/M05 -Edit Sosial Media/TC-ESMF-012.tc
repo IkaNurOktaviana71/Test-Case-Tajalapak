@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan edit media sosial linkedin dengan inputan url yang dipersonalisasi mengandung simbol atau karakter khusus</description>
+   <name>TC-ESMF-012</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b8b0e7b6-fbe9-41bb-a9fa-f454564ec4b2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ce3ef8a0-63cb-4aae-92ed-02b57babb8df</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'www.linkedin.com/in/run@arun'</defaultValue>
+      <description></description>
+      <id>ce3ef8a0-63cb-4aae-92ed-02b57babb8df</id>
+      <masked>false</masked>
+      <name>linkedin</name>
+   </variable>
+</TestCaseEntity>

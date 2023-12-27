@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user melakukan edit sosial media linkedin namun saat input hanya menggunakan 1 karakter spesial/huruf saja</description>
+   <name>TC-ESMF-003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da0be3b2-6516-49b7-afb9-fbbc13c902f6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f91a8e9f-7fb5-43e9-a19b-788284d95566</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'!'</defaultValue>
+      <description></description>
+      <id>f91a8e9f-7fb5-43e9-a19b-788284d95566</id>
+      <masked>false</masked>
+      <name>LinkedIn</name>
+   </variable>
+</TestCaseEntity>

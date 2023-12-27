@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>menghapus data yang terdaftarn di admin</description>
+   <name>data DELETE-PENDAFTARAN</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>6bf52e7c-2f27-4aae-b206-42e39a738d08</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>ikana ikana71%40gmail.com 085643955432</data>
+   <data>nanaokta nanaokta71%40gmail.com 085643217856</data>
+   <data>ikana81 ikana81%40gmail.com 085643219065</data>
+   <data>anata80 anata80%40gmail.com 085643218765</data>
+   <data>anata100 anata100%40gmail.com 08564</data>
+   <data>anata90 anata90%40gmail.com 0856432187654321</data>
+   <data>anata72 anata72%40gmail.com %2B6285643218765</data>
+   <data>anata73 anata73%40gmail.com 085643218765</data>
+   <data>null null null</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>username</name>
+      <size>9</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>email</name>
+      <size>9</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>noHp</name>
+      <size>9</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

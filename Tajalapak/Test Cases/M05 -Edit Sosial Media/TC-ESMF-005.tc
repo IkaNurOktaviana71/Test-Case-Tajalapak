@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan edit sosial media dengan menginputkan username instagram lebih dari 50 karakter/huruf</description>
+   <name>TC-ESMF-005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>45e57287-9e52-42f7-b28c-7a1134293d8c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>83b9bd6b-b918-4d3a-abf6-7c9e1c54325e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'AkulahCintaDiLangitPrudenceLovelyPrincessOfAwanampwnw'</defaultValue>
+      <description></description>
+      <id>83b9bd6b-b918-4d3a-abf6-7c9e1c54325e</id>
+      <masked>false</masked>
+      <name>Instagram</name>
+   </variable>
+</TestCaseEntity>

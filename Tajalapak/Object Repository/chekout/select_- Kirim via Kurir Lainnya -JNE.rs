@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_- Kirim via Kurir Lainnya -JNE</name>
+   <tag></tag>
+   <elementGuidId>c27b0362-fc6d-4436-92da-cbb78302ec7f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='list_kurir1']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#list_kurir1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>5dea1b4d-568d-469f-b6e3-434e2087519f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control form-mini text-success</value>
+      <webElementGuid>5253da98-f049-4cb4-bb50-da1f68c42430</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>kode_kurir1</value>
+      <webElementGuid>9fc728b9-bc62-4180-b901-1213b55aa5d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>list_kurir1</value>
+      <webElementGuid>41ffd52b-6faa-4207-822a-fb27e38573fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                  - Kirim via Kurir Lainnya -JNEJ&amp;TTIKISiCepat ExpressPOS IndonesiaJET ExpressLion ParcelNinja XpressWahana Prestasi LogistikRPX HoldingRoyal Express Indonesia (REX)ID Express (IDE)Sentral Cargo (SC)JNE Express</value>
+      <webElementGuid>94959e4f-72da-459b-91f5-419ea404de20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;list_kurir1&quot;)</value>
+      <webElementGuid>e1e526c3-8e1a-401a-8387-e56f3eab9e23</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='list_kurir1']</value>
+      <webElementGuid>e3b0c678-bb1d-469b-88ec-e370823be346</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kirim via COD (Bayar Di tempat)'])[1]/following::select[2]</value>
+      <webElementGuid>6aa15fa4-e8f0-4859-931c-2d066a5a51cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kalifah Umayyah'])[2]/following::select[2]</value>
+      <webElementGuid>8bd25ed6-5aa9-48e1-ade6-b488899b78d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='COD Tidak Tersedia!'])[1]/preceding::select[1]</value>
+      <webElementGuid>8341e1ed-3929-40a1-9bd3-ae2bbd5a5748</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 1,500'])[1]/preceding::select[1]</value>
+      <webElementGuid>9215a16a-5f90-434d-b77f-1f67d26fd9f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select[2]</value>
+      <webElementGuid>a58eef21-6b8b-4098-a0f1-29053c01f80e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'kode_kurir1' and @id = 'list_kurir1' and (text() = '
+                                                  - Kirim via Kurir Lainnya -JNEJ&amp;TTIKISiCepat ExpressPOS IndonesiaJET ExpressLion ParcelNinja XpressWahana Prestasi LogistikRPX HoldingRoyal Express Indonesia (REX)ID Express (IDE)Sentral Cargo (SC)JNE Express' or . = '
+                                                  - Kirim via Kurir Lainnya -JNEJ&amp;TTIKISiCepat ExpressPOS IndonesiaJET ExpressLion ParcelNinja XpressWahana Prestasi LogistikRPX HoldingRoyal Express Indonesia (REX)ID Express (IDE)Sentral Cargo (SC)JNE Express')]</value>
+      <webElementGuid>2da39fcb-4766-4de7-ba32-e751e144d537</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

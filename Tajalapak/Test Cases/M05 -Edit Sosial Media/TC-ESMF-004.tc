@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan edit media sosial pada bagian telegram namun tidak menyertakan @ di awal username</description>
+   <name>TC-ESMF-004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>84f3fdfb-1e2b-419f-b4e0-81ea3259dd65</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>55fa6f4e-32d4-40a5-b87f-24b92694e771</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Runaya71'</defaultValue>
+      <description></description>
+      <id>55fa6f4e-32d4-40a5-b87f-24b92694e771</id>
+      <masked>false</masked>
+      <name>Telegram</name>
+   </variable>
+</TestCaseEntity>

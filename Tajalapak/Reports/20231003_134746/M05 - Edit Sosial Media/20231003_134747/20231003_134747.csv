@@ -1,0 +1,243 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+M05 - Edit Sosial Media,Edge Chromium 117,,,2023-10-03 13:48:13,2023-10-03 13:54:19,6m - 5.414s,FAILED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-LS-001,Edge Chromium 117,User login dengan Memasukan username dan password yang valid,,2023-10-03 13:48:14,2023-10-03 13:48:28,14.553s,PASSED
+openBrowser(urlWeb),Edge Chromium 117,,,2023-10-03 13:48:14,2023-10-03 13:48:23,8.988s,PASSED
+maximizeWindow(),Edge Chromium 117,,,2023-10-03 13:48:23,2023-10-03 13:48:23,0.224s,PASSED
+"click(findTestObject(""Login/a_Login""))",Edge Chromium 117,,,2023-10-03 13:48:23,2023-10-03 13:48:24,0.979s,PASSED
+"setText(findTestObject(""Login/input_Username, Email atau No. Handphone_a""), ""runa36"")",Edge Chromium 117,,,2023-10-03 13:48:24,2023-10-03 13:48:25,1.179s,PASSED
+"setEncryptedText(findTestObject(""Login/input_Password di Login(Masuk)""), ""qbkrdMwyWE4="")",Edge Chromium 117,,,2023-10-03 13:48:25,2023-10-03 13:48:26,0.535s,PASSED
+"click(findTestObject(""Login/button_Masuk di halaman login""))",Edge Chromium 117,,,2023-10-03 13:48:26,2023-10-03 13:48:27,1.558s,PASSED
+"verifyElementPresent(findTestObject(""edit sosial media/verifikasi masuk halaman biodata diri""), 0)",Edge Chromium 117,,,2023-10-03 13:48:27,2023-10-03 13:48:28,0.754s,PASSED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMS-001,Edge Chromium 117,User melakukan edit semua sosial media dengan inputan yang valid,,2023-10-03 13:48:28,2023-10-03 13:49:00,32.083s,PASSED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-03 13:48:29,2023-10-03 13:48:40,11.177s,PASSED
+"verifyElementPresent(findTestObject(""edit sosial media/verifikasi masuk halaman biodata diri""), 0)",Edge Chromium 117,,,2023-10-03 13:48:40,2023-10-03 13:48:40,0.334s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Edge Chromium 117,,,2023-10-03 13:48:40,2023-10-03 13:48:42,1.269s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:48:42,2023-10-03 13:48:43,1.356s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Facebook_a""))",Edge Chromium 117,,,2023-10-03 13:48:43,2023-10-03 13:48:44,0.766s,PASSED
+"setText(findTestObject(""edit sosial media/input_Facebook_a""), Facebook)",Edge Chromium 117,,,2023-10-03 13:48:44,2023-10-03 13:48:45,0.808s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Twitter_b""))",Edge Chromium 117,,,2023-10-03 13:48:45,2023-10-03 13:48:45,0.607s,PASSED
+"setText(findTestObject(""edit sosial media/input_Twitter_b""), Twitter)",Edge Chromium 117,,,2023-10-03 13:48:45,2023-10-03 13:48:46,0.867s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Instagram_c""))",Edge Chromium 117,,,2023-10-03 13:48:46,2023-10-03 13:48:47,0.586s,PASSED
+"setText(findTestObject(""edit sosial media/input_Instagram_c""), Instagram)",Edge Chromium 117,,,2023-10-03 13:48:47,2023-10-03 13:48:48,0.880s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Whatsapp_d""))",Edge Chromium 117,,,2023-10-03 13:48:48,2023-10-03 13:48:48,0.860s,PASSED
+"setText(findTestObject(""edit sosial media/input_Whatsapp_d""), Whatsapp)",Edge Chromium 117,,,2023-10-03 13:48:48,2023-10-03 13:48:49,0.769s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Telegram_e""))",Edge Chromium 117,,,2023-10-03 13:48:49,2023-10-03 13:48:50,0.591s,PASSED
+"setText(findTestObject(""edit sosial media/input_Telegram_e""), Telegram)",Edge Chromium 117,,,2023-10-03 13:48:50,2023-10-03 13:48:51,0.925s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Youtube_f""))",Edge Chromium 117,,,2023-10-03 13:48:51,2023-10-03 13:48:51,0.563s,PASSED
+"setText(findTestObject(""edit sosial media/input_Youtube_f""), Youtube)",Edge Chromium 117,,,2023-10-03 13:48:51,2023-10-03 13:48:52,0.792s,PASSED
+"clearText(findTestObject(""edit sosial media/input_LinkedIn_g""))",Edge Chromium 117,,,2023-10-03 13:48:52,2023-10-03 13:48:53,0.499s,PASSED
+"setText(findTestObject(""edit sosial media/input_LinkedIn_g""), LinkedIn)",Edge Chromium 117,,,2023-10-03 13:48:53,2023-10-03 13:48:53,0.815s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Google_h""))",Edge Chromium 117,,,2023-10-03 13:48:53,2023-10-03 13:48:54,0.515s,PASSED
+"setText(findTestObject(""edit sosial media/input_Google_h""), Google)",Edge Chromium 117,,,2023-10-03 13:48:54,2023-10-03 13:48:55,0.866s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:48:55,2023-10-03 13:48:56,1.567s,PASSED
+"face = getText(findTestObject(""hasil sosmed/hasil facebook_a""))",Edge Chromium 117,,,2023-10-03 13:48:56,2023-10-03 13:48:57,0.675s,PASSED
+"Twit = getText(findTestObject(""hasil sosmed/hasil twitter_b""))",Edge Chromium 117,,,2023-10-03 13:48:57,2023-10-03 13:48:57,0.368s,PASSED
+"insta = getText(findTestObject(""hasil sosmed/hasil Instagram_c""))",Edge Chromium 117,,,2023-10-03 13:48:57,2023-10-03 13:48:58,0.413s,PASSED
+"wa = getText(findTestObject(""hasil sosmed/hasil whatsapp d""))",Edge Chromium 117,,,2023-10-03 13:48:58,2023-10-03 13:48:58,0.422s,PASSED
+"tele = getText(findTestObject(""hasil sosmed/hasil Telegram e""))",Edge Chromium 117,,,2023-10-03 13:48:58,2023-10-03 13:48:59,0.526s,PASSED
+"yout = getText(findTestObject(""hasil sosmed/hasil youtube f""))",Edge Chromium 117,,,2023-10-03 13:48:59,2023-10-03 13:48:59,0.577s,PASSED
+"lin = getText(findTestObject(""hasil sosmed/hasil linkedin g""))",Edge Chromium 117,,,2023-10-03 13:48:59,2023-10-03 13:49:00,0.403s,PASSED
+"goo = getText(findTestObject(""hasil sosmed/hasil google h""))",Edge Chromium 117,,,2023-10-03 13:49:00,2023-10-03 13:49:00,0.640s,PASSED
+assert trim().equalsIgnoreCase(Facebook.trim()),Edge Chromium 117,,,2023-10-03 13:49:00,2023-10-03 13:49:00,0.004s,PASSED
+assert trim().equalsIgnoreCase(Twitter.trim()),Edge Chromium 117,,,2023-10-03 13:49:00,2023-10-03 13:49:00,0.001s,PASSED
+assert trim().equalsIgnoreCase(Instagram.trim()),Edge Chromium 117,,,2023-10-03 13:49:00,2023-10-03 13:49:00,0.000s,PASSED
+assert trim().equalsIgnoreCase(Whatsapp.trim()),Edge Chromium 117,,,2023-10-03 13:49:00,2023-10-03 13:49:00,0.000s,PASSED
+assert trim().equalsIgnoreCase(Telegram.trim()),Edge Chromium 117,,,2023-10-03 13:49:00,2023-10-03 13:49:00,0.000s,PASSED
+assert trim().equalsIgnoreCase(Youtube.trim()),Edge Chromium 117,,,2023-10-03 13:49:00,2023-10-03 13:49:00,0.001s,PASSED
+assert trim().equalsIgnoreCase(LinkedIn.trim()),Edge Chromium 117,,,2023-10-03 13:49:00,2023-10-03 13:49:00,0.001s,PASSED
+assert trim().equalsIgnoreCase(Google.trim()),Edge Chromium 117,,,2023-10-03 13:49:00,2023-10-03 13:49:00,0.001s,PASSED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMS-002,Edge Chromium 117,User melakukan edit salah satu atau lebih Sosial media dengan menggunakan inputan yang valid,,2023-10-03 13:49:00,2023-10-03 13:49:20,19.939s,PASSED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-03 13:49:01,2023-10-03 13:49:13,12.225s,PASSED
+"verifyElementPresent(findTestObject(""edit sosial media/verifikasi masuk halaman biodata diri""), 0)",Edge Chromium 117,,,2023-10-03 13:49:13,2023-10-03 13:49:13,0.373s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Edge Chromium 117,,,2023-10-03 13:49:13,2023-10-03 13:49:14,0.900s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:49:14,2023-10-03 13:49:15,1.057s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Facebook_a""))",Edge Chromium 117,,,2023-10-03 13:49:15,2023-10-03 13:49:16,0.747s,PASSED
+"setText(findTestObject(""edit sosial media/input_Facebook_a""), facebook)",Edge Chromium 117,,,2023-10-03 13:49:16,2023-10-03 13:49:17,1.045s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Instagram_c""))",Edge Chromium 117,,,2023-10-03 13:49:17,2023-10-03 13:49:18,0.387s,PASSED
+"setText(findTestObject(""edit sosial media/input_Instagram_c""), instagram)",Edge Chromium 117,,,2023-10-03 13:49:18,2023-10-03 13:49:18,0.713s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:49:18,2023-10-03 13:49:19,1.130s,PASSED
+"face = getText(findTestObject(""Object Repository/hasil sosmed/hasil facebook_a""))",Edge Chromium 117,,,2023-10-03 13:49:19,2023-10-03 13:49:20,0.611s,PASSED
+"insta = getText(findTestObject(""Object Repository/hasil sosmed/hasil Instagram_c""))",Edge Chromium 117,,,2023-10-03 13:49:20,2023-10-03 13:49:20,0.388s,PASSED
+assert trim().equalsIgnoreCase(facebook.trim()),Edge Chromium 117,,,2023-10-03 13:49:20,2023-10-03 13:49:20,0.000s,PASSED
+assert trim().equalsIgnoreCase(instagram.trim()),Edge Chromium 117,,,2023-10-03 13:49:20,2023-10-03 13:49:20,0.000s,PASSED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMS-003,Edge Chromium 117,user melakukan edit sosial media Twitter dengan menghapus nama akun twiter,,2023-10-03 13:49:21,2023-10-03 13:49:39,18.183s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-03 13:49:21,2023-10-03 13:49:33,11.713s,PASSED
+"verifyElementPresent(findTestObject(""edit sosial media/verifikasi masuk halaman biodata diri""), 0)",Edge Chromium 117,,,2023-10-03 13:49:33,2023-10-03 13:49:33,0.334s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Edge Chromium 117,,,2023-10-03 13:49:33,2023-10-03 13:49:34,0.873s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:49:34,2023-10-03 13:49:35,1.285s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Twitter_b""))",Edge Chromium 117,,,2023-10-03 13:49:35,2023-10-03 13:49:36,0.609s,PASSED
+"setText(findTestObject(""edit sosial media/input_Twitter_b""), twitter)",Edge Chromium 117,,,2023-10-03 13:49:36,2023-10-03 13:49:37,0.778s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:49:37,2023-10-03 13:49:38,1.240s,PASSED
+"twit = getText(findTestObject(""Object Repository/hasil sosmed/hasil twitter_b""))",Edge Chromium 117,,,2023-10-03 13:49:38,2023-10-03 13:49:39,0.690s,PASSED
+assert trim().equalsIgnoreCase(twitter.trim()),Edge Chromium 117,,,2023-10-03 13:49:39,2023-10-03 13:49:39,0.053s,FAILED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMS-004,Edge Chromium 117,User edit sosial media youtube dan linkedin dengan inputan alamat url,,2023-10-03 13:49:39,2023-10-03 13:49:59,19.849s,PASSED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-03 13:49:40,2023-10-03 13:49:51,11.373s,PASSED
+"verifyElementPresent(findTestObject(""edit sosial media/verifikasi masuk halaman biodata diri""), 0)",Edge Chromium 117,,,2023-10-03 13:49:51,2023-10-03 13:49:51,0.320s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Edge Chromium 117,,,2023-10-03 13:49:51,2023-10-03 13:49:52,0.913s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:49:52,2023-10-03 13:49:53,1.239s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Youtube_f""))",Edge Chromium 117,,,2023-10-03 13:49:53,2023-10-03 13:49:54,0.732s,PASSED
+"setText(findTestObject(""edit sosial media/input_Youtube_f""), youtube)",Edge Chromium 117,,,2023-10-03 13:49:54,2023-10-03 13:49:55,1.049s,PASSED
+"clearText(findTestObject(""edit sosial media/input_LinkedIn_g""))",Edge Chromium 117,,,2023-10-03 13:49:55,2023-10-03 13:49:56,0.483s,PASSED
+"setText(findTestObject(""edit sosial media/input_LinkedIn_g""), linkedin)",Edge Chromium 117,,,2023-10-03 13:49:56,2023-10-03 13:49:56,0.773s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:49:56,2023-10-03 13:49:58,1.058s,PASSED
+"yt = getText(findTestObject(""hasil sosmed/hasil youtube f""))",Edge Chromium 117,,,2023-10-03 13:49:58,2023-10-03 13:49:58,0.785s,PASSED
+"lind = getText(findTestObject(""hasil sosmed/hasil linkedin g""))",Edge Chromium 117,,,2023-10-03 13:49:58,2023-10-03 13:49:59,0.446s,PASSED
+assert trim().equalsIgnoreCase(youtube.trim()),Edge Chromium 117,,,2023-10-03 13:49:59,2023-10-03 13:49:59,0.001s,PASSED
+assert trim().equalsIgnoreCase(linkedin.trim()),Edge Chromium 117,,,2023-10-03 13:49:59,2023-10-03 13:49:59,0.001s,PASSED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMS-005,Edge Chromium 117,User melakukan edit sosial media instagram dan tidak melakukan simpan perubahan,,2023-10-03 13:49:59,2023-10-03 13:50:17,18.041s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-03 13:49:59,2023-10-03 13:50:10,10.341s,PASSED
+"verifyElementPresent(findTestObject(""edit sosial media/verifikasi masuk halaman biodata diri""), 0)",Edge Chromium 117,,,2023-10-03 13:50:10,2023-10-03 13:50:10,0.348s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Edge Chromium 117,,,2023-10-03 13:50:10,2023-10-03 13:50:11,0.979s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:50:11,2023-10-03 13:50:12,1.282s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Instagram_c""))",Edge Chromium 117,,,2023-10-03 13:50:12,2023-10-03 13:50:13,0.790s,PASSED
+"setText(findTestObject(""edit sosial media/input_Instagram_c""), insta)",Edge Chromium 117,,,2023-10-03 13:50:13,2023-10-03 13:50:14,0.756s,PASSED
+"click(findTestObject(""edit sosial media/li_Profile""))",Edge Chromium 117,,,2023-10-03 13:50:14,2023-10-03 13:50:15,0.993s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Edge Chromium 117,,,2023-10-03 13:50:15,2023-10-03 13:50:16,1.304s,PASSED
+"instag = getText(findTestObject(""Object Repository/hasil sosmed/hasil Instagram_c""))",Edge Chromium 117,,,2023-10-03 13:50:16,2023-10-03 13:50:17,0.659s,PASSED
+assert insta == instag,Edge Chromium 117,,,2023-10-03 13:50:17,2023-10-03 13:50:17,0.004s,FAILED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMD-001,Edge Chromium 117,User melakukan delete hasil edit sosial media,,2023-10-03 13:50:17,2023-10-03 13:50:57,39.654s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-ESMS-001""), [""Facebook"":""Runarun"", ""Twitter"":""Runaya71"", ""Instagram"":""Runarun"", ""Whatsapp"":""+6281122223333"", ""Telegram"":""@Runaya71"", ""Youtube"":""Runarun"", ... ], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-03 13:50:18,2023-10-03 13:50:47,28.982s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:50:47,2023-10-03 13:50:48,0.903s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Facebook_a""))",Edge Chromium 117,,,2023-10-03 13:50:48,2023-10-03 13:50:48,0.676s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Twitter_b""))",Edge Chromium 117,,,2023-10-03 13:50:48,2023-10-03 13:50:49,0.402s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Instagram_c""))",Edge Chromium 117,,,2023-10-03 13:50:49,2023-10-03 13:50:49,0.426s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Whatsapp_d""))",Edge Chromium 117,,,2023-10-03 13:50:49,2023-10-03 13:50:50,0.436s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Telegram_e""))",Edge Chromium 117,,,2023-10-03 13:50:50,2023-10-03 13:50:50,0.365s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Youtube_f""))",Edge Chromium 117,,,2023-10-03 13:50:50,2023-10-03 13:50:51,0.597s,PASSED
+"clearText(findTestObject(""edit sosial media/input_LinkedIn_g""))",Edge Chromium 117,,,2023-10-03 13:50:51,2023-10-03 13:50:51,0.448s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Google_h""))",Edge Chromium 117,,,2023-10-03 13:50:51,2023-10-03 13:50:52,0.426s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:50:52,2023-10-03 13:50:53,1.180s,PASSED
+"face = getText(findTestObject(""Object Repository/hasil sosmed/hasil facebook_a""))",Edge Chromium 117,,,2023-10-03 13:50:53,2023-10-03 13:50:54,0.778s,PASSED
+"twit = getText(findTestObject(""hasil sosmed/hasil twitter_b""))",Edge Chromium 117,,,2023-10-03 13:50:54,2023-10-03 13:50:54,0.399s,PASSED
+"insta = getText(findTestObject(""hasil sosmed/hasil Instagram_c""))",Edge Chromium 117,,,2023-10-03 13:50:54,2023-10-03 13:50:54,0.441s,PASSED
+"wa = getText(findTestObject(""hasil sosmed/hasil whatsapp d""))",Edge Chromium 117,,,2023-10-03 13:50:54,2023-10-03 13:50:55,0.492s,PASSED
+"tele = getText(findTestObject(""hasil sosmed/hasil Telegram e""))",Edge Chromium 117,,,2023-10-03 13:50:55,2023-10-03 13:50:55,0.403s,PASSED
+"yout = getText(findTestObject(""hasil sosmed/hasil youtube f""))",Edge Chromium 117,,,2023-10-03 13:50:55,2023-10-03 13:50:56,0.420s,PASSED
+"lin = getText(findTestObject(""hasil sosmed/hasil linkedin g""))",Edge Chromium 117,,,2023-10-03 13:50:56,2023-10-03 13:50:56,0.448s,PASSED
+"goo = getText(findTestObject(""hasil sosmed/hasil google h""))",Edge Chromium 117,,,2023-10-03 13:50:56,2023-10-03 13:50:57,0.418s,PASSED
+assert trim().equalsIgnoreCase(facebook.trim()),Edge Chromium 117,,,2023-10-03 13:50:57,2023-10-03 13:50:57,0.009s,FAILED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMF-001,Edge Chromium 117,user melakukan edit sosial media pada facebook namun saat menginputkan usernamenya menggunakan spasi,,2023-10-03 13:50:57,2023-10-03 13:51:13,16.212s,PASSED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-03 13:50:57,2023-10-03 13:51:08,10.798s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Edge Chromium 117,,,2023-10-03 13:51:08,2023-10-03 13:51:09,1.579s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:51:09,2023-10-03 13:51:11,1.267s,PASSED
+"click(findTestObject(""edit sosial media/input_Facebook_a""))",Edge Chromium 117,,,2023-10-03 13:51:11,2023-10-03 13:51:11,0.788s,PASSED
+"setText(findTestObject(""edit sosial media/input_Facebook_a""), facebook, CONTINUE_ON_FAILURE)",Edge Chromium 117,,,2023-10-03 13:51:11,2023-10-03 13:51:12,0.770s,PASSED
+"waitForAlert(5, OPTIONAL)",Edge Chromium 117,,,2023-10-03 13:51:12,2023-10-03 13:51:13,0.256s,PASSED
+webDriver = getWebDriver(),Edge Chromium 117,,,2023-10-03 13:51:13,2023-10-03 13:51:13,0.048s,PASSED
+AlertText = alert().getText(),Edge Chromium 117,,,2023-10-03 13:51:13,2023-10-03 13:51:13,0.107s,PASSED
+"verifyEqual(AlertText, ""Maaf, Tidak Boleh Menggunakan Spasi,.."")",Edge Chromium 117,,,2023-10-03 13:51:13,2023-10-03 13:51:13,0.123s,PASSED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMF-002,Edge Chromium 117,user melakukan edit sosial media dengan menginputkan nomor Whatsapp mengandung karakter huruf,,2023-10-03 13:51:13,2023-10-03 13:51:31,18.137s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-03 13:51:14,2023-10-03 13:51:25,11.296s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Edge Chromium 117,,,2023-10-03 13:51:25,2023-10-03 13:51:26,0.947s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:51:26,2023-10-03 13:51:27,1.252s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Whatsapp_d""))",Edge Chromium 117,,,2023-10-03 13:51:27,2023-10-03 13:51:28,0.674s,PASSED
+"setText(findTestObject(""edit sosial media/input_Whatsapp_d""), Whatsapp)",Edge Chromium 117,,,2023-10-03 13:51:28,2023-10-03 13:51:29,0.794s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:51:29,2023-10-03 13:51:30,1.207s,PASSED
+"verifyTextPresent(""Please input an valid phone number"", false)",Edge Chromium 117,,,2023-10-03 13:51:30,2023-10-03 13:51:31,1.074s,FAILED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMF-003,Edge Chromium 117,user melakukan edit sosial media linkedin namun saat input hanya menggunakan 1 karakter spesial/huruf saja,,2023-10-03 13:51:31,2023-10-03 13:51:49,18.017s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-03 13:51:32,2023-10-03 13:51:43,11.016s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Edge Chromium 117,,,2023-10-03 13:51:43,2023-10-03 13:51:44,1.005s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:51:44,2023-10-03 13:51:45,1.215s,PASSED
+"clearText(findTestObject(""edit sosial media/input_LinkedIn_g""))",Edge Chromium 117,,,2023-10-03 13:51:45,2023-10-03 13:51:46,0.769s,PASSED
+"setText(findTestObject(""edit sosial media/input_LinkedIn_g""), LinkedIn)",Edge Chromium 117,,,2023-10-03 13:51:46,2023-10-03 13:51:47,1.104s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:51:47,2023-10-03 13:51:48,1.166s,PASSED
+"verifyTextPresent(""plese input an valid username"", false)",Edge Chromium 117,,,2023-10-03 13:51:48,2023-10-03 13:51:49,1.028s,FAILED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMF-004,Edge Chromium 117,User melakukan edit media sosial pada bagian telegram namun tidak menyertakan @ di awal username,,2023-10-03 13:51:49,2023-10-03 13:52:07,18.327s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-03 13:51:50,2023-10-03 13:52:02,11.765s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Edge Chromium 117,,,2023-10-03 13:52:02,2023-10-03 13:52:03,0.921s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:52:03,2023-10-03 13:52:04,1.230s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Telegram_e""))",Edge Chromium 117,,,2023-10-03 13:52:04,2023-10-03 13:52:05,0.760s,PASSED
+"setText(findTestObject(""edit sosial media/input_Telegram_e""), Telegram)",Edge Chromium 117,,,2023-10-03 13:52:05,2023-10-03 13:52:06,0.841s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:52:06,2023-10-03 13:52:07,1.130s,PASSED
+webDriver = getWebDriver(),Edge Chromium 117,,,2023-10-03 13:52:07,2023-10-03 13:52:07,0.000s,PASSED
+"field_telegram = webDriver.findElement(By.xpath(""(.//*[normalize-space(text()) and normalize-space(.)=""Telegram""])[1]/following::div[1]""))",Edge Chromium 117,,,2023-10-03 13:52:07,2023-10-03 13:52:07,0.642s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_telegram)",Edge Chromium 117,,,2023-10-03 13:52:07,2023-10-03 13:52:07,0.038s,PASSED
+println(error_message),Edge Chromium 117,,,2023-10-03 13:52:07,2023-10-03 13:52:07,0.034s,PASSED
+"assert error_message == ""please include an '@' in the first place username""",Edge Chromium 117,,,2023-10-03 13:52:07,2023-10-03 13:52:07,0.003s,FAILED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMF-005,Edge Chromium 117,User melakukan edit sosial media dengan menginputkan username instagram lebih dari 50 karakter/huruf,,2023-10-03 13:52:08,2023-10-03 13:52:26,18.225s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-03 13:52:08,2023-10-03 13:52:20,12.056s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Edge Chromium 117,,,2023-10-03 13:52:20,2023-10-03 13:52:21,0.905s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:52:21,2023-10-03 13:52:22,1.234s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Instagram_c""))",Edge Chromium 117,,,2023-10-03 13:52:22,2023-10-03 13:52:23,0.657s,PASSED
+"setText(findTestObject(""edit sosial media/input_Instagram_c""), Instagram)",Edge Chromium 117,,,2023-10-03 13:52:23,2023-10-03 13:52:24,0.897s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:52:24,2023-10-03 13:52:25,1.051s,PASSED
+webDriver = getWebDriver(),Edge Chromium 117,,,2023-10-03 13:52:25,2023-10-03 13:52:25,0.002s,PASSED
+"field_insta = webDriver.findElement(By.xpath(""(.//*[normalize-space(text()) and normalize-space(.)=""Instagram""])[1]/following::div[1]""))",Edge Chromium 117,,,2023-10-03 13:52:25,2023-10-03 13:52:26,0.661s,PASSED
+"validationMessage = executeJavaScript(""return arguments[0].validationMessage;"", Arrays.asList(field_insta))",Edge Chromium 117,,,2023-10-03 13:52:26,2023-10-03 13:52:26,0.121s,PASSED
+"assert validationMessage == ""please input username not exceed 50 character""",Edge Chromium 117,,,2023-10-03 13:52:26,2023-10-03 13:52:26,0.003s,FAILED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMF-006,Edge Chromium 117,User melakukan edit sosial media dengan mengnputkan pada google+ tidak menggunakan + diawal username,,2023-10-03 13:52:26,2023-10-03 13:52:46,19.968s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-03 13:52:27,2023-10-03 13:52:40,13.338s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Edge Chromium 117,,,2023-10-03 13:52:40,2023-10-03 13:52:41,1.037s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:52:41,2023-10-03 13:52:42,1.066s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Google_h""))",Edge Chromium 117,,,2023-10-03 13:52:42,2023-10-03 13:52:43,0.725s,PASSED
+"setText(findTestObject(""edit sosial media/input_Google_h""), Google)",Edge Chromium 117,,,2023-10-03 13:52:43,2023-10-03 13:52:44,0.874s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:52:44,2023-10-03 13:52:45,1.365s,PASSED
+webDriver = getWebDriver(),Edge Chromium 117,,,2023-10-03 13:52:45,2023-10-03 13:52:45,0.001s,PASSED
+"field_google = webDriver.findElement(By.xpath(""(.//*[normalize-space(text()) and normalize-space(.)=""Google+""])[1]/following::div[1]""))",Edge Chromium 117,,,2023-10-03 13:52:45,2023-10-03 13:52:46,0.740s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_google)",Edge Chromium 117,,,2023-10-03 13:52:46,2023-10-03 13:52:46,0.028s,PASSED
+println(error_message),Edge Chromium 117,,,2023-10-03 13:52:46,2023-10-03 13:52:46,0.001s,PASSED
+"assert error_message == ""Please include an '+' at the first place username""",Edge Chromium 117,,,2023-10-03 13:52:46,2023-10-03 13:52:46,0.007s,FAILED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMF-007,Edge Chromium 117,User melakukan edit sosial media namun saat menginputkan nomor watshapp tidak diawali dengan kode negara (+62),,2023-10-03 13:52:46,2023-10-03 13:53:04,18.263s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-03 13:52:47,2023-10-03 13:53:00,12.844s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Edge Chromium 117,,,2023-10-03 13:53:00,2023-10-03 13:53:01,0.984s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:53:01,2023-10-03 13:53:02,1.198s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Whatsapp_d""))",Edge Chromium 117,,,2023-10-03 13:53:02,2023-10-03 13:53:02,0.757s,PASSED
+"setText(findTestObject(""edit sosial media/input_Whatsapp_d""), Whatsapp)",Edge Chromium 117,,,2023-10-03 13:53:02,2023-10-03 13:53:03,0.727s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:53:03,2023-10-03 13:53:04,0.408s,PASSED
+webDriver = getWebDriver(),Edge Chromium 117,,,2023-10-03 13:53:04,2023-10-03 13:53:04,0.001s,PASSED
+"field_wa = webDriver.findElement(By.xpath(""(.//*[normalize-space(text()) and normalize-space(.)=""Whatsapp""])[1]/following::div[1]""))",Edge Chromium 117,,,2023-10-03 13:53:04,2023-10-03 13:53:04,0.557s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_wa)",Edge Chromium 117,,,2023-10-03 13:53:04,2023-10-03 13:53:04,0.013s,PASSED
+println(error_message),Edge Chromium 117,,,2023-10-03 13:53:04,2023-10-03 13:53:04,0.000s,PASSED
+"assert error_message == ""Please input an valid phone number""",Edge Chromium 117,,,2023-10-03 13:53:04,2023-10-03 13:53:04,0.003s,FAILED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMF-008,Edge Chromium 117,User melakukan edit sosial media saat input no whatsaap lebih dari 14 karakter,,2023-10-03 13:53:04,2023-10-03 13:53:23,18.911s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-03 13:53:05,2023-10-03 13:53:17,12.000s,PASSED
+"verifyElementPresent(findTestObject(""edit sosial media/verifikasi masuk halaman biodata diri""), 0)",Edge Chromium 117,,,2023-10-03 13:53:17,2023-10-03 13:53:17,0.385s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Edge Chromium 117,,,2023-10-03 13:53:17,2023-10-03 13:53:18,0.916s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:53:18,2023-10-03 13:53:19,1.199s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Whatsapp_d""))",Edge Chromium 117,,,2023-10-03 13:53:19,2023-10-03 13:53:20,0.646s,PASSED
+"setText(findTestObject(""edit sosial media/input_Whatsapp_d""), whatsapp)",Edge Chromium 117,,,2023-10-03 13:53:20,2023-10-03 13:53:21,0.772s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:53:21,2023-10-03 13:53:22,1.011s,PASSED
+"verifyTextPresent(""please input an valid number"", false)",Edge Chromium 117,,,2023-10-03 13:53:22,2023-10-03 13:53:23,1.407s,FAILED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMF-009,Edge Chromium 117,User melakukan edit sosial media dengan input nomor whatsapp kurang dari 11 karakter,,2023-10-03 13:53:23,2023-10-03 13:53:42,19.046s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-03 13:53:24,2023-10-03 13:53:36,12.075s,PASSED
+"verifyElementPresent(findTestObject(""edit sosial media/verifikasi masuk halaman biodata diri""), 0)",Edge Chromium 117,,,2023-10-03 13:53:36,2023-10-03 13:53:36,0.380s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Edge Chromium 117,,,2023-10-03 13:53:36,2023-10-03 13:53:37,0.840s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:53:37,2023-10-03 13:53:39,1.411s,PASSED
+"clearText(findTestObject(""edit sosial media/input_Whatsapp_d""))",Edge Chromium 117,,,2023-10-03 13:53:39,2023-10-03 13:53:39,0.705s,PASSED
+"setText(findTestObject(""edit sosial media/input_Whatsapp_d""), ""+6281122"")",Edge Chromium 117,,,2023-10-03 13:53:39,2023-10-03 13:53:40,0.750s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:53:40,2023-10-03 13:53:41,1.298s,PASSED
+"verifyTextPresent(""please input an valid number"", false)",Edge Chromium 117,,,2023-10-03 13:53:41,2023-10-03 13:53:42,0.891s,FAILED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMF-010,Edge Chromium 117,User melakukan edit media sosial Linkedin dengan hanya inputan numeric,,2023-10-03 13:53:42,2023-10-03 13:54:00,17.861s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-03 13:53:43,2023-10-03 13:53:54,11.430s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Edge Chromium 117,,,2023-10-03 13:53:54,2023-10-03 13:53:55,0.921s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:53:55,2023-10-03 13:53:57,1.285s,PASSED
+"clearText(findTestObject(""edit sosial media/input_LinkedIn_g""))",Edge Chromium 117,,,2023-10-03 13:53:57,2023-10-03 13:53:57,0.711s,PASSED
+"setText(findTestObject(""edit sosial media/input_LinkedIn_g""), linkedin)",Edge Chromium 117,,,2023-10-03 13:53:57,2023-10-03 13:53:58,0.904s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:53:58,2023-10-03 13:53:59,1.196s,PASSED
+"verifyTextPresent(""plese input an valid username"", false)",Edge Chromium 117,,,2023-10-03 13:53:59,2023-10-03 13:54:00,0.900s,FAILED
+,,,,,,,
+Test Cases/M05 -Edit Sosial Media/TC-ESMF-011,Edge Chromium 117,User melakukan edit media sosial dengan hanya inputan spesial character,,2023-10-03 13:54:00,2023-10-03 13:54:19,18.229s,FAILED
+"callTestCase(findTestCase(""M05 -Edit Sosial Media/TC-LS-001""), [:], STOP_ON_FAILURE)",Edge Chromium 117,,,2023-10-03 13:54:01,2023-10-03 13:54:13,11.616s,PASSED
+"click(findTestObject(""edit sosial media/a_Sosmed""))",Edge Chromium 117,,,2023-10-03 13:54:13,2023-10-03 13:54:13,0.837s,PASSED
+"click(findTestObject(""edit sosial media/Edit Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:54:13,2023-10-03 13:54:15,1.206s,PASSED
+"clearText(findTestObject(""edit sosial media/input_LinkedIn_g""))",Edge Chromium 117,,,2023-10-03 13:54:15,2023-10-03 13:54:15,0.736s,PASSED
+"setText(findTestObject(""edit sosial media/input_LinkedIn_g""), linkedin)",Edge Chromium 117,,,2023-10-03 13:54:15,2023-10-03 13:54:16,0.807s,PASSED
+"click(findTestObject(""edit sosial media/center_Simpan Sosial Media""))",Edge Chromium 117,,,2023-10-03 13:54:16,2023-10-03 13:54:18,1.439s,PASSED
+"verifyTextPresent(""plese input an valid username"", false)",Edge Chromium 117,,,2023-10-03 13:54:18,2023-10-03 13:54:19,0.976s,FAILED

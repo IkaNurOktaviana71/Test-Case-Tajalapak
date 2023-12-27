@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Sosmed</name>
+   <tag></tag>
+   <elementGuidId>88cd27e5-e203-465a-a63c-0f820a1ee3dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'Sosmed')])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.ps-section__links.d-none.d-sm-block > li:nth-of-type(2) > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>5ab9f72d-90e3-4147-8ccc-cdb726b4b1e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/members/sosial_media</value>
+      <webElementGuid>8eb65f02-f376-4010-b10c-1cfac3181b46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Sosmed</value>
+      <webElementGuid>467ad48a-871f-463d-be39-5893877ff402</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;loaded&quot;]/div[@class=&quot;ps-vendor-dashboard pro&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;ps-section__content&quot;]/ul[@class=&quot;ps-section__links d-none d-sm-block&quot;]/li[2]/a[1]</value>
+      <webElementGuid>93a0a194-12c2-42d1-b5e0-d0c2acafd90f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Sosmed')])[3]</value>
+      <webElementGuid>d230d78c-d36c-41e5-84e1-8d5ae4b4b461</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[4]/following::a[1]</value>
+      <webElementGuid>69d4c551-595a-4a00-b9e4-398b83edf956</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[3]/following::a[2]</value>
+      <webElementGuid>6a6c6c6d-f017-47d4-a431-ee56df4c759c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Bank'])[3]/preceding::a[1]</value>
+      <webElementGuid>91d391d0-a5e7-460a-a2ba-5b17dd1d09f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keuangan'])[3]/preceding::a[2]</value>
+      <webElementGuid>4cd02bfa-3afe-4925-b247-a1c4d315fa67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://10.9.2.63/ecommerce/members/sosial_media')])[3]</value>
+      <webElementGuid>97c19c55-1262-40bd-b569-3c3ed63927b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/div/div/ul/li[2]/a</value>
+      <webElementGuid>f267e8cf-b17a-49fa-94c9-9056d0287bdc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://10.9.2.63/ecommerce/members/sosial_media' and (text() = ' Sosmed' or . = ' Sosmed')]</value>
+      <webElementGuid>5155db62-e803-436e-ae47-e126417ed5a4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

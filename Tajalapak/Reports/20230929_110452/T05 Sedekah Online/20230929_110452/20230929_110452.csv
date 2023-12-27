@@ -1,0 +1,280 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+T05 Sedekah Online,Firefox 117.0,,,2023-09-29 11:05:04,2023-09-29 11:11:45,6m - 41.146s,FAILED
+,,,,,,,
+Test Cases/T05 - Sedekah Online/TC-LS-001,Firefox 117.0,User login dengan Memasukan username dan password yang valid,,2023-09-29 11:05:05,2023-09-29 11:05:27,21.600s,PASSED
+openBrowser(urlWeb),Firefox 117.0,,,2023-09-29 11:05:06,2023-09-29 11:05:21,15.092s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-09-29 11:05:21,2023-09-29 11:05:21,0.109s,PASSED
+"click(findTestObject(""Login/a_Login""))",Firefox 117.0,,,2023-09-29 11:05:21,2023-09-29 11:05:22,1.095s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi MASUK di halaman Login""), 0)",Firefox 117.0,,,2023-09-29 11:05:22,2023-09-29 11:05:23,0.717s,PASSED
+"setText(findTestObject(""Login/input_Username, Email atau No. Handphone_a""), ""anata"")",Firefox 117.0,,,2023-09-29 11:05:23,2023-09-29 11:05:24,0.943s,PASSED
+"setEncryptedText(findTestObject(""Login/input_Password di Login(Masuk)""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-09-29 11:05:24,2023-09-29 11:05:25,0.951s,PASSED
+"click(findTestObject(""Login/button_Masuk di halaman login""))",Firefox 117.0,,,2023-09-29 11:05:25,2023-09-29 11:05:27,1.771s,PASSED
+,,,,,,,
+Test Cases/T05 - Sedekah Online/TC-SO-001,Firefox 117.0,user melakukan sedekah online dengan menginputkan detail yang valid,,2023-09-29 11:05:27,2023-09-29 11:05:51,24.046s,PASSED
+openBrowser(urlWeb),Firefox 117.0,,,2023-09-29 11:05:28,2023-09-29 11:05:37,9.118s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-09-29 11:05:37,2023-09-29 11:05:37,0.147s,PASSED
+"click(findTestObject(""sedekah online/a_Donasi (di halaman utama)""))",Firefox 117.0,,,2023-09-29 11:05:37,2023-09-29 11:05:37,0.536s,PASSED
+"verifyElementClickable(findTestObject(""sedekah online/a_Sedekah Online""), STOP_ON_FAILURE)",Firefox 117.0,,,2023-09-29 11:05:37,2023-09-29 11:05:38,0.517s,PASSED
+"click(findTestObject(""sedekah online/a_Sedekah Online""))",Firefox 117.0,,,2023-09-29 11:05:38,2023-09-29 11:05:40,1.549s,PASSED
+"verifyElementPresent(findTestObject(""sedekah online/verifikasi halaman sedekah Online""), 0)",Firefox 117.0,,,2023-09-29 11:05:40,2023-09-29 11:05:40,0.780s,PASSED
+"setText(findTestObject(""sedekah online/input_Sedekah""), NominalSedekah)",Firefox 117.0,,,2023-09-29 11:05:40,2023-09-29 11:05:41,0.852s,PASSED
+"setText(findTestObject(""sedekah online/input_Nama lengkap (di sedekah online)""), namaLengkap)",Firefox 117.0,,,2023-09-29 11:05:41,2023-09-29 11:05:42,1.071s,PASSED
+"setText(findTestObject(""sedekah online/input_No Handphone (di sedekah online)""), noHp)",Firefox 117.0,,,2023-09-29 11:05:42,2023-09-29 11:05:43,1.062s,PASSED
+"setText(findTestObject(""sedekah online/input_Alamat Email (di sedekah online)""), email)",Firefox 117.0,,,2023-09-29 11:05:43,2023-09-29 11:05:44,0.841s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/dropdown metode pembayaraan""), pembayaran, false)",Firefox 117.0,,,2023-09-29 11:05:44,2023-09-29 11:05:45,1.177s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/sedekah ditunjukan untuk keluarga""), sedekahUntuk, false)",Firefox 117.0,,,2023-09-29 11:05:45,2023-09-29 11:05:46,0.729s,PASSED
+"setText(findTestObject(""sedekah online/input isi doa terbaik anda""), doa)",Firefox 117.0,,,2023-09-29 11:05:46,2023-09-29 11:05:47,0.963s,PASSED
+"setText(findTestObject(""sedekah online/input 2 digit terakhir nomor hp""), digitAkhir)",Firefox 117.0,,,2023-09-29 11:05:47,2023-09-29 11:05:48,1.026s,PASSED
+"click(findTestObject(""sedekah online/button_Sedekah Sekarang""))",Firefox 117.0,,,2023-09-29 11:05:48,2023-09-29 11:05:50,1.758s,PASSED
+"verifyElementText(findTestObject(""sedekah online/verifikasi sukses berdonasi""), ""Sukses Proses Bersedekah, kami akan segera menghubungi anda! Terima kasih"")",Firefox 117.0,,,2023-09-29 11:05:50,2023-09-29 11:05:51,0.869s,PASSED
+,,,,,,,
+Test Cases/T05 - Sedekah Online/TC-SO-002,Firefox 117.0,user melakukan sedekah online namun dengan nominal kurang dari 25.000,,2023-09-29 11:05:51,2023-09-29 11:06:14,22.836s,FAILED
+openBrowser(urlWeb),Firefox 117.0,,,2023-09-29 11:05:51,2023-09-29 11:06:00,8.733s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-09-29 11:06:00,2023-09-29 11:06:00,0.037s,PASSED
+"click(findTestObject(""sedekah online/a_Donasi (di halaman utama)""))",Firefox 117.0,,,2023-09-29 11:06:00,2023-09-29 11:06:01,0.677s,PASSED
+"click(findTestObject(""sedekah online/a_Sedekah Online""))",Firefox 117.0,,,2023-09-29 11:06:01,2023-09-29 11:06:02,1.289s,PASSED
+"verifyElementPresent(findTestObject(""sedekah online/verifikasi halaman sedekah Online""), 0)",Firefox 117.0,,,2023-09-29 11:06:02,2023-09-29 11:06:03,0.689s,PASSED
+"setText(findTestObject(""sedekah online/input_Sedekah""), NominalSedekah)",Firefox 117.0,,,2023-09-29 11:06:03,2023-09-29 11:06:04,0.835s,PASSED
+"setText(findTestObject(""sedekah online/input_Nama lengkap (di sedekah online)""), namaLengkap)",Firefox 117.0,,,2023-09-29 11:06:04,2023-09-29 11:06:05,1.109s,PASSED
+"setText(findTestObject(""sedekah online/input_No Handphone (di sedekah online)""), noHp)",Firefox 117.0,,,2023-09-29 11:06:05,2023-09-29 11:06:06,1.071s,PASSED
+"setText(findTestObject(""sedekah online/input_Alamat Email (di sedekah online)""), email)",Firefox 117.0,,,2023-09-29 11:06:06,2023-09-29 11:06:07,0.882s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/dropdown metode pembayaraan""), pembayaran, false)",Firefox 117.0,,,2023-09-29 11:06:07,2023-09-29 11:06:08,1.335s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/sedekah ditunjukan untuk keluarga""), sedekahUntuk, false)",Firefox 117.0,,,2023-09-29 11:06:08,2023-09-29 11:06:09,0.768s,PASSED
+"setText(findTestObject(""sedekah online/input isi doa terbaik anda""), doa)",Firefox 117.0,,,2023-09-29 11:06:09,2023-09-29 11:06:10,0.997s,PASSED
+"setText(findTestObject(""sedekah online/input 2 digit terakhir nomor hp""), digitAkhir)",Firefox 117.0,,,2023-09-29 11:06:10,2023-09-29 11:06:11,0.993s,PASSED
+"click(findTestObject(""sedekah online/button_Sedekah Sekarang""))",Firefox 117.0,,,2023-09-29 11:06:11,2023-09-29 11:06:12,1.811s,PASSED
+"verifyElementText(findTestObject(""sedekah online/verifikasi sukses berdonasi""), ""Minimal nominal sedekah Online Rp 25.000"")",Firefox 117.0,,,2023-09-29 11:06:12,2023-09-29 11:06:14,1.035s,FAILED
+,,,,,,,
+Test Cases/T05 - Sedekah Online/TC-SO-003,Firefox 117.0,user melakukan sedekah online namun no handphone dan dua digit terakhir no handphone tidak sama,,2023-09-29 11:06:14,2023-09-29 11:06:37,23.524s,PASSED
+openBrowser(urlWeb),Firefox 117.0,,,2023-09-29 11:06:14,2023-09-29 11:06:24,9.793s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-09-29 11:06:24,2023-09-29 11:06:24,0.022s,PASSED
+"click(findTestObject(""sedekah online/a_Donasi (di halaman utama)""))",Firefox 117.0,,,2023-09-29 11:06:24,2023-09-29 11:06:25,0.679s,PASSED
+"click(findTestObject(""sedekah online/a_Sedekah Online""))",Firefox 117.0,,,2023-09-29 11:06:25,2023-09-29 11:06:26,1.423s,PASSED
+"verifyElementPresent(findTestObject(""sedekah online/verifikasi halaman sedekah Online""), 0)",Firefox 117.0,,,2023-09-29 11:06:26,2023-09-29 11:06:27,0.616s,PASSED
+"setText(findTestObject(""sedekah online/input_Sedekah""), NominalSedekah)",Firefox 117.0,,,2023-09-29 11:06:27,2023-09-29 11:06:27,0.879s,PASSED
+"setText(findTestObject(""sedekah online/input_Nama lengkap (di sedekah online)""), namaLengkap)",Firefox 117.0,,,2023-09-29 11:06:27,2023-09-29 11:06:29,1.173s,PASSED
+"setText(findTestObject(""sedekah online/input_No Handphone (di sedekah online)""), noHp)",Firefox 117.0,,,2023-09-29 11:06:29,2023-09-29 11:06:30,1.044s,PASSED
+"setText(findTestObject(""sedekah online/input_Alamat Email (di sedekah online)""), email)",Firefox 117.0,,,2023-09-29 11:06:30,2023-09-29 11:06:31,0.871s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/dropdown metode pembayaraan""), pembayaran, false)",Firefox 117.0,,,2023-09-29 11:06:31,2023-09-29 11:06:32,1.201s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/sedekah ditunjukan untuk keluarga""), sedekahUntuk, false)",Firefox 117.0,,,2023-09-29 11:06:32,2023-09-29 11:06:33,0.853s,PASSED
+"setText(findTestObject(""sedekah online/input isi doa terbaik anda""), doa)",Firefox 117.0,,,2023-09-29 11:06:33,2023-09-29 11:06:34,1.038s,PASSED
+"setText(findTestObject(""sedekah online/input 2 digit terakhir nomor hp""), digitAkhir)",Firefox 117.0,,,2023-09-29 11:06:34,2023-09-29 11:06:35,0.951s,PASSED
+"click(findTestObject(""sedekah online/button_Sedekah Sekarang""))",Firefox 117.0,,,2023-09-29 11:06:35,2023-09-29 11:06:36,1.659s,PASSED
+"verifyElementText(findTestObject(""sedekah online/verifikasi gagal bernoasi beda dua digit nomor hp""), ""GAGAL Diproses, 2 Digit Terakhir No Handphone yang anda input salah!"")",Firefox 117.0,,,2023-09-29 11:06:36,2023-09-29 11:06:37,0.769s,PASSED
+,,,,,,,
+Test Cases/T05 - Sedekah Online/TC-SO-004,Firefox 117.0,user melakukan sedekah online namun menginputkan email tanpa menggunakan domain,,2023-09-29 11:06:37,2023-09-29 11:07:01,24.037s,PASSED
+openBrowser(urlWeb),Firefox 117.0,,,2023-09-29 11:06:39,2023-09-29 11:06:49,9.921s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-09-29 11:06:49,2023-09-29 11:06:49,0.042s,PASSED
+"click(findTestObject(""sedekah online/a_Donasi (di halaman utama)""))",Firefox 117.0,,,2023-09-29 11:06:49,2023-09-29 11:06:49,0.596s,PASSED
+"click(findTestObject(""sedekah online/a_Sedekah Online""))",Firefox 117.0,,,2023-09-29 11:06:49,2023-09-29 11:06:51,1.405s,PASSED
+"verifyElementPresent(findTestObject(""sedekah online/verifikasi halaman sedekah Online""), 0)",Firefox 117.0,,,2023-09-29 11:06:51,2023-09-29 11:06:51,0.622s,PASSED
+"setText(findTestObject(""sedekah online/input_Sedekah""), NominalSedekah)",Firefox 117.0,,,2023-09-29 11:06:51,2023-09-29 11:06:52,0.884s,PASSED
+"setText(findTestObject(""sedekah online/input_Nama lengkap (di sedekah online)""), namaLengkap)",Firefox 117.0,,,2023-09-29 11:06:52,2023-09-29 11:06:53,1.102s,PASSED
+"setText(findTestObject(""sedekah online/input_No Handphone (di sedekah online)""), noHp)",Firefox 117.0,,,2023-09-29 11:06:53,2023-09-29 11:06:55,1.412s,PASSED
+"setText(findTestObject(""sedekah online/input_Alamat Email (di sedekah online)""), email)",Firefox 117.0,,,2023-09-29 11:06:55,2023-09-29 11:06:56,1.215s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/dropdown metode pembayaraan""), pembayaran, false)",Firefox 117.0,,,2023-09-29 11:06:56,2023-09-29 11:06:57,0.857s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/sedekah ditunjukan untuk keluarga""), sedekahUntuk, false)",Firefox 117.0,,,2023-09-29 11:06:57,2023-09-29 11:06:58,0.794s,PASSED
+"setText(findTestObject(""sedekah online/input isi doa terbaik anda""), doa)",Firefox 117.0,,,2023-09-29 11:06:58,2023-09-29 11:06:59,1.111s,PASSED
+"setText(findTestObject(""sedekah online/input 2 digit terakhir nomor hp""), digitAkhir)",Firefox 117.0,,,2023-09-29 11:06:59,2023-09-29 11:07:00,0.919s,PASSED
+"click(findTestObject(""sedekah online/button_Sedekah Sekarang""))",Firefox 117.0,,,2023-09-29 11:07:00,2023-09-29 11:07:01,0.903s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-09-29 11:07:01,2023-09-29 11:07:01,0.105s,PASSED
+"field_email = webDriver.findElement(By.xpath(""//input[@name=""alamat_email""]""))",Firefox 117.0,,,2023-09-29 11:07:01,2023-09-29 11:07:01,0.405s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_email)",Firefox 117.0,,,2023-09-29 11:07:01,2023-09-29 11:07:01,0.030s,PASSED
+println(error_message),Firefox 117.0,,,2023-09-29 11:07:01,2023-09-29 11:07:01,0.016s,PASSED
+"assert error_message == ""Please enter an email address.""",Firefox 117.0,,,2023-09-29 11:07:01,2023-09-29 11:07:01,0.005s,PASSED
+,,,,,,,
+Test Cases/T05 - Sedekah Online/TC-SO-005,Firefox 117.0,user melakukan sedekah online namun saat input no handphone user menginputkan nomor handphone kurang dari 11 digit,,2023-09-29 11:07:01,2023-09-29 11:07:48,46.412s,FAILED
+openBrowser(urlWeb),Firefox 117.0,,,2023-09-29 11:07:03,2023-09-29 11:07:13,9.994s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-09-29 11:07:13,2023-09-29 11:07:13,0.035s,PASSED
+"click(findTestObject(""sedekah online/a_Donasi (di halaman utama)""))",Firefox 117.0,,,2023-09-29 11:07:13,2023-09-29 11:07:13,0.623s,PASSED
+"click(findTestObject(""sedekah online/a_Sedekah Online""))",Firefox 117.0,,,2023-09-29 11:07:13,2023-09-29 11:07:15,1.385s,PASSED
+"verifyElementPresent(findTestObject(""sedekah online/verifikasi halaman sedekah Online""), 0)",Firefox 117.0,,,2023-09-29 11:07:15,2023-09-29 11:07:48,32.907s,FAILED
+,,,,,,,
+Test Cases/T05 - Sedekah Online/TC-SO-006,Firefox 117.0,user melakukan sedekah online namun saat input no handphone user menginputkan nomor handphone lebih dari 13 digit,,2023-09-29 11:07:48,2023-09-29 11:08:16,28.481s,FAILED
+openBrowser(urlWeb),Firefox 117.0,,,2023-09-29 11:07:49,2023-09-29 11:08:03,13.393s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-09-29 11:08:03,2023-09-29 11:08:03,0.104s,PASSED
+"click(findTestObject(""sedekah online/a_Donasi (di halaman utama)""))",Firefox 117.0,,,2023-09-29 11:08:03,2023-09-29 11:08:03,0.568s,PASSED
+"click(findTestObject(""sedekah online/a_Sedekah Online""))",Firefox 117.0,,,2023-09-29 11:08:03,2023-09-29 11:08:04,1.114s,PASSED
+"verifyElementPresent(findTestObject(""sedekah online/verifikasi halaman sedekah Online""), 0)",Firefox 117.0,,,2023-09-29 11:08:04,2023-09-29 11:08:05,0.621s,PASSED
+"setText(findTestObject(""sedekah online/input_Sedekah""), NominalSedekah)",Firefox 117.0,,,2023-09-29 11:08:05,2023-09-29 11:08:06,0.829s,PASSED
+"setText(findTestObject(""sedekah online/input_Nama lengkap (di sedekah online)""), namaLengkap)",Firefox 117.0,,,2023-09-29 11:08:06,2023-09-29 11:08:07,1.091s,PASSED
+"setText(findTestObject(""sedekah online/input_No Handphone (di sedekah online)""), noHp)",Firefox 117.0,,,2023-09-29 11:08:07,2023-09-29 11:08:08,1.114s,PASSED
+"setText(findTestObject(""sedekah online/input_Alamat Email (di sedekah online)""), email)",Firefox 117.0,,,2023-09-29 11:08:08,2023-09-29 11:08:09,0.829s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/dropdown metode pembayaraan""), pembayaran, false)",Firefox 117.0,,,2023-09-29 11:08:09,2023-09-29 11:08:10,1.337s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/sedekah ditunjukan untuk keluarga""), sedekahUntuk, false)",Firefox 117.0,,,2023-09-29 11:08:10,2023-09-29 11:08:11,0.873s,PASSED
+"setText(findTestObject(""sedekah online/input isi doa terbaik anda""), doa)",Firefox 117.0,,,2023-09-29 11:08:11,2023-09-29 11:08:12,0.995s,PASSED
+"setText(findTestObject(""sedekah online/input 2 digit terakhir nomor hp""), digitAkhir)",Firefox 117.0,,,2023-09-29 11:08:12,2023-09-29 11:08:13,0.873s,PASSED
+"click(findTestObject(""sedekah online/button_Sedekah Sekarang""))",Firefox 117.0,,,2023-09-29 11:08:13,2023-09-29 11:08:15,1.674s,PASSED
+"verifyTextPresent(""please enter an valid phone number"", false)",Firefox 117.0,,,2023-09-29 11:08:15,2023-09-29 11:08:16,1.458s,FAILED
+,,,,,,,
+Test Cases/T05 - Sedekah Online/TC-SO-007,Firefox 117.0,User melakukan sedekah online namun saat input nomor handphone atau dua digit terakhir nomor handphone mengandung karakter spesial,,2023-09-29 11:08:16,2023-09-29 11:08:40,24.151s,FAILED
+openBrowser(urlWeb),Firefox 117.0,,,2023-09-29 11:08:18,2023-09-29 11:08:28,10.396s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-09-29 11:08:28,2023-09-29 11:08:28,0.072s,PASSED
+"click(findTestObject(""sedekah online/a_Donasi (di halaman utama)""))",Firefox 117.0,,,2023-09-29 11:08:28,2023-09-29 11:08:29,0.790s,PASSED
+"click(findTestObject(""sedekah online/a_Sedekah Online""))",Firefox 117.0,,,2023-09-29 11:08:29,2023-09-29 11:08:30,1.249s,PASSED
+"verifyElementPresent(findTestObject(""sedekah online/verifikasi halaman sedekah Online""), 0)",Firefox 117.0,,,2023-09-29 11:08:30,2023-09-29 11:08:31,0.767s,PASSED
+"setText(findTestObject(""sedekah online/input_Sedekah""), NominalSedekah)",Firefox 117.0,,,2023-09-29 11:08:31,2023-09-29 11:08:32,0.929s,PASSED
+"setText(findTestObject(""sedekah online/input_Nama lengkap (di sedekah online)""), namaLengkap)",Firefox 117.0,,,2023-09-29 11:08:32,2023-09-29 11:08:33,1.163s,PASSED
+"setText(findTestObject(""sedekah online/input_No Handphone (di sedekah online)""), noHp)",Firefox 117.0,,,2023-09-29 11:08:33,2023-09-29 11:08:35,1.185s,PASSED
+"setText(findTestObject(""sedekah online/input_Alamat Email (di sedekah online)""), email)",Firefox 117.0,,,2023-09-29 11:08:35,2023-09-29 11:08:35,0.803s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/dropdown metode pembayaraan""), pembayaran, false)",Firefox 117.0,,,2023-09-29 11:08:35,2023-09-29 11:08:36,0.959s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/sedekah ditunjukan untuk keluarga""), sedekahUntuk, false)",Firefox 117.0,,,2023-09-29 11:08:36,2023-09-29 11:08:37,0.814s,PASSED
+"setText(findTestObject(""sedekah online/input isi doa terbaik anda""), doa)",Firefox 117.0,,,2023-09-29 11:08:37,2023-09-29 11:08:38,1.073s,PASSED
+"setText(findTestObject(""sedekah online/input 2 digit terakhir nomor hp""), digitAkhir)",Firefox 117.0,,,2023-09-29 11:08:38,2023-09-29 11:08:39,0.823s,PASSED
+"click(findTestObject(""sedekah online/button_Sedekah Sekarang""))",Firefox 117.0,,,2023-09-29 11:08:39,2023-09-29 11:08:40,0.961s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-09-29 11:08:40,2023-09-29 11:08:40,0.003s,PASSED
+"field_nomor = webDriver.findElement(By.xpath(""//input[@name=""validasi""]""))",Firefox 117.0,,,2023-09-29 11:08:40,2023-09-29 11:08:40,0.280s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_nomor)",Firefox 117.0,,,2023-09-29 11:08:40,2023-09-29 11:08:40,0.100s,PASSED
+println(error_message),Firefox 117.0,,,2023-09-29 11:08:40,2023-09-29 11:08:40,0.002s,PASSED
+"assert error_message == ""Please enter a valid value. The two nearest valid values are 0 and 1.""",Firefox 117.0,,,2023-09-29 11:08:40,2023-09-29 11:08:40,0.023s,FAILED
+,,,,,,,
+Test Cases/T05 - Sedekah Online/TC-SO-008,Firefox 117.0,User mengosongkan satu atau lebih inputan saat akan melakukan sedekah online,,2023-09-29 11:08:40,2023-09-29 11:09:04,23.352s,PASSED
+openBrowser(urlWeb),Firefox 117.0,,,2023-09-29 11:08:42,2023-09-29 11:08:53,10.648s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-09-29 11:08:53,2023-09-29 11:08:53,0.084s,PASSED
+"click(findTestObject(""sedekah online/a_Donasi (di halaman utama)""))",Firefox 117.0,,,2023-09-29 11:08:53,2023-09-29 11:08:53,0.613s,PASSED
+"click(findTestObject(""sedekah online/a_Sedekah Online""))",Firefox 117.0,,,2023-09-29 11:08:53,2023-09-29 11:08:55,1.258s,PASSED
+"verifyElementPresent(findTestObject(""sedekah online/verifikasi halaman sedekah Online""), 0)",Firefox 117.0,,,2023-09-29 11:08:55,2023-09-29 11:08:55,0.677s,PASSED
+"setText(findTestObject(""sedekah online/input_Sedekah""), NominalSedekah)",Firefox 117.0,,,2023-09-29 11:08:55,2023-09-29 11:08:56,0.913s,PASSED
+"setText(findTestObject(""sedekah online/input_No Handphone (di sedekah online)""), noHp)",Firefox 117.0,,,2023-09-29 11:08:56,2023-09-29 11:08:57,1.165s,PASSED
+"setText(findTestObject(""sedekah online/input_Alamat Email (di sedekah online)""), email)",Firefox 117.0,,,2023-09-29 11:08:57,2023-09-29 11:08:58,0.953s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/dropdown metode pembayaraan""), pembayaran, false)",Firefox 117.0,,,2023-09-29 11:08:58,2023-09-29 11:08:59,1.002s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/sedekah ditunjukan untuk keluarga""), sedekahUntuk, false)",Firefox 117.0,,,2023-09-29 11:08:59,2023-09-29 11:09:01,1.071s,PASSED
+"setText(findTestObject(""sedekah online/input isi doa terbaik anda""), doa)",Firefox 117.0,,,2023-09-29 11:09:01,2023-09-29 11:09:02,1.126s,PASSED
+"setText(findTestObject(""sedekah online/input 2 digit terakhir nomor hp""), digitAkhir)",Firefox 117.0,,,2023-09-29 11:09:02,2023-09-29 11:09:03,1.017s,PASSED
+"click(findTestObject(""sedekah online/button_Sedekah Sekarang""))",Firefox 117.0,,,2023-09-29 11:09:03,2023-09-29 11:09:03,0.832s,PASSED
+webDriber = getWebDriver(),Firefox 117.0,,,2023-09-29 11:09:03,2023-09-29 11:09:03,0.001s,PASSED
+"field_nmLengkap = webDriber.findElement(By.xpath(""//input[@name=""nama_lengkap""]""))",Firefox 117.0,,,2023-09-29 11:09:03,2023-09-29 11:09:04,0.265s,PASSED
+"error_message = webDriber.executeScript(""return arguments[0].validationMessage"", field_nmLengkap)",Firefox 117.0,,,2023-09-29 11:09:04,2023-09-29 11:09:04,0.020s,PASSED
+println(error_message),Firefox 117.0,,,2023-09-29 11:09:04,2023-09-29 11:09:04,0.001s,PASSED
+"assert error_message == ""Please fill out this field.""",Firefox 117.0,,,2023-09-29 11:09:04,2023-09-29 11:09:04,0.000s,PASSED
+,,,,,,,
+Test Cases/T05 - Sedekah Online/TC-SO-009,Firefox 117.0,User melakukan sedekah online dengan menginputkan doa lebih dari 150 karakter,,2023-09-29 11:09:04,2023-09-29 11:09:32,27.743s,FAILED
+openBrowser(urlWeb),Firefox 117.0,,,2023-09-29 11:09:05,2023-09-29 11:09:17,11.315s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-09-29 11:09:17,2023-09-29 11:09:17,0.039s,PASSED
+"click(findTestObject(""sedekah online/a_Donasi (di halaman utama)""))",Firefox 117.0,,,2023-09-29 11:09:17,2023-09-29 11:09:17,0.861s,PASSED
+"verifyElementClickable(findTestObject(""sedekah online/a_Sedekah Online""), STOP_ON_FAILURE)",Firefox 117.0,,,2023-09-29 11:09:17,2023-09-29 11:09:18,0.595s,PASSED
+"click(findTestObject(""sedekah online/a_Sedekah Online""))",Firefox 117.0,,,2023-09-29 11:09:18,2023-09-29 11:09:19,1.431s,PASSED
+"verifyElementPresent(findTestObject(""sedekah online/verifikasi halaman sedekah Online""), 0)",Firefox 117.0,,,2023-09-29 11:09:19,2023-09-29 11:09:20,0.728s,PASSED
+"setText(findTestObject(""sedekah online/input_Sedekah""), NominalSedekah)",Firefox 117.0,,,2023-09-29 11:09:20,2023-09-29 11:09:21,1.039s,PASSED
+"setText(findTestObject(""sedekah online/input_Nama lengkap (di sedekah online)""), namaLengkap)",Firefox 117.0,,,2023-09-29 11:09:21,2023-09-29 11:09:22,1.203s,PASSED
+"setText(findTestObject(""sedekah online/input_No Handphone (di sedekah online)""), noHp)",Firefox 117.0,,,2023-09-29 11:09:23,2023-09-29 11:09:24,1.152s,PASSED
+"setText(findTestObject(""sedekah online/input_Alamat Email (di sedekah online)""), email)",Firefox 117.0,,,2023-09-29 11:09:24,2023-09-29 11:09:25,1.231s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/dropdown metode pembayaraan""), pembayaran, false)",Firefox 117.0,,,2023-09-29 11:09:25,2023-09-29 11:09:26,0.872s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/sedekah ditunjukan untuk keluarga""), sedekahUntuk, false)",Firefox 117.0,,,2023-09-29 11:09:26,2023-09-29 11:09:27,0.892s,PASSED
+"setText(findTestObject(""sedekah online/input isi doa terbaik anda""), doa)",Firefox 117.0,,,2023-09-29 11:09:27,2023-09-29 11:09:28,1.482s,PASSED
+"setText(findTestObject(""sedekah online/input 2 digit terakhir nomor hp""), digitAkhir)",Firefox 117.0,,,2023-09-29 11:09:28,2023-09-29 11:09:29,0.871s,PASSED
+"click(findTestObject(""sedekah online/button_Sedekah Sekarang""))",Firefox 117.0,,,2023-09-29 11:09:29,2023-09-29 11:09:31,1.659s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-09-29 11:09:31,2023-09-29 11:09:31,0.002s,PASSED
+"field_doa = webDriver.findElement(By.xpath(""//textarea[@name=""doa_terbaik""]""))",Firefox 117.0,,,2023-09-29 11:09:31,2023-09-29 11:09:31,0.617s,PASSED
+"validationMessage = executeJavaScript(""return arguments[0].validationMessage"", Arrays.asList(field_doa))",Firefox 117.0,,,2023-09-29 11:09:31,2023-09-29 11:09:32,0.204s,PASSED
+"assert validationMessage == ""Maximum length of this field must be equal or greater than 150 symbols""",Firefox 117.0,,,2023-09-29 11:09:32,2023-09-29 11:09:32,0.010s,FAILED
+,,,,,,,
+Test Cases/T05 - Sedekah Online/TC-SO-010,Firefox 117.0,User melakukan sedekah online dengan menginputkan nomor handphone hanya mengandung huruf,,2023-09-29 11:09:32,2023-09-29 11:09:59,27.138s,PASSED
+openBrowser(urlWeb),Firefox 117.0,,,2023-09-29 11:09:33,2023-09-29 11:09:45,12.196s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-09-29 11:09:45,2023-09-29 11:09:46,0.092s,PASSED
+"click(findTestObject(""sedekah online/a_Donasi (di halaman utama)""))",Firefox 117.0,,,2023-09-29 11:09:46,2023-09-29 11:09:46,0.775s,PASSED
+"verifyElementClickable(findTestObject(""sedekah online/a_Sedekah Online""), STOP_ON_FAILURE)",Firefox 117.0,,,2023-09-29 11:09:46,2023-09-29 11:09:47,0.639s,PASSED
+"click(findTestObject(""sedekah online/a_Sedekah Online""))",Firefox 117.0,,,2023-09-29 11:09:47,2023-09-29 11:09:48,1.346s,PASSED
+"verifyElementPresent(findTestObject(""sedekah online/verifikasi halaman sedekah Online""), 0)",Firefox 117.0,,,2023-09-29 11:09:48,2023-09-29 11:09:49,0.816s,PASSED
+"setText(findTestObject(""sedekah online/input_Sedekah""), NominalSedekah)",Firefox 117.0,,,2023-09-29 11:09:49,2023-09-29 11:09:50,0.943s,PASSED
+"setText(findTestObject(""sedekah online/input_Nama lengkap (di sedekah online)""), namaLengkap)",Firefox 117.0,,,2023-09-29 11:09:50,2023-09-29 11:09:51,1.278s,PASSED
+"setText(findTestObject(""sedekah online/input_No Handphone (di sedekah online)""), noHp)",Firefox 117.0,,,2023-09-29 11:09:51,2023-09-29 11:09:52,1.165s,PASSED
+"setText(findTestObject(""sedekah online/input_Alamat Email (di sedekah online)""), email)",Firefox 117.0,,,2023-09-29 11:09:52,2023-09-29 11:09:53,0.783s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/dropdown metode pembayaraan""), pembayaran, false)",Firefox 117.0,,,2023-09-29 11:09:53,2023-09-29 11:09:54,1.143s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/sedekah ditunjukan untuk keluarga""), sedekahUntuk, false)",Firefox 117.0,,,2023-09-29 11:09:54,2023-09-29 11:09:55,0.965s,PASSED
+"setText(findTestObject(""sedekah online/input isi doa terbaik anda""), doa)",Firefox 117.0,,,2023-09-29 11:09:55,2023-09-29 11:09:57,1.140s,PASSED
+"setText(findTestObject(""sedekah online/input 2 digit terakhir nomor hp""), digitAkhir)",Firefox 117.0,,,2023-09-29 11:09:57,2023-09-29 11:09:57,0.966s,PASSED
+"click(findTestObject(""sedekah online/button_Sedekah Sekarang""))",Firefox 117.0,,,2023-09-29 11:09:57,2023-09-29 11:09:58,0.892s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-09-29 11:09:58,2023-09-29 11:09:58,0.003s,PASSED
+"field_no = webDriver.findElement(By.xpath(""//input[@name=""no_handphone""]""))",Firefox 117.0,,,2023-09-29 11:09:58,2023-09-29 11:09:59,0.298s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_no)",Firefox 117.0,,,2023-09-29 11:09:59,2023-09-29 11:09:59,0.017s,PASSED
+println(error_message),Firefox 117.0,,,2023-09-29 11:09:59,2023-09-29 11:09:59,0.005s,PASSED
+"assert error_message == ""Please enter a number.""",Firefox 117.0,,,2023-09-29 11:09:59,2023-09-29 11:09:59,0.000s,PASSED
+,,,,,,,
+Test Cases/T05 - Sedekah Online/TC-SO-011,Firefox 117.0,User melakukan sedekah online dengan hanya menginputkan nominal yang negative,,2023-09-29 11:09:59,2023-09-29 11:10:30,30.828s,FAILED
+openBrowser(urlWeb),Firefox 117.0,,,2023-09-29 11:10:00,2023-09-29 11:10:15,14.206s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-09-29 11:10:15,2023-09-29 11:10:15,0.058s,PASSED
+"click(findTestObject(""sedekah online/a_Donasi (di halaman utama)""))",Firefox 117.0,,,2023-09-29 11:10:15,2023-09-29 11:10:15,0.692s,PASSED
+"verifyElementClickable(findTestObject(""sedekah online/a_Sedekah Online""), STOP_ON_FAILURE)",Firefox 117.0,,,2023-09-29 11:10:15,2023-09-29 11:10:16,0.476s,PASSED
+"click(findTestObject(""sedekah online/a_Sedekah Online""))",Firefox 117.0,,,2023-09-29 11:10:16,2023-09-29 11:10:18,2.149s,PASSED
+"verifyElementPresent(findTestObject(""sedekah online/verifikasi halaman sedekah Online""), 0)",Firefox 117.0,,,2023-09-29 11:10:18,2023-09-29 11:10:19,0.554s,PASSED
+"setText(findTestObject(""sedekah online/input_Sedekah""), NominalSedekah)",Firefox 117.0,,,2023-09-29 11:10:19,2023-09-29 11:10:20,1.139s,PASSED
+"setText(findTestObject(""sedekah online/input_Nama lengkap (di sedekah online)""), namaLengkap)",Firefox 117.0,,,2023-09-29 11:10:20,2023-09-29 11:10:21,1.144s,PASSED
+"setText(findTestObject(""sedekah online/input_No Handphone (di sedekah online)""), noHp)",Firefox 117.0,,,2023-09-29 11:10:21,2023-09-29 11:10:22,1.280s,PASSED
+"setText(findTestObject(""sedekah online/input_Alamat Email (di sedekah online)""), email)",Firefox 117.0,,,2023-09-29 11:10:22,2023-09-29 11:10:23,1.327s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/dropdown metode pembayaraan""), pembayaran, false)",Firefox 117.0,,,2023-09-29 11:10:23,2023-09-29 11:10:24,0.926s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/sedekah ditunjukan untuk keluarga""), sedekahUntuk, false)",Firefox 117.0,,,2023-09-29 11:10:24,2023-09-29 11:10:25,0.819s,PASSED
+"setText(findTestObject(""sedekah online/input isi doa terbaik anda""), doa)",Firefox 117.0,,,2023-09-29 11:10:25,2023-09-29 11:10:26,0.996s,PASSED
+"setText(findTestObject(""sedekah online/input 2 digit terakhir nomor hp""), digitAkhir)",Firefox 117.0,,,2023-09-29 11:10:26,2023-09-29 11:10:27,0.851s,PASSED
+"click(findTestObject(""sedekah online/button_Sedekah Sekarang""))",Firefox 117.0,,,2023-09-29 11:10:27,2023-09-29 11:10:29,2.029s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-09-29 11:10:29,2023-09-29 11:10:29,0.005s,PASSED
+"field_sedekah = webDriver.findElement(By.xpath(""//input[@name=""nominal""]""))",Firefox 117.0,,,2023-09-29 11:10:29,2023-09-29 11:10:30,0.401s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_sedekah)",Firefox 117.0,,,2023-09-29 11:10:30,2023-09-29 11:10:30,0.016s,PASSED
+println(error_message),Firefox 117.0,,,2023-09-29 11:10:30,2023-09-29 11:10:30,0.004s,PASSED
+"assert error_message == ""please input an valid number""",Firefox 117.0,,,2023-09-29 11:10:30,2023-09-29 11:10:30,0.013s,FAILED
+,,,,,,,
+Test Cases/T05 - Sedekah Online/TC-SO-012,Firefox 117.0,User melakukan sedekah online dan menginputkan nama lengkap hanya spesial character,,2023-09-29 11:10:30,2023-09-29 11:10:55,25.049s,FAILED
+openBrowser(urlWeb),Firefox 117.0,,,2023-09-29 11:10:31,2023-09-29 11:10:40,9.508s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-09-29 11:10:40,2023-09-29 11:10:40,0.041s,PASSED
+"click(findTestObject(""sedekah online/a_Donasi (di halaman utama)""))",Firefox 117.0,,,2023-09-29 11:10:40,2023-09-29 11:10:41,0.776s,PASSED
+"verifyElementClickable(findTestObject(""sedekah online/a_Sedekah Online""), STOP_ON_FAILURE)",Firefox 117.0,,,2023-09-29 11:10:41,2023-09-29 11:10:42,0.508s,PASSED
+"click(findTestObject(""sedekah online/a_Sedekah Online""))",Firefox 117.0,,,2023-09-29 11:10:42,2023-09-29 11:10:43,1.616s,PASSED
+"verifyElementPresent(findTestObject(""sedekah online/verifikasi halaman sedekah Online""), 0)",Firefox 117.0,,,2023-09-29 11:10:43,2023-09-29 11:10:44,0.883s,PASSED
+"setText(findTestObject(""sedekah online/input_Sedekah""), NominalSedekah)",Firefox 117.0,,,2023-09-29 11:10:44,2023-09-29 11:10:45,1.000s,PASSED
+"setText(findTestObject(""sedekah online/input_Nama lengkap (di sedekah online)""), namaLengkap)",Firefox 117.0,,,2023-09-29 11:10:45,2023-09-29 11:10:46,1.129s,PASSED
+"setText(findTestObject(""sedekah online/input_No Handphone (di sedekah online)""), noHp)",Firefox 117.0,,,2023-09-29 11:10:46,2023-09-29 11:10:48,1.391s,PASSED
+"setText(findTestObject(""sedekah online/input_Alamat Email (di sedekah online)""), email)",Firefox 117.0,,,2023-09-29 11:10:48,2023-09-29 11:10:49,1.091s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/dropdown metode pembayaraan""), pembayaran, false)",Firefox 117.0,,,2023-09-29 11:10:49,2023-09-29 11:10:50,0.770s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/sedekah ditunjukan untuk keluarga""), sedekahUntuk, false)",Firefox 117.0,,,2023-09-29 11:10:50,2023-09-29 11:10:50,0.848s,PASSED
+"setText(findTestObject(""sedekah online/input isi doa terbaik anda""), doa)",Firefox 117.0,,,2023-09-29 11:10:50,2023-09-29 11:10:51,0.971s,PASSED
+"setText(findTestObject(""sedekah online/input 2 digit terakhir nomor hp""), digitAkhir)",Firefox 117.0,,,2023-09-29 11:10:51,2023-09-29 11:10:52,0.791s,PASSED
+"click(findTestObject(""sedekah online/button_Sedekah Sekarang""))",Firefox 117.0,,,2023-09-29 11:10:52,2023-09-29 11:10:54,1.748s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-09-29 11:10:54,2023-09-29 11:10:54,0.002s,PASSED
+"field_username = webDriver.findElement(By.xpath(""//input[@name=""nama_lengkap""]""))",Firefox 117.0,,,2023-09-29 11:10:54,2023-09-29 11:10:55,0.629s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_username)",Firefox 117.0,,,2023-09-29 11:10:55,2023-09-29 11:10:55,0.020s,PASSED
+println(error_message),Firefox 117.0,,,2023-09-29 11:10:55,2023-09-29 11:10:55,0.002s,PASSED
+"assert error_message == ""please enter an alphabet""",Firefox 117.0,,,2023-09-29 11:10:55,2023-09-29 11:10:55,0.006s,FAILED
+,,,,,,,
+Test Cases/T05 - Sedekah Online/TC-SO-013,Firefox 117.0,User melakukan sedekah online saat menginputkan nomor handphone mengandung karakter spesial,,2023-09-29 11:10:55,2023-09-29 11:11:19,24.700s,PASSED
+openBrowser(urlWeb),Firefox 117.0,,,2023-09-29 11:10:57,2023-09-29 11:11:07,9.980s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-09-29 11:11:07,2023-09-29 11:11:07,0.058s,PASSED
+"click(findTestObject(""sedekah online/a_Donasi (di halaman utama)""))",Firefox 117.0,,,2023-09-29 11:11:07,2023-09-29 11:11:07,0.762s,PASSED
+"verifyElementClickable(findTestObject(""sedekah online/a_Sedekah Online""), STOP_ON_FAILURE)",Firefox 117.0,,,2023-09-29 11:11:08,2023-09-29 11:11:08,0.607s,PASSED
+"click(findTestObject(""sedekah online/a_Sedekah Online""))",Firefox 117.0,,,2023-09-29 11:11:08,2023-09-29 11:11:09,1.360s,PASSED
+"verifyElementPresent(findTestObject(""sedekah online/verifikasi halaman sedekah Online""), 0)",Firefox 117.0,,,2023-09-29 11:11:09,2023-09-29 11:11:10,0.731s,PASSED
+"setText(findTestObject(""sedekah online/input_Sedekah""), NominalSedekah)",Firefox 117.0,,,2023-09-29 11:11:10,2023-09-29 11:11:11,0.917s,PASSED
+"setText(findTestObject(""sedekah online/input_Nama lengkap (di sedekah online)""), namaLengkap)",Firefox 117.0,,,2023-09-29 11:11:11,2023-09-29 11:11:12,1.134s,PASSED
+"setText(findTestObject(""sedekah online/input_No Handphone (di sedekah online)""), noHp)",Firefox 117.0,,,2023-09-29 11:11:12,2023-09-29 11:11:13,1.132s,PASSED
+"setText(findTestObject(""sedekah online/input_Alamat Email (di sedekah online)""), email)",Firefox 117.0,,,2023-09-29 11:11:13,2023-09-29 11:11:14,0.799s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/dropdown metode pembayaraan""), pembayaran, false)",Firefox 117.0,,,2023-09-29 11:11:14,2023-09-29 11:11:15,1.073s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/sedekah ditunjukan untuk keluarga""), sedekahUntuk, false)",Firefox 117.0,,,2023-09-29 11:11:15,2023-09-29 11:11:16,0.941s,PASSED
+"setText(findTestObject(""sedekah online/input isi doa terbaik anda""), doa)",Firefox 117.0,,,2023-09-29 11:11:16,2023-09-29 11:11:17,1.153s,PASSED
+"setText(findTestObject(""sedekah online/input 2 digit terakhir nomor hp""), digitAkhir)",Firefox 117.0,,,2023-09-29 11:11:17,2023-09-29 11:11:18,0.851s,PASSED
+"click(findTestObject(""sedekah online/button_Sedekah Sekarang""))",Firefox 117.0,,,2023-09-29 11:11:18,2023-09-29 11:11:19,0.820s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-09-29 11:11:19,2023-09-29 11:11:19,0.002s,PASSED
+"field_no = webDriver.findElement(By.xpath(""//input[@name=""no_handphone""]""))",Firefox 117.0,,,2023-09-29 11:11:19,2023-09-29 11:11:19,0.277s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_no)",Firefox 117.0,,,2023-09-29 11:11:19,2023-09-29 11:11:19,0.017s,PASSED
+println(error_message),Firefox 117.0,,,2023-09-29 11:11:19,2023-09-29 11:11:19,0.002s,PASSED
+"assert error_message == ""Please enter a number.""",Firefox 117.0,,,2023-09-29 11:11:19,2023-09-29 11:11:19,0.002s,PASSED
+,,,,,,,
+Test Cases/T05 - Sedekah Online/TC-SO-014,Firefox 117.0,User melakukan sedekah online dengan mengosongkan inputan doa,,2023-09-29 11:11:19,2023-09-29 11:11:45,26.048s,FAILED
+openBrowser(urlWeb),Firefox 117.0,,,2023-09-29 11:11:21,2023-09-29 11:11:31,10.286s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-09-29 11:11:31,2023-09-29 11:11:31,0.059s,PASSED
+"click(findTestObject(""sedekah online/a_Donasi (di halaman utama)""))",Firefox 117.0,,,2023-09-29 11:11:31,2023-09-29 11:11:32,0.821s,PASSED
+"verifyElementClickable(findTestObject(""sedekah online/a_Sedekah Online""), STOP_ON_FAILURE)",Firefox 117.0,,,2023-09-29 11:11:32,2023-09-29 11:11:33,0.632s,PASSED
+"click(findTestObject(""sedekah online/a_Sedekah Online""))",Firefox 117.0,,,2023-09-29 11:11:33,2023-09-29 11:11:34,1.377s,PASSED
+"verifyElementPresent(findTestObject(""sedekah online/verifikasi halaman sedekah Online""), 0)",Firefox 117.0,,,2023-09-29 11:11:34,2023-09-29 11:11:35,0.589s,PASSED
+"setText(findTestObject(""sedekah online/input_Sedekah""), NominalSedekah)",Firefox 117.0,,,2023-09-29 11:11:35,2023-09-29 11:11:36,0.939s,PASSED
+"setText(findTestObject(""sedekah online/input_Nama lengkap (di sedekah online)""), namaLengkap)",Firefox 117.0,,,2023-09-29 11:11:36,2023-09-29 11:11:37,1.191s,PASSED
+"setText(findTestObject(""sedekah online/input_No Handphone (di sedekah online)""), noHp)",Firefox 117.0,,,2023-09-29 11:11:37,2023-09-29 11:11:38,1.275s,PASSED
+"setText(findTestObject(""sedekah online/input_Alamat Email (di sedekah online)""), email)",Firefox 117.0,,,2023-09-29 11:11:38,2023-09-29 11:11:39,1.008s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/dropdown metode pembayaraan""), pembayaran, false)",Firefox 117.0,,,2023-09-29 11:11:39,2023-09-29 11:11:40,0.810s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/sedekah online/sedekah ditunjukan untuk keluarga""), sedekahUntuk, false)",Firefox 117.0,,,2023-09-29 11:11:40,2023-09-29 11:11:41,0.905s,PASSED
+"setText(findTestObject(""sedekah online/input isi doa terbaik anda""), doa)",Firefox 117.0,,,2023-09-29 11:11:41,2023-09-29 11:11:42,1.029s,PASSED
+"setText(findTestObject(""sedekah online/input 2 digit terakhir nomor hp""), digitAkhir)",Firefox 117.0,,,2023-09-29 11:11:42,2023-09-29 11:11:43,0.997s,PASSED
+"click(findTestObject(""sedekah online/button_Sedekah Sekarang""))",Firefox 117.0,,,2023-09-29 11:11:43,2023-09-29 11:11:45,1.664s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-09-29 11:11:45,2023-09-29 11:11:45,0.001s,PASSED
+"field_doa = webDriver.findElement(By.xpath(""//textarea[@name=""doa_terbaik""]""))",Firefox 117.0,,,2023-09-29 11:11:45,2023-09-29 11:11:45,0.721s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_doa)",Firefox 117.0,,,2023-09-29 11:11:45,2023-09-29 11:11:45,0.017s,PASSED
+println(error_message),Firefox 117.0,,,2023-09-29 11:11:45,2023-09-29 11:11:45,0.001s,PASSED
+"assert error_message == ""Please fill out this field.""",Firefox 117.0,,,2023-09-29 11:11:45,2023-09-29 11:11:45,0.014s,FAILED

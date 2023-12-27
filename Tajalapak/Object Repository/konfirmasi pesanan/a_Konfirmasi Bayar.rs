@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Konfirmasi Bayar</name>
+   <tag></tag>
+   <elementGuidId>c190208f-af08-4d9b-bfef-0187ebfdd334</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pending']/div[1]/div[1]/span[1]/a[3][1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'text-danger' and @title = 'Detail data pesanan' and @href = 'https://10.9.2.63/ecommerce/konfirmasi/index?kode=TRX91.20230907100309' and (text() = 'Konfirmasi Bayar' or . = 'Konfirmasi Bayar')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.text-danger</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b29008e9-f7f9-4fff-a1d0-f3a9fce43a97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-danger</value>
+      <webElementGuid>94ac1ec4-9ac3-4656-a2f6-c04418b1a0db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Detail data pesanan</value>
+      <webElementGuid>5ae56bc5-0321-4118-8d70-b5b5cbba16ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://10.9.2.63/ecommerce/konfirmasi/index?kode=TRX91.20230907100309</value>
+      <webElementGuid>a7654874-6d7d-4e30-8150-f710f86ebf34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Konfirmasi Bayar</value>
+      <webElementGuid>8a733ddf-f67c-4334-8f5f-b03ec44f036a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pending&quot;)/div[@class=&quot;form-group row&quot;]/div[@class=&quot;col-sm-10&quot;]/span[@class=&quot;pull-right&quot;]/a[@class=&quot;text-danger&quot;]</value>
+      <webElementGuid>91de77d8-f1e6-4c5f-b047-6a8b32c67e28</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pending']/div/div/span/a[3]</value>
+      <webElementGuid>fb9dcf4a-25b5-4cff-8e59-fd42dfa7e3d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Konfirmasi Bayar')]</value>
+      <webElementGuid>fc37e838-da6a-488a-8edf-6426e76d859c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Detail'])[1]/following::a[1]</value>
+      <webElementGuid>c33326f3-a1b0-4ff1-9ef3-24ced82fbb65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tagihan'])[1]/following::a[2]</value>
+      <webElementGuid>c4b981df-bcb2-4a08-92b0-265ad9f73f1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invoice / Seller'])[1]/preceding::a[1]</value>
+      <webElementGuid>13f5f860-8162-482b-a950-d562be5cc984</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Konfirmasi Bayar']/parent::*</value>
+      <webElementGuid>aa35bdf7-04b4-4158-8a38-43f0f064a02b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://10.9.2.63/ecommerce/konfirmasi/index?kode=TRX91.20230907100309')]</value>
+      <webElementGuid>075fa3c3-7721-44d5-96c6-5313c798a2e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/a[3]</value>
+      <webElementGuid>00d01e63-a09d-4928-8bff-31527640cd80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@title = 'Detail data pesanan' and @href = 'https://10.9.2.63/ecommerce/konfirmasi/index?kode=TRX91.20230907100309' and (text() = 'Konfirmasi Bayar' or . = 'Konfirmasi Bayar')]</value>
+      <webElementGuid>315c5d7e-8c58-4958-b5ce-1a0b1531eb76</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

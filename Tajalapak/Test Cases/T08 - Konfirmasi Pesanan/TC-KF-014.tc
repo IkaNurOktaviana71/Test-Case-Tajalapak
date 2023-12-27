@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan konfirmasi melalui menu profil dengan input total tagihan hanya huruf</description>
+   <name>TC-KF-014</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed873b20-a91a-42d4-a50e-3254ba6c7eb7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>29a9c3db-510b-41df-8351-3e196e9c3cff</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eb516b3c-adc6-4fd7-baa9-22d9938ab3e9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>13503e07-1ebc-474a-bb1b-e642b8c54c4c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>29a9c3db-510b-41df-8351-3e196e9c3cff</id>
+      <masked>false</masked>
+      <name>transfer</name>
+   </variable>
+   <variable>
+      <defaultValue>'opqrst'</defaultValue>
+      <description></description>
+      <id>eb516b3c-adc6-4fd7-baa9-22d9938ab3e9</id>
+      <masked>false</masked>
+      <name>bayar</name>
+   </variable>
+   <variable>
+      <defaultValue>'runarun'</defaultValue>
+      <description></description>
+      <id>13503e07-1ebc-474a-bb1b-e642b8c54c4c</id>
+      <masked>false</masked>
+      <name>nama</name>
+   </variable>
+</TestCaseEntity>

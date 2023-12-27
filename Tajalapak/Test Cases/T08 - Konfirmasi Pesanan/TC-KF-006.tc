@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan konfirmasi pesanan namun saat menginputkan tanggal menggunakan tanggal yang akan datang</description>
+   <name>TC-KF-006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7ca1d78b-70e4-4b4f-aa61-ee77d09ab76f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>70aa53b7-6f35-43aa-a817-82689c4a4980</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>352095a4-57ed-4e2b-8fa8-b16751977e9c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d04bddf1-0a31-4806-b000-2d20caf44a1b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>70aa53b7-6f35-43aa-a817-82689c4a4980</id>
+      <masked>false</masked>
+      <name>transfer</name>
+   </variable>
+   <variable>
+      <defaultValue>'runarun'</defaultValue>
+      <description></description>
+      <id>352095a4-57ed-4e2b-8fa8-b16751977e9c</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'2024-01-21'</defaultValue>
+      <description></description>
+      <id>d04bddf1-0a31-4806-b000-2d20caf44a1b</id>
+      <masked>false</masked>
+      <name>date</name>
+   </variable>
+</TestCaseEntity>

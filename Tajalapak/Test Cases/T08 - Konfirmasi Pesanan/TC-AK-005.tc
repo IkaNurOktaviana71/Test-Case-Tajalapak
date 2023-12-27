@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Admin pelapak melakukan chek status pada menu penjual ke konsumen di admin untuk order produk menggunakan metode bayar saldo akun</description>
+   <name>TC-AK-005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5faaccb-22fe-47e8-b6d4-8530602f2448</testCaseGuid>
+</TestCaseEntity>

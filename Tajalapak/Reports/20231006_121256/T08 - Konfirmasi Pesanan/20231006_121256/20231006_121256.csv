@@ -1,0 +1,652 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+T08 - Konfirmasi Pesanan,Firefox 117.0,test untuk test case konfirmasi pendaftaran,,2023-10-06 12:13:11,2023-10-06 12:42:31,29m - 20.484s,FAILED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-LS-001,Firefox 117.0,User login dengan Memasukan username dan password yang valid,,2023-10-06 12:13:12,2023-10-06 12:13:31,19.470s,PASSED
+openBrowser(urlWeb),Firefox 117.0,,,2023-10-06 12:13:12,2023-10-06 12:13:26,13.575s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-06 12:13:26,2023-10-06 12:13:26,0.098s,PASSED
+"click(findTestObject(""Login/a_Login""))",Firefox 117.0,,,2023-10-06 12:13:26,2023-10-06 12:13:27,1.195s,PASSED
+"setText(findTestObject(""Login/input_Username, Email atau No. Handphone_a""), ""runa36"")",Firefox 117.0,,,2023-10-06 12:13:27,2023-10-06 12:13:28,0.909s,PASSED
+"setEncryptedText(findTestObject(""Login/input_Password di Login(Masuk)""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-10-06 12:13:28,2023-10-06 12:13:29,0.686s,PASSED
+"click(findTestObject(""Login/button_Masuk di halaman login""))",Firefox 117.0,,,2023-10-06 12:13:29,2023-10-06 12:13:30,1.674s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi MASUK di halaman Login""), 0)",Firefox 117.0,,,2023-10-06 12:13:30,2023-10-06 12:13:31,0.733s,PASSED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-OS-001,Firefox 117.0,user berhasil melakukan order produk di website tajalapak,,2023-10-06 12:13:31,2023-10-06 12:14:14,42.892s,PASSED
+"callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-LS-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:13:32,2023-10-06 12:13:49,16.851s,PASSED
+"setText(findTestObject(""chekout/input aku mau belanja""), ""acer"")",Firefox 117.0,,,2023-10-06 12:13:49,2023-10-06 12:13:50,0.856s,PASSED
+"click(findTestObject(""chekout/button_Cari di halaman tajalapak""))",Firefox 117.0,,,2023-10-06 12:13:50,2023-10-06 12:13:51,1.553s,PASSED
+"click(findTestObject(""chekout/NEW read more acer""))",Firefox 117.0,,,2023-10-06 12:13:51,2023-10-06 12:13:53,2.198s,PASSED
+"click(findTestObject(""chekout/button_Beli Sekarang di detail produk""))",Firefox 117.0,,,2023-10-06 12:13:53,2023-10-06 12:13:55,1.961s,PASSED
+"verifyElementPresent(findTestObject(""chekout/halaman keranjang belanja""), 0)",Firefox 117.0,,,2023-10-06 12:13:55,2023-10-06 12:13:57,1.330s,PASSED
+"click(findTestObject(""chekout/button_Lanjut ke Pembayaran""))",Firefox 117.0,,,2023-10-06 12:13:57,2023-10-06 12:13:59,2.475s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/chekout/select_- Kirim via Kurir Lokal -Roda 2Roda 4""), Roda, false)",Firefox 117.0,,,2023-10-06 12:13:59,2023-10-06 12:14:01,1.375s,PASSED
+"click(findTestObject(""chekout/jenis kendaraan""))",Firefox 117.0,,,2023-10-06 12:14:01,2023-10-06 12:14:01,0.731s,PASSED
+"if (toString().equalsIgnoreCase(""transfer""))",Firefox 117.0,,,2023-10-06 12:14:01,2023-10-06 12:14:02,0.567s,PASSED
+"click(findTestObject(""chekout/button_Proses Pembayaran""))",Firefox 117.0,,,2023-10-06 12:14:02,2023-10-06 12:14:08,5.686s,PASSED
+"noPesanan = getText(findTestObject(""Object Repository/chekout/nomor invoice dari halaman menunggu pembayaran""))",Firefox 117.0,,,2023-10-06 12:14:08,2023-10-06 12:14:08,0.862s,PASSED
+println(noPesanan),Firefox 117.0,,,2023-10-06 12:14:08,2023-10-06 12:14:08,0.010s,PASSED
+"pengirim = getText(findTestObject(""Object Repository/chekout/dikirim kepada sama dengan pengirim di tf di konfirmaasi bayar""))",Firefox 117.0,,,2023-10-06 12:14:08,2023-10-06 12:14:09,0.524s,PASSED
+"totalharga = getText(findTestObject(""Object Repository/chekout/total harga bayar""))",Firefox 117.0,,,2023-10-06 12:14:09,2023-10-06 12:14:10,0.855s,PASSED
+"ongkir = getText(findTestObject(""co saldo akun/new ongkir tf""))",Firefox 117.0,,,2023-10-06 12:14:10,2023-10-06 12:14:11,0.814s,PASSED
+"ongkirr = replace("","", """").trim()",Firefox 117.0,,,2023-10-06 12:14:11,2023-10-06 12:14:11,0.008s,PASSED
+ongkir1 = Integer.parseInt(ongkirr),Firefox 117.0,,,2023-10-06 12:14:11,2023-10-06 12:14:11,0.005s,PASSED
+println(ongkir1),Firefox 117.0,,,2023-10-06 12:14:11,2023-10-06 12:14:11,0.000s,PASSED
+"biayaAdmin = getText(findTestObject(""co saldo akun/new fee admin tf""))",Firefox 117.0,,,2023-10-06 12:14:11,2023-10-06 12:14:11,0.413s,PASSED
+"bAdmin = replace("","", """").trim()",Firefox 117.0,,,2023-10-06 12:14:11,2023-10-06 12:14:11,0.001s,PASSED
+Integer.parseInt(bAdmin),Firefox 117.0,,,2023-10-06 12:14:11,2023-10-06 12:14:11,0.001s,PASSED
+Admin = Double.parseDouble(bAdmin),Firefox 117.0,,,2023-10-06 12:14:11,2023-10-06 12:14:11,0.026s,PASSED
+println(Admin),Firefox 117.0,,,2023-10-06 12:14:11,2023-10-06 12:14:11,0.000s,PASSED
+"subtotal = getText(findTestObject(""co saldo akun/new subtotal tf""))",Firefox 117.0,,,2023-10-06 12:14:11,2023-10-06 12:14:12,0.543s,PASSED
+"subtotall = replace("","", """").trim()",Firefox 117.0,,,2023-10-06 12:14:12,2023-10-06 12:14:12,0.005s,PASSED
+Integer.parseInt(subtotall),Firefox 117.0,,,2023-10-06 12:14:12,2023-10-06 12:14:12,0.004s,PASSED
+sub = Double.parseDouble(subtotall),Firefox 117.0,,,2023-10-06 12:14:12,2023-10-06 12:14:12,0.003s,PASSED
+println(sub),Firefox 117.0,,,2023-10-06 12:14:12,2023-10-06 12:14:12,0.003s,PASSED
+"kode = getText(findTestObject(""co saldo akun/new kode unik tf""))",Firefox 117.0,,,2023-10-06 12:14:12,2023-10-06 12:14:13,1.006s,PASSED
+"kodee = replace(""+"", """").trim()",Firefox 117.0,,,2023-10-06 12:14:13,2023-10-06 12:14:13,0.002s,PASSED
+Integer.parseInt(kodee),Firefox 117.0,,,2023-10-06 12:14:13,2023-10-06 12:14:13,0.000s,PASSED
+code = Double.parseDouble(kodee),Firefox 117.0,,,2023-10-06 12:14:13,2023-10-06 12:14:13,0.001s,PASSED
+tOng = ongkir1 + sub,Firefox 117.0,,,2023-10-06 12:14:13,2023-10-06 12:14:13,0.008s,PASSED
+println(tOng),Firefox 117.0,,,2023-10-06 12:14:13,2023-10-06 12:14:13,0.003s,PASSED
+totalBayar = tOng + Admin + code,Firefox 117.0,,,2023-10-06 12:14:13,2023-10-06 12:14:13,0.006s,PASSED
+println(totalBayar),Firefox 117.0,,,2023-10-06 12:14:13,2023-10-06 12:14:13,0.002s,PASSED
+totalBayar1 = totalBayar,Firefox 117.0,,,2023-10-06 12:14:13,2023-10-06 12:14:13,0.011s,PASSED
+println(totalBayar1),Firefox 117.0,,,2023-10-06 12:14:13,2023-10-06 12:14:13,0.003s,PASSED
+"total = getText(findTestObject(""co saldo akun/new total harga tf""))",Firefox 117.0,,,2023-10-06 12:14:13,2023-10-06 12:14:14,1.218s,PASSED
+"total1 = replace("","", """").trim()",Firefox 117.0,,,2023-10-06 12:14:14,2023-10-06 12:14:14,0.002s,PASSED
+total2 = Integer.parseInt(total1),Firefox 117.0,,,2023-10-06 12:14:14,2023-10-06 12:14:14,0.006s,PASSED
+println(total2),Firefox 117.0,,,2023-10-06 12:14:14,2023-10-06 12:14:14,0.002s,PASSED
+assert totalBayar1 == total2,Firefox 117.0,,,2023-10-06 12:14:14,2023-10-06 12:14:14,0.008s,PASSED
+data = new java.util.HashMap(),Firefox 117.0,,,2023-10-06 12:14:14,2023-10-06 12:14:14,0.002s,PASSED
+"data.put(""invoice"", noPesanan)",Firefox 117.0,,,2023-10-06 12:14:14,2023-10-06 12:14:14,0.004s,PASSED
+"data.put(""namaPengirim"", pengirim)",Firefox 117.0,,,2023-10-06 12:14:14,2023-10-06 12:14:14,0.002s,PASSED
+"data.put(""totalBayar"", totalharga)",Firefox 117.0,,,2023-10-06 12:14:14,2023-10-06 12:14:14,0.003s,PASSED
+"data.put(""totalOngkir"", tOng)",Firefox 117.0,,,2023-10-06 12:14:14,2023-10-06 12:14:14,0.002s,PASSED
+return data,Firefox 117.0,,,2023-10-06 12:14:14,2023-10-06 12:14:14,0.001s,PASSED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-OS-002,Firefox 117.0,user melakukan order produk dengan menggunakan metode bayar saldo akun,,2023-10-06 12:14:14,2023-10-06 12:15:05,50.643s,PASSED
+"callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-LS-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:14:18,2023-10-06 12:14:37,18.941s,PASSED
+"sisaSaldo = replace("","", """").trim()",Firefox 117.0,,,2023-10-06 12:14:37,2023-10-06 12:14:37,0.648s,PASSED
+println(sisaSaldo),Firefox 117.0,,,2023-10-06 12:14:37,2023-10-06 12:14:37,0.010s,PASSED
+saldo = Integer.parseInt(sisaSaldo),Firefox 117.0,,,2023-10-06 12:14:37,2023-10-06 12:14:37,0.004s,PASSED
+println(saldo),Firefox 117.0,,,2023-10-06 12:14:37,2023-10-06 12:14:37,0.001s,PASSED
+"setText(findTestObject(""chekout/input aku mau belanja""), ""acer"")",Firefox 117.0,,,2023-10-06 12:14:37,2023-10-06 12:14:38,0.997s,PASSED
+"click(findTestObject(""chekout/button_Cari di halaman tajalapak""))",Firefox 117.0,,,2023-10-06 12:14:38,2023-10-06 12:14:40,1.765s,PASSED
+"click(findTestObject(""chekout/NEW read more acer""))",Firefox 117.0,,,2023-10-06 12:14:40,2023-10-06 12:14:42,2.133s,PASSED
+"click(findTestObject(""chekout/button_Beli Sekarang di detail produk""))",Firefox 117.0,,,2023-10-06 12:14:42,2023-10-06 12:14:44,2.138s,PASSED
+"verifyElementPresent(findTestObject(""chekout/halaman keranjang belanja""), 0)",Firefox 117.0,,,2023-10-06 12:14:44,2023-10-06 12:14:46,1.256s,PASSED
+"click(findTestObject(""chekout/button_Lanjut ke Pembayaran""))",Firefox 117.0,,,2023-10-06 12:14:46,2023-10-06 12:14:48,2.228s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/chekout/select_- Kirim via Kurir Lokal -Roda 2Roda 4""), Roda, false)",Firefox 117.0,,,2023-10-06 12:14:48,2023-10-06 12:14:49,1.369s,PASSED
+"click(findTestObject(""chekout/jenis kendaraan""))",Firefox 117.0,,,2023-10-06 12:14:49,2023-10-06 12:14:50,0.829s,PASSED
+"if (toString().equalsIgnoreCase(""transfer""))",Firefox 117.0,,,2023-10-06 12:14:50,2023-10-06 12:14:50,0.003s,PASSED
+"else if (toString().equalsIgnoreCase(""saldo""))",Firefox 117.0,,,2023-10-06 12:14:50,2023-10-06 12:14:51,0.996s,PASSED
+"click(findTestObject(""chekout/button_Proses Pembayaran""))",Firefox 117.0,,,2023-10-06 12:14:51,2023-10-06 12:14:57,6.241s,PASSED
+"invoice = getText(findTestObject(""Object Repository/co saldo akun/saldo akun no invoice""))",Firefox 117.0,,,2023-10-06 12:14:57,2023-10-06 12:14:58,0.838s,PASSED
+println(invoice),Firefox 117.0,,,2023-10-06 12:14:58,2023-10-06 12:14:58,0.000s,PASSED
+"penerima = getText(findTestObject(""Object Repository/chekout/dikirim kepada sama dengan pengirim di tf di konfirmaasi bayar""))",Firefox 117.0,,,2023-10-06 12:14:58,2023-10-06 12:14:59,0.366s,PASSED
+println(penerima),Firefox 117.0,,,2023-10-06 12:14:59,2023-10-06 12:14:59,0.004s,PASSED
+"total = getText(findTestObject(""Object Repository/chekout/total harga bayar""))",Firefox 117.0,,,2023-10-06 12:14:59,2023-10-06 12:14:59,0.451s,PASSED
+println(total),Firefox 117.0,,,2023-10-06 12:14:59,2023-10-06 12:14:59,0.001s,PASSED
+"total1 = replace("","", """").trim()",Firefox 117.0,,,2023-10-06 12:14:59,2023-10-06 12:14:59,0.001s,PASSED
+totalHarga = Integer.parseInt(total1),Firefox 117.0,,,2023-10-06 12:14:59,2023-10-06 12:14:59,0.001s,PASSED
+println(totalHarga),Firefox 117.0,,,2023-10-06 12:14:59,2023-10-06 12:14:59,0.001s,PASSED
+"ongkir = getText(findTestObject(""Object Repository/co saldo akun/ongkir""))",Firefox 117.0,,,2023-10-06 12:14:59,2023-10-06 12:14:59,0.366s,PASSED
+"ongkir1 = replace("","", """").trim()",Firefox 117.0,,,2023-10-06 12:14:59,2023-10-06 12:14:59,0.004s,PASSED
+ongkosKirim = Integer.parseInt(ongkir1),Firefox 117.0,,,2023-10-06 12:14:59,2023-10-06 12:14:59,0.000s,PASSED
+println(ongkosKirim),Firefox 117.0,,,2023-10-06 12:14:59,2023-10-06 12:14:59,0.000s,PASSED
+"admin = getText(findTestObject(""Object Repository/co saldo akun/fee admin""))",Firefox 117.0,,,2023-10-06 12:14:59,2023-10-06 12:15:00,0.670s,PASSED
+"admin1 = replace("","", """").trim()",Firefox 117.0,,,2023-10-06 12:15:00,2023-10-06 12:15:00,0.002s,PASSED
+Badmin = Integer.parseInt(admin1),Firefox 117.0,,,2023-10-06 12:15:00,2023-10-06 12:15:00,0.001s,PASSED
+println(Badmin),Firefox 117.0,,,2023-10-06 12:15:00,2023-10-06 12:15:00,0.006s,PASSED
+"sub = getText(findTestObject(""Object Repository/co saldo akun/subtotal""))",Firefox 117.0,,,2023-10-06 12:15:00,2023-10-06 12:15:01,0.566s,PASSED
+"sub1 = replace("","", """").trim()",Firefox 117.0,,,2023-10-06 12:15:01,2023-10-06 12:15:01,0.002s,PASSED
+subtotal = Integer.parseInt(sub1),Firefox 117.0,,,2023-10-06 12:15:01,2023-10-06 12:15:01,0.002s,PASSED
+println(subtotal),Firefox 117.0,,,2023-10-06 12:15:01,2023-10-06 12:15:01,0.003s,PASSED
+tOng = ongkosKirim + subtotal,Firefox 117.0,,,2023-10-06 12:15:01,2023-10-06 12:15:01,0.013s,PASSED
+println(tOng),Firefox 117.0,,,2023-10-06 12:15:01,2023-10-06 12:15:01,0.002s,PASSED
+"unik = getText(findTestObject(""Object Repository/co saldo akun/kode unik""))",Firefox 117.0,,,2023-10-06 12:15:01,2023-10-06 12:15:01,0.555s,PASSED
+"unik1 = replace(""+"", """").trim()",Firefox 117.0,,,2023-10-06 12:15:01,2023-10-06 12:15:01,0.002s,PASSED
+kode = Integer.parseInt(unik1),Firefox 117.0,,,2023-10-06 12:15:01,2023-10-06 12:15:01,0.003s,PASSED
+println(kode),Firefox 117.0,,,2023-10-06 12:15:01,2023-10-06 12:15:01,0.002s,PASSED
+totalBayar = ongkosKirim + Badmin + subtotal + kode,Firefox 117.0,,,2023-10-06 12:15:01,2023-10-06 12:15:01,0.003s,PASSED
+println(totalBayar),Firefox 117.0,,,2023-10-06 12:15:01,2023-10-06 12:15:01,0.002s,PASSED
+assert totalBayar == totalHarga,Firefox 117.0,,,2023-10-06 12:15:01,2023-10-06 12:15:01,0.003s,PASSED
+TotalSaldo = saldo - totalBayar,Firefox 117.0,,,2023-10-06 12:15:01,2023-10-06 12:15:01,0.020s,PASSED
+println(TotalSaldo),Firefox 117.0,,,2023-10-06 12:15:01,2023-10-06 12:15:01,0.002s,PASSED
+"click(findTestObject(""Object Repository/konfirmasi pesanan/a_Akun 0""))",Firefox 117.0,,,2023-10-06 12:15:01,2023-10-06 12:15:02,0.651s,PASSED
+"click(findTestObject(""Object Repository/konfirmasi pesanan/a_Profile""))",Firefox 117.0,,,2023-10-06 12:15:02,2023-10-06 12:15:04,1.752s,PASSED
+"SiSaldo = replace("","", """").trim()",Firefox 117.0,,,2023-10-06 12:15:04,2023-10-06 12:15:05,0.882s,PASSED
+println(SiSaldo),Firefox 117.0,,,2023-10-06 12:15:05,2023-10-06 12:15:05,0.002s,PASSED
+saldo1 = Integer.parseInt(SiSaldo),Firefox 117.0,,,2023-10-06 12:15:05,2023-10-06 12:15:05,0.002s,PASSED
+println(saldo1),Firefox 117.0,,,2023-10-06 12:15:05,2023-10-06 12:15:05,0.002s,PASSED
+assert saldo1 == TotalSaldo,Firefox 117.0,,,2023-10-06 12:15:05,2023-10-06 12:15:05,0.002s,PASSED
+data1 = new java.util.HashMap(),Firefox 117.0,,,2023-10-06 12:15:05,2023-10-06 12:15:05,0.002s,PASSED
+"data1.put(""invoice"", invoice)",Firefox 117.0,,,2023-10-06 12:15:05,2023-10-06 12:15:05,0.002s,PASSED
+"data1.put(""nmPengirim"", penerima)",Firefox 117.0,,,2023-10-06 12:15:05,2023-10-06 12:15:05,0.001s,PASSED
+"data1.put(""hargaBayar"", total)",Firefox 117.0,,,2023-10-06 12:15:05,2023-10-06 12:15:05,0.001s,PASSED
+"data1.put(""totalOngkir"", tOng)",Firefox 117.0,,,2023-10-06 12:15:05,2023-10-06 12:15:05,0.001s,PASSED
+return data1,Firefox 117.0,,,2023-10-06 12:15:05,2023-10-06 12:15:05,0.002s,PASSED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-KS-001,Firefox 117.0,User berhasil melakukan konfirmasi bayar melalui menu akun,,2023-10-06 12:15:05,2023-10-06 12:16:04,59.090s,PASSED
+"data = callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-OS-001""), [""Roda"":""2"", ""MetodePembayaran"":""transfer""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:15:06,2023-10-06 12:15:49,43.425s,PASSED
+"noInvoice = data.get(""invoice"")",Firefox 117.0,,,2023-10-06 12:15:49,2023-10-06 12:15:49,0.010s,PASSED
+"nmPengirim = data.get(""namaPengirim"")",Firefox 117.0,,,2023-10-06 12:15:49,2023-10-06 12:15:49,0.001s,PASSED
+"ttlBayar = data.get(""totalBayar"")",Firefox 117.0,,,2023-10-06 12:15:49,2023-10-06 12:15:49,0.001s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Akun 0""))",Firefox 117.0,,,2023-10-06 12:15:49,2023-10-06 12:15:50,1.045s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Profile""))",Firefox 117.0,,,2023-10-06 12:15:50,2023-10-06 12:15:52,2.039s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Pembelian""))",Firefox 117.0,,,2023-10-06 12:15:52,2023-10-06 12:15:54,1.657s,PASSED
+"click(findTestObject(""konfirmasi pesanan/new konfirmasi bayar""))",Firefox 117.0,,,2023-10-06 12:15:54,2023-10-06 12:15:55,1.433s,PASSED
+"verifyElementPresent(findTestObject(""konfirmasi pesanan/verifikasi user masuk halaman konfirmasi bayar dari akun profil""), 0)",Firefox 117.0,,,2023-10-06 12:15:55,2023-10-06 12:15:56,0.681s,PASSED
+"uploadFile(findTestObject(""konfirmasi pesanan/input_Upload Bukti Transfer_f""), ""F:\bootcamp\Miniproject\transfer.jpg"")",Firefox 117.0,,,2023-10-06 12:15:56,2023-10-06 12:15:57,0.783s,PASSED
+"totalBayar = getAttribute(findTestObject(""Object Repository/konfirmasi pesanan/input_Total TagihanTransfer_b""), ""value"")",Firefox 117.0,,,2023-10-06 12:15:57,2023-10-06 12:15:58,0.773s,PASSED
+"selectOptionByValue(findTestObject(""konfirmasi pesanan/select dropdown trasfer""), transfe, false)",Firefox 117.0,,,2023-10-06 12:15:58,2023-10-06 12:15:59,1.150s,PASSED
+"naamaPengirim = getAttribute(findTestObject(""Object Repository/konfirmasi pesanan/input_Nama Pengirim_d""), ""value"")",Firefox 117.0,,,2023-10-06 12:15:59,2023-10-06 12:15:59,0.717s,PASSED
+println(naamaPengirim),Firefox 117.0,,,2023-10-06 12:15:59,2023-10-06 12:15:59,0.002s,PASSED
+"tanggal = getAttribute(findTestObject(""Object Repository/konfirmasi pesanan/input_Tanggal Transfer_e""), ""value"")",Firefox 117.0,,,2023-10-06 12:15:59,2023-10-06 12:16:00,0.527s,PASSED
+println(tanggal),Firefox 117.0,,,2023-10-06 12:16:00,2023-10-06 12:16:00,0.001s,PASSED
+"select = new org.openqa.selenium.support.ui.Select(com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver().findElement(org.openqa.selenium.By.xpath(//select[@name=""c""])))",Firefox 117.0,,,2023-10-06 12:16:00,2023-10-06 12:16:01,0.721s,PASSED
+transfer = getFirstSelectedOption().getText(),Firefox 117.0,,,2023-10-06 12:16:01,2023-10-06 12:16:01,0.343s,PASSED
+"trans = transfer.split(""-"")",Firefox 117.0,,,2023-10-06 12:16:01,2023-10-06 12:16:01,0.010s,PASSED
+"transf = """"",Firefox 117.0,,,2023-10-06 12:16:01,2023-10-06 12:16:01,0.000s,PASSED
+"for ([i = 0, i < length, (i++)])",Firefox 117.0,,,2023-10-06 12:16:01,2023-10-06 12:16:01,0.006s,PASSED
+println(transf),Firefox 117.0,,,2023-10-06 12:16:01,2023-10-06 12:16:01,0.001s,PASSED
+assert trim().equalsIgnoreCase(ttlBayar.trim()),Firefox 117.0,,,2023-10-06 12:16:01,2023-10-06 12:16:01,0.003s,PASSED
+assert trim().equalsIgnoreCase(nmPengirim.trim()),Firefox 117.0,,,2023-10-06 12:16:01,2023-10-06 12:16:01,0.001s,PASSED
+"click(findTestObject(""konfirmasi pesanan/button_Konfirmasi Pembayaran""))",Firefox 117.0,,,2023-10-06 12:16:01,2023-10-06 12:16:03,1.915s,PASSED
+"verifyElementText(findTestObject(""konfirmasi pesanan/verifikasi sukses melakukan pembayaran pesanan""), ""Sukses Melakukan Konfirmasi Pembayaran Pesanan!"")",Firefox 117.0,,,2023-10-06 12:16:03,2023-10-06 12:16:04,0.758s,PASSED
+"data.put(""namaHasilInput"", naamaPengirim)",Firefox 117.0,,,2023-10-06 12:16:04,2023-10-06 12:16:04,0.002s,PASSED
+"data.put(""date"", tanggal)",Firefox 117.0,,,2023-10-06 12:16:04,2023-10-06 12:16:04,0.001s,PASSED
+"data.put(""noRekening"", transf)",Firefox 117.0,,,2023-10-06 12:16:04,2023-10-06 12:16:04,0.001s,PASSED
+"data.put(""inputJmlTf"", totalBayar)",Firefox 117.0,,,2023-10-06 12:16:04,2023-10-06 12:16:04,0.001s,PASSED
+return data,Firefox 117.0,,,2023-10-06 12:16:04,2023-10-06 12:16:04,0.000s,PASSED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-KS-002,Firefox 117.0,User melakukan konfirmasi Pesanan melalui menu profil kemudian memilih konfirmasi pembayaran lanjut melakukan konfirmasi pesanan,,2023-10-06 12:16:04,2023-10-06 12:17:09,1m - 5.575s,FAILED
+"data = callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-KS-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:16:05,2023-10-06 12:17:04,58.454s,PASSED
+"noPesanan = data.get(""invoice"")",Firefox 117.0,,,2023-10-06 12:17:04,2023-10-06 12:17:04,0.004s,PASSED
+"name = data.get(""namaPengirim"")",Firefox 117.0,,,2023-10-06 12:17:04,2023-10-06 12:17:04,0.003s,PASSED
+"count = data.get(""totalBayar"")",Firefox 117.0,,,2023-10-06 12:17:04,2023-10-06 12:17:04,0.001s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input nomor pesanan""), noPesanan)",Firefox 117.0,,,2023-10-06 12:17:04,2023-10-06 12:17:05,1.013s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input email di konfirmasi pesanan""), email)",Firefox 117.0,,,2023-10-06 12:17:05,2023-10-06 12:17:06,1.378s,PASSED
+"click(findTestObject(""konfirmasi pesanan/button_Submit""))",Firefox 117.0,,,2023-10-06 12:17:06,2023-10-06 12:17:08,1.553s,PASSED
+"verifyElementText(findTestObject(""konfirmasi pesanan/verifikasi sudah melakukan konfirmasi sekali di menu akun""), ""Sukses Melakukan Konfirmasi Pesanan!"")",Firefox 117.0,,,2023-10-06 12:17:08,2023-10-06 12:17:09,1.610s,FAILED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-KS-003,Firefox 117.0,User melakukan Konfirmasi melalui menu Shop kemudian memilih Konfirmasi Orders tanpa melakukan login,,2023-10-06 12:17:09,2023-10-06 12:18:07,57.284s,PASSED
+"data = callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-OS-001""), [""Roda"":""2"", ""MetodePembayaran"":""transfer""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:17:10,2023-10-06 12:17:57,46.874s,PASSED
+"noPesanan = data.get(""invoice"")",Firefox 117.0,,,2023-10-06 12:17:57,2023-10-06 12:17:57,0.002s,PASSED
+"name = data.get(""namaPengirim"")",Firefox 117.0,,,2023-10-06 12:17:57,2023-10-06 12:17:57,0.002s,PASSED
+"count = data.get(""totalBayar"")",Firefox 117.0,,,2023-10-06 12:17:57,2023-10-06 12:17:57,0.001s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Logout""))",Firefox 117.0,,,2023-10-06 12:17:57,2023-10-06 12:18:00,2.490s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Firefox 117.0,,,2023-10-06 12:18:00,2023-10-06 12:18:00,0.727s,PASSED
+"mouseOver(findTestObject(""konfirmasi pesanan/a_Shop""))",Firefox 117.0,,,2023-10-06 12:18:00,2023-10-06 12:18:02,1.192s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Konfirmasi Orders""))",Firefox 117.0,,,2023-10-06 12:18:02,2023-10-06 12:18:03,1.625s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_No Pesanan_a di shop""), noPesanan)",Firefox 117.0,,,2023-10-06 12:18:03,2023-10-06 12:18:04,1.139s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Alamat E-mail_form-control""), email)",Firefox 117.0,,,2023-10-06 12:18:04,2023-10-06 12:18:05,0.922s,PASSED
+"click(findTestObject(""konfirmasi pesanan/button_Submit""))",Firefox 117.0,,,2023-10-06 12:18:05,2023-10-06 12:18:07,1.449s,PASSED
+return data,Firefox 117.0,,,2023-10-06 12:18:07,2023-10-06 12:18:07,0.000s,PASSED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-KS-004,Firefox 117.0,User melakukan konfirmasi data transfer tanpa melakukan Login terlebih dahulu,,2023-10-06 12:18:07,2023-10-06 12:19:10,1m - 3.312s,PASSED
+"data = callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-KS-003""), [""noInvoice"":"" 	TRX91.20230911105711"", ""email"":""runarun@gmail.com""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:18:08,2023-10-06 12:19:03,54.891s,PASSED
+"noPesanan = data.get(""invoice"")",Firefox 117.0,,,2023-10-06 12:19:03,2023-10-06 12:19:03,0.004s,PASSED
+"name = data.get(""namaPengirim"")",Firefox 117.0,,,2023-10-06 12:19:03,2023-10-06 12:19:03,0.001s,PASSED
+"count = data.get(""totalBayar"")",Firefox 117.0,,,2023-10-06 12:19:03,2023-10-06 12:19:03,0.002s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Total TagihanTransfer_b""))",Firefox 117.0,,,2023-10-06 12:19:03,2023-10-06 12:19:04,0.816s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Total TagihanTransfer_b""), count)",Firefox 117.0,,,2023-10-06 12:19:04,2023-10-06 12:19:04,0.734s,PASSED
+"selectOptionByValue(findTestObject(""konfirmasi pesanan/select dropdown trasfer""), transfer, false)",Firefox 117.0,,,2023-10-06 12:19:04,2023-10-06 12:19:05,0.921s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Nama Pengirim_d""))",Firefox 117.0,,,2023-10-06 12:19:05,2023-10-06 12:19:06,0.572s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Nama Pengirim_d""), name)",Firefox 117.0,,,2023-10-06 12:19:06,2023-10-06 12:19:07,0.781s,PASSED
+"uploadFile(findTestObject(""konfirmasi pesanan/input_Upload Bukti Transfer_f""), ""F:\bootcamp\Miniproject\transfer.jpg"")",Firefox 117.0,,,2023-10-06 12:19:07,2023-10-06 12:19:07,0.643s,PASSED
+"click(findTestObject(""konfirmasi pesanan/button_Konfirmasi Pembayaran""))",Firefox 117.0,,,2023-10-06 12:19:07,2023-10-06 12:19:09,2.095s,PASSED
+"verifyElementText(findTestObject(""konfirmasi pesanan/verifikasi sukses melakukan pembayaran dari menu shop""), ""Sukses Melakukan Konfirmasi Pembayaran Pesanan!"")",Firefox 117.0,,,2023-10-06 12:19:09,2023-10-06 12:19:10,0.793s,PASSED
+return data,Firefox 117.0,,,2023-10-06 12:19:10,2023-10-06 12:19:10,0.000s,PASSED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-KS-005,Firefox 117.0,User melakukan konfirmasi melalui menu akun dan saat upload bukti transfer menggunakan format pdf,,2023-10-06 12:19:10,2023-10-06 12:20:08,57.853s,PASSED
+"data = callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-OS-001""), [""Roda"":""2"", ""MetodePembayaran"":""transfer""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:19:11,2023-10-06 12:19:55,44.010s,PASSED
+"noInvoice = data.get(""invoice"")",Firefox 117.0,,,2023-10-06 12:19:55,2023-10-06 12:19:55,0.003s,PASSED
+"nmPengirim = data.get(""namaPengirim"")",Firefox 117.0,,,2023-10-06 12:19:55,2023-10-06 12:19:55,0.003s,PASSED
+"ttlBayar = data.get(""totalBayar"")",Firefox 117.0,,,2023-10-06 12:19:55,2023-10-06 12:19:55,0.001s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Akun 0""))",Firefox 117.0,,,2023-10-06 12:19:55,2023-10-06 12:19:56,0.525s,PASSED
+"click(findTestObject(""konfirmasi order konsumen/pembelian dari akun""))",Firefox 117.0,,,2023-10-06 12:19:56,2023-10-06 12:19:58,1.983s,PASSED
+"click(findTestObject(""konfirmasi pesanan/new konfirmasi bayar""))",Firefox 117.0,,,2023-10-06 12:19:58,2023-10-06 12:19:59,1.519s,PASSED
+"verifyElementPresent(findTestObject(""konfirmasi pesanan/verifikasi user masuk halaman konfirmasi bayar dari akun profil""), 0)",Firefox 117.0,,,2023-10-06 12:19:59,2023-10-06 12:20:00,0.749s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Total TagihanTransfer_b""))",Firefox 117.0,,,2023-10-06 12:20:00,2023-10-06 12:20:01,0.716s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Total TagihanTransfer_b""), ttlBayar)",Firefox 117.0,,,2023-10-06 12:20:01,2023-10-06 12:20:02,1.046s,PASSED
+"selectOptionByValue(findTestObject(""konfirmasi pesanan/select dropdown trasfer""), transfer, false)",Firefox 117.0,,,2023-10-06 12:20:02,2023-10-06 12:20:03,1.184s,PASSED
+"uploadFile(findTestObject(""konfirmasi pesanan/input_Upload Bukti Transfer_f""), ""F:\bootcamp\Miniproject\Transfer.pdf"")",Firefox 117.0,,,2023-10-06 12:20:03,2023-10-06 12:20:03,0.699s,PASSED
+"totalBayar = getAttribute(findTestObject(""Object Repository/konfirmasi pesanan/input_Total TagihanTransfer_b""), ""value"")",Firefox 117.0,,,2023-10-06 12:20:03,2023-10-06 12:20:05,1.071s,PASSED
+"naamaPengirim = getAttribute(findTestObject(""Object Repository/konfirmasi pesanan/input_Nama Pengirim_d""), ""value"")",Firefox 117.0,,,2023-10-06 12:20:05,2023-10-06 12:20:05,0.540s,PASSED
+assert totalBayar == ttlBayar,Firefox 117.0,,,2023-10-06 12:20:05,2023-10-06 12:20:05,0.001s,PASSED
+assert naamaPengirim == nmPengirim,Firefox 117.0,,,2023-10-06 12:20:05,2023-10-06 12:20:05,0.000s,PASSED
+"click(findTestObject(""konfirmasi pesanan/button_Konfirmasi Pembayaran""))",Firefox 117.0,,,2023-10-06 12:20:05,2023-10-06 12:20:07,2.082s,PASSED
+"verifyElementText(findTestObject(""konfirmasi pesanan/verifikasi sukses melakukan pembayaran pesanan""), ""Sukses Melakukan Konfirmasi Pembayaran Pesanan!"")",Firefox 117.0,,,2023-10-06 12:20:07,2023-10-06 12:20:08,0.835s,PASSED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-KD-001,Firefox 117.0,user melakukan konfirmasi ulang nomor pesanan untuk memastikan sudah dibayar,,2023-10-06 12:20:08,2023-10-06 12:21:17,1m - 9.379s,PASSED
+"data = callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-KS-004""), [""transfer"":""1"", ""name"":""runarun"", ""date"":""2023-09-12""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:20:09,2023-10-06 12:21:13,1m - 3.556s,PASSED
+"noPesanan = data.get(""invoice"")",Firefox 117.0,,,2023-10-06 12:21:13,2023-10-06 12:21:13,0.010s,PASSED
+"name = data.get(""namaPengirim"")",Firefox 117.0,,,2023-10-06 12:21:13,2023-10-06 12:21:13,0.003s,PASSED
+"count = data.get(""totalBayar"")",Firefox 117.0,,,2023-10-06 12:21:13,2023-10-06 12:21:13,0.001s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_No Pesanan_a di shop""), noPesanan)",Firefox 117.0,,,2023-10-06 12:21:13,2023-10-06 12:21:14,1.034s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Alamat E-mail_form-control""), ""email"")",Firefox 117.0,,,2023-10-06 12:21:14,2023-10-06 12:21:15,1.174s,PASSED
+"click(findTestObject(""konfirmasi pesanan/button_Submit""))",Firefox 117.0,,,2023-10-06 12:21:15,2023-10-06 12:21:17,1.355s,PASSED
+"verifyElementText(findTestObject(""konfirmasi pesanan/verifikasi sudah verifikasi order sekali dari menu shop""), ""PENTING - Pesanan ini sudah dikonfirmasi Sebelumnya sebanyak 1 kali,.."")",Firefox 117.0,,,2023-10-06 12:21:17,2023-10-06 12:21:17,0.802s,PASSED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-AK-001,Firefox 117.0,admin melakukan chek nomor pesanan di menu penjualan ke konsumen untuk no pesanan yang sudah di pesan namun belum melakukan konfirmasi pembayaran atau pesanan,,2023-10-06 12:21:17,2023-10-06 12:22:46,1m - 28.763s,PASSED
+"data = callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-OS-001""), [""Roda"":""2"", ""MetodePembayaran"":""transfer""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:21:19,2023-10-06 12:22:05,46.043s,PASSED
+"noInvoice = data.get(""invoice"")",Firefox 117.0,,,2023-10-06 12:22:05,2023-10-06 12:22:05,0.003s,PASSED
+"nmPengirim = data.get(""namaPengirim"")",Firefox 117.0,,,2023-10-06 12:22:05,2023-10-06 12:22:05,0.000s,PASSED
+"ttlBayar = data.get(""totalBayar"")",Firefox 117.0,,,2023-10-06 12:22:05,2023-10-06 12:22:05,0.001s,PASSED
+"navigateToUrl(""https://10.9.2.63/ecommerce/administrator/"")",Firefox 117.0,,,2023-10-06 12:22:05,2023-10-06 12:22:06,1.117s,PASSED
+"setText(findTestObject(""halaman admin/input_ADMIN_a""), ""admin"")",Firefox 117.0,,,2023-10-06 12:22:06,2023-10-06 12:22:07,0.855s,PASSED
+"setEncryptedText(findTestObject(""halaman admin/input_ADMIN_password""), ""374mkdZ/lqyNS21oH+MJZQ=="")",Firefox 117.0,,,2023-10-06 12:22:07,2023-10-06 12:22:08,0.681s,PASSED
+delay(10),Firefox 117.0,,,2023-10-06 12:22:08,2023-10-06 12:22:18,10.099s,PASSED
+"click(findTestObject(""halaman admin/input_login admin""))",Firefox 117.0,,,2023-10-06 12:22:18,2023-10-06 12:22:23,5.098s,PASSED
+"verifyElementPresent(findTestObject(""halaman admin/VERIFIKASI MASUK DASHBORD ADMIN""), 0)",Firefox 117.0,,,2023-10-06 12:22:23,2023-10-06 12:22:30,6.413s,PASSED
+"click(findTestObject(""halaman admin/a_Transaksi Market""))",Firefox 117.0,,,2023-10-06 12:22:30,2023-10-06 12:22:31,1.184s,PASSED
+"click(findTestObject(""halaman admin/a_Penjualan ke Konsumen""))",Firefox 117.0,,,2023-10-06 12:22:31,2023-10-06 12:22:34,3.023s,PASSED
+"verifyElementPresent(findTestObject(""halaman admin/VERIFIKASI MASUK KE penjual ke konsumen""), 0)",Firefox 117.0,,,2023-10-06 12:22:34,2023-10-06 12:22:41,7.680s,PASSED
+"click(findTestObject(""halaman admin/search di penjual ke konsumen""))",Firefox 117.0,,,2023-10-06 12:22:41,2023-10-06 12:22:43,1.463s,PASSED
+"setText(findTestObject(""halaman admin/search di penjual ke konsumen""), noInvoice)",Firefox 117.0,,,2023-10-06 12:22:43,2023-10-06 12:22:45,1.961s,PASSED
+"status = getText(findTestObject(""Object Repository/halaman admin/td_Pending""))",Firefox 117.0,,,2023-10-06 12:22:45,2023-10-06 12:22:45,0.538s,PASSED
+println(status),Firefox 117.0,,,2023-10-06 12:22:45,2023-10-06 12:22:45,0.006s,PASSED
+"totalOng = getText(findTestObject(""Object Repository/halaman admin/td_Rp 15,246 (1 Produk)""))",Firefox 117.0,,,2023-10-06 12:22:45,2023-10-06 12:22:46,0.747s,PASSED
+println(totalOng),Firefox 117.0,,,2023-10-06 12:22:46,2023-10-06 12:22:46,0.002s,PASSED
+"harga = totalOng.substring(3, 9)",Firefox 117.0,,,2023-10-06 12:22:46,2023-10-06 12:22:46,0.004s,PASSED
+println(harga),Firefox 117.0,,,2023-10-06 12:22:46,2023-10-06 12:22:46,0.002s,PASSED
+"assert status == ""Pending""",Firefox 117.0,,,2023-10-06 12:22:46,2023-10-06 12:22:46,0.004s,PASSED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-AK-002,Firefox 117.0,admin melakukan chek di menu penjualan ke konsumen untuk no pesanan yang sudah di pesan yang sudah melakukan konfirmasi pembayaran atau pesanan,,2023-10-06 12:22:47,2023-10-06 12:24:21,1m - 33.782s,PASSED
+"data = callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-KS-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:22:48,2023-10-06 12:23:48,59.410s,PASSED
+"noInvoice = data.get(""invoice"")",Firefox 117.0,,,2023-10-06 12:23:48,2023-10-06 12:23:48,0.004s,PASSED
+"nmPengirim = data.get(""namaPengirim"")",Firefox 117.0,,,2023-10-06 12:23:48,2023-10-06 12:23:48,0.001s,PASSED
+"ttlBayar = data.get(""totalBayar"")",Firefox 117.0,,,2023-10-06 12:23:48,2023-10-06 12:23:48,0.002s,PASSED
+"ttlOngkir = data.get(""totalOngkir"")",Firefox 117.0,,,2023-10-06 12:23:48,2023-10-06 12:23:48,0.001s,PASSED
+"navigateToUrl(""https://10.9.2.63/ecommerce/administrator/"")",Firefox 117.0,,,2023-10-06 12:23:48,2023-10-06 12:23:49,1.222s,PASSED
+"setText(findTestObject(""halaman admin/input_ADMIN_a""), ""admin"")",Firefox 117.0,,,2023-10-06 12:23:49,2023-10-06 12:23:50,0.961s,PASSED
+"setEncryptedText(findTestObject(""halaman admin/input_ADMIN_password""), ""374mkdZ/lqyNS21oH+MJZQ=="")",Firefox 117.0,,,2023-10-06 12:23:50,2023-10-06 12:23:50,0.578s,PASSED
+delay(10),Firefox 117.0,,,2023-10-06 12:23:50,2023-10-06 12:24:00,10.036s,PASSED
+"click(findTestObject(""halaman admin/input_login admin""))",Firefox 117.0,,,2023-10-06 12:24:00,2023-10-06 12:24:03,2.309s,PASSED
+"verifyElementPresent(findTestObject(""halaman admin/VERIFIKASI MASUK DASHBORD ADMIN""), 0)",Firefox 117.0,,,2023-10-06 12:24:03,2023-10-06 12:24:08,5.412s,PASSED
+"click(findTestObject(""halaman admin/a_Transaksi Market""))",Firefox 117.0,,,2023-10-06 12:24:08,2023-10-06 12:24:09,0.877s,PASSED
+"click(findTestObject(""halaman admin/a_Penjualan ke Konsumen""))",Firefox 117.0,,,2023-10-06 12:24:09,2023-10-06 12:24:12,2.941s,PASSED
+"verifyElementPresent(findTestObject(""halaman admin/VERIFIKASI MASUK KE penjual ke konsumen""), 0)",Firefox 117.0,,,2023-10-06 12:24:12,2023-10-06 12:24:16,4.065s,PASSED
+"click(findTestObject(""halaman admin/search di penjual ke konsumen""))",Firefox 117.0,,,2023-10-06 12:24:16,2023-10-06 12:24:17,1.249s,PASSED
+"setText(findTestObject(""halaman admin/search di penjual ke konsumen""), noInvoice)",Firefox 117.0,,,2023-10-06 12:24:17,2023-10-06 12:24:19,1.541s,PASSED
+"status = getText(findTestObject(""Object Repository/halaman admin/td_Pending""))",Firefox 117.0,,,2023-10-06 12:24:19,2023-10-06 12:24:19,0.532s,PASSED
+println(status),Firefox 117.0,,,2023-10-06 12:24:19,2023-10-06 12:24:19,0.002s,PASSED
+"totalOng = getText(findTestObject(""Object Repository/halaman admin/td_Rp 15,246 (1 Produk)""))",Firefox 117.0,,,2023-10-06 12:24:19,2023-10-06 12:24:20,0.612s,PASSED
+println(totalOng),Firefox 117.0,,,2023-10-06 12:24:20,2023-10-06 12:24:20,0.001s,PASSED
+"harga = trim().replace("","", """")",Firefox 117.0,,,2023-10-06 12:24:20,2023-10-06 12:24:20,0.003s,PASSED
+Hargaa = Integer.parseInt(harga),Firefox 117.0,,,2023-10-06 12:24:20,2023-10-06 12:24:20,0.004s,PASSED
+println(Hargaa),Firefox 117.0,,,2023-10-06 12:24:20,2023-10-06 12:24:20,0.001s,PASSED
+"konsumen = getText(findTestObject(""Object Repository/halaman admin/KONSUMEN DI PENJUAL KE KONSUMEN""))",Firefox 117.0,,,2023-10-06 12:24:20,2023-10-06 12:24:21,0.755s,PASSED
+println(konsumen),Firefox 117.0,,,2023-10-06 12:24:21,2023-10-06 12:24:21,0.002s,PASSED
+"assert status == ""Konfirmasi""",Firefox 117.0,,,2023-10-06 12:24:21,2023-10-06 12:24:21,0.001s,PASSED
+assert ttlOngkir == Hargaa,Firefox 117.0,,,2023-10-06 12:24:21,2023-10-06 12:24:21,0.006s,PASSED
+assert konsumen == nmPengirim,Firefox 117.0,,,2023-10-06 12:24:21,2023-10-06 12:24:21,0.001s,PASSED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-AK-003,Firefox 117.0,admin melakukan chek nomor pesanan di menu Konf. Order Konsumen untuk no pesanan yang sudah di pesan namun belum dilakukan konfirmasi pembayaran atau pesanan,,2023-10-06 12:24:22,2023-10-06 12:25:42,1m - 20.344s,PASSED
+"data = callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-OS-001""), [""Roda"":""2"", ""MetodePembayaran"":""transfer""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:24:23,2023-10-06 12:25:09,46.422s,PASSED
+"nopesanan = data.get(""invoice"")",Firefox 117.0,,,2023-10-06 12:25:09,2023-10-06 12:25:09,0.013s,PASSED
+"navigateToUrl(""https://10.9.2.63/ecommerce/administrator/"")",Firefox 117.0,,,2023-10-06 12:25:09,2023-10-06 12:25:10,0.734s,PASSED
+"verifyElementPresent(findTestObject(""halaman admin/verifikasi masuk masuk website admin""), 0)",Firefox 117.0,,,2023-10-06 12:25:10,2023-10-06 12:25:11,0.639s,PASSED
+"setText(findTestObject(""halaman admin/input_ADMIN_a""), ""admin"")",Firefox 117.0,,,2023-10-06 12:25:11,2023-10-06 12:25:12,1.117s,PASSED
+"setEncryptedText(findTestObject(""halaman admin/input_ADMIN_password""), ""374mkdZ/lqyNS21oH+MJZQ=="")",Firefox 117.0,,,2023-10-06 12:25:12,2023-10-06 12:25:13,0.809s,PASSED
+delay(10),Firefox 117.0,,,2023-10-06 12:25:13,2023-10-06 12:25:23,10.034s,PASSED
+"click(findTestObject(""halaman admin/input_login admin""))",Firefox 117.0,,,2023-10-06 12:25:23,2023-10-06 12:25:25,2.240s,PASSED
+"verifyElementPresent(findTestObject(""halaman admin/VERIFIKASI MASUK DASHBORD ADMIN""), 0)",Firefox 117.0,,,2023-10-06 12:25:25,2023-10-06 12:25:31,5.864s,PASSED
+"click(findTestObject(""halaman admin/a_Transaksi Market""))",Firefox 117.0,,,2023-10-06 12:25:31,2023-10-06 12:25:32,0.867s,PASSED
+"click(findTestObject(""konfirmasi order konsumen/MENU Konf. Order Konsumen""))",Firefox 117.0,,,2023-10-06 12:25:32,2023-10-06 12:25:33,1.621s,PASSED
+"verifyElementPresent(findTestObject(""konfirmasi order konsumen/HALAMAN Data Konfirmasi Pembayaran Konsumen""), 0)",Firefox 117.0,,,2023-10-06 12:25:33,2023-10-06 12:25:39,5.897s,PASSED
+"click(findTestObject(""konfirmasi order konsumen/input_Search_ DI KON PEMBAYARAN""))",Firefox 117.0,,,2023-10-06 12:25:39,2023-10-06 12:25:40,0.813s,PASSED
+"setText(findTestObject(""konfirmasi order konsumen/input_Search_ DI KON PEMBAYARAN""), nopesanan)",Firefox 117.0,,,2023-10-06 12:25:40,2023-10-06 12:25:41,1.305s,PASSED
+"verifyElementPresent(findTestObject(""konfirmasi order konsumen/td_No matching records found""), 0)",Firefox 117.0,,,2023-10-06 12:25:41,2023-10-06 12:25:42,0.725s,PASSED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-AK-004,Firefox 117.0,admin melakukan chek di menu Konfirmasi order konsumen untuk no pesanan yang sudah di pesan dan yang sudah dilakukan konfirmasi pembayaran atau pesanan,,2023-10-06 12:25:42,2023-10-06 12:27:39,1m - 56.355s,PASSED
+"data = callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-KS-001""), [""transfe"":""2""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:25:44,2023-10-06 12:26:45,1m - 0.777s,PASSED
+"nopesanan = data.get(""invoice"")",Firefox 117.0,,,2023-10-06 12:26:45,2023-10-06 12:26:45,0.004s,PASSED
+println(nopesanan),Firefox 117.0,,,2023-10-06 12:26:45,2023-10-06 12:26:45,0.005s,PASSED
+"count = data.get(""totalBayar"")",Firefox 117.0,,,2023-10-06 12:26:45,2023-10-06 12:26:45,0.002s,PASSED
+"namaInput = data.get(""namaHasilInput"")",Firefox 117.0,,,2023-10-06 12:26:45,2023-10-06 12:26:45,0.001s,PASSED
+"date = data.get(""date"")",Firefox 117.0,,,2023-10-06 12:26:45,2023-10-06 12:26:45,0.000s,PASSED
+"tujuanTf = data.get(""noRekening"")",Firefox 117.0,,,2023-10-06 12:26:45,2023-10-06 12:26:45,0.003s,PASSED
+"jmlTF = data.get(""inputJmlTf"")",Firefox 117.0,,,2023-10-06 12:26:45,2023-10-06 12:26:45,0.000s,PASSED
+"navigateToUrl(""https://10.9.2.63/ecommerce/administrator/"")",Firefox 117.0,,,2023-10-06 12:26:45,2023-10-06 12:26:46,0.920s,PASSED
+"verifyElementPresent(findTestObject(""halaman admin/verifikasi masuk masuk website admin""), 0)",Firefox 117.0,,,2023-10-06 12:26:46,2023-10-06 12:26:46,0.502s,PASSED
+"setText(findTestObject(""halaman admin/input_ADMIN_a""), ""admin"")",Firefox 117.0,,,2023-10-06 12:26:46,2023-10-06 12:26:47,1.083s,PASSED
+"setEncryptedText(findTestObject(""halaman admin/input_ADMIN_password""), ""374mkdZ/lqyNS21oH+MJZQ=="")",Firefox 117.0,,,2023-10-06 12:26:47,2023-10-06 12:26:48,0.623s,PASSED
+delay(10),Firefox 117.0,,,2023-10-06 12:26:48,2023-10-06 12:26:58,10.144s,PASSED
+"click(findTestObject(""halaman admin/input_login admin""))",Firefox 117.0,,,2023-10-06 12:26:58,2023-10-06 12:27:00,2.137s,PASSED
+"verifyElementPresent(findTestObject(""halaman admin/VERIFIKASI MASUK DASHBORD ADMIN""), 0)",Firefox 117.0,,,2023-10-06 12:27:00,2023-10-06 12:27:06,5.343s,PASSED
+"click(findTestObject(""halaman admin/a_Transaksi Market""))",Firefox 117.0,,,2023-10-06 12:27:06,2023-10-06 12:27:07,0.881s,PASSED
+"click(findTestObject(""konfirmasi order konsumen/MENU Konf. Order Konsumen""))",Firefox 117.0,,,2023-10-06 12:27:07,2023-10-06 12:27:09,2.120s,PASSED
+"verifyElementPresent(findTestObject(""konfirmasi order konsumen/HALAMAN Data Konfirmasi Pembayaran Konsumen""), 0)",Firefox 117.0,,,2023-10-06 12:27:09,2023-10-06 12:27:16,7.257s,PASSED
+"click(findTestObject(""konfirmasi order konsumen/input_Search_ DI KON PEMBAYARAN""))",Firefox 117.0,,,2023-10-06 12:27:16,2023-10-06 12:27:17,0.889s,PASSED
+"setText(findTestObject(""konfirmasi order konsumen/input_Search_ DI KON PEMBAYARAN""), nopesanan)",Firefox 117.0,,,2023-10-06 12:27:17,2023-10-06 12:27:18,1.203s,PASSED
+"Uangtf = getText(findTestObject(""Object Repository/konfirmasi order konsumen/UANG YANG di transfer""))",Firefox 117.0,,,2023-10-06 12:27:18,2023-10-06 12:27:19,0.809s,PASSED
+"name = getText(findTestObject(""Object Repository/konfirmasi order konsumen/nama yang tf""))",Firefox 117.0,,,2023-10-06 12:27:19,2023-10-06 12:27:19,0.516s,PASSED
+"rekening = getText(findTestObject(""Object Repository/konfirmasi order konsumen/ke rekening""))",Firefox 117.0,,,2023-10-06 12:27:19,2023-10-06 12:27:20,0.555s,PASSED
+"waktu = getText(findTestObject(""Object Repository/konfirmasi order konsumen/tanggal transfer""))",Firefox 117.0,,,2023-10-06 12:27:20,2023-10-06 12:27:21,0.870s,PASSED
+"click(findTestObject(""halaman admin/new bukti tf di halaman order konsumen""))",Firefox 117.0,,,2023-10-06 12:27:21,2023-10-06 12:27:27,5.819s,PASSED
+delay(10),Firefox 117.0,,,2023-10-06 12:27:27,2023-10-06 12:27:37,10.029s,PASSED
+"loc = new java.util.Locale(id, ID)",Firefox 117.0,,,2023-10-06 12:27:37,2023-10-06 12:27:37,0.103s,PASSED
+"sdf = new java.text.SimpleDateFormat(dd MMM yyyy, loc)",Firefox 117.0,,,2023-10-06 12:27:37,2023-10-06 12:27:37,0.261s,PASSED
+parseDate = null,Firefox 117.0,,,2023-10-06 12:27:37,2023-10-06 12:27:37,0.002s,PASSED
+SentDate = waktu,Firefox 117.0,,,2023-10-06 12:27:37,2023-10-06 12:27:37,0.000s,PASSED
+parseDate = sdf.parse(SentDate),Firefox 117.0,,,2023-10-06 12:27:37,2023-10-06 12:27:37,0.034s,PASSED
+"print = new java.text.SimpleDateFormat(yyyy-MM-dd, loc)",Firefox 117.0,,,2023-10-06 12:27:37,2023-10-06 12:27:37,0.002s,PASSED
+tanggal = print.format(parseDate),Firefox 117.0,,,2023-10-06 12:27:37,2023-10-06 12:27:37,0.005s,PASSED
+println(tanggal),Firefox 117.0,,,2023-10-06 12:27:37,2023-10-06 12:27:37,0.002s,PASSED
+"status = getText(findTestObject(""Object Repository/konfirmasi order konsumen/keterangan lunas apa pending""))",Firefox 117.0,,,2023-10-06 12:27:37,2023-10-06 12:27:38,0.571s,PASSED
+"berkas1 = getAttribute(findTestObject(""Object Repository/halaman admin/new bukti tf di halaman order konsumen""), ""href"").split(""/"")",Firefox 117.0,,,2023-10-06 12:27:38,2023-10-06 12:27:38,0.553s,PASSED
+println(berkas1),Firefox 117.0,,,2023-10-06 12:27:38,2023-10-06 12:27:38,0.003s,PASSED
+berkasUrl = berkas1[berkas1.size() - 1],Firefox 117.0,,,2023-10-06 12:27:38,2023-10-06 12:27:38,0.046s,PASSED
+println(berkasUrl),Firefox 117.0,,,2023-10-06 12:27:38,2023-10-06 12:27:38,0.001s,PASSED
+downloadFolder = new java.io.File(C:\Users\USER\Downloads),Firefox 117.0,,,2023-10-06 12:27:38,2023-10-06 12:27:38,0.003s,PASSED
+namesOfFiles = Arrays.asList(downloadFolder.list()),Firefox 117.0,,,2023-10-06 12:27:38,2023-10-06 12:27:38,0.137s,PASSED
+assert namesOfFiles.contains(berkasUrl),Firefox 117.0,,,2023-10-06 12:27:38,2023-10-06 12:27:38,0.067s,PASSED
+assert count == Uangtf,Firefox 117.0,,,2023-10-06 12:27:38,2023-10-06 12:27:38,0.000s,PASSED
+assert namaInput == name,Firefox 117.0,,,2023-10-06 12:27:38,2023-10-06 12:27:38,0.000s,PASSED
+assert tujuanTf == rekening,Firefox 117.0,,,2023-10-06 12:27:38,2023-10-06 12:27:38,0.001s,PASSED
+assert date == tanggal,Firefox 117.0,,,2023-10-06 12:27:38,2023-10-06 12:27:38,0.001s,PASSED
+"assert status == ""Lunas""",Firefox 117.0,,,2023-10-06 12:27:38,2023-10-06 12:27:38,0.000s,PASSED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-AK-005,Firefox 117.0,Pengguna melakukan chek status pada menu penjual ke konsumen di admin untuk order produk menggunakan metode bayar saldo akun,,2023-10-06 12:27:39,2023-10-06 12:29:04,1m - 25.532s,PASSED
+"data1 = callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-OS-002""), [""Roda"":""2"", ""MetodePembayaran"":""saldo""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:27:40,2023-10-06 12:28:29,48.486s,PASSED
+"inv = data1.get(""invoice"")",Firefox 117.0,,,2023-10-06 12:28:29,2023-10-06 12:28:29,0.003s,PASSED
+"namaPengirim = data1.get(""nmPengirim"")",Firefox 117.0,,,2023-10-06 12:28:29,2023-10-06 12:28:29,0.001s,PASSED
+"tOng = data1.get(""totalOngkir"")",Firefox 117.0,,,2023-10-06 12:28:29,2023-10-06 12:28:29,0.000s,PASSED
+"navigateToUrl(""https://10.9.2.63/ecommerce/administrator/"")",Firefox 117.0,,,2023-10-06 12:28:29,2023-10-06 12:28:30,0.879s,PASSED
+"setText(findTestObject(""halaman admin/input_ADMIN_a""), ""admin"")",Firefox 117.0,,,2023-10-06 12:28:30,2023-10-06 12:28:31,1.027s,PASSED
+"setEncryptedText(findTestObject(""halaman admin/input_ADMIN_password""), ""374mkdZ/lqyNS21oH+MJZQ=="")",Firefox 117.0,,,2023-10-06 12:28:31,2023-10-06 12:28:32,0.681s,PASSED
+delay(10),Firefox 117.0,,,2023-10-06 12:28:32,2023-10-06 12:28:42,10.042s,PASSED
+"click(findTestObject(""halaman admin/input_login admin""))",Firefox 117.0,,,2023-10-06 12:28:42,2023-10-06 12:28:44,2.484s,PASSED
+"verifyElementPresent(findTestObject(""halaman admin/VERIFIKASI MASUK DASHBORD ADMIN""), 0)",Firefox 117.0,,,2023-10-06 12:28:44,2023-10-06 12:28:50,6.265s,PASSED
+"click(findTestObject(""halaman admin/a_Transaksi Market""))",Firefox 117.0,,,2023-10-06 12:28:50,2023-10-06 12:28:51,0.922s,PASSED
+"click(findTestObject(""halaman admin/a_Penjualan ke Konsumen""))",Firefox 117.0,,,2023-10-06 12:28:51,2023-10-06 12:28:54,2.936s,PASSED
+"verifyElementPresent(findTestObject(""halaman admin/VERIFIKASI MASUK KE penjual ke konsumen""), 0)",Firefox 117.0,,,2023-10-06 12:28:54,2023-10-06 12:29:00,5.925s,PASSED
+"click(findTestObject(""halaman admin/search di penjual ke konsumen""))",Firefox 117.0,,,2023-10-06 12:29:00,2023-10-06 12:29:01,0.913s,PASSED
+"setText(findTestObject(""halaman admin/search di penjual ke konsumen""), inv)",Firefox 117.0,,,2023-10-06 12:29:01,2023-10-06 12:29:02,1.134s,PASSED
+"status = getText(findTestObject(""Object Repository/halaman admin/td_Pending""))",Firefox 117.0,,,2023-10-06 12:29:02,2023-10-06 12:29:03,0.498s,PASSED
+println(status),Firefox 117.0,,,2023-10-06 12:29:03,2023-10-06 12:29:03,0.002s,PASSED
+"totalOng = getText(findTestObject(""Object Repository/halaman admin/td_Rp 15,246 (1 Produk)""))",Firefox 117.0,,,2023-10-06 12:29:03,2023-10-06 12:29:04,0.946s,PASSED
+println(totalOng),Firefox 117.0,,,2023-10-06 12:29:04,2023-10-06 12:29:04,0.001s,PASSED
+"harga = trim().replace("","", """")",Firefox 117.0,,,2023-10-06 12:29:04,2023-10-06 12:29:04,0.004s,PASSED
+Harga1 = Integer.parseInt(harga),Firefox 117.0,,,2023-10-06 12:29:04,2023-10-06 12:29:04,0.002s,PASSED
+println(harga),Firefox 117.0,,,2023-10-06 12:29:04,2023-10-06 12:29:04,0.002s,PASSED
+"konsumen = getText(findTestObject(""Object Repository/halaman admin/KONSUMEN DI PENJUAL KE KONSUMEN""))",Firefox 117.0,,,2023-10-06 12:29:04,2023-10-06 12:29:04,0.531s,PASSED
+println(konsumen),Firefox 117.0,,,2023-10-06 12:29:04,2023-10-06 12:29:04,0.001s,PASSED
+"assert status == ""Konfirmasi""",Firefox 117.0,,,2023-10-06 12:29:04,2023-10-06 12:29:04,0.001s,PASSED
+assert Harga1 == tOng,Firefox 117.0,,,2023-10-06 12:29:04,2023-10-06 12:29:04,0.000s,PASSED
+assert konsumen == namaPengirim,Firefox 117.0,,,2023-10-06 12:29:04,2023-10-06 12:29:04,0.000s,PASSED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-KF-001,Firefox 117.0,User melakukan konfirmasi data transfer tanpa mengisi upload bukti transfer melalui menu profil,,2023-10-06 12:29:05,2023-10-06 12:30:02,57.399s,PASSED
+"data = callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-OS-001""), [""Roda"":""2"", ""MetodePembayaran"":""transfer""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:29:06,2023-10-06 12:29:50,44.067s,PASSED
+"noPesanan = data.get(""invoice"")",Firefox 117.0,,,2023-10-06 12:29:50,2023-10-06 12:29:50,0.004s,PASSED
+"nmPengirim = data.get(""namaPengirim"")",Firefox 117.0,,,2023-10-06 12:29:50,2023-10-06 12:29:50,0.004s,PASSED
+"ttlBayar = data.get(""totalBayar"")",Firefox 117.0,,,2023-10-06 12:29:50,2023-10-06 12:29:50,0.002s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Akun 0""))",Firefox 117.0,,,2023-10-06 12:29:50,2023-10-06 12:29:51,0.585s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Profile""))",Firefox 117.0,,,2023-10-06 12:29:51,2023-10-06 12:29:52,1.487s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Pembelian""))",Firefox 117.0,,,2023-10-06 12:29:52,2023-10-06 12:29:54,1.898s,PASSED
+"click(findTestObject(""konfirmasi pesanan/new konfirmasi bayar""))",Firefox 117.0,,,2023-10-06 12:29:54,2023-10-06 12:29:56,1.842s,PASSED
+"verifyElementPresent(findTestObject(""konfirmasi pesanan/verifikasi user masuk halaman konfirmasi bayar dari akun profil""), 0)",Firefox 117.0,,,2023-10-06 12:29:56,2023-10-06 12:29:57,0.814s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/konfirmasi pesanan/select dropdown trasfer""), transfer, false)",Firefox 117.0,,,2023-10-06 12:29:57,2023-10-06 12:29:58,0.988s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Nama Pengirim_d""))",Firefox 117.0,,,2023-10-06 12:29:58,2023-10-06 12:29:58,0.571s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Nama Pengirim_d""), name)",Firefox 117.0,,,2023-10-06 12:29:58,2023-10-06 12:29:59,0.917s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Tanggal Transfer_e""))",Firefox 117.0,,,2023-10-06 12:29:59,2023-10-06 12:30:00,0.512s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Tanggal Transfer_e""), tanggal)",Firefox 117.0,,,2023-10-06 12:30:00,2023-10-06 12:30:01,0.863s,PASSED
+"click(findTestObject(""konfirmasi pesanan/button_Konfirmasi Pembayaran""))",Firefox 117.0,,,2023-10-06 12:30:01,2023-10-06 12:30:02,1.005s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-10-06 12:30:02,2023-10-06 12:30:02,0.005s,PASSED
+"field_photo = webDriver.findElement(By.xpath(""//input[@name=""f""]""))",Firefox 117.0,,,2023-10-06 12:30:02,2023-10-06 12:30:02,0.277s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_photo)",Firefox 117.0,,,2023-10-06 12:30:02,2023-10-06 12:30:02,0.071s,PASSED
+println(error_message),Firefox 117.0,,,2023-10-06 12:30:02,2023-10-06 12:30:02,0.001s,PASSED
+"assert error_message == ""Please select a file.""",Firefox 117.0,,,2023-10-06 12:30:02,2023-10-06 12:30:02,0.000s,PASSED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-KF-002,Firefox 117.0,User melakukan konfirmasi data transfer pada menu akun namun total tagihan/transfer di kosongkan,,2023-10-06 12:30:03,2023-10-06 12:31:01,58.041s,PASSED
+"callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-OS-001""), [""Roda"":""2"", ""MetodePembayaran"":""transfer""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:30:04,2023-10-06 12:30:47,42.934s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Akun 0""))",Firefox 117.0,,,2023-10-06 12:30:47,2023-10-06 12:30:48,1.014s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Profile""))",Firefox 117.0,,,2023-10-06 12:30:48,2023-10-06 12:30:50,2.111s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Pembelian""))",Firefox 117.0,,,2023-10-06 12:30:50,2023-10-06 12:30:52,1.647s,PASSED
+"click(findTestObject(""konfirmasi pesanan/new konfirmasi bayar""))",Firefox 117.0,,,2023-10-06 12:30:52,2023-10-06 12:30:53,1.556s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Total TagihanTransfer_b""))",Firefox 117.0,,,2023-10-06 12:30:53,2023-10-06 12:30:54,1.019s,PASSED
+"selectOptionByValue(findTestObject(""konfirmasi pesanan/select dropdown trasfer""), transfer, false)",Firefox 117.0,,,2023-10-06 12:30:54,2023-10-06 12:30:55,1.137s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Nama Pengirim_d""))",Firefox 117.0,,,2023-10-06 12:30:55,2023-10-06 12:30:56,0.614s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Nama Pengirim_d""), name)",Firefox 117.0,,,2023-10-06 12:30:56,2023-10-06 12:30:57,0.908s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Tanggal Transfer_e""))",Firefox 117.0,,,2023-10-06 12:30:57,2023-10-06 12:30:58,0.853s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Tanggal Transfer_e""), date)",Firefox 117.0,,,2023-10-06 12:30:58,2023-10-06 12:30:59,1.242s,PASSED
+"uploadFile(findTestObject(""konfirmasi pesanan/input_Upload Bukti Transfer_f""), ""F:\bootcamp\Miniproject\transfer.jpg"")",Firefox 117.0,,,2023-10-06 12:30:59,2023-10-06 12:31:00,0.614s,PASSED
+"click(findTestObject(""konfirmasi pesanan/button_Konfirmasi Pembayaran""))",Firefox 117.0,,,2023-10-06 12:31:00,2023-10-06 12:31:00,0.711s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-10-06 12:31:00,2023-10-06 12:31:00,0.002s,PASSED
+"field_count = webDriver.findElement(By.xpath(""(//input[@name=""b""])[3]""))",Firefox 117.0,,,2023-10-06 12:31:00,2023-10-06 12:31:01,0.278s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_count)",Firefox 117.0,,,2023-10-06 12:31:01,2023-10-06 12:31:01,0.018s,PASSED
+println(error_message),Firefox 117.0,,,2023-10-06 12:31:01,2023-10-06 12:31:01,0.002s,PASSED
+"assert error_message == ""Please fill out this field.""",Firefox 117.0,,,2023-10-06 12:31:01,2023-10-06 12:31:01,0.001s,PASSED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-KF-003,Firefox 117.0,User melakukan konfirmasi pesanan melalui menu shop namun mengosongkan semua inputan,,2023-10-06 12:31:01,2023-10-06 12:31:25,24.477s,PASSED
+"callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-LS-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:31:02,2023-10-06 12:31:21,18.566s,PASSED
+"mouseOver(findTestObject(""konfirmasi pesanan/a_Shop""))",Firefox 117.0,,,2023-10-06 12:31:21,2023-10-06 12:31:21,0.825s,PASSED
+"click(findTestObject(""konfirmasi pesanan/New Konfirmasi_Orders""))",Firefox 117.0,,,2023-10-06 12:31:21,2023-10-06 12:31:23,1.906s,PASSED
+"verifyElementPresent(findTestObject(""konfirmasi pesanan/verifikasi masuk halaman konfirmasi pesanan""), 0)",Firefox 117.0,,,2023-10-06 12:31:23,2023-10-06 12:31:24,0.705s,PASSED
+"click(findTestObject(""konfirmasi pesanan/button_Submit""))",Firefox 117.0,,,2023-10-06 12:31:24,2023-10-06 12:31:25,0.988s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-10-06 12:31:25,2023-10-06 12:31:25,0.002s,PASSED
+"field_invoice = webDriver.findElement(By.xpath(""(//input[@name=""a""])[3]""))",Firefox 117.0,,,2023-10-06 12:31:25,2023-10-06 12:31:25,0.271s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_invoice)",Firefox 117.0,,,2023-10-06 12:31:25,2023-10-06 12:31:25,0.016s,PASSED
+println(error_message),Firefox 117.0,,,2023-10-06 12:31:25,2023-10-06 12:31:25,0.001s,PASSED
+"assert error_message == ""Please fill out this field.""",Firefox 117.0,,,2023-10-06 12:31:25,2023-10-06 12:31:25,0.001s,PASSED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-KF-004,Firefox 117.0,User melakukan konfirmasi pesanan melalui menu shop dan saat mengisi email user tidak menginputkan domain,,2023-10-06 12:31:25,2023-10-06 12:32:15,50.041s,FAILED
+"data = callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-OS-001""), [""Roda"":""2"", ""MetodePembayaran"":""transfer""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:31:26,2023-10-06 12:32:06,39.961s,PASSED
+"noInvoice = data.get(""invoice"")",Firefox 117.0,,,2023-10-06 12:32:06,2023-10-06 12:32:06,0.004s,PASSED
+"nmPengirim = data.get(""namaPengirim"")",Firefox 117.0,,,2023-10-06 12:32:06,2023-10-06 12:32:06,0.001s,PASSED
+"ttlBayar = data.get(""totalBayar"")",Firefox 117.0,,,2023-10-06 12:32:06,2023-10-06 12:32:06,0.002s,PASSED
+"mouseOver(findTestObject(""konfirmasi pesanan/a_Shop""))",Firefox 117.0,,,2023-10-06 12:32:06,2023-10-06 12:32:07,0.870s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Konfirmasi Orders""))",Firefox 117.0,,,2023-10-06 12:32:07,2023-10-06 12:32:10,2.305s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_No Pesanan_a di shop""), noInvoice)",Firefox 117.0,,,2023-10-06 12:32:10,2023-10-06 12:32:11,1.201s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Alamat E-mail_form-control""), email)",Firefox 117.0,,,2023-10-06 12:32:11,2023-10-06 12:32:12,1.106s,PASSED
+"click(findTestObject(""konfirmasi pesanan/button_Submit""))",Firefox 117.0,,,2023-10-06 12:32:12,2023-10-06 12:32:13,1.564s,PASSED
+"verifyTextPresent(""please input an valid email"", false)",Firefox 117.0,,,2023-10-06 12:32:13,2023-10-06 12:32:15,1.925s,FAILED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-KF-005,Firefox 117.0,User melakukan konfirmasi pesanan melelui menu shop dan menggunakan no pesanan yang tidak valid,,2023-10-06 12:32:16,2023-10-06 12:32:42,26.097s,FAILED
+"callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-LS-001""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:32:17,2023-10-06 12:32:34,16.663s,PASSED
+"mouseOver(findTestObject(""konfirmasi pesanan/a_Shop""))",Firefox 117.0,,,2023-10-06 12:32:34,2023-10-06 12:32:34,0.804s,PASSED
+"click(findTestObject(""konfirmasi pesanan/New Konfirmasi_Orders""))",Firefox 117.0,,,2023-10-06 12:32:34,2023-10-06 12:32:36,1.772s,PASSED
+"verifyElementPresent(findTestObject(""konfirmasi pesanan/verifikasi masuk halaman konfirmasi pesanan""), 0)",Firefox 117.0,,,2023-10-06 12:32:36,2023-10-06 12:32:37,0.916s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_No Pesanan_a di shop""), invoice)",Firefox 117.0,,,2023-10-06 12:32:37,2023-10-06 12:32:38,0.938s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Alamat E-mail_form-control""), email)",Firefox 117.0,,,2023-10-06 12:32:38,2023-10-06 12:32:39,0.966s,PASSED
+"click(findTestObject(""konfirmasi pesanan/button_Submit""))",Firefox 117.0,,,2023-10-06 12:32:39,2023-10-06 12:32:40,1.355s,PASSED
+"verifyTextPresent(""please input an valid invoice"", false)",Firefox 117.0,,,2023-10-06 12:32:40,2023-10-06 12:32:42,1.307s,FAILED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-KF-006,Firefox 117.0,User melakukan konfirmasi pesanan namun saat menginputkan tanggal menggunakan tanggal yang akan datang,,2023-10-06 12:32:42,2023-10-06 12:33:40,57.608s,FAILED
+"data = callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-OS-001""), [""Roda"":""2"", ""MetodePembayaran"":""transfer""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:32:43,2023-10-06 12:33:23,40.342s,PASSED
+"noPesanan = data.get(""invoice"")",Firefox 117.0,,,2023-10-06 12:33:23,2023-10-06 12:33:23,0.002s,PASSED
+"nmPengirim = data.get(""namaPengirim"")",Firefox 117.0,,,2023-10-06 12:33:23,2023-10-06 12:33:23,0.000s,PASSED
+"bayarTotal = data.get(""totalBayar"")",Firefox 117.0,,,2023-10-06 12:33:23,2023-10-06 12:33:23,0.000s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Akun 0""))",Firefox 117.0,,,2023-10-06 12:33:23,2023-10-06 12:33:24,0.489s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Profile""))",Firefox 117.0,,,2023-10-06 12:33:24,2023-10-06 12:33:25,1.418s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Pembelian""))",Firefox 117.0,,,2023-10-06 12:33:25,2023-10-06 12:33:27,1.626s,PASSED
+"click(findTestObject(""konfirmasi pesanan/new konfirmasi bayar""))",Firefox 117.0,,,2023-10-06 12:33:27,2023-10-06 12:33:28,1.590s,PASSED
+"verifyElementPresent(findTestObject(""konfirmasi pesanan/verifikasi user masuk halaman konfirmasi bayar dari akun profil""), 0)",Firefox 117.0,,,2023-10-06 12:33:28,2023-10-06 12:33:29,0.951s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Total TagihanTransfer_b""))",Firefox 117.0,,,2023-10-06 12:33:29,2023-10-06 12:33:30,0.561s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Total TagihanTransfer_b""), bayarTotal)",Firefox 117.0,,,2023-10-06 12:33:30,2023-10-06 12:33:30,0.830s,PASSED
+"selectOptionByValue(findTestObject(""konfirmasi pesanan/select dropdown trasfer""), transfer, false)",Firefox 117.0,,,2023-10-06 12:33:30,2023-10-06 12:33:31,0.916s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Nama Pengirim_d""))",Firefox 117.0,,,2023-10-06 12:33:31,2023-10-06 12:33:32,0.586s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Nama Pengirim_d""), name)",Firefox 117.0,,,2023-10-06 12:33:32,2023-10-06 12:33:33,0.958s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Tanggal Transfer_e""))",Firefox 117.0,,,2023-10-06 12:33:33,2023-10-06 12:33:34,0.704s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Tanggal Transfer_e""), date)",Firefox 117.0,,,2023-10-06 12:33:34,2023-10-06 12:33:34,0.816s,PASSED
+"uploadFile(findTestObject(""konfirmasi pesanan/input_Upload Bukti Transfer_f""), ""F:\bootcamp\Miniproject\transfer.jpg"")",Firefox 117.0,,,2023-10-06 12:33:34,2023-10-06 12:33:35,0.524s,PASSED
+"count = getAttribute(findTestObject(""Object Repository/konfirmasi pesanan/input_Total TagihanTransfer_b""), ""value"")",Firefox 117.0,,,2023-10-06 12:33:35,2023-10-06 12:33:35,0.493s,PASSED
+"nama = getAttribute(findTestObject(""Object Repository/konfirmasi pesanan/input_Nama Pengirim_d""), ""value"")",Firefox 117.0,,,2023-10-06 12:33:35,2023-10-06 12:33:36,0.477s,PASSED
+assert trim().equalsIgnoreCase(bayarTotal.trim()),Firefox 117.0,,,2023-10-06 12:33:36,2023-10-06 12:33:36,0.003s,PASSED
+assert trim().equalsIgnoreCase(nmPengirim.trim()),Firefox 117.0,,,2023-10-06 12:33:36,2023-10-06 12:33:36,0.000s,PASSED
+"click(findTestObject(""konfirmasi pesanan/button_Konfirmasi Pembayaran""))",Firefox 117.0,,,2023-10-06 12:33:36,2023-10-06 12:33:38,1.696s,PASSED
+"verifyTextPresent(""please input an valid date"", false)",Firefox 117.0,,,2023-10-06 12:33:38,2023-10-06 12:33:40,1.846s,FAILED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-KF-007,Firefox 117.0,User melakukan konfirmasi pesanan namun saat menginputkan tanggal menggunakan tanggal yang sudah lalu sebelum user melakukan transaksi atau pembelian,,2023-10-06 12:33:40,2023-10-06 12:34:39,59.082s,FAILED
+"data = callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-OS-001""), [""Roda"":""2"", ""MetodePembayaran"":""transfer""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:33:41,2023-10-06 12:34:22,41.875s,PASSED
+"noPesanan = data.get(""invoice"")",Firefox 117.0,,,2023-10-06 12:34:22,2023-10-06 12:34:22,0.003s,PASSED
+"nmPengirim = data.get(""namaPengirim"")",Firefox 117.0,,,2023-10-06 12:34:22,2023-10-06 12:34:22,0.000s,PASSED
+"bayarTotal = data.get(""totalBayar"")",Firefox 117.0,,,2023-10-06 12:34:22,2023-10-06 12:34:22,0.000s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Akun 0""))",Firefox 117.0,,,2023-10-06 12:34:22,2023-10-06 12:34:24,1.095s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Profile""))",Firefox 117.0,,,2023-10-06 12:34:24,2023-10-06 12:34:25,1.447s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Pembelian""))",Firefox 117.0,,,2023-10-06 12:34:25,2023-10-06 12:34:27,1.993s,PASSED
+"click(findTestObject(""konfirmasi pesanan/new konfirmasi bayar""))",Firefox 117.0,,,2023-10-06 12:34:27,2023-10-06 12:34:29,1.859s,PASSED
+"verifyElementPresent(findTestObject(""konfirmasi pesanan/verifikasi user masuk halaman konfirmasi bayar dari akun profil""), 0)",Firefox 117.0,,,2023-10-06 12:34:29,2023-10-06 12:34:30,0.847s,PASSED
+"selectOptionByValue(findTestObject(""konfirmasi pesanan/select dropdown trasfer""), transfer, false)",Firefox 117.0,,,2023-10-06 12:34:30,2023-10-06 12:34:31,0.964s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Nama Pengirim_d""))",Firefox 117.0,,,2023-10-06 12:34:31,2023-10-06 12:34:31,0.599s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Nama Pengirim_d""), name)",Firefox 117.0,,,2023-10-06 12:34:31,2023-10-06 12:34:32,1.047s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Tanggal Transfer_e""))",Firefox 117.0,,,2023-10-06 12:34:32,2023-10-06 12:34:33,0.448s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Tanggal Transfer_e""), date)",Firefox 117.0,,,2023-10-06 12:34:33,2023-10-06 12:34:33,0.690s,PASSED
+"uploadFile(findTestObject(""konfirmasi pesanan/input_Upload Bukti Transfer_f""), ""F:\bootcamp\Miniproject\transfer.jpg"")",Firefox 117.0,,,2023-10-06 12:34:33,2023-10-06 12:34:34,0.844s,PASSED
+"count = getAttribute(findTestObject(""Object Repository/konfirmasi pesanan/input_Total TagihanTransfer_b""), ""value"")",Firefox 117.0,,,2023-10-06 12:34:34,2023-10-06 12:34:35,0.408s,PASSED
+"nama = getAttribute(findTestObject(""Object Repository/konfirmasi pesanan/input_Nama Pengirim_d""), ""value"")",Firefox 117.0,,,2023-10-06 12:34:35,2023-10-06 12:34:35,0.502s,PASSED
+assert trim().equalsIgnoreCase(bayarTotal.trim()),Firefox 117.0,,,2023-10-06 12:34:35,2023-10-06 12:34:35,0.003s,PASSED
+assert trim().equalsIgnoreCase(nmPengirim.trim()),Firefox 117.0,,,2023-10-06 12:34:35,2023-10-06 12:34:35,0.000s,PASSED
+"click(findTestObject(""konfirmasi pesanan/button_Konfirmasi Pembayaran""))",Firefox 117.0,,,2023-10-06 12:34:35,2023-10-06 12:34:37,1.926s,PASSED
+"verifyTextPresent(""please input an valid date"", false)",Firefox 117.0,,,2023-10-06 12:34:37,2023-10-06 12:34:39,1.801s,FAILED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-KF-008,Firefox 117.0,User konfirmasi pesanan melalui menu akun namun saat isi nama pengirim user mengosongkan inputan,,2023-10-06 12:34:39,2023-10-06 12:35:39,59.499s,PASSED
+"data = callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-OS-001""), [""Roda"":""2"", ""MetodePembayaran"":""transfer""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:34:40,2023-10-06 12:35:29,48.276s,PASSED
+"noPesanan = data.get(""invoice"")",Firefox 117.0,,,2023-10-06 12:35:29,2023-10-06 12:35:29,0.005s,PASSED
+"nmPengirim = data.get(""namaPengirim"")",Firefox 117.0,,,2023-10-06 12:35:29,2023-10-06 12:35:29,0.001s,PASSED
+"bayarTotal = data.get(""totalBayar"")",Firefox 117.0,,,2023-10-06 12:35:29,2023-10-06 12:35:29,0.000s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Akun 0""))",Firefox 117.0,,,2023-10-06 12:35:29,2023-10-06 12:35:29,0.410s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Profile""))",Firefox 117.0,,,2023-10-06 12:35:29,2023-10-06 12:35:30,1.220s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Pembelian""))",Firefox 117.0,,,2023-10-06 12:35:30,2023-10-06 12:35:32,1.798s,PASSED
+"click(findTestObject(""konfirmasi pesanan/new konfirmasi bayar""))",Firefox 117.0,,,2023-10-06 12:35:32,2023-10-06 12:35:34,1.655s,PASSED
+"verifyElementPresent(findTestObject(""konfirmasi pesanan/verifikasi user masuk halaman konfirmasi bayar dari akun profil""), 0)",Firefox 117.0,,,2023-10-06 12:35:34,2023-10-06 12:35:35,1.144s,PASSED
+"selectOptionByValue(findTestObject(""konfirmasi pesanan/select dropdown trasfer""), transfer, false)",Firefox 117.0,,,2023-10-06 12:35:35,2023-10-06 12:35:36,0.766s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Nama Pengirim_d""))",Firefox 117.0,,,2023-10-06 12:35:36,2023-10-06 12:35:36,0.455s,PASSED
+"uploadFile(findTestObject(""konfirmasi pesanan/input_Upload Bukti Transfer_f""), ""F:\bootcamp\Miniproject\transfer.jpg"")",Firefox 117.0,,,2023-10-06 12:35:36,2023-10-06 12:35:37,0.491s,PASSED
+"count = getAttribute(findTestObject(""Object Repository/konfirmasi pesanan/input_Total TagihanTransfer_b""), ""value"")",Firefox 117.0,,,2023-10-06 12:35:37,2023-10-06 12:35:37,0.372s,PASSED
+"nama = getAttribute(findTestObject(""Object Repository/konfirmasi pesanan/input_Nama Pengirim_d""), ""value"")",Firefox 117.0,,,2023-10-06 12:35:37,2023-10-06 12:35:37,0.456s,PASSED
+"click(findTestObject(""konfirmasi pesanan/button_Konfirmasi Pembayaran""))",Firefox 117.0,,,2023-10-06 12:35:37,2023-10-06 12:35:38,0.976s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-10-06 12:35:38,2023-10-06 12:35:38,0.003s,PASSED
+"field_username = webDriver.findElement(By.xpath(""//input[@name=""d""]""))",Firefox 117.0,,,2023-10-06 12:35:38,2023-10-06 12:35:39,0.375s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_username)",Firefox 117.0,,,2023-10-06 12:35:39,2023-10-06 12:35:39,0.025s,PASSED
+println(error_message),Firefox 117.0,,,2023-10-06 12:35:39,2023-10-06 12:35:39,0.003s,PASSED
+"assert error_message == ""Please fill out this field.""",Firefox 117.0,,,2023-10-06 12:35:39,2023-10-06 12:35:39,0.002s,PASSED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-KF-009,Firefox 117.0,User melakukan konfirmasi Bayar melalui menu akun namun saat menginputkan total tagihan minus,,2023-10-06 12:35:39,2023-10-06 12:36:39,59.866s,FAILED
+"data = callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-OS-001""), [""Roda"":""2"", ""MetodePembayaran"":""transfer""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:35:40,2023-10-06 12:36:26,46.213s,PASSED
+"noInvoice = data.get(""invoice"")",Firefox 117.0,,,2023-10-06 12:36:26,2023-10-06 12:36:26,0.000s,PASSED
+"nmPengirim = data.get(""namaPengirim"")",Firefox 117.0,,,2023-10-06 12:36:26,2023-10-06 12:36:26,0.000s,PASSED
+"ttlBayar = data.get(""totalBayar"")",Firefox 117.0,,,2023-10-06 12:36:26,2023-10-06 12:36:26,0.001s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Akun 0""))",Firefox 117.0,,,2023-10-06 12:36:26,2023-10-06 12:36:27,0.481s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Profile""))",Firefox 117.0,,,2023-10-06 12:36:27,2023-10-06 12:36:28,1.216s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Pembelian""))",Firefox 117.0,,,2023-10-06 12:36:28,2023-10-06 12:36:30,1.714s,PASSED
+"click(findTestObject(""konfirmasi pesanan/new konfirmasi bayar""))",Firefox 117.0,,,2023-10-06 12:36:30,2023-10-06 12:36:31,1.859s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Total TagihanTransfer_b""))",Firefox 117.0,,,2023-10-06 12:36:31,2023-10-06 12:36:32,0.862s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Total TagihanTransfer_b""), tagihan)",Firefox 117.0,,,2023-10-06 12:36:32,2023-10-06 12:36:33,0.827s,PASSED
+"selectOptionByValue(findTestObject(""konfirmasi pesanan/select dropdown trasfer""), transfer, false)",Firefox 117.0,,,2023-10-06 12:36:33,2023-10-06 12:36:34,0.806s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Nama Pengirim_d""))",Firefox 117.0,,,2023-10-06 12:36:34,2023-10-06 12:36:34,0.522s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Nama Pengirim_d""), nmPengirim)",Firefox 117.0,,,2023-10-06 12:36:34,2023-10-06 12:36:35,0.824s,PASSED
+"uploadFile(findTestObject(""konfirmasi pesanan/input_Upload Bukti Transfer_f""), ""F:\bootcamp\Miniproject\transfer.jpg"")",Firefox 117.0,,,2023-10-06 12:36:35,2023-10-06 12:36:36,0.513s,PASSED
+"click(findTestObject(""konfirmasi pesanan/button_Konfirmasi Pembayaran""))",Firefox 117.0,,,2023-10-06 12:36:36,2023-10-06 12:36:38,1.878s,PASSED
+"verifyTextPresent(""please input an valid field"", false)",Firefox 117.0,,,2023-10-06 12:36:38,2023-10-06 12:36:39,1.447s,FAILED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-KF-010,Firefox 117.0,User melakukan konfirmasi bayar melalui menu akun namun saat menginputkan total tagihan mengandung karakter spesial atau mengandung huruf,,2023-10-06 12:36:40,2023-10-06 12:37:38,58.280s,FAILED
+"data = callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-OS-001""), [""Roda"":""2"", ""MetodePembayaran"":""transfer""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:36:40,2023-10-06 12:37:25,44.326s,PASSED
+"noInvoice = data.get(""invoice"")",Firefox 117.0,,,2023-10-06 12:37:25,2023-10-06 12:37:25,0.002s,PASSED
+"nmPengirim = data.get(""namaPengirim"")",Firefox 117.0,,,2023-10-06 12:37:25,2023-10-06 12:37:25,0.001s,PASSED
+"ttlBayar = data.get(""totalBayar"")",Firefox 117.0,,,2023-10-06 12:37:25,2023-10-06 12:37:25,0.000s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Akun 0""))",Firefox 117.0,,,2023-10-06 12:37:25,2023-10-06 12:37:25,0.431s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Profile""))",Firefox 117.0,,,2023-10-06 12:37:25,2023-10-06 12:37:27,1.327s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Pembelian""))",Firefox 117.0,,,2023-10-06 12:37:27,2023-10-06 12:37:28,1.782s,PASSED
+"click(findTestObject(""konfirmasi pesanan/new konfirmasi bayar""))",Firefox 117.0,,,2023-10-06 12:37:28,2023-10-06 12:37:30,1.723s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Total TagihanTransfer_b""))",Firefox 117.0,,,2023-10-06 12:37:30,2023-10-06 12:37:31,1.045s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Total TagihanTransfer_b""), tagihan)",Firefox 117.0,,,2023-10-06 12:37:31,2023-10-06 12:37:32,0.786s,PASSED
+"selectOptionByValue(findTestObject(""konfirmasi pesanan/select dropdown trasfer""), transfer, false)",Firefox 117.0,,,2023-10-06 12:37:32,2023-10-06 12:37:33,0.892s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Nama Pengirim_d""))",Firefox 117.0,,,2023-10-06 12:37:33,2023-10-06 12:37:33,0.600s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Nama Pengirim_d""), nmPengirim)",Firefox 117.0,,,2023-10-06 12:37:33,2023-10-06 12:37:34,0.834s,PASSED
+"uploadFile(findTestObject(""konfirmasi pesanan/input_Upload Bukti Transfer_f""), ""F:\bootcamp\Miniproject\transfer.jpg"")",Firefox 117.0,,,2023-10-06 12:37:34,2023-10-06 12:37:35,0.408s,PASSED
+"click(findTestObject(""konfirmasi pesanan/button_Konfirmasi Pembayaran""))",Firefox 117.0,,,2023-10-06 12:37:35,2023-10-06 12:37:36,1.901s,PASSED
+"verifyTextPresent(""please input an valid field"", false)",Firefox 117.0,,,2023-10-06 12:37:36,2023-10-06 12:37:38,1.442s,FAILED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-KF-011,Firefox 117.0,user melakukan konfirmasi bayar melalui menu akun namun saat menginputkan total tagihan dibawah total  tagihan/transfer,,2023-10-06 12:37:38,2023-10-06 12:38:38,59.532s,FAILED
+"data = callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-OS-001""), [""Roda"":""2"", ""MetodePembayaran"":""transfer""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:37:39,2023-10-06 12:38:22,43.551s,PASSED
+"noInvoice = data.get(""invoice"")",Firefox 117.0,,,2023-10-06 12:38:22,2023-10-06 12:38:22,0.004s,PASSED
+"nmPengirim = data.get(""namaPengirim"")",Firefox 117.0,,,2023-10-06 12:38:22,2023-10-06 12:38:22,0.001s,PASSED
+"ttlBayar = data.get(""totalBayar"")",Firefox 117.0,,,2023-10-06 12:38:22,2023-10-06 12:38:22,0.000s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Akun 0""))",Firefox 117.0,,,2023-10-06 12:38:22,2023-10-06 12:38:23,1.058s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Profile""))",Firefox 117.0,,,2023-10-06 12:38:23,2023-10-06 12:38:24,1.107s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Pembelian""))",Firefox 117.0,,,2023-10-06 12:38:24,2023-10-06 12:38:26,1.762s,PASSED
+"click(findTestObject(""konfirmasi pesanan/new konfirmasi bayar""))",Firefox 117.0,,,2023-10-06 12:38:26,2023-10-06 12:38:28,1.746s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Total TagihanTransfer_b""))",Firefox 117.0,,,2023-10-06 12:38:28,2023-10-06 12:38:31,2.650s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Total TagihanTransfer_b""), tagihan)",Firefox 117.0,,,2023-10-06 12:38:31,2023-10-06 12:38:32,0.877s,PASSED
+"selectOptionByValue(findTestObject(""konfirmasi pesanan/select dropdown trasfer""), transfer, false)",Firefox 117.0,,,2023-10-06 12:38:32,2023-10-06 12:38:32,0.784s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Nama Pengirim_d""))",Firefox 117.0,,,2023-10-06 12:38:32,2023-10-06 12:38:33,0.509s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Nama Pengirim_d""), nmPengirim)",Firefox 117.0,,,2023-10-06 12:38:33,2023-10-06 12:38:34,1.001s,PASSED
+"uploadFile(findTestObject(""konfirmasi pesanan/input_Upload Bukti Transfer_f""), ""F:\bootcamp\Miniproject\transfer.jpg"")",Firefox 117.0,,,2023-10-06 12:38:34,2023-10-06 12:38:34,0.511s,PASSED
+"click(findTestObject(""konfirmasi pesanan/button_Konfirmasi Pembayaran""))",Firefox 117.0,,,2023-10-06 12:38:34,2023-10-06 12:38:36,1.661s,PASSED
+"verifyTextPresent(""please input an valid field"", false)",Firefox 117.0,,,2023-10-06 12:38:36,2023-10-06 12:38:38,1.581s,FAILED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-KF-012,Firefox 117.0,"user melakukan konfirmasi menu shop, namun saat melakukan konfirmasi bayar user tidak menginputkan tanggal",,2023-10-06 12:38:38,2023-10-06 12:39:37,59.100s,FAILED
+"data = callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-OS-001""), [""Roda"":""2"", ""MetodePembayaran"":""transfer""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:38:39,2023-10-06 12:39:23,43.725s,PASSED
+"noInvoice = data.get(""invoice"")",Firefox 117.0,,,2023-10-06 12:39:23,2023-10-06 12:39:23,0.006s,PASSED
+"nmPengirim = data.get(""namaPengirim"")",Firefox 117.0,,,2023-10-06 12:39:23,2023-10-06 12:39:23,0.000s,PASSED
+"ttlBayar = data.get(""totalBayar"")",Firefox 117.0,,,2023-10-06 12:39:23,2023-10-06 12:39:23,0.000s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Akun 0""))",Firefox 117.0,,,2023-10-06 12:39:23,2023-10-06 12:39:23,0.631s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Profile""))",Firefox 117.0,,,2023-10-06 12:39:23,2023-10-06 12:39:25,1.637s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Pembelian""))",Firefox 117.0,,,2023-10-06 12:39:25,2023-10-06 12:39:27,1.608s,PASSED
+"click(findTestObject(""konfirmasi pesanan/new konfirmasi bayar""))",Firefox 117.0,,,2023-10-06 12:39:27,2023-10-06 12:39:29,1.875s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Total TagihanTransfer_b""))",Firefox 117.0,,,2023-10-06 12:39:29,2023-10-06 12:39:29,0.862s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Total TagihanTransfer_b""), ttlBayar)",Firefox 117.0,,,2023-10-06 12:39:29,2023-10-06 12:39:30,0.724s,PASSED
+"selectOptionByValue(findTestObject(""konfirmasi pesanan/select dropdown trasfer""), transfer, false)",Firefox 117.0,,,2023-10-06 12:39:30,2023-10-06 12:39:31,0.840s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Nama Pengirim_d""))",Firefox 117.0,,,2023-10-06 12:39:31,2023-10-06 12:39:31,0.478s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Nama Pengirim_d""), nmPengirim)",Firefox 117.0,,,2023-10-06 12:39:31,2023-10-06 12:39:32,0.873s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Tanggal Transfer_e""))",Firefox 117.0,,,2023-10-06 12:39:32,2023-10-06 12:39:33,0.543s,PASSED
+"uploadFile(findTestObject(""konfirmasi pesanan/input_Upload Bukti Transfer_f""), ""F:\bootcamp\Miniproject\transfer.jpg"")",Firefox 117.0,,,2023-10-06 12:39:33,2023-10-06 12:39:33,0.417s,PASSED
+"click(findTestObject(""konfirmasi pesanan/button_Konfirmasi Pembayaran""))",Firefox 117.0,,,2023-10-06 12:39:33,2023-10-06 12:39:35,1.819s,PASSED
+"verifyTextPresent(""Please fill out this field."", false)",Firefox 117.0,,,2023-10-06 12:39:35,2023-10-06 12:39:37,1.900s,FAILED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-KF-013,Firefox 117.0,User melakukan konfirmasi melalui menu akun dan saat upload bukti transfer menggunakan format selain pdf dan jpg,,2023-10-06 12:39:38,2023-10-06 12:40:34,56.011s,FAILED
+"data = callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-OS-001""), [""Roda"":""2"", ""MetodePembayaran"":""transfer""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:39:38,2023-10-06 12:40:22,43.752s,PASSED
+"noInvoice = data.get(""invoice"")",Firefox 117.0,,,2023-10-06 12:40:22,2023-10-06 12:40:22,0.006s,PASSED
+"nmPengirim = data.get(""namaPengirim"")",Firefox 117.0,,,2023-10-06 12:40:22,2023-10-06 12:40:22,0.000s,PASSED
+"ttlBayar = data.get(""totalBayar"")",Firefox 117.0,,,2023-10-06 12:40:22,2023-10-06 12:40:22,0.001s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Akun 0""))",Firefox 117.0,,,2023-10-06 12:40:22,2023-10-06 12:40:22,0.423s,PASSED
+"click(findTestObject(""konfirmasi order konsumen/pembelian dari akun""))",Firefox 117.0,,,2023-10-06 12:40:22,2023-10-06 12:40:24,1.452s,PASSED
+"click(findTestObject(""konfirmasi pesanan/new konfirmasi bayar""))",Firefox 117.0,,,2023-10-06 12:40:24,2023-10-06 12:40:26,2.175s,PASSED
+"verifyElementPresent(findTestObject(""konfirmasi pesanan/verifikasi user masuk halaman konfirmasi bayar dari akun profil""), 0)",Firefox 117.0,,,2023-10-06 12:40:26,2023-10-06 12:40:27,0.667s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Total TagihanTransfer_b""))",Firefox 117.0,,,2023-10-06 12:40:27,2023-10-06 12:40:27,0.579s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Total TagihanTransfer_b""), ttlBayar)",Firefox 117.0,,,2023-10-06 12:40:27,2023-10-06 12:40:28,0.968s,PASSED
+"selectOptionByValue(findTestObject(""konfirmasi pesanan/select dropdown trasfer""), transfer, false)",Firefox 117.0,,,2023-10-06 12:40:28,2023-10-06 12:40:29,0.722s,PASSED
+"uploadFile(findTestObject(""konfirmasi pesanan/input_Upload Bukti Transfer_f""), ""F:\bootcamp\Miniproject\Transfer.rar"")",Firefox 117.0,,,2023-10-06 12:40:29,2023-10-06 12:40:30,0.595s,PASSED
+"name = getAttribute(findTestObject(""Object Repository/konfirmasi pesanan/input_Nama Pengirim_d""), ""value"")",Firefox 117.0,,,2023-10-06 12:40:30,2023-10-06 12:40:30,0.461s,PASSED
+assert name == nmPengirim,Firefox 117.0,,,2023-10-06 12:40:30,2023-10-06 12:40:30,0.001s,PASSED
+assert trim().equalsIgnoreCase(nama.trim()),Firefox 117.0,,,2023-10-06 12:40:30,2023-10-06 12:40:30,0.008s,PASSED
+"click(findTestObject(""konfirmasi pesanan/button_Konfirmasi Pembayaran""))",Firefox 117.0,,,2023-10-06 12:40:30,2023-10-06 12:40:31,1.316s,PASSED
+"verifyTextPresent(""Please upload an valid file!"", false)",Firefox 117.0,,,2023-10-06 12:40:31,2023-10-06 12:40:34,2.087s,FAILED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-KF-014,Firefox 117.0,User melakukan konfirmasi melalui menu profil dengan input total tagihan hanya huruf,,2023-10-06 12:40:34,2023-10-06 12:41:34,59.448s,FAILED
+"data = callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-OS-001""), [""Roda"":""2"", ""MetodePembayaran"":""transfer""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:40:35,2023-10-06 12:41:21,45.870s,PASSED
+"noInvoice = data.get(""invoice"")",Firefox 117.0,,,2023-10-06 12:41:21,2023-10-06 12:41:21,0.004s,PASSED
+"nmPengirim = data.get(""namaPengirim"")",Firefox 117.0,,,2023-10-06 12:41:21,2023-10-06 12:41:21,0.001s,PASSED
+"ttlBayar = data.get(""totalBayar"")",Firefox 117.0,,,2023-10-06 12:41:21,2023-10-06 12:41:21,0.001s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Akun 0""))",Firefox 117.0,,,2023-10-06 12:41:21,2023-10-06 12:41:22,1.001s,PASSED
+"click(findTestObject(""konfirmasi order konsumen/pembelian dari akun""))",Firefox 117.0,,,2023-10-06 12:41:22,2023-10-06 12:41:23,1.570s,PASSED
+"click(findTestObject(""konfirmasi pesanan/new konfirmasi bayar""))",Firefox 117.0,,,2023-10-06 12:41:23,2023-10-06 12:41:25,1.730s,PASSED
+"verifyElementPresent(findTestObject(""konfirmasi pesanan/verifikasi user masuk halaman konfirmasi bayar dari akun profil""), 0)",Firefox 117.0,,,2023-10-06 12:41:25,2023-10-06 12:41:26,1.110s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Total TagihanTransfer_b""))",Firefox 117.0,,,2023-10-06 12:41:26,2023-10-06 12:41:27,0.612s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Total TagihanTransfer_b""), bayar)",Firefox 117.0,,,2023-10-06 12:41:27,2023-10-06 12:41:28,0.735s,PASSED
+"selectOptionByValue(findTestObject(""konfirmasi pesanan/select dropdown trasfer""), transfer, false)",Firefox 117.0,,,2023-10-06 12:41:28,2023-10-06 12:41:29,1.026s,PASSED
+"uploadFile(findTestObject(""konfirmasi pesanan/input_Upload Bukti Transfer_f""), ""F:\bootcamp\Miniproject\transfer.jpg"")",Firefox 117.0,,,2023-10-06 12:41:29,2023-10-06 12:41:29,0.605s,PASSED
+"name = getAttribute(findTestObject(""Object Repository/konfirmasi pesanan/input_Nama Pengirim_d""), ""value"")",Firefox 117.0,,,2023-10-06 12:41:29,2023-10-06 12:41:30,0.546s,PASSED
+assert name == nmPengirim,Firefox 117.0,,,2023-10-06 12:41:30,2023-10-06 12:41:30,0.002s,PASSED
+"click(findTestObject(""konfirmasi pesanan/button_Konfirmasi Pembayaran""))",Firefox 117.0,,,2023-10-06 12:41:30,2023-10-06 12:41:32,2.087s,PASSED
+"verifyTextPresent(""Please input an valid field"", false)",Firefox 117.0,,,2023-10-06 12:41:32,2023-10-06 12:41:34,1.815s,FAILED
+,,,,,,,
+Test Cases/T08 - Konfirmasi Pesanan/TC-KF-015,Firefox 117.0,User melakukan konfirmasi melalui menu profil dengan input total tagihan hanya karakter spesial,,2023-10-06 12:41:34,2023-10-06 12:42:31,57.448s,FAILED
+"data = callTestCase(findTestCase(""T08 - Konfirmasi Pesanan/TC-OS-001""), [""Roda"":""2"", ""MetodePembayaran"":""transfer""], STOP_ON_FAILURE)",Firefox 117.0,,,2023-10-06 12:41:35,2023-10-06 12:42:19,44.004s,PASSED
+"noInvoice = data.get(""invoice"")",Firefox 117.0,,,2023-10-06 12:42:19,2023-10-06 12:42:19,0.002s,PASSED
+"nmPengirim = data.get(""namaPengirim"")",Firefox 117.0,,,2023-10-06 12:42:19,2023-10-06 12:42:19,0.001s,PASSED
+"ttlBayar = data.get(""totalBayar"")",Firefox 117.0,,,2023-10-06 12:42:19,2023-10-06 12:42:19,0.001s,PASSED
+"click(findTestObject(""konfirmasi pesanan/a_Akun 0""))",Firefox 117.0,,,2023-10-06 12:42:19,2023-10-06 12:42:20,1.055s,PASSED
+"click(findTestObject(""konfirmasi order konsumen/pembelian dari akun""))",Firefox 117.0,,,2023-10-06 12:42:20,2023-10-06 12:42:21,1.303s,PASSED
+"click(findTestObject(""konfirmasi pesanan/new konfirmasi bayar""))",Firefox 117.0,,,2023-10-06 12:42:21,2023-10-06 12:42:23,2.226s,PASSED
+"verifyElementPresent(findTestObject(""konfirmasi pesanan/verifikasi user masuk halaman konfirmasi bayar dari akun profil""), 0)",Firefox 117.0,,,2023-10-06 12:42:23,2023-10-06 12:42:24,0.982s,PASSED
+"clearText(findTestObject(""konfirmasi pesanan/input_Total TagihanTransfer_b""))",Firefox 117.0,,,2023-10-06 12:42:24,2023-10-06 12:42:25,0.627s,PASSED
+"setText(findTestObject(""konfirmasi pesanan/input_Total TagihanTransfer_b""), bayar)",Firefox 117.0,,,2023-10-06 12:42:25,2023-10-06 12:42:26,0.885s,PASSED
+"selectOptionByValue(findTestObject(""konfirmasi pesanan/select dropdown trasfer""), transfer, false)",Firefox 117.0,,,2023-10-06 12:42:26,2023-10-06 12:42:27,0.982s,PASSED
+"uploadFile(findTestObject(""konfirmasi pesanan/input_Upload Bukti Transfer_f""), ""F:\bootcamp\Miniproject\transfer.jpg"")",Firefox 117.0,,,2023-10-06 12:42:27,2023-10-06 12:42:28,0.572s,PASSED
+"name = getAttribute(findTestObject(""Object Repository/konfirmasi pesanan/input_Nama Pengirim_d""), ""value"")",Firefox 117.0,,,2023-10-06 12:42:28,2023-10-06 12:42:28,0.567s,PASSED
+assert name == nmPengirim,Firefox 117.0,,,2023-10-06 12:42:28,2023-10-06 12:42:28,0.001s,PASSED
+assert trim().equalsIgnoreCase(nama.trim()),Firefox 117.0,,,2023-10-06 12:42:28,2023-10-06 12:42:28,0.005s,PASSED
+"click(findTestObject(""konfirmasi pesanan/button_Konfirmasi Pembayaran""))",Firefox 117.0,,,2023-10-06 12:42:28,2023-10-06 12:42:30,1.793s,PASSED
+"verifyTextPresent(""Please input an valid field"", false)",Firefox 117.0,,,2023-10-06 12:42:30,2023-10-06 12:42:31,1.549s,FAILED

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melakukan edit media sosial Linkedin dengan hanya inputan url kurang dari 3 karakter</description>
+   <name>TC-ESMF-010</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7d024c4-d8ff-43b1-95c0-dff57d095f70</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2473fe10-e4fc-40de-bf9d-123c4531bc74</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'www.linkedin.com/in/Ik'</defaultValue>
+      <description></description>
+      <id>2473fe10-e4fc-40de-bf9d-123c4531bc74</id>
+      <masked>false</masked>
+      <name>linkedin</name>
+   </variable>
+</TestCaseEntity>

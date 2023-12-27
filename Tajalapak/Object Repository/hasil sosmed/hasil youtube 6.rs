@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>hasil youtube 6</name>
+   <tag></tag>
+   <elementGuidId>4ce9e35f-dcff-490f-98b7-77f65a8cb0e9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'Runarun')])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>069ae8db-b452-42c5-8a8e-e16b580d19a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_BLANK</value>
+      <webElementGuid>53b722a3-4872-4fdb-b6d1-37038c4a9530</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>Runarun</value>
+      <webElementGuid>63b341ee-ac44-4e75-8625-bf4731695d3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Runarun</value>
+      <webElementGuid>4be0af4e-e0ee-4cc6-b971-233fb8a384cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;loaded&quot;]/div[@class=&quot;ps-vendor-dashboard pro&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;ps-section__content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12&quot;]/figure[@class=&quot;ps-block--vendor-status biodata&quot;]/div[@class=&quot;form-group row&quot;]/div[@class=&quot;col-sm-10&quot;]/a[1]</value>
+      <webElementGuid>a00dd459-3c56-4e9f-8d76-2db6f9987515</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Runarun')])[3]</value>
+      <webElementGuid>6b24bbc9-d504-4f06-9f44-9a8fb702ea6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Youtube'])[1]/following::a[1]</value>
+      <webElementGuid>cc4eccb8-2446-43af-8b8f-ebf009ab4ab6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='@Runaya71'])[1]/following::a[1]</value>
+      <webElementGuid>82b78e5b-2e36-4b8a-88d9-3a2469e8e6f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LinkedIn'])[1]/preceding::a[1]</value>
+      <webElementGuid>80f54a9a-f319-420b-9504-ea6001bbf85e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RunaOkta'])[1]/preceding::a[1]</value>
+      <webElementGuid>81ea871c-75b0-4a66-8e32-78f84b580ff1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'Runarun')])[3]</value>
+      <webElementGuid>a37c0faa-cee2-46b2-8d92-3bf5fb4778fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/a</value>
+      <webElementGuid>a6625b25-7c8f-4dd7-ab8f-459276e13d14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'Runarun' and (text() = 'Runarun' or . = 'Runarun')]</value>
+      <webElementGuid>9a07e1d7-393c-42d7-b347-a66e0362df5a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>new total harga tf</name>
+   <tag></tag>
+   <elementGuidId>6c1197df-afd5-4df8-824c-0c781cda0c94</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cek Resi Pengiriman'])[1]/following::b[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>b.nominaltrx2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>b</value>
+      <webElementGuid>b028ce68-c424-43b2-9337-acf820e88128</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nominaltrx2</value>
+      <webElementGuid>ea1e3a2b-adf6-45a1-9cbe-d80e48e36b49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>17,383</value>
+      <webElementGuid>7998d46d-1e67-457c-b2d5-1f32e5d374ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;loaded&quot;]/div[@class=&quot;ps-section--shopping ps-shopping-cart&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;ps-section__content&quot;]/div[@class=&quot;table-responsive&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12&quot;]/div[@class=&quot;ps-block--shopping-total&quot;]/div[@class=&quot;ps-block__content&quot;]/h3[1]/span[1]/b[@class=&quot;nominaltrx2&quot;]</value>
+      <webElementGuid>97246237-1aac-476a-86a7-19028190fbe4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cek Resi Pengiriman'])[1]/following::b[1]</value>
+      <webElementGuid>d9841e73-c918-4276-ae22-18c5d5ce97b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hubungi Kami'])[1]/preceding::b[1]</value>
+      <webElementGuid>a6a889c8-a251-40af-9b92-54af9e703a3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3/span/b</value>
+      <webElementGuid>5727b670-4eaf-4d20-b802-e5f4d01d8016</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//b[(text() = '17,383' or . = '17,383')]</value>
+      <webElementGuid>b4290f5b-bdb4-42c8-90e5-c4decebc70df</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

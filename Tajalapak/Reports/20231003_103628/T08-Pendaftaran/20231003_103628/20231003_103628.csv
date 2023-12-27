@@ -1,0 +1,396 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+T08-Pendaftaran,Firefox 117.0,,,2023-10-03 10:37:52,2023-10-03 10:47:36,9m - 43.755s,FAILED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-PS-001,Firefox 117.0,User melakukan pendaftaran melalui menu Register dan  berhasil melakukan pendaftaran akun,,2023-10-03 10:37:53,2023-10-03 10:38:23,29.432s,PASSED
+openBrowser(urlWeb),Firefox 117.0,,,2023-10-03 10:37:54,2023-10-03 10:38:08,13.644s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-03 10:38:08,2023-10-03 10:38:08,0.111s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Firefox 117.0,,,2023-10-03 10:38:08,2023-10-03 10:38:09,0.761s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Firefox 117.0,,,2023-10-03 10:38:09,2023-10-03 10:38:10,1.373s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Firefox 117.0,,,2023-10-03 10:38:10,2023-10-03 10:38:11,0.695s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), username)",Firefox 117.0,,,2023-10-03 10:38:11,2023-10-03 10:38:12,0.816s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Firefox 117.0,,,2023-10-03 10:38:12,2023-10-03 10:38:13,0.887s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHP)",Firefox 117.0,,,2023-10-03 10:38:13,2023-10-03 10:38:14,0.982s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Firefox 117.0,,,2023-10-03 10:38:14,2023-10-03 10:38:14,0.865s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""8MbLm3cRDkc/jsWL6sX6LA=="")",Firefox 117.0,,,2023-10-03 10:38:14,2023-10-03 10:38:15,0.989s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""8MbLm3cRDkc/jsWL6sX6LA=="")",Firefox 117.0,,,2023-10-03 10:38:15,2023-10-03 10:38:16,0.598s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Firefox 117.0,,,2023-10-03 10:38:16,2023-10-03 10:38:20,4.271s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi berhasil daftar""), 0)",Firefox 117.0,,,2023-10-03 10:38:20,2023-10-03 10:38:21,0.740s,PASSED
+"usn = getAttribute(findTestObject(""Object Repository/Pendaftaran/hasil username NEW""), ""value"")",Firefox 117.0,,,2023-10-03 10:38:21,2023-10-03 10:38:21,0.442s,PASSED
+"Email = getAttribute(findTestObject(""Object Repository/Pendaftaran/hasil email""), ""value"")",Firefox 117.0,,,2023-10-03 10:38:21,2023-10-03 10:38:22,0.519s,PASSED
+"nomorHp = getAttribute(findTestObject(""Object Repository/Pendaftaran/hasil nomor hp""), ""value"")",Firefox 117.0,,,2023-10-03 10:38:22,2023-10-03 10:38:22,0.417s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Firefox 117.0,,,2023-10-03 10:38:22,2023-10-03 10:38:23,0.451s,PASSED
+assert trim().equalsIgnoreCase(usn.trim()),Firefox 117.0,,,2023-10-03 10:38:23,2023-10-03 10:38:23,0.004s,PASSED
+assert trim().equalsIgnoreCase(Email.trim()),Firefox 117.0,,,2023-10-03 10:38:23,2023-10-03 10:38:23,0.002s,PASSED
+assert trim().equalsIgnoreCase(nomorHp.trim()),Firefox 117.0,,,2023-10-03 10:38:23,2023-10-03 10:38:23,0.001s,PASSED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-PS-002,Firefox 117.0,User melakukan pendaftaran melalui menu Login dan memilih bagian Daftar sekarang! dan berhasil melakukan pendaftaran,,2023-10-03 10:38:23,2023-10-03 10:38:51,28.061s,PASSED
+openBrowser(urlWeb),Firefox 117.0,,,2023-10-03 10:38:24,2023-10-03 10:38:34,10.706s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-03 10:38:34,2023-10-03 10:38:35,0.039s,PASSED
+"click(findTestObject(""Pendaftaran/a_Login""))",Firefox 117.0,,,2023-10-03 10:38:35,2023-10-03 10:38:36,1.005s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi MASUK di halaman Login""), 0)",Firefox 117.0,,,2023-10-03 10:38:36,2023-10-03 10:38:36,0.616s,PASSED
+"click(findTestObject(""Pendaftaran/a_Daftar sekarang""))",Firefox 117.0,,,2023-10-03 10:38:36,2023-10-03 10:38:37,1.316s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Firefox 117.0,,,2023-10-03 10:38:37,2023-10-03 10:38:38,0.786s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), username)",Firefox 117.0,,,2023-10-03 10:38:38,2023-10-03 10:38:39,0.774s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Firefox 117.0,,,2023-10-03 10:38:39,2023-10-03 10:38:40,0.850s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHP)",Firefox 117.0,,,2023-10-03 10:38:40,2023-10-03 10:38:41,0.853s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Firefox 117.0,,,2023-10-03 10:38:41,2023-10-03 10:38:42,0.778s,PASSED
+"check(findTestObject(""Pendaftaran/pilihan Wanita_jenis_kelamin""))",Firefox 117.0,,,2023-10-03 10:38:42,2023-10-03 10:38:42,0.553s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-10-03 10:38:42,2023-10-03 10:38:43,0.882s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-10-03 10:38:43,2023-10-03 10:38:44,0.881s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Firefox 117.0,,,2023-10-03 10:38:44,2023-10-03 10:38:48,4.075s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi berhasil daftar NEW""), 0)",Firefox 117.0,,,2023-10-03 10:38:48,2023-10-03 10:38:49,1.030s,PASSED
+"usn = getAttribute(findTestObject(""Object Repository/Pendaftaran/hasil username NEW""), ""value"")",Firefox 117.0,,,2023-10-03 10:38:49,2023-10-03 10:38:49,0.523s,PASSED
+"Email = getAttribute(findTestObject(""Object Repository/Pendaftaran/hasil email""), ""value"")",Firefox 117.0,,,2023-10-03 10:38:49,2023-10-03 10:38:50,0.490s,PASSED
+"nomorHP = getAttribute(findTestObject(""Object Repository/Pendaftaran/hasil nomor hp""), ""value"")",Firefox 117.0,,,2023-10-03 10:38:50,2023-10-03 10:38:50,0.476s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Firefox 117.0,,,2023-10-03 10:38:50,2023-10-03 10:38:51,0.510s,PASSED
+assert trim().equalsIgnoreCase(username.trim()),Firefox 117.0,,,2023-10-03 10:38:51,2023-10-03 10:38:51,0.000s,PASSED
+assert trim().equalsIgnoreCase(email.trim()),Firefox 117.0,,,2023-10-03 10:38:51,2023-10-03 10:38:51,0.001s,PASSED
+assert trim().equalsIgnoreCase(noHP.trim()),Firefox 117.0,,,2023-10-03 10:38:51,2023-10-03 10:38:51,0.001s,PASSED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-PC-001,Firefox 117.0,pengguna melakukan chek akun yang sudah terdaftar di website admin,,2023-10-03 10:38:51,2023-10-03 10:40:06,1m - 14.807s,PASSED
+openBrowser(urlWeb),Firefox 117.0,,,2023-10-03 10:38:52,2023-10-03 10:39:04,11.638s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-03 10:39:04,2023-10-03 10:39:04,0.059s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Firefox 117.0,,,2023-10-03 10:39:04,2023-10-03 10:39:04,0.613s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Firefox 117.0,,,2023-10-03 10:39:04,2023-10-03 10:39:05,1.146s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Firefox 117.0,,,2023-10-03 10:39:05,2023-10-03 10:39:06,0.850s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), username)",Firefox 117.0,,,2023-10-03 10:39:06,2023-10-03 10:39:07,0.923s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Firefox 117.0,,,2023-10-03 10:39:07,2023-10-03 10:39:08,0.943s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHP)",Firefox 117.0,,,2023-10-03 10:39:08,2023-10-03 10:39:09,1.031s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Firefox 117.0,,,2023-10-03 10:39:09,2023-10-03 10:39:09,0.004s,PASSED
+"else if (toString().equalsIgnoreCase(""Laki-laki""))",Firefox 117.0,,,2023-10-03 10:39:09,2023-10-03 10:39:10,0.709s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""8MbLm3cRDkc/jsWL6sX6LA=="")",Firefox 117.0,,,2023-10-03 10:39:10,2023-10-03 10:39:11,1.120s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""8MbLm3cRDkc/jsWL6sX6LA=="")",Firefox 117.0,,,2023-10-03 10:39:11,2023-10-03 10:39:12,0.641s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Firefox 117.0,,,2023-10-03 10:39:12,2023-10-03 10:39:16,4.659s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi berhasil daftar""), 0)",Firefox 117.0,,,2023-10-03 10:39:16,2023-10-03 10:39:17,0.873s,PASSED
+"usn = getAttribute(findTestObject(""Object Repository/Pendaftaran/hasil username NEW""), ""value"")",Firefox 117.0,,,2023-10-03 10:39:17,2023-10-03 10:39:18,0.560s,PASSED
+"Email = getAttribute(findTestObject(""Object Repository/Pendaftaran/hasil email""), ""value"")",Firefox 117.0,,,2023-10-03 10:39:18,2023-10-03 10:39:18,0.417s,PASSED
+"nomorHp = getAttribute(findTestObject(""Object Repository/Pendaftaran/hasil nomor hp""), ""value"")",Firefox 117.0,,,2023-10-03 10:39:18,2023-10-03 10:39:19,0.499s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Firefox 117.0,,,2023-10-03 10:39:19,2023-10-03 10:39:19,0.001s,PASSED
+"else if (toString().equalsIgnoreCase(""Laki-laki""))",Firefox 117.0,,,2023-10-03 10:39:19,2023-10-03 10:39:19,0.437s,PASSED
+assert trim().equalsIgnoreCase(usn.trim()),Firefox 117.0,,,2023-10-03 10:39:19,2023-10-03 10:39:19,0.000s,PASSED
+assert trim().equalsIgnoreCase(Email.trim()),Firefox 117.0,,,2023-10-03 10:39:19,2023-10-03 10:39:19,0.004s,PASSED
+assert trim().equalsIgnoreCase(nomorHp.trim()),Firefox 117.0,,,2023-10-03 10:39:19,2023-10-03 10:39:19,0.001s,PASSED
+"navigateToUrl(""https://10.9.2.63/ecommerce/administrator/"")",Firefox 117.0,,,2023-10-03 10:39:19,2023-10-03 10:39:20,0.741s,PASSED
+"verifyElementPresent(findTestObject(""halaman admin/verifikasi masuk masuk website admin""), 0)",Firefox 117.0,,,2023-10-03 10:39:20,2023-10-03 10:39:20,0.405s,PASSED
+"setText(findTestObject(""halaman admin/input_ADMIN_a""), ""admin"")",Firefox 117.0,,,2023-10-03 10:39:20,2023-10-03 10:39:21,0.795s,PASSED
+"setEncryptedText(findTestObject(""halaman admin/input_ADMIN_password""), ""374mkdZ/lqyNS21oH+MJZQ=="")",Firefox 117.0,,,2023-10-03 10:39:21,2023-10-03 10:39:22,0.481s,PASSED
+delay(10),Firefox 117.0,,,2023-10-03 10:39:22,2023-10-03 10:39:32,10.132s,PASSED
+"click(findTestObject(""halaman admin/input_login admin""))",Firefox 117.0,,,2023-10-03 10:39:32,2023-10-03 10:39:34,2.439s,PASSED
+"click(findTestObject(""konsumen/span_Master Market""))",Firefox 117.0,,,2023-10-03 10:39:34,2023-10-03 10:39:41,6.727s,PASSED
+"click(findTestObject(""konsumen/Konsumen master market""))",Firefox 117.0,,,2023-10-03 10:39:41,2023-10-03 10:39:43,2.165s,PASSED
+"click(findTestObject(""konsumen/search di konsumen""))",Firefox 117.0,,,2023-10-03 10:39:43,2023-10-03 10:39:49,5.995s,PASSED
+"setText(findTestObject(""konsumen/search di konsumen""), noHP)",Firefox 117.0,,,2023-10-03 10:39:49,2023-10-03 10:39:50,1.204s,PASSED
+"click(findTestObject(""konsumen/edit data konsumen""))",Firefox 117.0,,,2023-10-03 10:39:50,2023-10-03 10:39:56,6.206s,PASSED
+"user = getAttribute(findTestObject(""Object Repository/konsumen/input_Username_bb""), ""value"")",Firefox 117.0,,,2023-10-03 10:39:56,2023-10-03 10:40:03,6.874s,PASSED
+println(user),Firefox 117.0,,,2023-10-03 10:40:03,2023-10-03 10:40:03,0.034s,PASSED
+"mail = getAttribute(findTestObject(""Object Repository/konsumen/input_Alamat Email_c""), ""value"")",Firefox 117.0,,,2023-10-03 10:40:03,2023-10-03 10:40:04,0.578s,PASSED
+"number = getAttribute(findTestObject(""Object Repository/konsumen/input_No Hp_k""), ""value"")",Firefox 117.0,,,2023-10-03 10:40:04,2023-10-03 10:40:05,0.784s,PASSED
+assert trim().equalsIgnoreCase(username.trim()),Firefox 117.0,,,2023-10-03 10:40:05,2023-10-03 10:40:05,0.004s,PASSED
+assert trim().equalsIgnoreCase(email.trim()),Firefox 117.0,,,2023-10-03 10:40:05,2023-10-03 10:40:05,0.002s,PASSED
+assert trim().equalsIgnoreCase(noHP.trim()),Firefox 117.0,,,2023-10-03 10:40:05,2023-10-03 10:40:05,0.001s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Firefox 117.0,,,2023-10-03 10:40:05,2023-10-03 10:40:05,0.001s,PASSED
+"else if (toString().equalsIgnoreCase(""Laki-laki""))",Firefox 117.0,,,2023-10-03 10:40:05,2023-10-03 10:40:06,1.045s,PASSED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-PE-001,Firefox 117.0,User melakukan pendaftaran dengan menginputkan username menggunakan spasi,,2023-10-03 10:40:06,2023-10-03 10:40:23,16.994s,PASSED
+openBrowser(urlWeb),Firefox 117.0,,,2023-10-03 10:40:07,2023-10-03 10:40:18,11.085s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-03 10:40:18,2023-10-03 10:40:18,0.046s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Firefox 117.0,,,2023-10-03 10:40:18,2023-10-03 10:40:19,0.659s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Firefox 117.0,,,2023-10-03 10:40:19,2023-10-03 10:40:21,1.837s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Firefox 117.0,,,2023-10-03 10:40:21,2023-10-03 10:40:21,0.421s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), ""anata 71"")",Firefox 117.0,,,2023-10-03 10:40:21,2023-10-03 10:40:23,1.228s,PASSED
+alertText = getAlertText(),Firefox 117.0,,,2023-10-03 10:40:23,2023-10-03 10:40:23,0.160s,PASSED
+"verifyMatch(alertText, ""Maaf, Tidak Boleh Menggunakan Spasi,.."", false)",Firefox 117.0,,,2023-10-03 10:40:23,2023-10-03 10:40:23,0.079s,PASSED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-PE-002,Firefox 117.0,"User melakukan pendaftaran namun melalui menu Login dan pada halaman Masuk, ketika user masih belum memiliki username dan password yang terdaftar",,2023-10-03 10:40:23,2023-10-03 10:40:40,16.687s,PASSED
+openBrowser(urlWeb),Firefox 117.0,,,2023-10-03 10:40:24,2023-10-03 10:40:34,9.806s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-03 10:40:34,2023-10-03 10:40:34,0.037s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Firefox 117.0,,,2023-10-03 10:40:34,2023-10-03 10:40:34,0.564s,PASSED
+"click(findTestObject(""Pendaftaran/a_Login""))",Firefox 117.0,,,2023-10-03 10:40:34,2023-10-03 10:40:35,0.848s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi MASUK di halaman Login""), 0)",Firefox 117.0,,,2023-10-03 10:40:35,2023-10-03 10:40:36,0.550s,PASSED
+"setText(findTestObject(""Login/input_Username, Email atau No. Handphone_a""), ""anata61"")",Firefox 117.0,,,2023-10-03 10:40:36,2023-10-03 10:40:37,0.827s,PASSED
+"setEncryptedText(findTestObject(""Login/input_Password di Login(Masuk)""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-10-03 10:40:37,2023-10-03 10:40:37,0.742s,PASSED
+"click(findTestObject(""Login/button_Masuk di halaman login""))",Firefox 117.0,,,2023-10-03 10:40:37,2023-10-03 10:40:39,1.451s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Firefox 117.0,,,2023-10-03 10:40:39,2023-10-03 10:40:40,0.679s,PASSED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-PE-003,Firefox 117.0,User melakukan pendaftaran namun tidak mengisi data dan langung klik button daftar,,2023-10-03 10:40:40,2023-10-03 10:40:55,15.863s,PASSED
+openBrowser(urlWeb),Firefox 117.0,,,2023-10-03 10:40:41,2023-10-03 10:40:52,10.480s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-03 10:40:52,2023-10-03 10:40:52,0.036s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Firefox 117.0,,,2023-10-03 10:40:52,2023-10-03 10:40:52,0.435s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Firefox 117.0,,,2023-10-03 10:40:52,2023-10-03 10:40:53,1.431s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Firefox 117.0,,,2023-10-03 10:40:53,2023-10-03 10:40:54,0.696s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Firefox 117.0,,,2023-10-03 10:40:54,2023-10-03 10:40:55,0.796s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-10-03 10:40:55,2023-10-03 10:40:55,0.087s,PASSED
+"field_username = webDriver.findElement(By.xpath(""//input[@name=""username""]""))",Firefox 117.0,,,2023-10-03 10:40:55,2023-10-03 10:40:55,0.360s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_username)",Firefox 117.0,,,2023-10-03 10:40:55,2023-10-03 10:40:55,0.032s,PASSED
+println(error_message),Firefox 117.0,,,2023-10-03 10:40:55,2023-10-03 10:40:55,0.004s,PASSED
+"assert error_message == ""Please fill out this field.""",Firefox 117.0,,,2023-10-03 10:40:55,2023-10-03 10:40:55,0.003s,PASSED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-PF-001,Firefox 117.0,User melakukan pendaftaran akun dan email tidak menggunakan domain,,2023-10-03 10:40:56,2023-10-03 10:41:17,21.220s,PASSED
+openBrowser(urlWeb),Firefox 117.0,,,2023-10-03 10:40:57,2023-10-03 10:41:08,10.603s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-03 10:41:08,2023-10-03 10:41:08,0.126s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Firefox 117.0,,,2023-10-03 10:41:08,2023-10-03 10:41:09,0.537s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Firefox 117.0,,,2023-10-03 10:41:09,2023-10-03 10:41:10,1.332s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Firefox 117.0,,,2023-10-03 10:41:10,2023-10-03 10:41:11,0.851s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), usn)",Firefox 117.0,,,2023-10-03 10:41:11,2023-10-03 10:41:12,0.848s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Firefox 117.0,,,2023-10-03 10:41:12,2023-10-03 10:41:13,0.821s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHp)",Firefox 117.0,,,2023-10-03 10:41:13,2023-10-03 10:41:13,0.804s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Firefox 117.0,,,2023-10-03 10:41:13,2023-10-03 10:41:14,0.735s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-10-03 10:41:14,2023-10-03 10:41:15,0.671s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-10-03 10:41:15,2023-10-03 10:41:16,0.791s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Firefox 117.0,,,2023-10-03 10:41:16,2023-10-03 10:41:16,0.907s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-10-03 10:41:16,2023-10-03 10:41:16,0.001s,PASSED
+"field_email = webDriver.findElement(By.xpath(""(//input[@name=""a""])[4]""))",Firefox 117.0,,,2023-10-03 10:41:16,2023-10-03 10:41:17,0.263s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_email)",Firefox 117.0,,,2023-10-03 10:41:17,2023-10-03 10:41:17,0.028s,PASSED
+println(error_message),Firefox 117.0,,,2023-10-03 10:41:17,2023-10-03 10:41:17,0.003s,PASSED
+"assert error_message == ""Please enter an email address.""",Firefox 117.0,,,2023-10-03 10:41:17,2023-10-03 10:41:17,0.001s,PASSED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-PF-002,Firefox 117.0,User melakukan pendaftaran dan saat input password dan konfirmasi password menggunakan password yang berbeda,,2023-10-03 10:41:17,2023-10-03 10:41:41,24.060s,PASSED
+openBrowser(urlWeb),Firefox 117.0,,,2023-10-03 10:41:18,2023-10-03 10:41:30,12.031s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-03 10:41:30,2023-10-03 10:41:30,0.049s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Firefox 117.0,,,2023-10-03 10:41:30,2023-10-03 10:41:31,0.486s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Firefox 117.0,,,2023-10-03 10:41:31,2023-10-03 10:41:32,1.338s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Firefox 117.0,,,2023-10-03 10:41:32,2023-10-03 10:41:33,0.796s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), usn)",Firefox 117.0,,,2023-10-03 10:41:33,2023-10-03 10:41:34,0.828s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Firefox 117.0,,,2023-10-03 10:41:34,2023-10-03 10:41:34,0.848s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHp)",Firefox 117.0,,,2023-10-03 10:41:34,2023-10-03 10:41:35,1.015s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Firefox 117.0,,,2023-10-03 10:41:35,2023-10-03 10:41:36,0.948s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-10-03 10:41:36,2023-10-03 10:41:37,1.072s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""cEZ5BwTAfeQ="")",Firefox 117.0,,,2023-10-03 10:41:37,2023-10-03 10:41:38,0.795s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Firefox 117.0,,,2023-10-03 10:41:38,2023-10-03 10:41:40,1.622s,PASSED
+"verifyElementText(findTestObject(""Pendaftaran/verifikasi error untuk password dan konfirmasi password berbeda""), ""Password anda tidak Valid!"")",Firefox 117.0,,,2023-10-03 10:41:40,2023-10-03 10:41:41,0.880s,PASSED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-PF-003,Firefox 117.0,User malakukan pendaftaran dan saat input password tidak menginputkan ulang password di konfirmasi password,,2023-10-03 10:41:41,2023-10-03 10:42:02,20.993s,PASSED
+openBrowser(urlWeb),Firefox 117.0,,,2023-10-03 10:41:42,2023-10-03 10:41:53,10.641s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-03 10:41:53,2023-10-03 10:41:53,0.042s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Firefox 117.0,,,2023-10-03 10:41:53,2023-10-03 10:41:54,0.447s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Firefox 117.0,,,2023-10-03 10:41:54,2023-10-03 10:41:55,1.247s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Firefox 117.0,,,2023-10-03 10:41:55,2023-10-03 10:41:56,0.851s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), usn)",Firefox 117.0,,,2023-10-03 10:41:56,2023-10-03 10:41:57,1.035s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Firefox 117.0,,,2023-10-03 10:41:57,2023-10-03 10:41:58,1.087s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHp)",Firefox 117.0,,,2023-10-03 10:41:58,2023-10-03 10:41:59,0.988s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Firefox 117.0,,,2023-10-03 10:41:59,2023-10-03 10:42:00,0.901s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-10-03 10:42:00,2023-10-03 10:42:00,0.848s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Firefox 117.0,,,2023-10-03 10:42:00,2023-10-03 10:42:01,1.027s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-10-03 10:42:01,2023-10-03 10:42:01,0.002s,PASSED
+"field_konfrim_password = webDriver.findElement(By.xpath(""//input[@name=""repassword""]""))",Firefox 117.0,,,2023-10-03 10:42:01,2023-10-03 10:42:02,0.285s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_konfrim_password)",Firefox 117.0,,,2023-10-03 10:42:02,2023-10-03 10:42:02,0.017s,PASSED
+println(error_message),Firefox 117.0,,,2023-10-03 10:42:02,2023-10-03 10:42:02,0.013s,PASSED
+"assert error_message == ""Please fill out this field.""",Firefox 117.0,,,2023-10-03 10:42:02,2023-10-03 10:42:02,0.002s,PASSED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-PF-004,Firefox 117.0,User melakukan pendaftaran dan menginputkan nomor telepon kurang dari 11 digit,,2023-10-03 10:42:02,2023-10-03 10:42:26,23.702s,PASSED
+openBrowser(urlWeb),Firefox 117.0,,,2023-10-03 10:42:03,2023-10-03 10:42:15,11.392s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-03 10:42:15,2023-10-03 10:42:15,0.078s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Firefox 117.0,,,2023-10-03 10:42:15,2023-10-03 10:42:15,0.559s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Firefox 117.0,,,2023-10-03 10:42:15,2023-10-03 10:42:17,1.450s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Firefox 117.0,,,2023-10-03 10:42:17,2023-10-03 10:42:17,0.710s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), usn)",Firefox 117.0,,,2023-10-03 10:42:17,2023-10-03 10:42:18,0.961s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Firefox 117.0,,,2023-10-03 10:42:18,2023-10-03 10:42:19,0.970s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHp)",Firefox 117.0,,,2023-10-03 10:42:19,2023-10-03 10:42:20,1.017s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Firefox 117.0,,,2023-10-03 10:42:20,2023-10-03 10:42:21,0.836s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-10-03 10:42:21,2023-10-03 10:42:22,1.049s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-10-03 10:42:22,2023-10-03 10:42:23,0.655s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Firefox 117.0,,,2023-10-03 10:42:23,2023-10-03 10:42:25,1.803s,PASSED
+"verifyElementText(findTestObject(""Pendaftaran/GAGAL - No telpon anda tidak valid(kurang dari 11)""), ""GAGAL - No telpon anda tidak valid.."")",Firefox 117.0,,,2023-10-03 10:42:25,2023-10-03 10:42:26,0.813s,PASSED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-PF-005,Firefox 117.0,User melakukan pendaftaran dan menginputkan nomor telepon lebih dari 13 digit,,2023-10-03 10:42:26,2023-10-03 10:42:53,27.644s,FAILED
+openBrowser(urlWeb),Firefox 117.0,,,2023-10-03 10:42:27,2023-10-03 10:42:38,11.311s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-03 10:42:38,2023-10-03 10:42:38,0.044s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Firefox 117.0,,,2023-10-03 10:42:38,2023-10-03 10:42:39,0.777s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Firefox 117.0,,,2023-10-03 10:42:39,2023-10-03 10:42:40,1.313s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Firefox 117.0,,,2023-10-03 10:42:40,2023-10-03 10:42:41,0.756s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), usn)",Firefox 117.0,,,2023-10-03 10:42:41,2023-10-03 10:42:42,0.864s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Firefox 117.0,,,2023-10-03 10:42:42,2023-10-03 10:42:43,0.863s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHp)",Firefox 117.0,,,2023-10-03 10:42:43,2023-10-03 10:42:44,1.006s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Firefox 117.0,,,2023-10-03 10:42:44,2023-10-03 10:42:44,0.806s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-10-03 10:42:44,2023-10-03 10:42:46,1.278s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-10-03 10:42:46,2023-10-03 10:42:47,0.815s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Firefox 117.0,,,2023-10-03 10:42:47,2023-10-03 10:42:51,4.302s,PASSED
+"verifyTextPresent(""please enter valid phone number"", false)",Firefox 117.0,,,2023-10-03 10:42:51,2023-10-03 10:42:53,2.361s,FAILED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-PF-006,Firefox 117.0,User melakukan pendaftaran dan menginputkan nomor telepon menggunankan kode negara (+62),,2023-10-03 10:42:53,2023-10-03 10:43:20,27.082s,FAILED
+openBrowser(urlWeb),Firefox 117.0,,,2023-10-03 10:42:55,2023-10-03 10:43:06,11.642s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-03 10:43:06,2023-10-03 10:43:06,0.031s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Firefox 117.0,,,2023-10-03 10:43:06,2023-10-03 10:43:07,0.584s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Firefox 117.0,,,2023-10-03 10:43:07,2023-10-03 10:43:08,1.371s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Firefox 117.0,,,2023-10-03 10:43:08,2023-10-03 10:43:09,0.737s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), usn)",Firefox 117.0,,,2023-10-03 10:43:09,2023-10-03 10:43:10,0.882s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Firefox 117.0,,,2023-10-03 10:43:10,2023-10-03 10:43:11,0.854s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHp)",Firefox 117.0,,,2023-10-03 10:43:11,2023-10-03 10:43:12,0.963s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Firefox 117.0,,,2023-10-03 10:43:12,2023-10-03 10:43:13,0.947s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-10-03 10:43:13,2023-10-03 10:43:13,0.613s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-10-03 10:43:13,2023-10-03 10:43:14,0.621s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Firefox 117.0,,,2023-10-03 10:43:14,2023-10-03 10:43:18,4.566s,PASSED
+"verifyTextPresent(""please enter valid phone number"", false)",Firefox 117.0,,,2023-10-03 10:43:18,2023-10-03 10:43:20,1.766s,FAILED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-PF-007,Firefox 117.0,User melakukan pendaftaran dan menginputkan password dan konfirmasi password hanya menggunakan huruf saja,,2023-10-03 10:43:20,2023-10-03 10:43:48,27.167s,FAILED
+openBrowser(urlWeb),Firefox 117.0,,,2023-10-03 10:43:21,2023-10-03 10:43:32,10.888s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-03 10:43:32,2023-10-03 10:43:32,0.105s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Firefox 117.0,,,2023-10-03 10:43:32,2023-10-03 10:43:33,0.558s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Firefox 117.0,,,2023-10-03 10:43:33,2023-10-03 10:43:34,1.476s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Firefox 117.0,,,2023-10-03 10:43:34,2023-10-03 10:43:35,0.837s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), usn)",Firefox 117.0,,,2023-10-03 10:43:35,2023-10-03 10:43:36,1.015s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Firefox 117.0,,,2023-10-03 10:43:36,2023-10-03 10:43:37,1.055s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHp)",Firefox 117.0,,,2023-10-03 10:43:37,2023-10-03 10:43:38,1.004s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Firefox 117.0,,,2023-10-03 10:43:38,2023-10-03 10:43:39,0.946s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""NqvfBr/61hkKg4Ngn0KWJw=="")",Firefox 117.0,,,2023-10-03 10:43:39,2023-10-03 10:43:40,0.780s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""NqvfBr/61hkKg4Ngn0KWJw=="")",Firefox 117.0,,,2023-10-03 10:43:40,2023-10-03 10:43:41,0.775s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Firefox 117.0,,,2023-10-03 10:43:41,2023-10-03 10:43:45,4.584s,PASSED
+"verifyTextPresent(""password must include alpanumeric"", false)",Firefox 117.0,,,2023-10-03 10:43:45,2023-10-03 10:43:48,2.049s,FAILED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-PF-008,Firefox 117.0,User melakukan pendaftaran dengan menggunakan email/username/nomor telepon yang telah terdaftar,,2023-10-03 10:43:48,2023-10-03 10:44:11,23.069s,PASSED
+openBrowser(urlWeb),Firefox 117.0,,,2023-10-03 10:43:49,2023-10-03 10:43:59,10.557s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-03 10:43:59,2023-10-03 10:43:59,0.027s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Firefox 117.0,,,2023-10-03 10:43:59,2023-10-03 10:44:00,0.570s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Firefox 117.0,,,2023-10-03 10:44:00,2023-10-03 10:44:02,1.492s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Firefox 117.0,,,2023-10-03 10:44:02,2023-10-03 10:44:02,0.752s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), usn)",Firefox 117.0,,,2023-10-03 10:44:02,2023-10-03 10:44:03,0.939s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Firefox 117.0,,,2023-10-03 10:44:03,2023-10-03 10:44:04,1.024s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHp)",Firefox 117.0,,,2023-10-03 10:44:04,2023-10-03 10:44:05,0.973s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Firefox 117.0,,,2023-10-03 10:44:05,2023-10-03 10:44:06,0.904s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-10-03 10:44:06,2023-10-03 10:44:07,1.035s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-10-03 10:44:07,2023-10-03 10:44:08,0.738s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Firefox 117.0,,,2023-10-03 10:44:08,2023-10-03 10:44:10,1.810s,PASSED
+"verifyElementText(findTestObject(""Pendaftaran/daftar ulang dengan email username dan no hp yang sama""), ""Username/Email/No Telpon Telah Digunakan!"")",Firefox 117.0,,,2023-10-03 10:44:10,2023-10-03 10:44:11,0.897s,PASSED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-PF-009,Firefox 117.0,User melakukan pendaftaran dan menggunakan username yang lebih dari 50 karakter,,2023-10-03 10:44:11,2023-10-03 10:44:36,25.638s,FAILED
+openBrowser(urlWeb),Firefox 117.0,,,2023-10-03 10:44:12,2023-10-03 10:44:23,11.532s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-03 10:44:23,2023-10-03 10:44:24,0.056s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Firefox 117.0,,,2023-10-03 10:44:24,2023-10-03 10:44:24,0.558s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Firefox 117.0,,,2023-10-03 10:44:24,2023-10-03 10:44:25,1.329s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Firefox 117.0,,,2023-10-03 10:44:25,2023-10-03 10:44:26,0.803s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), username)",Firefox 117.0,,,2023-10-03 10:44:26,2023-10-03 10:44:27,0.975s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Firefox 117.0,,,2023-10-03 10:44:27,2023-10-03 10:44:28,0.864s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHP)",Firefox 117.0,,,2023-10-03 10:44:28,2023-10-03 10:44:29,1.101s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Firefox 117.0,,,2023-10-03 10:44:29,2023-10-03 10:44:30,0.827s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""8MbLm3cRDkc/jsWL6sX6LA=="")",Firefox 117.0,,,2023-10-03 10:44:30,2023-10-03 10:44:31,1.008s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""8MbLm3cRDkc/jsWL6sX6LA=="")",Firefox 117.0,,,2023-10-03 10:44:31,2023-10-03 10:44:32,0.533s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-10-03 10:44:32,2023-10-03 10:44:32,0.003s,PASSED
+"field_username = webDriver.findElement(By.xpath(""//input[@name=""username""]""))",Firefox 117.0,,,2023-10-03 10:44:32,2023-10-03 10:44:32,0.280s,PASSED
+"validationMessage = executeJavaScript(""return arguments[0].validationMessage"", Arrays.asList(field_username))",Firefox 117.0,,,2023-10-03 10:44:32,2023-10-03 10:44:32,0.201s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Firefox 117.0,,,2023-10-03 10:44:32,2023-10-03 10:44:36,4.243s,PASSED
+"assert validationMessage == ""character length must not exceed 50 characters""",Firefox 117.0,,,2023-10-03 10:44:36,2023-10-03 10:44:36,0.050s,FAILED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-PF-010,Firefox 117.0,User melakukan pendaftaran dengan menginputkan username hanya dengan 1 karakter spesial,,2023-10-03 10:44:36,2023-10-03 10:45:01,24.972s,FAILED
+openBrowser(urlWeb),Firefox 117.0,,,2023-10-03 10:44:37,2023-10-03 10:44:48,10.329s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-03 10:44:48,2023-10-03 10:44:48,0.059s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Firefox 117.0,,,2023-10-03 10:44:48,2023-10-03 10:44:48,0.440s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Firefox 117.0,,,2023-10-03 10:44:48,2023-10-03 10:44:50,1.190s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Firefox 117.0,,,2023-10-03 10:44:50,2023-10-03 10:44:50,0.831s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), username)",Firefox 117.0,,,2023-10-03 10:44:50,2023-10-03 10:44:51,0.962s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Firefox 117.0,,,2023-10-03 10:44:51,2023-10-03 10:44:52,1.048s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHP)",Firefox 117.0,,,2023-10-03 10:44:52,2023-10-03 10:44:53,0.958s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Firefox 117.0,,,2023-10-03 10:44:53,2023-10-03 10:44:53,0.001s,PASSED
+"else if (toString().equalsIgnoreCase(""Laki-laki""))",Firefox 117.0,,,2023-10-03 10:44:53,2023-10-03 10:44:54,0.572s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""8MbLm3cRDkc/jsWL6sX6LA=="")",Firefox 117.0,,,2023-10-03 10:44:54,2023-10-03 10:44:55,1.203s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""8MbLm3cRDkc/jsWL6sX6LA=="")",Firefox 117.0,,,2023-10-03 10:44:55,2023-10-03 10:44:56,0.746s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Firefox 117.0,,,2023-10-03 10:44:56,2023-10-03 10:44:59,3.446s,PASSED
+"verifyTextPresent(""please input an valid usernme"", false)",Firefox 117.0,,,2023-10-03 10:44:59,2023-10-03 10:45:01,2.011s,FAILED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-PF-011,Firefox 117.0,User melakukan pendaftaran akun dan menginputkan password kurang dari 7 karakter dan tidak mengandung angka,,2023-10-03 10:45:01,2023-10-03 10:45:28,26.513s,FAILED
+openBrowser(urlWeb),Firefox 117.0,,,2023-10-03 10:45:02,2023-10-03 10:45:13,11.085s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-03 10:45:13,2023-10-03 10:45:13,0.071s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Firefox 117.0,,,2023-10-03 10:45:13,2023-10-03 10:45:14,0.792s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Firefox 117.0,,,2023-10-03 10:45:14,2023-10-03 10:45:16,1.478s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Firefox 117.0,,,2023-10-03 10:45:16,2023-10-03 10:45:17,0.840s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), username)",Firefox 117.0,,,2023-10-03 10:45:17,2023-10-03 10:45:18,1.146s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Firefox 117.0,,,2023-10-03 10:45:18,2023-10-03 10:45:18,0.772s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHP)",Firefox 117.0,,,2023-10-03 10:45:18,2023-10-03 10:45:19,0.918s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Firefox 117.0,,,2023-10-03 10:45:19,2023-10-03 10:45:19,0.002s,PASSED
+"else if (toString().equalsIgnoreCase(""Laki-laki""))",Firefox 117.0,,,2023-10-03 10:45:19,2023-10-03 10:45:20,0.696s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""3t/5BPxJM2g="")",Firefox 117.0,,,2023-10-03 10:45:20,2023-10-03 10:45:21,0.690s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""3t/5BPxJM2g="")",Firefox 117.0,,,2023-10-03 10:45:21,2023-10-03 10:45:22,0.762s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Firefox 117.0,,,2023-10-03 10:45:22,2023-10-03 10:45:26,4.404s,PASSED
+"verifyTextPresent(""Minimum length of this field must be equal or greater than 7 characters"", false)",Firefox 117.0,,,2023-10-03 10:45:26,2023-10-03 10:45:28,1.841s,FAILED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-PF-012,Firefox 117.0,User melakukan pendaftaran akun dengan inputan nomor telephone mengandung huruf,,2023-10-03 10:45:28,2023-10-03 10:45:49,21.606s,PASSED
+openBrowser(urlWeb),Firefox 117.0,,,2023-10-03 10:45:30,2023-10-03 10:45:41,11.017s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-03 10:45:41,2023-10-03 10:45:41,0.025s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Firefox 117.0,,,2023-10-03 10:45:41,2023-10-03 10:45:41,0.570s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Firefox 117.0,,,2023-10-03 10:45:41,2023-10-03 10:45:43,1.370s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Firefox 117.0,,,2023-10-03 10:45:43,2023-10-03 10:45:44,0.670s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), username)",Firefox 117.0,,,2023-10-03 10:45:44,2023-10-03 10:45:44,0.874s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Firefox 117.0,,,2023-10-03 10:45:44,2023-10-03 10:45:45,0.857s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHP)",Firefox 117.0,,,2023-10-03 10:45:45,2023-10-03 10:45:46,1.021s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Firefox 117.0,,,2023-10-03 10:45:46,2023-10-03 10:45:46,0.004s,PASSED
+"else if (toString().equalsIgnoreCase(""Laki-laki""))",Firefox 117.0,,,2023-10-03 10:45:46,2023-10-03 10:45:47,0.601s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-10-03 10:45:47,2023-10-03 10:45:48,0.652s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-10-03 10:45:48,2023-10-03 10:45:48,0.883s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Firefox 117.0,,,2023-10-03 10:45:48,2023-10-03 10:45:49,0.694s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-10-03 10:45:49,2023-10-03 10:45:49,0.002s,PASSED
+"field_no = webDriver.findElement(By.xpath(""(//input[@name=""b""])[4]""))",Firefox 117.0,,,2023-10-03 10:45:49,2023-10-03 10:45:49,0.291s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_no)",Firefox 117.0,,,2023-10-03 10:45:49,2023-10-03 10:45:49,0.015s,PASSED
+println(error_message),Firefox 117.0,,,2023-10-03 10:45:49,2023-10-03 10:45:49,0.007s,PASSED
+"assert error_message == ""Please enter a number.""",Firefox 117.0,,,2023-10-03 10:45:49,2023-10-03 10:45:49,0.001s,PASSED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-PF-013,Firefox 117.0,User melakukan pendaftaran akun dengan menginputkan nomor telephone hanya huruf,,2023-10-03 10:45:49,2023-10-03 10:46:10,20.733s,PASSED
+openBrowser(urlWeb),Firefox 117.0,,,2023-10-03 10:45:51,2023-10-03 10:46:01,10.076s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-03 10:46:01,2023-10-03 10:46:01,0.030s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Firefox 117.0,,,2023-10-03 10:46:01,2023-10-03 10:46:01,0.581s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Firefox 117.0,,,2023-10-03 10:46:01,2023-10-03 10:46:03,1.498s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Firefox 117.0,,,2023-10-03 10:46:03,2023-10-03 10:46:04,0.798s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), username)",Firefox 117.0,,,2023-10-03 10:46:04,2023-10-03 10:46:05,1.045s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Firefox 117.0,,,2023-10-03 10:46:05,2023-10-03 10:46:06,0.987s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHP)",Firefox 117.0,,,2023-10-03 10:46:06,2023-10-03 10:46:07,1.080s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Firefox 117.0,,,2023-10-03 10:46:07,2023-10-03 10:46:07,0.003s,PASSED
+"else if (toString().equalsIgnoreCase(""Laki-laki""))",Firefox 117.0,,,2023-10-03 10:46:07,2023-10-03 10:46:08,0.804s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-10-03 10:46:08,2023-10-03 10:46:08,0.860s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-10-03 10:46:08,2023-10-03 10:46:09,0.696s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Firefox 117.0,,,2023-10-03 10:46:09,2023-10-03 10:46:10,0.743s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-10-03 10:46:10,2023-10-03 10:46:10,0.001s,PASSED
+"field_no = webDriver.findElement(By.xpath(""(//input[@name=""b""])[4]""))",Firefox 117.0,,,2023-10-03 10:46:10,2023-10-03 10:46:10,0.283s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_no)",Firefox 117.0,,,2023-10-03 10:46:10,2023-10-03 10:46:10,0.018s,PASSED
+println(error_message),Firefox 117.0,,,2023-10-03 10:46:10,2023-10-03 10:46:10,0.003s,PASSED
+"assert error_message == ""Please enter a number.""",Firefox 117.0,,,2023-10-03 10:46:10,2023-10-03 10:46:10,0.004s,PASSED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-PF-014,Firefox 117.0,User melakukan pendaftaran akun dengan menginputkan nomor telephon mengandung huruf dan spesial character,,2023-10-03 10:46:10,2023-10-03 10:46:29,19.275s,PASSED
+openBrowser(urlWeb),Firefox 117.0,,,2023-10-03 10:46:11,2023-10-03 10:46:20,9.331s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-03 10:46:20,2023-10-03 10:46:20,0.027s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Firefox 117.0,,,2023-10-03 10:46:20,2023-10-03 10:46:21,0.607s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Firefox 117.0,,,2023-10-03 10:46:21,2023-10-03 10:46:22,1.218s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Firefox 117.0,,,2023-10-03 10:46:22,2023-10-03 10:46:23,0.776s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), username)",Firefox 117.0,,,2023-10-03 10:46:23,2023-10-03 10:46:24,0.902s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Firefox 117.0,,,2023-10-03 10:46:24,2023-10-03 10:46:25,0.899s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHP)",Firefox 117.0,,,2023-10-03 10:46:25,2023-10-03 10:46:26,1.173s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Firefox 117.0,,,2023-10-03 10:46:26,2023-10-03 10:46:26,0.001s,PASSED
+"else if (toString().equalsIgnoreCase(""Laki-laki""))",Firefox 117.0,,,2023-10-03 10:46:26,2023-10-03 10:46:27,0.681s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-10-03 10:46:27,2023-10-03 10:46:28,1.140s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-10-03 10:46:28,2023-10-03 10:46:28,0.662s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Firefox 117.0,,,2023-10-03 10:46:28,2023-10-03 10:46:29,0.663s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-10-03 10:46:29,2023-10-03 10:46:29,0.006s,PASSED
+"field_no = webDriver.findElement(By.xpath(""(//input[@name=""b""])[4]""))",Firefox 117.0,,,2023-10-03 10:46:29,2023-10-03 10:46:29,0.274s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_no)",Firefox 117.0,,,2023-10-03 10:46:29,2023-10-03 10:46:29,0.023s,PASSED
+println(error_message),Firefox 117.0,,,2023-10-03 10:46:29,2023-10-03 10:46:29,0.002s,PASSED
+"assert error_message == ""Please enter a number.""",Firefox 117.0,,,2023-10-03 10:46:29,2023-10-03 10:46:29,0.001s,PASSED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-PF-015,Firefox 117.0,User melakukan pendaftaran akun dengan inputan nomor telephone hanya spesial character,,2023-10-03 10:46:29,2023-10-03 10:46:49,19.673s,PASSED
+openBrowser(urlWeb),Firefox 117.0,,,2023-10-03 10:46:31,2023-10-03 10:46:40,9.315s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-03 10:46:41,2023-10-03 10:46:41,0.041s,PASSED
+"verifyElementPresent(findTestObject(""verifikasi halaman tajalapak sebelum daftar""), 0)",Firefox 117.0,,,2023-10-03 10:46:41,2023-10-03 10:46:41,0.504s,PASSED
+"click(findTestObject(""Pendaftaran/button Register""))",Firefox 117.0,,,2023-10-03 10:46:41,2023-10-03 10:46:42,1.311s,PASSED
+"verifyElementPresent(findTestObject(""Pendaftaran/verifikasi masuk helamaan daftar""), 0)",Firefox 117.0,,,2023-10-03 10:46:42,2023-10-03 10:46:43,0.816s,PASSED
+"setText(findTestObject(""Pendaftaran/input username""), username)",Firefox 117.0,,,2023-10-03 10:46:43,2023-10-03 10:46:44,0.784s,PASSED
+"setText(findTestObject(""Pendaftaran/input email""), email)",Firefox 117.0,,,2023-10-03 10:46:44,2023-10-03 10:46:45,0.991s,PASSED
+"setText(findTestObject(""Pendaftaran/input Nomor Telephon""), noHP)",Firefox 117.0,,,2023-10-03 10:46:45,2023-10-03 10:46:46,1.138s,PASSED
+"if (toString().equalsIgnoreCase(""Perempuan""))",Firefox 117.0,,,2023-10-03 10:46:46,2023-10-03 10:46:46,0.003s,PASSED
+"else if (toString().equalsIgnoreCase(""Laki-laki""))",Firefox 117.0,,,2023-10-03 10:46:46,2023-10-03 10:46:47,0.546s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input password""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-10-03 10:46:47,2023-10-03 10:46:47,0.509s,PASSED
+"setEncryptedText(findTestObject(""Pendaftaran/input konfirmasi password""), ""qbkrdMwyWE4="")",Firefox 117.0,,,2023-10-03 10:46:47,2023-10-03 10:46:48,0.806s,PASSED
+"click(findTestObject(""Pendaftaran/button_Daftar""))",Firefox 117.0,,,2023-10-03 10:46:48,2023-10-03 10:46:49,0.872s,PASSED
+webDriver = getWebDriver(),Firefox 117.0,,,2023-10-03 10:46:49,2023-10-03 10:46:49,0.002s,PASSED
+"field_no = webDriver.findElement(By.xpath(""(//input[@name=""b""])[4]""))",Firefox 117.0,,,2023-10-03 10:46:49,2023-10-03 10:46:49,0.317s,PASSED
+"error_message = webDriver.executeScript(""return arguments[0].validationMessage"", field_no)",Firefox 117.0,,,2023-10-03 10:46:49,2023-10-03 10:46:49,0.016s,PASSED
+println(error_message),Firefox 117.0,,,2023-10-03 10:46:49,2023-10-03 10:46:49,0.002s,PASSED
+"assert error_message == ""Please enter a number.""",Firefox 117.0,,,2023-10-03 10:46:49,2023-10-03 10:46:49,0.001s,PASSED
+,,,,,,,
+Test Cases/T08 - Pendaftaran/TC-PDS-001,Firefox 117.0,ketika user melakukan hapus akun yang sudah terdaftar,,2023-10-03 10:46:49,2023-10-03 10:47:36,46.922s,FAILED
+"openBrowser(""https://10.9.2.63/ecommerce/administrator/"")",Firefox 117.0,,,2023-10-03 10:46:50,2023-10-03 10:46:59,8.558s,PASSED
+maximizeWindow(),Firefox 117.0,,,2023-10-03 10:46:59,2023-10-03 10:46:59,0.065s,PASSED
+"setText(findTestObject(""delete akun/input usn admin""), ""admin"")",Firefox 117.0,,,2023-10-03 10:46:59,2023-10-03 10:47:00,0.964s,PASSED
+"setEncryptedText(findTestObject(""delete akun/input password admin""), ""374mkdZ/lqyNS21oH+MJZQ=="")",Firefox 117.0,,,2023-10-03 10:47:00,2023-10-03 10:47:00,0.482s,PASSED
+delay(10),Firefox 117.0,,,2023-10-03 10:47:00,2023-10-03 10:47:10,10.034s,PASSED
+"click(findTestObject(""delete akun/button signin di web admin""))",Firefox 117.0,,,2023-10-03 10:47:10,2023-10-03 10:47:13,2.085s,PASSED
+"click(findTestObject(""delete akun/a_Konsumen""))",Firefox 117.0,,,2023-10-03 10:47:13,2023-10-03 10:47:20,7.550s,PASSED
+"setText(findTestObject(""delete akun/input search nama konsumen""), noHp)",Firefox 117.0,,,2023-10-03 10:47:20,2023-10-03 10:47:29,8.428s,PASSED
+"click(findTestObject(""delete akun/untuk delete akun""), OPTIONAL)",Firefox 117.0,,,2023-10-03 10:47:29,2023-10-03 10:47:30,1.364s,PASSED
+waitForAlert(5),Firefox 117.0,,,2023-10-03 10:47:30,2023-10-03 10:47:35,5.318s,PASSED
+acceptAlert(),Firefox 117.0,,,2023-10-03 10:47:35,2023-10-03 10:47:36,1.005s,FAILED
